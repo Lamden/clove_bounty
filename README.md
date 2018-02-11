@@ -1,4 +1,11 @@
 # Clove Bounty
 We're opening up a developer bounty for the community to help contribute to this project. Clove currently supports the major cryptocurrencies, but we want to support *as many as possible*!
 
-That being said, we have support for Bitcoin-based currencies at the moment. Take a look at the network folder to see if it makes sense to you. Details about this bounty and how to participate will be added soon.
+### Bounty amount: 50 TAU per successful pull request
+### Knowledge required: Intermediate Python Programming
+### Time per task: 15 minutes
+### How To:
+
+1. Fork the repo into your Github repository.
+
+2. Select an entry from the ALTCOINS.txt file. This is a list of the chains that still need to be implemented.
