@@ -251,7 +251,6 @@ https://www.github.com/thercg/elacoin/blob/master/src/net.cpp
 https://www.github.com/thesportscoin/sport-source/blob/master/src/net.cpp
 https://www.github.com/thespt/spots2/blob/master/src/net.cpp
 https://www.github.com/theveganinitiative/xve/blob/master/src/net.cpp
-https://www.github.com/tittiecoin/tittiecoin/blob/master/src/net.cpp
 https://www.github.com/toacoin/toa/blob/master/src/net.cpp
 https://www.github.com/todayimage/todayimage-source/blob/master/src/net.cpp
 https://www.github.com/tokyocoindev/tokyocoinsrc/blob/master/src/net.cpp
