@@ -64,7 +64,6 @@ https://www.github.com/dollar-online/dollar/blob/master/src/net.cpp
 https://www.github.com/domob1812/i0coin/blob/master/src/chainparams.cpp
 https://www.github.com/donationcoin-project/donationcoin/blob/master/src/net.cpp
 https://www.github.com/droxdev/drox/blob/master/src/net.cpp
-https://www.github.com/ecoinclub/ecoin/blob/master/src/net.cpp
 https://www.github.com/elcrypto/pulse/blob/master/src/net.cpp
 https://www.github.com/emarkproject/emark/blob/master/src/chainparams.cpp
 https://www.github.com/epyxz/allion/blob/master/src/net.cpp
