@@ -80,7 +80,6 @@ https://www.github.com/fonziecoin/fonzie/blob/master/src/net.cpp
 https://www.github.com/franko-org/franko/blob/master/src/chainparams.cpp
 https://www.github.com/fuelcoindev/fc2-source/blob/master/src/net.cpp
 https://www.github.com/gameunits/gameunits/blob/master/src/chainparams.cpp
-https://www.github.com/gaycoins/gaycoin-online/blob/master/src/net.cpp
 https://www.github.com/geertaltcoin/geertcoin/blob/master/src/net.cpp
 https://www.github.com/geysercoin/geysercoin/blob/master/src/chainparams.cpp
 https://www.github.com/ghostlander/halcyon/blob/master/src/net.cpp
