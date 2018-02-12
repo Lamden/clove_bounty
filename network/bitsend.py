@@ -1,0 +1,25 @@
+
+from clove.network.bitcoin import Bitcoin
+
+
+class BitSend(Bitcoin):
+    """
+    Class with all the necessary BSD network information based on
+    http://www.github.com/LIMXTEC/BitSend/blob/master/src/chainparams.cpp
+    (date of access: 02/11/2018)
+    """
+    name = 'bitsend'
+    symbols = ('BSD', )
+    seeds = ('188.68.52.172', '37.120.186.85', '37.120.190.76', '213.136.80.93', '213.136.86.202', '213.136.86.205', '213.136.86.207')
+    port = 8886
+
+
+class BitSendTestNet(BitSend):
+    """
+    Class with all the necessary BSD testing network information based on
+    http://www.github.com/LIMXTEC/BitSend/blob/master/src/chainparams.cpp
+    (date of access: 02/11/2018)
+    """
+    name = 'test-bitsend'
+    seeds = ('testnet-seed.bitsend.jonasschnelli.ch', 'seed.tbtc.petertodd.org', 'testnet-seed.bluematt.me', 'testnet-seed.bitsend.schildbach.de')
+    port = 18333
