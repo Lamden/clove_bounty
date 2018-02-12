@@ -1,0 +1,32 @@
+https://www.github.com/bolivarcoin/bolivarcoin/blob/master/src/net.cpp # no DNS seeds found
+https://www.github.com/bowscoin/bowscoin/blob/master/src/net.cpp # no DNS seeds found
+https://www.github.com/btcgpu/btcgpu/blob/master/src/chainparams.cpp # no symbol on CMC
+https://www.github.com/butterrose/xios/blob/master/src/chainparams.cpp # repo disabled
+https://www.github.com/chancoin-core/chancoin/blob/master/src/chainparams.cpp # no DNS seeds found
+https://www.github.com/chronokings/huntercoin/blob/master/src/net.cpp  # no DNS seeds found
+https://www.github.com/cloudstick/topcoin3/blob/master/src/net.cpp  # no DNS seeds found
+https://www.github.com/dashscrypt/dashscrypt/blob/master/src/net.cpp # no DNS seeds found
+https://www.github.com/diskdev/disk/blob/master/src/net.cpp # no DNS seeds found
+https://www.github.com/dnotescoin/dnotes/blob/master/src/net.cpp # no DNS seeds found
+https://www.github.com/fonziecoin/fonzie/blob/master/src/net.cpp # no DNS seeds found
+https://www.github.com/fuelcoindev/fc2-source/blob/master/src/net.cpp # repo empty
+https://www.github.com/grandpa-jones/synergy/blob/master/src/net.cpp # no DNS seeds found
+https://www.github.com/independentmoneysystem/imscoin/blob/master/src/net.cpp # no DNS seeds found
+https://www.github.com/jl777/btcd/blob/master/src/net.cpp # no DNS seeds found
+https://www.github.com/metalmusiccoin/mtlmcv3/blob/master/src/net.cpp # no DNS seeds found
+https://www.github.com/netbit-official/netbit-source/blob/master/src/net.cpp # no DNS seeds found
+https://www.github.com/neworldorder/braveneworld/blob/master/src/net.cpp # no symbol on CMC
+https://www.github.com/peme0815/dimecoin/blob/master/src/net.cpp # no DNS seeds found
+https://www.github.com/playpossat/blocksattime/blob/master/src/net.cpp # no symbol on CMC
+https://www.github.com/scificrypto/cubitsv3/blob/master/src/net.cpp # no DNS seeds found
+https://www.github.com/stealthsend/stealth/blob/master/src/net.cpp # no DNS seeds found
+https://www.github.com/sudo23/colossuscoin2/blob/master/src/net.cpp
+https://www.github.com/teambitbean/bitbean-core/blob/master/src/chainparams.cpp
+https://www.github.com/teamintellect/enigmacoin/blob/master/src/net.cpp
+https://www.github.com/thegreatoldone/offerings/blob/master/src/chainparams.cpp
+https://www.github.com/todayimage/todayimage-source/blob/master/src/net.cpp
+https://www.github.com/ulandort/rsgprepo/blob/master/src/net.cpp
+https://www.github.com/unitcurrency/unitcurrency/blob/master/src/net.cpp
+https://www.github.com/voltcoin/volt/blob/master/src/chainparams.cpp
+https://www.github.com/wemcoin/wmcoin/blob/master/src/net.cpp
+https://www.github.com/wurstgelee/triangles/blob/master/src/net.cpp
