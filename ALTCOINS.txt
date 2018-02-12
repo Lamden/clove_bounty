@@ -48,7 +48,6 @@ https://www.github.com/cryptogenicbonds/cryptobullion-cbx/blob/master/src/net.cp
 https://www.github.com/cryptojacks/cryptojacks/blob/master/src/net.cpp
 https://www.github.com/cryptoparts/globalcoin/blob/master/src/net.cpp
 https://www.github.com/cryptopianz/dot/blob/master/src/net.cpp
-https://www.github.com/cryptotech/paycon/blob/master/src/net.cpp
 https://www.github.com/cryptounited/supercoin/blob/master/src/net.cpp
 https://www.github.com/cygnusxi/curecoinsource/blob/master/src/net.cpp
 https://www.github.com/dashpay/dash/blob/master/src/chainparams.cpp
