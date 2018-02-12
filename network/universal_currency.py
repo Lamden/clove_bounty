@@ -13,7 +13,7 @@ class UniversalCurrency(Bitcoin):
     port = 14158
 
 
-class UniversalCurrencyTestNet(Adzcoin):
+class UniversalCurrencyTestNet(UniversalCurrency):
     """
     Class with all the necessary Universal Currency (UNIT) testing network information based on
     https://github.com/unitcurrency/unitcurrency/blob/master/src/net.cpp
