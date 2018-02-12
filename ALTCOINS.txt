@@ -160,7 +160,6 @@ https://www.github.com/netbit-official/netbit-source/blob/master/src/net.cpp
 https://www.github.com/netkotech/netko/blob/master/src/chainparams.cpp
 https://www.github.com/neutroncoin/neutron/blob/master/src/net.cpp
 https://www.github.com/nevacoin/nevacoin/blob/master/src/chainparams.cpp
-https://www.github.com/neworldorder/braveneworld/blob/master/src/net.cpp
 https://www.github.com/newsativacoindev/sativacoin/blob/master/src/net.cpp
 https://www.github.com/nicodfs/dfscoin/blob/master/src/net.cpp
 https://www.github.com/noblecoinnobl/noblecoin/blob/master/src/net.cpp
