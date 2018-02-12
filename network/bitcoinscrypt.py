@@ -13,15 +13,4 @@ class BitcoinScrypt(Bitcoin):
     port = 30201
 
 
-class BitcoinScryptTestNet(BitcoinScrypt):
-    """
-    Class with all the necessary BitcoinScrypt testing network information based on
-    https://github.com/bitcoin-scrypt/bitcoin-scrypt/blob/master/src/net.cpp
-    (date of access: 02/12/2018)
-    """
-    name = 'test-BitcoinScrypt'
-    seeds = ()
-    port = 30300  
-	
-	
-	
+# Has no Testnet

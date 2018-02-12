@@ -13,15 +13,4 @@ class CryptoBullion(Bitcoin):
     port = 7695
 	
 	
-class CryptoBullionTestNet(CryptoBullion):
-    """
-    Class with all the necessary CryptoBullion testing network information based on
-    https://github.com/cryptogenicbonds/cryptobullion-cbx/blob/master/src/net.cpp
-    (date of access: 02/12/2018)
-    """
-    name = 'test-cryptobullion'
-    seeds = ()
-    port = 17695           
-	
-	
-	
+# Has no Testnet

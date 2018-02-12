@@ -13,15 +13,4 @@ class Antibitcoin(Bitcoin):
     port = 11650
 
 
-class AntibitcoinTestNet(Antibitcoin):
-    """
-    Class with all the necessary Antibitcoin testing network information based on
-    https://github.com/antibitcoin/antibitcoin-source/blob/master/src/net.cpp
-    (date of access: 02/12/2018)
-    """
-    name = 'test-Antibitcoin'
-    seeds = ()
-    port = 21650 
-	
-	
-	
+# Has no Testnet

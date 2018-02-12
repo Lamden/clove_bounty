@@ -13,15 +13,4 @@ class Quotient(Bitcoin):
     port = 30994
 
 
-class QuotientTestNet(Quotient):
-    """
-    Class with all the necessary Quotient testing network information based on
-    https://github.com/CedricProfit/Quotient/blob/master/src/net.cpp
-    (date of access: 02/12/2018)
-    """
-    name = 'test-Quotient'
-    seeds = ()
-    port = 30993       
-	
-	
-	
+# Has no Testnet

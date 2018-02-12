@@ -12,16 +12,3 @@ class BitBar(Bitcoin):
     seeds = ('btb.altcointech.net')
     port = 8777
 
-
-class BitBarTestNet(BitBar):
-    """
-    Class with all the necessary BitBar testing network information based on
-    https://github.com/bitbarcoin/bitbar/blob/master/src/net.cpp
-    (date of access: 02/12/2018)
-    """
-    name = 'test-BitBar'
-    seeds = ()
-    port = 18777 
-	
-	
-	

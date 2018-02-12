@@ -13,15 +13,4 @@ class SteneumCoin(Bitcoin):
     port = 26965
 	
    
-class SteneumCoinTestNet(SteneumCoin):
-    """
-    Class with all the necessary SuperCoin testing network information based on
-    https://github.com/dhabitafx/steneum/blob/master/src/net.cpp
-    (date of access: 02/12/2018)
-    """
-    name = 'test-steneumcoin'
-    seeds = ()
-    port = 36965              
-	
-	
-	
+# Has no Testnet

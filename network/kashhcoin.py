@@ -13,15 +13,4 @@ class KashhCoin(Bitcoin):
     port = 63875
 
 
-class KashhCoinTestNet(KashhCoin):
-    """
-    Class with all the necessary KashhCoin testing network information based on
-    https://github.com/cashhcointech/kashhcoin/blob/master/src/net.cpp
-    (date of access: 02/12/2018)
-    """
-    name = 'test-KashhCoin'
-    seeds = ()
-    port = 22613        
-	
-	
-	
+# Has no Testnet

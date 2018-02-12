@@ -13,15 +13,4 @@ class Xgox(Bitcoin):
     port = 23185
 
 
-class XgoxTestNet(Xgox):
-    """
-    Class with all the necessary Xgox testing network information based on
-    https://github.com/bumbacoin/xgox/blob/master/src/net.cpp
-    (date of access: 02/12/2018)
-    """
-    name = 'test-Xgox'
-    seeds = ()
-    port = 33185       
-	
-	
-	
+# Has no Testnet

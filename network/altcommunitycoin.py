@@ -13,15 +13,4 @@ class Altcommunitycoin(Bitcoin):
     port = 29855
 
 
-class AltcommunitycoinTestNet(Altcommunitycoin):
-    """
-    Class with all the necessary Altcommunitycoin testing network information based on
-    https://github.com/altcommunitycoin/altcommunitycoin-skunk/blob/master/src/chainparams.cpp
-    (date of access: 02/12/2018)
-    """
-    name = 'test-Altcommunitycoin'
-    seeds = ()
-    port = 29844
-	
-	
-	
+# Has no Testnet

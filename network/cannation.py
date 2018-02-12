@@ -13,15 +13,4 @@ class Cannation(Bitcoin):
     port = 12367
 
 
-class CannationTestNet(Cannation):
-    """
-    Class with all the necessary Cannation testing network information based on
-    https://github.com/cannationproject/cannation/blob/master/src/net.cpp
-    (date of access: 02/12/2018)
-    """
-    name = 'test-Cannation'
-    seeds = ()
-    port = 22367       
-	
-	
-	
+# Has no Testnet

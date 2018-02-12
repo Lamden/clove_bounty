@@ -13,15 +13,4 @@ class DotCoin(Bitcoin):
     port = 19745
 	
 	
-class DotCoinTestNet(DotCoin):
-    """
-    Class with all the necessary DotCoin testing network information based on
-    https://github.com/cryptopianz/dot/blob/master/src/net.cpp
-    (date of access: 02/12/2018)
-    """
-    name = 'test-dotcoin'
-    seeds = ()
-    port = 119745            
-	
-	
-	
+# Has no Testnet

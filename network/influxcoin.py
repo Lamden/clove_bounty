@@ -78,20 +78,8 @@ class Influxcoin(Bitcoin):
 	             "infx-seed67.chainworksindustries.com",
 	             "infx-seed68.chainworksindustries.com",
 	             "infx-seed69.chainworksindustries.com",
-	             "infx-seed70.chainworksindustries.com",
-	             "NULL", "NULL")
+	             "infx-seed70.chainworksindustries.com",)
     port = 9238
 
 
-class InfluxcoinTestNet(Influxcoin):
-    """
-    Class with all the necessary Influxcoin testing network information based on
-    https://github.com/chainworksindustries/influx/blob/master/src/net.cpp
-    (date of access: 02/12/2018)
-    """
-    name = 'test-Influxcoin'
-    seeds = ()
-    port = 17778         
-	
-	
-	
+# Has no Testnet

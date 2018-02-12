@@ -13,15 +13,4 @@ class Curecoin(Bitcoin):
     port = 9911
 	
    
-class CurecoinTestNet(Curecoin):
-    """
-    Class with all the necessary Curecoin testing network information based on
-    https://github.com/cygnusxi/curecoinsource/blob/master/src/net.cpp
-    (date of access: 02/12/2018)
-    """
-    name = 'test-curecoin'
-    seeds = ()
-    port = 8600              
-	
-	
-	
+# Has no Testnet

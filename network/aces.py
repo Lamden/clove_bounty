@@ -13,15 +13,4 @@ class Aces(Bitcoin):
     port = 21274
 
 
-class AcesTestNet(Aces):
-    """
-    Class with all the necessary Aces testing network information based on
-    https://www.github.com/aces-coin/acescoin/blob/master/src/net.cpp
-    (date of access: 02/12/2018)
-    """
-    name = 'test-Aces'
-    seeds = ()
-    port = 21275
-	
-	
-	
+# Has no Testnet

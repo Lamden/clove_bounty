@@ -13,15 +13,4 @@ class HoboNickels(Bitcoin):
     port = 7372
 	
 	
-class HoboNickelsTestNet(HoboNickels):
-    """
-    Class with all the necessary HoboNickels testing network information based on
-    https://github.com/crypto-expert/hobonickels/blob/master/src/net.cpp
-    (date of access: 02/12/2018)
-    """
-    name = 'test-hobonickels'
-    seeds = ()
-    port = 17372          
-	
-	
-	
+# Has no Testnet

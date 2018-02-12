@@ -13,15 +13,4 @@ class UNCoin(Bitcoin):
     port = 33156
 
 
-class UNCoinTestNet(UNCoin):
-    """
-    Class with all the necessary UNCoin testing network information based on
-    https://github.com/belledejour/uncoin-source-code/blob/master/src/net.cpp
-    (date of access: 02/12/2018)
-    """
-    name = 'test-Uncoin'
-    seeds = ()
-    port = 33157 
-	
-	
-	
+# Has no Testnet

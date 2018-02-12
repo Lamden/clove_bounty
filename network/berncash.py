@@ -39,15 +39,4 @@ class BERNcash(Bitcoin):
     port = 32020
 
 
-class BERNcashTestNet(BERNcash):
-    """
-    Class with all the necessary BERNcash testing network information based on
-    https://github.com/berniecoin/berncash/blob/master/src/net.cpp
-    (date of access: 02/12/2018)
-    """
-    name = 'test-BERNcash'
-    seeds = ()
-    port = 42020  
-	
-	
-	
+# Has no Testnet

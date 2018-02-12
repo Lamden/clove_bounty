@@ -13,15 +13,4 @@ class Auroracoin(Bitcoin):
     port = 12340
 
 
-class AuroracoinTestNet(Auroracoin):
-    """
-    Class with all the necessary Auroracoin testing network information based on
-    https://www.github.com/aurarad/auroracoin/blob/master/src/chainparams.cpp
-    (date of access: 02/12/2018)
-    """
-    name = 'test-Auroracoin'
-    seeds = ()
-    port = 12340 
-	
-	
-	
+# Has no Testnet

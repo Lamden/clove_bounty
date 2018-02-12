@@ -13,15 +13,4 @@ class AvatarCoin(Bitcoin):
     port = 9712
 
 
-class AvatarCoinTestNet(AvatarCoin):
-    """
-    Class with all the necessary AvatarCoin testing network information based on
-    https://github.com/avatarcoin/avatarcoin/blob/master/src/net.cpp
-    (date of access: 02/12/2018)
-    """
-    name = 'test-AvatarCoin'
-    seeds = ()
-    port = 19712   
-	
-	
-	
+# Has no Testnet

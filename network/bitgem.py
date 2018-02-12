@@ -13,15 +13,4 @@ class Bitgem(Bitcoin):
     port = 7692
 
 
-class BitgemTestNet(Bitgem):
-    """
-    Class with all the necessary Bitgem testing network information based on
-    https://github.com/bitgem/bitgem/blob/master/src/net.cpp
-    (date of access: 02/12/2018)
-    """
-    name = 'test-Bitgem'
-    seeds = ()
-    port = 17692    
-	
-	
-	
+# Has no Testnet

@@ -12,16 +12,4 @@ class CryptoJacks(Bitcoin):
     seeds =  ("node1.cryptojacks.com","node2.cryptojacks.com","node3.cryptojacks.com","node4.cryptojacks.com","node5.cryptojacks.com","node6.cryptojacks.com","node7.cryptojacks.com")
     port = 33433
 	
-	
-class CryptoJacksTestNet(CryptoJacks):
-    """
-    Class with all the necessary CryptoJacks testing network information based on
-    https://github.com/cryptojacks/cryptojacks/blob/master/src/net.cpp
-    (date of access: 02/12/2018)
-    """
-    name = 'test-cryptojacks'
-    seeds = ()
-    port = 26714            
-	
-	
-	
+# Has no Testnet

@@ -13,15 +13,4 @@ class Xtrabytes(Bitcoin):
     port = 34002
 
 
-class XtrabytesTestNet(Xtrabytes):
-    """
-    Class with all the necessary Xtrabytes testing network information based on
-    https://github.com/borzalom/xtrabytes/blob/master/src/net.cpp
-    (date of access: 02/12/2018)
-    """
-    name = 'test-Xtrabytes'
-    seeds = ()
-    port = 35002      
-	
-	
-	
+# Has no Testnet

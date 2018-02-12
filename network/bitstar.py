@@ -16,15 +16,4 @@ class Bitstar(Bitcoin):
     port = 62123
 
 
-class BitstarTestNet(Bitstar):
-    """
-    Class with all the necessary Bitstar testing network information based on
-    https://github.com/bitstar/bitstar/blob/master/src/net.cpp
-    (date of access: 02/12/2018)
-    """
-    name = 'test-Bitstar'
-    seeds = ()
-    port = 63123     
-	
-	
-	
+# Has no Testnet

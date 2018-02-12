@@ -24,15 +24,4 @@ class Capricoin(Bitcoin):
     port = 22714
 
 
-class CapricoinTestNet(Capricoin):
-    """
-    Class with all the necessary Capricoin testing network information based on
-    https://github.com/capricoinofficial/capricoin/blob/master/src/net.cpp
-    (date of access: 02/12/2018)
-    """
-    name = 'test-Capricoin'
-    seeds = ()
-    port = 22715       
-	
-	
-	
+# Has no Testnet

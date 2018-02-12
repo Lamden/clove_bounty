@@ -13,15 +13,4 @@ class mMXVI(Bitcoin):
     port = 6503
 
 
-class MMXVITestNet(MMXVI):
-    """
-    Class with all the necessary MMXVI testing network information based on
-    https://github.com/coin2016/mmxvi/blob/master/src/net.cpp
-    (date of access: 02/12/2018)
-    """
-    name = 'test-MMXVI'
-    seeds = ()
-    port = 16503       
-	
-	
-	
+# Has no Testnet

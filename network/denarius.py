@@ -13,15 +13,4 @@ class Denarius(Bitcoin):
     port = 33339
 
 
-class DenariusTestNet(Denarius):
-    """
-    Class with all the necessary Denarius testing network information based on
-    https://github.com/carsenk/denarius/blob/master/src/net.cpp
-    (date of access: 02/12/2018)
-    """
-    name = 'test-Denarius'
-    seeds = ()
-    port = 33338       
-	
-	
-	
+# Has no Testnet

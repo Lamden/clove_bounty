@@ -13,15 +13,4 @@ class Mineum(Bitcoin):
     port = 31316
 
 
-class MineumTestNet(Mineum):
-    """
-    Class with all the necessary Mineum testing network information based on
-    https://github.com/antho281/mineum/blob/master/src/net.cpp
-    (date of access: 02/12/2018)
-    """
-    name = 'test-Mineum'
-    seeds = ()
-    port = 31317 
-	
-	
-	
+# Has no Testnet

@@ -13,15 +13,4 @@ class SuperCoin(Bitcoin):
     port = 19390
 	
    
-class SuperCoinTestNet(SuperCoin):
-    """
-    Class with all the necessary SuperCoin testing network information based on
-    https://github.com/CryptoUnited-Clients/SuperCoin/blob/master/src/net.cpp
-    (date of access: 02/12/2018)
-    """
-    name = 'test-supercoin'
-    seeds = ()
-    port = 29390              
-	
-	
-	
+# Has no Testnet

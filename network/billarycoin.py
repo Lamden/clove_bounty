@@ -12,16 +12,3 @@ class BillaryCoin(Bitcoin):
     seeds = ('node.walletbuilders.com')
     port = 6791
 
-
-class BillaryCoinTestNet(BillaryCoin):
-    """
-    Class with all the necessary BillaryCoin testing network information based on
-    https://github.com/billary/billarycoinsource/blob/master/src/net.cpp
-    (date of access: 02/12/2018)
-    """
-    name = 'test-BillaryCoin'
-    seeds = ()
-    port = 16791   
-	
-	
-	
