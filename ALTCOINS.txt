@@ -38,7 +38,6 @@ https://www.github.com/creamcoin/cream-cryptocurrency/blob/master/src/chainparam
 https://www.github.com/crowdcoinchain/crowdcoin/blob/master/src/chainparams.cpp
 https://www.github.com/crypto-currency/bitcoinfast/blob/master/src/net.cpp
 https://www.github.com/crypto-currency/emerald/blob/master/src/net.cpp
-https://www.github.com/crypto-currency/litebar/blob/master/src/net.cpp
 https://www.github.com/crypto-currency/litecoinplus/blob/master/src/net.cpp
 https://www.github.com/crypto-expert/hobonickels/blob/master/src/net.cpp
 https://www.github.com/cryptocoderz/espers/blob/master/src/chainparams.cpp
