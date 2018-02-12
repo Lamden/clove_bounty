@@ -297,7 +297,6 @@ https://www.github.com/ugain1/ugain-src/blob/master/src/chainparams.cpp
 https://www.github.com/ulandort/kingncoin-source/blob/master/src/net.cpp
 https://www.github.com/ulandort/rsgprepo/blob/master/src/net.cpp
 https://www.github.com/unitcurrency/unitcurrency/blob/master/src/net.cpp
-https://www.github.com/unitusdev/unitus/blob/master/src/chainparams.cpp
 https://www.github.com/unobtanium-official/unobtanium/blob/master/src/chainparams.cpp
 https://www.github.com/valorbit/valorbit/blob/master/src/chainparams.cpp
 https://www.github.com/vaperscoin/vaperscoin/blob/master/src/chainparams.cpp
