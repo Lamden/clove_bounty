@@ -275,7 +275,6 @@ https://www.github.com/voltcoin/volt/blob/master/src/chainparams.cpp
 https://www.github.com/voyacoin/voyacoin/blob/master/src/chainparams.cpp
 https://www.github.com/vulcanodev/vulcano/blob/master/src/net.cpp
 https://www.github.com/warpcoin/warp/blob/master/src/net.cpp
-https://www.github.com/wemcoin/wmcoin/blob/master/src/net.cpp
 https://www.github.com/white92d15b7/gpu-coin/blob/master/src/net.cpp
 https://www.github.com/willowrose/qubitcoin/blob/master/src/chainparams.cpp
 https://www.github.com/wincoinofficial/wincoin/blob/master/src/net.cpp
