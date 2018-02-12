@@ -13,7 +13,7 @@ class SmartCash(Bitcoin):
     port = 9678
 
 
-class SmartCashTestNet(smartcash):
+class SmartCashTestNet(SmartCash):
     """
     Class with all the necessary SmartCash SMART testing network information based on
     https://github.com/SmartCash/smartcash/blob/1.1/src/chainparams.cpp
