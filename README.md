@@ -2,7 +2,7 @@
 We're opening up a developer bounty for the community to help contribute to this project. Clove currently supports the major cryptocurrencies, but we want to support *as many as possible*!
 
 **Rules for contributing:**
-- Do not modify the reward.csv file directly
+- Do not modify the bounty_ious.csv file directly
 - Follow [PEP8](https://www.python.org/dev/peps/pep-0008/) style guide conventions (ex. multi_word_file.py vs multiWordFile.py, etc)
 - Coins that have no main seeds will not be accepted as at least one seed is required to connect to the network and process swaps.
 - Delete your coin from ALTCOINS.txt in the PR
