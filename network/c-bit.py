@@ -2,7 +2,7 @@
 from clove.network.bitcoin import Bitcoin
 
 
-class C-Bit(Bitcoin):
+class CBit(Bitcoin):
     """
     Class with all the necessary XCT network information based on
     http://www.github.com/Infernoman/C-Bit/blob/master/src/chainparams.cpp
@@ -14,7 +14,7 @@ class C-Bit(Bitcoin):
     port = 8289
 
 
-class C-BitTestNet(C-Bit):
+class CBitTestNet(CBit):
     """
     Class with all the necessary XCT testing network information based on
     http://www.github.com/Infernoman/C-Bit/blob/master/src/chainparams.cpp
