@@ -5,7 +5,7 @@ class Qtum(Bitcoin):
     """
     Class with all the necessary QTUM network information based on
     https://github.com/qtumproject/qtum/blob/master/src/chainparams.cpp
-    (date of access: 01/18/2018)
+    (date of access: 02/12/2018)
     """
     name = 'qtum'
     symbols = ('QTUM', )
@@ -19,7 +19,7 @@ class QtumTestNet(Qtum):
     """
     Class with all the necessary QTUM testing network information based on
     https://github.com/qtumproject/qtum/blob/master/src/chainparams.cpp
-    (date of access: 01/18/2018)
+    (date of access: 02/12/2018)
     """
     name = 'test-qtum'
     seeds = (
