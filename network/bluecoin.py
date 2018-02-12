@@ -3,7 +3,7 @@ from clove.network.bitcoin import Bitcoin
 
 class BlueCoin(Bitcoin):
     """
-    Class with all the necessary AUR network information based on
+    Class with all the necessary BLU network information based on
     https://github.com/bluecoiner/bluecoin-new/blob/master/src/chainparams.cpp
     (date of access: 02/12/2018)
     """
@@ -15,7 +15,7 @@ class BlueCoin(Bitcoin):
 
 class BlueCoinTestNet(BlueCoin):
     """
-    Class with all the necessary AUR testing network information based on
+    Class with all the necessary BLU testing network information based on
     https://github.com/bluecoiner/bluecoin-new/blob/master/src/chainparams.cpp
     (date of access: 02/12/2018)
     """
