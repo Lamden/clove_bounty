@@ -11,6 +11,3 @@ class Aces(Bitcoin):
     symbols = ('ACES', )
     seeds = ('81.4.123.155')
     port = 21274
-
-
-# Has no Testnet
