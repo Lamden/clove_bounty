@@ -23,3 +23,4 @@ class LUXCoinTestNet(ZCoin):
     seeds = ('88.198.192.110')
     port = 28333
 	
+    
