@@ -16,7 +16,7 @@ class Vertcoin(Bitcoin):
         'dnsseed.pknight.ca',
         'seed.orderofthetaco.org',
         'seed.alexturek.org',
-        'vertcoin.mbl.cash'
+        'vertcoin.mbl.cash',
     )
     port = 5889
 
