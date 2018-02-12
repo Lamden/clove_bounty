@@ -51,7 +51,6 @@ https://www.github.com/carsenk/denarius/blob/master/src/net.cpp
 https://www.github.com/cashhcointech/kashhcoin/blob/master/src/net.cpp
 https://www.github.com/catcoinofficial/catcoinrelease/blob/master/src/net.cpp
 https://www.github.com/cedricprofit/quotient/blob/master/src/net.cpp
-https://www.github.com/chaincoin/chaincoin/blob/master/src/chainparams.cpp
 https://www.github.com/chainworksindustries/influx/blob/master/src/net.cpp
 https://www.github.com/chancoin-core/chancoin/blob/master/src/chainparams.cpp
 https://www.github.com/chronokings/huntercoin/blob/master/src/net.cpp
