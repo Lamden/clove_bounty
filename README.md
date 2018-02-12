@@ -1,6 +1,9 @@
 # Clove Bounty
 We're opening up a developer bounty for the community to help contribute to this project. Clove currently supports the major cryptocurrencies, but we want to support *as many as possible*!
 
+Bounty IOUs
+- geeknam, 3 PRs, 150τ, 0x1D32129Dc5A235336Cc4F01Fe41E9b5f97F1261c
+
 ### Bounty amount: 50 TAU per successful pull request
 ### Knowledge required: Intermediate Python Programming
 ### Time per task: 15 minutes
