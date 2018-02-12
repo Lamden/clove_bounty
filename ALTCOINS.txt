@@ -52,7 +52,6 @@ https://www.github.com/cryptounited/supercoin/blob/master/src/net.cpp
 https://www.github.com/cygnusxi/curecoinsource/blob/master/src/net.cpp
 https://www.github.com/dashpay/dash/blob/master/src/chainparams.cpp
 https://www.github.com/dashscrypt/dashscrypt/blob/master/src/net.cpp
-https://www.github.com/dbgold/dbgold/blob/master/src/net.cpp
 https://www.github.com/dhabitafx/steneum/blob/master/src/net.cpp
 https://www.github.com/digitalpandacoin/pandacoin/blob/master/src/net.cpp
 https://www.github.com/diskdev/disk/blob/master/src/net.cpp
