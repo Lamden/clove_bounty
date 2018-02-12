@@ -228,7 +228,6 @@ https://www.github.com/primulondev2/primu2/blob/master/src/net.cpp
 https://www.github.com/printerium/printerium-project/blob/master/src/net.cpp
 https://www.github.com/purevidz/vidzcoin/blob/master/src/chainparams.cpp
 https://www.github.com/putincoinput/putincoin/blob/master/src/net.cpp
-https://www.github.com/qtumproject/qtum/blob/master/src/chainparams.cpp
 https://www.github.com/quatloos/quatloo/blob/master/src/net.cpp
 https://www.github.com/radiumcore/radium-0.11/blob/master/src/chainparams.cpp
 https://www.github.com/ratecoinxra/ratecoin/blob/master/src/net.cpp
