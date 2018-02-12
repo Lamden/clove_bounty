@@ -1,11 +1,10 @@
-
 from clove.network.bitcoin import Bitcoin
 
 
 class IrishCoin(Bitcoin):
     """
-    Class with all the necessary IRL network information based on
-    http://www.github.com/IrishCoinProject/IrishCoin/blob/master/src/net.cpp
+    Class with all the necessary IrishCoin network information based on
+    https://github.com/irishcoinproject/irishcoin/blob/master/src/net.cpp
     (date of access: 02/12/2018)
     """
     name = 'irishcoin'
@@ -14,12 +13,12 @@ class IrishCoin(Bitcoin):
     port = 12375
 
 
-class IrishCoinTestNet(IrishCoin):
+classIrishCoinTestNet(IrishCoin):
     """
-    Class with all the necessary IRL testing network information based on
-    http://www.github.com/IrishCoinProject/IrishCoin/blob/master/src/net.cpp
+    Class with all the necessary IrishCoin testing network information based on
+    https://github.com/irishcoinproject/irishcoin/blob/master/src/net.cpp
     (date of access: 02/12/2018)
     """
     name = 'test-irishcoin'
-    seeds = ('testnode.irishcoin.org', 'testdns.irishcoin.org')
-    port = 11375
+    seeds = ('testnode.irishcoin.org','testdns.irishcoin.org')
+    port = 11375 
