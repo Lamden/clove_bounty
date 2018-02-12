@@ -19,7 +19,7 @@ class SpotsTestNet(Spots):
     https://github.com/thespt/spots2/blob/master/src/net.cpp
     (date of access: 02/12/2018)
     """
-    name = 'test-Spots'
+    name = 'test-spots'
     seeds = ("dstest.theSPT.com")
     port = 15588 
 	
