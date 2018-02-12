@@ -38,7 +38,6 @@ https://www.github.com/creamcoin/cream-cryptocurrency/blob/master/src/chainparam
 https://www.github.com/crowdcoinchain/crowdcoin/blob/master/src/chainparams.cpp
 https://www.github.com/crypto-currency/bitcoinfast/blob/master/src/net.cpp
 https://www.github.com/crypto-currency/emerald/blob/master/src/net.cpp
-https://www.github.com/crypto-currency/litebar/blob/master/src/net.cpp
 https://www.github.com/crypto-currency/litecoinplus/blob/master/src/net.cpp
 https://www.github.com/crypto-expert/hobonickels/blob/master/src/net.cpp
 https://www.github.com/cryptocoderz/espers/blob/master/src/chainparams.cpp
@@ -48,13 +47,10 @@ https://www.github.com/cryptogenicbonds/cryptobullion-cbx/blob/master/src/net.cp
 https://www.github.com/cryptojacks/cryptojacks/blob/master/src/net.cpp
 https://www.github.com/cryptoparts/globalcoin/blob/master/src/net.cpp
 https://www.github.com/cryptopianz/dot/blob/master/src/net.cpp
-https://www.github.com/cryptotech/paycon/blob/master/src/net.cpp
 https://www.github.com/cryptounited/supercoin/blob/master/src/net.cpp
 https://www.github.com/cygnusxi/curecoinsource/blob/master/src/net.cpp
 https://www.github.com/dashpay/dash/blob/master/src/chainparams.cpp
 https://www.github.com/dashscrypt/dashscrypt/blob/master/src/net.cpp
-https://www.github.com/dbgold/dbgold/blob/master/src/net.cpp
-https://www.github.com/deeponion/deeponion/blob/master/src/net.cpp
 https://www.github.com/dhabitafx/steneum/blob/master/src/net.cpp
 https://www.github.com/digitalpandacoin/pandacoin/blob/master/src/net.cpp
 https://www.github.com/diskdev/disk/blob/master/src/net.cpp
@@ -65,7 +61,6 @@ https://www.github.com/dollar-online/dollar/blob/master/src/net.cpp
 https://www.github.com/domob1812/i0coin/blob/master/src/chainparams.cpp
 https://www.github.com/donationcoin-project/donationcoin/blob/master/src/net.cpp
 https://www.github.com/droxdev/drox/blob/master/src/net.cpp
-https://www.github.com/ecoinclub/ecoin/blob/master/src/net.cpp
 https://www.github.com/elcrypto/pulse/blob/master/src/net.cpp
 https://www.github.com/emarkproject/emark/blob/master/src/chainparams.cpp
 https://www.github.com/epyxz/allion/blob/master/src/net.cpp
@@ -81,7 +76,6 @@ https://www.github.com/fonziecoin/fonzie/blob/master/src/net.cpp
 https://www.github.com/franko-org/franko/blob/master/src/chainparams.cpp
 https://www.github.com/fuelcoindev/fc2-source/blob/master/src/net.cpp
 https://www.github.com/gameunits/gameunits/blob/master/src/chainparams.cpp
-https://www.github.com/gaycoins/gaycoin-online/blob/master/src/net.cpp
 https://www.github.com/geertaltcoin/geertcoin/blob/master/src/net.cpp
 https://www.github.com/geysercoin/geysercoin/blob/master/src/chainparams.cpp
 https://www.github.com/ghostlander/halcyon/blob/master/src/net.cpp
@@ -160,7 +154,6 @@ https://www.github.com/netbit-official/netbit-source/blob/master/src/net.cpp
 https://www.github.com/netkotech/netko/blob/master/src/chainparams.cpp
 https://www.github.com/neutroncoin/neutron/blob/master/src/net.cpp
 https://www.github.com/nevacoin/nevacoin/blob/master/src/chainparams.cpp
-https://www.github.com/neworldorder/braveneworld/blob/master/src/net.cpp
 https://www.github.com/newsativacoindev/sativacoin/blob/master/src/net.cpp
 https://www.github.com/nicodfs/dfscoin/blob/master/src/net.cpp
 https://www.github.com/noblecoinnobl/noblecoin/blob/master/src/net.cpp
@@ -175,7 +168,6 @@ https://www.github.com/opescoin/opes/blob/master/src/net.cpp
 https://www.github.com/os76/osmiumcoin_os76/blob/master/src/net.cpp
 https://www.github.com/paccoincommunity/paccoin/blob/master/src/net.cpp
 https://www.github.com/pakcoin-project/pakcoin/blob/master/src/net.cpp
-https://www.github.com/paypeer/paypeer/blob/master/src/net.cpp
 https://www.github.com/peme0815/dimecoin/blob/master/src/net.cpp
 https://www.github.com/pepeteam/pepecoin/blob/master/src/chainparams.cpp
 https://www.github.com/phoreproject/phore/blob/master/src/chainparams.cpp
@@ -251,7 +243,6 @@ https://www.github.com/thercg/elacoin/blob/master/src/net.cpp
 https://www.github.com/thesportscoin/sport-source/blob/master/src/net.cpp
 https://www.github.com/thespt/spots2/blob/master/src/net.cpp
 https://www.github.com/theveganinitiative/xve/blob/master/src/net.cpp
-https://www.github.com/tittiecoin/tittiecoin/blob/master/src/net.cpp
 https://www.github.com/todayimage/todayimage-source/blob/master/src/net.cpp
 https://www.github.com/tokyocoindev/tokyocoinsrc/blob/master/src/net.cpp
 https://www.github.com/tokyoghetto/bitcurrencypro/blob/master/src/chainparams.cpp
@@ -265,7 +256,6 @@ https://www.github.com/valorbit/valorbit/blob/master/src/chainparams.cpp
 https://www.github.com/vaperscoin/vaperscoin/blob/master/src/chainparams.cpp
 https://www.github.com/vectorcoindev/vector/blob/master/src/chainparams.cpp
 https://www.github.com/vericoin/vericoin/blob/master/src/net.cpp
-https://www.github.com/vertcoin/vertcoin/blob/master/src/chainparams.cpp
 https://www.github.com/viacoin/viacoin/blob/master/src/chainparams.cpp
 https://www.github.com/virtauniquecoin/virtauniquecoin-master/blob/master/src/net.cpp
 https://www.github.com/vivocoin/vivo/blob/master/src/chainparams.cpp
