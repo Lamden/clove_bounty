@@ -9,11 +9,7 @@ class BitcoinGold(Bitcoin):
     """
     name = 'bitcoin-gold'
     symbols = ('BTG', )
-    seeds = (
-        'eu-dnsseed.bitcoingold-official.org',
-        'dnsseed.bitcoingold.org',
-        'dnsseed.btcgpu.org',
-    )
+    seeds = ('eu-dnsseed.bitcoingold-official.org','dnsseed.bitcoingold.org','dnsseed.btcgpu.org')
     port = 8338
 
 
@@ -24,10 +20,5 @@ class BitcoinGoldTestNet(BitcoinGold):
     (date of access: 02/12/2018)
     """
     name = 'test-bitcoin-gold'
-    seeds = (
-        'eu-test-dnsseed.bitcoingold-official.org',
-        'test-dnsseed.bitcoingold.org',
-        'test-dnsseed.btcgpu.org',
-        'btg.dnsseed.minertopia.org',        
-    )
+    seeds = ('eu-test-dnsseed.bitcoingold-official.org','test-dnsseed.bitcoingold.org','test-dnsseed.btcgpu.org','btg.dnsseed.minertopia.org')
     port = 18338
