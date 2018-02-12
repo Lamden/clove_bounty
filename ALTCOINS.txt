@@ -174,7 +174,6 @@ https://www.github.com/opescoin/opes/blob/master/src/net.cpp
 https://www.github.com/os76/osmiumcoin_os76/blob/master/src/net.cpp
 https://www.github.com/paccoincommunity/paccoin/blob/master/src/net.cpp
 https://www.github.com/pakcoin-project/pakcoin/blob/master/src/net.cpp
-https://www.github.com/paypeer/paypeer/blob/master/src/net.cpp
 https://www.github.com/peme0815/dimecoin/blob/master/src/net.cpp
 https://www.github.com/pepeteam/pepecoin/blob/master/src/chainparams.cpp
 https://www.github.com/phoreproject/phore/blob/master/src/chainparams.cpp
