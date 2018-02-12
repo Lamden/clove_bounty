@@ -13,7 +13,7 @@ class LUXCoin(Bitcoin):
     port = 26868
 
 
-class LUXCoinTestNet(ZCoin):
+class LUXCoinTestNet(LUXCoin):
     """
     Class with all the necessary LUX testing network information based on
     https://github.com/216k155/lux/blob/master/src/chainparams.cpp
