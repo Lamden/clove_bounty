@@ -2,7 +2,7 @@
 from clove.network.bitcoin import Bitcoin
 
 
-class Coin(Bitcoin):
+class SibCoin(Bitcoin):
     """
     Class with all the necessary SIB network information based on
     http://www.github.com/ivansib/sibcoin/blob/master/src/chainparams.cpp
@@ -14,7 +14,7 @@ class Coin(Bitcoin):
     port = 1945
 
 
-class CoinTestNet(Coin):
+class SibCoinTestNet(Coin):
     """
     Class with all the necessary SIB testing network information based on
     http://www.github.com/ivansib/sibcoin/blob/master/src/chainparams.cpp
