@@ -13,7 +13,7 @@ class  AgrolifeCoin(Bitcoin):
     port = 27330
 
 
-class  AgrolifeCoinTestNet(Aces):
+class  AgrolifeCoinTestNet(AgrolifeCoin):
     """
     Class with all the necessary  AgrolifeCoin (AGLC) network information based on
     https://github.com/traiborg/Agrolifecoin/blob/master/src/net.cpp
