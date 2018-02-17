@@ -3,7 +3,7 @@ from clove.network.bitcoin import Bitcoin
 
 class Ravencoin(Bitcoin):
     """
-    Class with all the necessary LTC network information based on
+    Class with all the necessary RVN network information based on
     https://github.com/RavenProject/Ravencoin/blob/master/src/chainparams.cpp
     (date of access: 02/16/2018)
     """
@@ -18,7 +18,7 @@ class Ravencoin(Bitcoin):
 
 class RavencoinTestNet(Ravencoin):
     """
-    Class with all the necessary LTC testing network information based on
+    Class with all the necessary RVN testing network information based on
     https://github.com/RavenProject/Ravencoin/blob/master/src/chainparams.cpp
     (date of access: 02/16/2018)
     """
