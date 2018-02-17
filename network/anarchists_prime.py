@@ -4,7 +4,7 @@ from clove.network.bitcoin import Bitcoin
 class  AnarchistsPrime(Bitcoin):
     """
     Class with all the necessary  AnarchistsPrime (ACP) network information based on
-    https://github.com/AmmoCore/AmmoReloaded/blob/master/src/net.cpp
+    https://github.com/AnarchistsPrime/Acp2/tree/master/src/net.cpp
     (date of access: 02/17/2018)
     """
     name = 'anarchistsprime'
@@ -16,7 +16,7 @@ class  AnarchistsPrime(Bitcoin):
 class  AnarchistsPrimeTestNet(Aces):
     """
     Class with all the necessary  AnarchistsPrime (ACP) network information based on
-    https://github.com/AmmoCore/AmmoReloaded/blob/master/src/net.cpp
+    https://github.com/AnarchistsPrime/Acp2/tree/master/src/net.cpp
     (date of access: 02/17/2018)
     """
     name = 'test-anarchistsprime'
