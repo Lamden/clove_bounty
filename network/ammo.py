@@ -13,7 +13,7 @@ class  Ammo(Bitcoin):
     port = 21582
 
 
-class  AmmoTestNet(Aces):
+class  AmmoTestNet(Ammo):
     """
     Class with all the necessary  Ammo Reloaded (AMMO) network information based on
     https://github.com/AmmoCore/AmmoReloaded/blob/master/src/net.cpp
