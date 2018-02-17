@@ -9,7 +9,7 @@ class  Aces(Bitcoin):
     """
     name = 'aces'
     symbols = ('ACES', )
-    seeds =  ('81.4.123.155', '81.4.123.155')
+    seeds =  ('81.4.123.155')
     port = 21274
 
 
