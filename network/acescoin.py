@@ -13,7 +13,7 @@ class  Aces(Bitcoin):
     port = 21274
 
 
-class  SuperBitcoinTestNet(Aces):
+class  AcesTestNet(Aces):
     """
     Class with all the necessary  Aces (ACES) network information based on
     https://github.com/aces-coin/AcesCoin/blob/master/src/net.cpp
