@@ -13,7 +13,7 @@ class  Alqo(Bitcoin):
     port = 55500
 
 
-class  AlqoTestNet(Aces):
+class  AlqoTestNet(Alqo):
     """
     Class with all the necessary  Alqo (ALQO) network information based on
     https://github.com/ALQOCRYPTO/ALQO/blob/master/src/chainparams.cpp
