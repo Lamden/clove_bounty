@@ -13,7 +13,7 @@ class  MonetaryUnit(Bitcoin):
     port = 19683
 
 
-class  MonetaryUnitTestNet( MonetaryUnit):
+class  MonetaryUnitTestNet(MonetaryUnit):
     """
     Class with all the necessary  MonetaryUnit (MUE) network information based on
     https://github.com/muecoin/MUECore/blob/master/src/chainparams.cpp
