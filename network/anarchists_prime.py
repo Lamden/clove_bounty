@@ -13,7 +13,7 @@ class  AnarchistsPrime(Bitcoin):
     port = 11050
 
 
-class  AnarchistsPrimeTestNet(Aces):
+class  AnarchistsPrimeTestNet(AnarchistsPrime):
     """
     Class with all the necessary  AnarchistsPrime (ACP) network information based on
     https://github.com/AnarchistsPrime/Acp2/tree/master/src/net.cpp
