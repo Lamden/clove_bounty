@@ -13,7 +13,7 @@ class  Atmos(Bitcoin):
     port = 9834
 
 
-class  AtmosTestNet(Antimatter):
+class  AtmosTestNet(Atmos):
     """
     Class with all the necessary  Atmos (ATMS) network information based on
     https://github.com/asphyxiating/atmostemp/blob/master/atmos-master/src/chainparams.cpp
