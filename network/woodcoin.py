@@ -19,6 +19,6 @@ class WoodcoinTestNet(Woodcoin):
     https://github.com/funkshelper/woodcore/blob/master/src/chainparams.cpp    
     (date of access: 02/17/2018)
     """
-    name = 'test-moin'
+    name = 'test-woodcoin'
     seeds = ('dnsseed.woodcointools.com')
     port = 18338
