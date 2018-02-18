@@ -1,10 +1,9 @@
 from clove.network.bitcoin import Bitcoin
 
-
 class Trollcoin(Bitcoin):
     """
-    Class with all the necessary Trollcoin network information based on
-    https://github.com/TrollCoin2/TrollCoin-2.0/blob/master/src/chainparams.cpp
+    Class with all the necessary  Trollcoin (TROLL) network information based on
+    https://github.com/TrustPlus/TrustPlus/blob/master/src/net.cpp
     (date of access: 02/18/2018)
     """
     name = 'trollcoin'
