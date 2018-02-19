@@ -1,6 +1,5 @@
 from clove.network.bitcoin import Bitcoin
 
-
 class  Three65Coin(Bitcoin):
     """
     Class with all the necessary  365Coin (365) network information based on

@@ -1,6 +1,5 @@
 from clove.network.bitcoin import Bitcoin
 
-
 class  Coin007(Bitcoin):
     """
     Class with all the necessary  007Coin (007) network information based on

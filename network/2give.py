@@ -1,6 +1,5 @@
 from clove.network.bitcoin import Bitcoin
 
-
 class  TwoGIVE(Bitcoin):
     """
     Class with all the necessary  2GIVE (2GIVE) network information based on
