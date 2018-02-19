@@ -10,6 +10,6 @@ class XG_Sports(Bitcoin):
     name = 'xg_sports'
     symbols = ('XG', )
     seeds = ("107.170.189.185")
-    port = 42733
+    port = 52733
 	
 # no testnet
