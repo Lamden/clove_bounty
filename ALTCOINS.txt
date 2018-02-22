@@ -126,7 +126,6 @@ https://www.github.com/limxtec/bitcore/blob/master/src/chainparams.cpp
 https://www.github.com/limxtec/bitsend/blob/master/src/chainparams.cpp
 https://www.github.com/limxtec/megacoin/blob/master/src/chainparams.cpp
 https://www.github.com/litebitcoins/litebitcoin/blob/master/src/chainparams.cpp
-https://www.github.com/litecoin-project/litecoin/blob/master/src/chainparams.cpp
 https://www.github.com/lomtax/digitalcoin/blob/master/src/chainparams.cpp
 https://www.github.com/luckbash/bash/blob/master/src/net.cpp
 https://www.github.com/machinecoin-project/machinecoin-core/blob/master/src/chainparams.cpp
