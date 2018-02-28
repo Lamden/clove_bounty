@@ -16,9 +16,10 @@ class Antilitecoin(Bitcoin):
 class AntilitecoinTestNet(Antilitecoin):
     """
     Class with all the necessary Antilitecoin (ALTC) testing network information based on
-    https://github.com/cyberpay/coin/blob/master/src/net.cpp    
+    https://github.com/cyberpay/coin/blob/master/src/net.cpp
     (date of access: 02/18/2018)
     """
     name = 'test-antilitecoin'
-    seeds = ('testnet-seed.antilitecointools.com', 'testnet-seed.ltc.xurious.com', 'dnsseed.wemine-testnet.com')
+    seeds = ('testnet-seed.antilitecointools.com',
+             'testnet-seed.ltc.xurious.com', 'dnsseed.wemine-testnet.com')
     port = 18795

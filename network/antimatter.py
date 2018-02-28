@@ -11,8 +11,8 @@ class Antimatter(Bitcoin):
     symbols = ('ANTX', )
     seeds = ("seed.baconmakesyourfeaturessizzle.com")
     port = 9334
-	
-   
+
+
 class AntimatterTestNet(Antimatter):
     """
     Class with all the necessary Antimatter testing network information based on
@@ -21,4 +21,4 @@ class AntimatterTestNet(Antimatter):
     """
     name = 'test-antimatter'
     seeds = ("testnet-seed.baconmakesyourfeaturessizzle.com")
-    port = 19334               
+    port = 19334

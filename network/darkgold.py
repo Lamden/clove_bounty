@@ -21,5 +21,5 @@ class DarkGold(Bitcoin):
              "67.215.11.195",
              "192.95.29.153")
     port = 8855
-	
+
 # no testnet

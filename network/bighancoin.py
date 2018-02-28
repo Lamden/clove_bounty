@@ -9,8 +9,9 @@ class BighanCoin(Bitcoin):
     """
     name = 'bighancoin'
     symbols = ('BHC', )
-    seeds = ("47.90.14.128"},
-             "139.196.140.101")
+    nodes = (
+        "47.90.14.128", "139.196.140.101"
+    )
     port = 29720
-	
+
 # Has no testnet

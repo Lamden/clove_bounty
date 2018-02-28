@@ -13,5 +13,5 @@ class Tokugawa(Bitcoin):
              "138.197.150.224",
              "188.166.218.74")
     port = 21117
-	
+
 # no testnet

@@ -12,4 +12,3 @@ class PoSWallet(Bitcoin):
     seeds = ("198.74.56.141",
              "69.164.214.211")
     port = 9175
-	

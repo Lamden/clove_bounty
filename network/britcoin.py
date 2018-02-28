@@ -12,5 +12,5 @@ class BritCoin(Bitcoin):
     seeds = ("1.britcoin.io",
              "2.britcoin.io")
     port = 9197
-	
+
 # Has no testnet

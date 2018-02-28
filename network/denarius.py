@@ -9,7 +9,8 @@ class Denarius(Bitcoin):
     """
     name = 'Denarius'
     symbols = ('DNR', )
-    seeds =  ("172.93.53.210","104.233.106.135","104.238.169.5","147.135.191.162","dnsseed.denarius.name")
+    seeds = ("172.93.53.210", "104.233.106.135", "104.238.169.5",
+             "147.135.191.162", "dnsseed.denarius.name")
     port = 33339
 
 

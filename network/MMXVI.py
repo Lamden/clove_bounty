@@ -9,7 +9,7 @@ class mMXVI(Bitcoin):
     """
     name = 'MMXVI'
     symbols = ('MMXVI', )
-    seeds =  ("5.196.67.100")
+    seeds = ("5.196.67.100")
     port = 6503
 
 

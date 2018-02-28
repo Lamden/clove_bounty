@@ -9,7 +9,7 @@ class BlackShadowCoin(Bitcoin):
     """
     name = 'blackshadowcoin'
     symbols = ('BS', )
-    seeds =  ("198.199.90.93")
+    seeds = ("198.199.90.93")
     port = 48221
-	
+
 # Has no testnet

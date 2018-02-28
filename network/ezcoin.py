@@ -12,10 +12,10 @@ class EZCoin(Bitcoin):
     seeds = ("ezcoin1.chickenkiller.com",
              "ezcoin.ignorelist.com",
              "ezcoin.mooo.com",
-             "ezcoin.strangled.net")	
+             "ezcoin.strangled.net")
     port = 7955
-	
-   
+
+
 class EZCoinTestNet(EZCoin):
     """
     Class with all the necessary EZCoin testing network information based on
@@ -24,6 +24,4 @@ class EZCoinTestNet(EZCoin):
     """
     name = 'test-ezcoin'
     seeds = ("testseed1.ezcoin.org")
-    port = 17955              
-	
-	
+    port = 17955

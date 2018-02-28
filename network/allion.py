@@ -9,22 +9,21 @@ class Allion(Bitcoin):
     """
     name = 'allion'
     symbols = ('ALL', )
-    seeds = 	("node1.trollpay.com",
-                 "node2.trollpay.com",
-                 "node3.trollpay.com",
-                 "node4.trollpay.com",
-                 "node1.allion.xyz",
-                 "node2.allion.xyz",
-                 "node3.allion.xyz",
-                 "node4.allion.xyz",
-                 "node5.allion.xyz",
-                 "node6.allion.xyz",
-                 "node7.allion.xyz",
-                 "node8.allion.xyz",
-                 "node9.allion.xyz",
-                 "node10.allion.xyz")
+    seeds = ("node1.trollpay.com",
+             "node2.trollpay.com",
+             "node3.trollpay.com",
+             "node4.trollpay.com",
+             "node1.allion.xyz",
+             "node2.allion.xyz",
+             "node3.allion.xyz",
+             "node4.allion.xyz",
+             "node5.allion.xyz",
+             "node6.allion.xyz",
+             "node7.allion.xyz",
+             "node8.allion.xyz",
+             "node9.allion.xyz",
+             "node10.allion.xyz")
     port = 12916
-
 
 
 # No Testnet

@@ -11,5 +11,5 @@ class Nyancoin(Bitcoin):
     symbols = ('NYAN', )
     seeds = ("nyanseed.com")
     port = 33701
-	
+
 # no testnet

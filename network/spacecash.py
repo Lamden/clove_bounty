@@ -13,5 +13,5 @@ class SpaceCash(Bitcoin):
              "94.177.229.242",
              "stratumtest.ddns.net")
     port = 55554
-	
+
 # no testnet

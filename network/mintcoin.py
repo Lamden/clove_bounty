@@ -11,5 +11,5 @@ class Mintcoin(Bitcoin):
     symbols = ('MNT', )
     seeds = ("mintseed.keremhd.name.tr")
     port = 12788
-	
+
 # no testnet

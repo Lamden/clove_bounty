@@ -9,7 +9,7 @@ class CarterCoin(Bitcoin):
     """
     name = 'cartercoin'
     symbols = ('CTC', )
-    seeds =  ("andarazoroflove.org")
+    seeds = ("andarazoroflove.org")
     port = 55884
-	
+
 # Has no testnet

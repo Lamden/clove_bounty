@@ -9,7 +9,8 @@ class Altcommunitycoin(Bitcoin):
     """
     name = 'Altcommunitycoin'
     symbols = ('ALTCOM', )
-    seeds = ('109.230.231.216', '109.230.231.221', '212.109.218.47', 'zPools.de')
+    seeds = ('109.230.231.216', '109.230.231.221',
+             '212.109.218.47', 'zPools.de')
     port = 29855
 
 

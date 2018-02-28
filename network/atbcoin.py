@@ -16,9 +16,10 @@ class ATBcoin(Bitcoin):
 class ATBcoinTestNet(ATBcoin):
     """
     Class with all the necessary ATBcoin (ATB) testing network information based on
-    https://github.com/segwit/atbcoin/blob/master/src/chainparams.cpp   
+    https://github.com/segwit/atbcoin/blob/master/src/chainparams.cpp
     (date of access: 02/16/2018)
     """
     name = 'test-atbcoin'
-    seeds = ('78.46.248.224', 'n1.aitibicoin.com', 'n2.aitibicoin.com', 'n3.aitibicoin.com')
+    seeds = ('78.46.248.224', 'n1.aitibicoin.com',
+             'n2.aitibicoin.com', 'n3.aitibicoin.com')
     port = 25443

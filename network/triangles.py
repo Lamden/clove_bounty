@@ -9,16 +9,16 @@ class Triangles(Bitcoin):
     """
     name = 'triangles'
     symbols = ('TRI', )
-    seeds = ("dnsseed.bit.diamonds")
+    seeds = ("dnsseed.bit.diamonds", )
     port = 17771
-	
-   
-class DiamondTestNet(Diamond):
+
+
+class DiamondTestNet(Triangles):
     """
     Class with all the necessary Diamond testing network information based on
     https://github.com/dmdcoin/diamond/blob/master/src/chainparams.cpp
     (date of access: 02/18/2018)
     """
     name = 'test-diamond'
-    seeds = ("dnsseed.bit.diamonds")
-    port = 51474              
+    seeds = ("dnsseed.bit.diamonds", )
+    port = 51474

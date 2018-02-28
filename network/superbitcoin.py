@@ -1,7 +1,7 @@
 from clove.network.bitcoin import Bitcoin
 
 
-class  SuperBitcoin(Bitcoin):
+class SuperBitcoin(Bitcoin):
     """
     Class with all the necessary  SuperBitcoin (SBTC) network information based on
     https://github.com/superbitcoin/SuperBitcoin/blob/master/src/config/chainparams.cpp
@@ -9,11 +9,11 @@ class  SuperBitcoin(Bitcoin):
     """
     name = 'superbitcoin'
     symbols = ('SBTC', )
-    seeds =  ('seed.superbtca.com', 'seed.superbtca.info', 'seed.superbtc.org')
+    seeds = ('seed.superbtca.com', 'seed.superbtca.info', 'seed.superbtc.org')
     port = 8334
 
 
-class  SuperBitcoinTestNet(SuperBitcoin):
+class SuperBitcoinTestNet(SuperBitcoin):
     """
     Class with all the necessary  SuperBitcoin (SBTC) network information based on
     https://github.com/superbitcoin/SuperBitcoin/blob/master/src/config/chainparams.cpp
@@ -21,5 +21,5 @@ class  SuperBitcoinTestNet(SuperBitcoin):
     """
     name = 'test-superbitcoin'
     symbols = ('SBTC', )
-    seeds =  ('seedtest.superbtc.org')
+    seeds = ('seedtest.superbtc.org')
     port = 18334

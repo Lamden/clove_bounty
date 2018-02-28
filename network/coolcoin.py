@@ -9,7 +9,7 @@ class CoolCoin(Bitcoin):
     """
     name = 'coolcoin'
     symbols = ('COOL', )
-    seeds =  ("dnsseed2.coolcoin.info)
+    seeds = ('dnsseed2.coolcoin.info', )
     port = 13581
-	
+
 # Has no testnet

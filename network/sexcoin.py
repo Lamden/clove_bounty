@@ -21,5 +21,6 @@ class SexcoinTestNet(Sexcoin):
     (date of access: 02/11/2018)
     """
     name = 'test-sexcoin'
-    seeds = ('dnsseed.litecoinpool.org', 'testnet-seed.sexcoin.info', 'testnet-seed.ltc.xurious.com', 'dnsseed.wemine-testnet.com')
+    seeds = ('dnsseed.litecoinpool.org', 'testnet-seed.sexcoin.info',
+             'testnet-seed.ltc.xurious.com', 'dnsseed.wemine-testnet.com')
     port = 19560

@@ -9,7 +9,7 @@ class JaneCoin(Bitcoin):
     """
     name = 'janecoin'
     symbols = ('JANE', )
-    seeds = (""107.170.156.17")
+    seeds = ('107.170.156.17', )
     port = 13413
-	
+
 # no testnet

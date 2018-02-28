@@ -9,7 +9,7 @@ class UniCoin(Bitcoin):
     """
     name = 'unicoin'
     symbols = ('UNIC', )
-    seeds = ("altminers.com")
+    seeds = ("altminers.com", )
     port = 50667
-	
+
 # no testnet

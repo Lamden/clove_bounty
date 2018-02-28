@@ -11,5 +11,5 @@ class Revenu(Bitcoin):
     symbols = ('REV', )
     seeds = ("node.walletbuilders.com")
     port = 6411
-	
+
 # no testnet

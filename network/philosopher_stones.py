@@ -10,7 +10,8 @@ class PhilosopherStones(Bitcoin):
     """
     name = 'philosopherstones'
     symbols = ('PHS', )
-    seeds = ('node1.philosopherstones.org', 'node2.philosopherstones.org', 'node3.philosopherstones.org', 'node4.philosopherstones.org')
+    seeds = ('node1.philosopherstones.org', 'node2.philosopherstones.org',
+             'node3.philosopherstones.org', 'node4.philosopherstones.org')
     port = 16281
 
 

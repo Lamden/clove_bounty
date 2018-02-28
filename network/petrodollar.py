@@ -11,5 +11,5 @@ class PetroDollar(Bitcoin):
     symbols = ('p$', )
     seeds = ("162.243.147.115")
     port = 23932
-	
+
 # no testnet

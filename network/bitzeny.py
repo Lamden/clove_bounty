@@ -9,10 +9,10 @@ class Bitzeny(Bitcoin):
     """
     name = 'bitzeny'
     symbols = ('ZNY', )
-    seeds =  ("seed.bitzeny.org")
+    seeds = ("seed.bitzeny.org")
     port = 9253
-	
-   
+
+
 class BitzenyTestNet(Bitzeny):
     """
     Class with all the necessary Bitzeny testing network information based on
@@ -22,6 +22,4 @@ class BitzenyTestNet(Bitzeny):
     name = 'test-bitzeny'
     seeds = ("testnet-seed.bitcoin.petertodd.org",
              "testnet-seed.bluematt.me")
-    port = 19253              
-	
-
+    port = 19253

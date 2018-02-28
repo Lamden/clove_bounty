@@ -14,5 +14,5 @@ class JobsCoin(Bitcoin):
              "seed3.jobscoin.us",
              "seed4.jobscoin.us")
     port = 9999
-	
+
 # No testnet

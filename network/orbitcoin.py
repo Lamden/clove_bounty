@@ -12,4 +12,3 @@ class Orbitcoin(Bitcoin):
     seeds = ("seed0.phoenixcoin.org",
              "seed1.phoenixcoin.org")
     port = 15298
-	

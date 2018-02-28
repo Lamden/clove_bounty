@@ -16,4 +16,3 @@ class MediumProject(Bitcoin):
              "wallet.cryptolife.net",
              "explore.cryptolife.net")
     port = 42815
-	

@@ -9,7 +9,7 @@ class CloakCoin(Bitcoin):
     """
     name = 'cloakcoin'
     symbols = ('CLOAK', )
-    seeds =  ("cloakseed.getsuperconductor.com")
+    seeds = ("cloakseed.getsuperconductor.com")
     port = 29662
-	
+
 # Has no testnet

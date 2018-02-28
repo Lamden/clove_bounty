@@ -10,7 +10,9 @@ class Bitz(Bitcoin):
     """
     name = 'bitz'
     symbols = ('BITZ', )
-    seeds = ('mojonode01.mojocoin.org', 'mojonode02.mojocoin.org', 'mojonode03.mojocoin.org', 'mojonode04.mojocoin.org', 'mojonode05.mojocoin.org', 'mojonode06.mojocoin.org', 'mojonode07.mojocoin.org', 'mojonode08.mojocoin.org', 'mojonode09.mojocoin.org')
+    seeds = ('mojonode01.mojocoin.org', 'mojonode02.mojocoin.org', 'mojonode03.mojocoin.org', 'mojonode04.mojocoin.org',
+             'mojonode05.mojocoin.org', 'mojonode06.mojocoin.org', 'mojonode07.mojocoin.org', 'mojonode08.mojocoin.org',
+             'mojonode09.mojocoin.org')
     port = 9495
 
 

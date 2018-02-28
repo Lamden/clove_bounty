@@ -11,5 +11,5 @@ class FCKBanksCoin(Bitcoin):
     symbols = ('FCV', )
     seeds = ("seed.fckbanks.org")
     port = 21779
-	
+
 # no testnet

@@ -9,7 +9,7 @@ class Bitmiles(Bitcoin):
     """
     name = 'bitmiles'
     symbols = ('BTMI', )
-    seeds =  ("95.85.60.246")
+    seeds = ("95.85.60.246")
     port = 29156
-	
+
 # Has no testnet

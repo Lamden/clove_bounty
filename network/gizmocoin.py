@@ -9,7 +9,7 @@ class GIZMOcoin(Bitcoin):
     """
     name = 'gizmocoin'
     symbols = ('GIZ', )
-    seeds = ("45.55.134.78","45.55.130.228")
+    seeds = ("45.55.134.78", "45.55.130.228")
     port = 18700
-	
+
 # no testnet

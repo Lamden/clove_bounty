@@ -11,5 +11,5 @@ class Milllionaire_Coin(Bitcoin):
     symbols = ('MIL', )
     seeds = ("108.61.198.32")
     port = 35552
-	
+
 # no testnet

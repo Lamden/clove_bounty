@@ -9,10 +9,10 @@ class BlakeStar(Bitcoin):
     """
     name = 'blakestar'
     symbols = ('BLAS', )
-    seeds =  ("213.169.33.11")
+    seeds = ("213.169.33.11")
     port = 14442
-	
-   
+
+
 class BlakeStarTestNet(BlakeStar):
     """
     Class with all the necessary BlakeStar testing network information based on
@@ -21,4 +21,4 @@ class BlakeStarTestNet(BlakeStar):
     """
     name = 'test-blakestar'
     seeds = ("test1.BlakeStar.pw")
-    port = 24442              
+    port = 24442

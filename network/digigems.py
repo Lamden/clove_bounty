@@ -9,10 +9,10 @@ class Digigems(Bitcoin):
     """
     name = 'digigems'
     symbols = ('DGMS', )
-    seeds =  ("54.69.225.67")
+    seeds = ("54.69.225.67")
     port = 5333
-	
-   
+
+
 class DigigemsTestNet(Digigems):
     """
     Class with all the necessary Digigems testing network information based on
@@ -21,4 +21,4 @@ class DigigemsTestNet(Digigems):
     """
     name = 'test-digigems'
     seeds = ("88.196.13.22")
-    port = 15333              
+    port = 15333

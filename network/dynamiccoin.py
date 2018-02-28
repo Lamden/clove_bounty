@@ -16,7 +16,7 @@ class DynamicCoin(Bitcoin):
 class DynamicCoinTestNet(DynamicCoin):
     """
     Class with all the necessary DynamicCoin (DMC) testing network information based on
-    https://github.com/DynamicCoinOrg/DMC/blob/master/src/chainparams.cpp    
+    https://github.com/DynamicCoinOrg/DMC/blob/master/src/chainparams.cpp
     (date of access: 02/18/2018)
     """
     name = 'test-dynamiccoin'

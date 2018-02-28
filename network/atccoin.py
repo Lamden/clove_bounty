@@ -9,10 +9,10 @@ class ATCCoin(Bitcoin):
     """
     name = 'atccoin'
     symbols = ('ATCC', )
-    seeds =  ("166.62.123.137")
+    seeds = ("166.62.123.137")
     port = 9333
-	
-   
+
+
 class ATCCoinTestNet(ATCCoin):
     """
     Class with all the necessary Diamond testing network information based on
@@ -21,7 +21,4 @@ class ATCCoinTestNet(ATCCoin):
     """
     name = 'test-atccoin'
     seeds = ("166.62.123.137")
-    port = 19333              
-	
-	
-	
+    port = 19333

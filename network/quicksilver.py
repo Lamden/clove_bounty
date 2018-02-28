@@ -13,6 +13,3 @@ class Quicksilver(Bitcoin):
              "45.32.246.198",
              "45.63.12.231")
     port = 21333
-	
-             
-	

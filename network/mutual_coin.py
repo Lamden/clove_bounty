@@ -12,4 +12,3 @@ class Mutual_Coin(Bitcoin):
     seeds = ("mut1.mywire.org",
              "mut2.mywire.org")
     port = 25731
-	

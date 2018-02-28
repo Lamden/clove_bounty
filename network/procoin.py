@@ -15,8 +15,8 @@ class ProCoin(Bitcoin):
              "dnsseed.koin-project.com",
              "dnsseed.weminemnc.com")
     port = 4113
-	
-   
+
+
 class ProCoinTestNet(ProCoin):
     """
     Class with all the necessary ProCoin testing network information based on
@@ -26,7 +26,4 @@ class ProCoinTestNet(ProCoin):
     name = 'test-procoin'
     seeds = ("testnet-seed.procointools.com",
              "testnet-seed.weminemnc.com")
-    port = 51474              
-	
-	
-	
+    port = 51474

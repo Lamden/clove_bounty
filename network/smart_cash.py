@@ -9,7 +9,8 @@ class SmartCash(Bitcoin):
     """
     name = 'smartcash'
     symbols = ('SMART', )
-    seeds = ('seed.smrt.cash', 'seed1.smrt.cash', 'seed2.smrt.cash', 'seed1.smartcash.org', 'seed2.smartcash.org', 'seed.smartcash.cc', 'seed2.smartcash.cc', 'seed3.smartcash.cc', 'seed4.smartcash.cc')
+    seeds = ('seed.smrt.cash', 'seed1.smrt.cash', 'seed2.smrt.cash', 'seed1.smartcash.org', 'seed2.smartcash.org',
+             'seed.smartcash.cc', 'seed2.smartcash.cc', 'seed3.smartcash.cc', 'seed4.smartcash.cc')
     port = 9678
 
 

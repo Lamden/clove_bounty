@@ -11,5 +11,5 @@ class Xaucoin(Bitcoin):
     symbols = ('XAU', )
     seeds = ("xaucoin.ddns.net")
     port = 11063
-	
+
 # no testnet

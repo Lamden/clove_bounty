@@ -9,7 +9,8 @@ class ShadowCash(Bitcoin):
     """
     name = 'shadowcash'
     symbols = ('SDC', )
-    seeds = ('seed.shadow.cash', 'seed2.shadow.cash', 'seed3.shadow.cash', 'seed4.shadow.cash', 'seed.shadowproject.io', 'seed.shadowchain.info')
+    seeds = ('seed.shadow.cash', 'seed2.shadow.cash', 'seed3.shadow.cash',
+             'seed4.shadow.cash', 'seed.shadowproject.io', 'seed.shadowchain.info')
     port = 51737
 
 # no testnet

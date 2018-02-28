@@ -9,7 +9,7 @@ class AsiaCoin(Bitcoin):
     """
     name = 'asiacoin'
     symbols = ('AC', )
-    seeds =  ("dnsseedac.planetdollar.org")
+    seeds = ("dnsseedac.planetdollar.org")
     port = 35656
-	
+
 # Has no testnet

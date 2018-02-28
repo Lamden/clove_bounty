@@ -11,5 +11,5 @@ class Litestar_Coin(Bitcoin):
     symbols = ('LTS', )
     seeds = ("52.10.106.228")
     port = 39230
-	
+
 # no testnet

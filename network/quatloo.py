@@ -9,7 +9,8 @@ class Quatloo(Bitcoin):
     """
     name = 'quatloo'
     symbols = ('PHO', )
-    seeds = ("seeder.quatloos.org","dnsseed.quatloos.org","dns-seed.quatloos.org")
+    seeds = ("seeder.quatloos.org", "dnsseed.quatloos.org",
+             "dns-seed.quatloos.org")
     port = 17012
 
 
@@ -21,6 +22,4 @@ class QuatlooTestNet(Quatloo):
     """
     name = 'test-quatloo'
     seeds = ("testnet-seed.quatloos.org")
-    port = 17912 
-	
-
+    port = 17912

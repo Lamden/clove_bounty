@@ -12,8 +12,8 @@ class Dream8Coin(Bitcoin):
     seeds = ("seed.ssaomi.com",
              "seed2.ssaomi.com")
     port = 7774
-	
-   
+
+
 class Dream8CoinTestNet(Dream8Coin):
     """
     Class with all the necessary Dream8Coin testing network information based on
@@ -22,5 +22,4 @@ class Dream8CoinTestNet(Dream8Coin):
     """
     name = 'test-diamond'
     seeds = ("tseed.ssaomi.com")
-    port = 17774              
-	
+    port = 17774

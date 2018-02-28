@@ -10,6 +10,6 @@ class JokerCoin(Bitcoin):
     name = 'jokercoin'
     symbols = ('JOK', )
     seeds = ("45.55.83.96")
-    port = 32880 
-	
+    port = 32880
+
 # No testnet

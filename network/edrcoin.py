@@ -12,5 +12,5 @@ class EDRCoin(Bitcoin):
     seeds = ("seed1.cryptolife.net",
              "seed2.cryptolife.net")
     port = 33918
-	
+
 # No testnet

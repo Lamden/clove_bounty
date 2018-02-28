@@ -9,9 +9,8 @@ class OPCoin(Bitcoin):
     """
     name = 'opcoin'
     symbols = ('OPC', )
-    seeds = ("OPC01.freeddns.org","OPC02.freeddns.org","OPC03.freeddns.org")
+    seeds = ("OPC01.freeddns.org", "OPC02.freeddns.org", "OPC03.freeddns.org")
     port = 13355
 
 
 # Has no testnet
-

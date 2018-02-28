@@ -9,7 +9,8 @@ class BitcoinPlus(Bitcoin):
     """
     name = 'bitcoinplus'
     symbols = ('XBC', )
-    seeds = ('seednode1.bitcoinplus.net', 'seednode2.bitcoinplus.net', 'seednode3.bitcoinplus.net', 'seednode4.bitcoinplus.net', 'seednode5.bitcoinplus.net')
+    seeds = ('seednode1.bitcoinplus.net', 'seednode2.bitcoinplus.net',
+             'seednode3.bitcoinplus.net', 'seednode4.bitcoinplus.net', 'seednode5.bitcoinplus.net')
     port = 8884
 
 # no testnet

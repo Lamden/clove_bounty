@@ -13,4 +13,3 @@ class ZcCoin(Bitcoin):
              "seed2.zhaocaibi.com",
              "seed3.zhaocaibi.com")
     port = 10583
-	

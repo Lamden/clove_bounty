@@ -10,7 +10,9 @@ class Myriad(Bitcoin):
     """
     name = 'myriad'
     symbols = ('XMY', )
-    seeds = ('seed1.myriadcoin.org', 'seed2.myriadcoin.org', 'seed3.myriadcoin.org', 'seed4.myriadcoin.org', 'seed5.myriadcoin.org', 'seed6.myriadcoin.org', 'seed7.myriadcoin.org', 'seed8.myriadcoin.org', 'myriadseed1.cryptap.us')
+    seeds = ('seed1.myriadcoin.org', 'seed2.myriadcoin.org', 'seed3.myriadcoin.org', 'seed4.myriadcoin.org',
+             'seed5.myriadcoin.org', 'seed6.myriadcoin.org', 'seed7.myriadcoin.org', 'seed8.myriadcoin.org',
+             'myriadseed1.cryptap.us')
     port = 10888
 
 

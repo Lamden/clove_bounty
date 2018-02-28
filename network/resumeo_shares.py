@@ -12,4 +12,3 @@ class Resumeo_Shares(Bitcoin):
     seeds = ("107.170.189.185",
              "79.135.200.66")
     port = 38891
-	

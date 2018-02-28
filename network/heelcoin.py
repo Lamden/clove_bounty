@@ -11,5 +11,5 @@ class HeelCoin(Bitcoin):
     symbols = ('HEEL', )
     seeds = ("52.10.89.163")
     port = 22077
-	
+
 # no testnet

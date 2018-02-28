@@ -9,7 +9,8 @@ class Gpucoin(Bitcoin):
     """
     name = 'gpucoin'
     symbols = ('GPU', )
-    seeds = ('node1.gpucoin.market', 'node2.gpucoin.market', 'node3.gpucoin.market')
+    seeds = ('node1.gpucoin.market',
+             'node2.gpucoin.market', 'node3.gpucoin.market')
     port = 6897
 
 

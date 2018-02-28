@@ -9,7 +9,7 @@ class BananaBits(Bitcoin):
     """
     name = 'bananabits'
     symbols = ('NANAS', )
-    seeds =  ("seed.bananabits.website")
+    seeds = ("seed.bananabits.website")
     port = 31341
-	
+
 # Has no testnet

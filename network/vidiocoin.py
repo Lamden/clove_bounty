@@ -12,5 +12,5 @@ class Vidiocoin(Bitcoin):
     seeds = ("212.91.189.164",
              "195.34.100.2")
     port = 23682
-	
+
 # no testnet

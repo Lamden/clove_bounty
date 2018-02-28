@@ -9,7 +9,8 @@ class Dopecoin(Bitcoin):
     """
     name = 'dopecoin'
     symbols = ('DOPE', )
-    seeds = ('dnsseed.dopecoin.com', '188.166.89.189', '37.120.190.76', '37.120.186.85', '188.68.52.172')
+    seeds = ('dnsseed.dopecoin.com', '188.166.89.189',
+             '37.120.190.76', '37.120.186.85', '188.68.52.172')
     port = 40420
 
 # no testnet

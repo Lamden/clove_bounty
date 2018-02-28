@@ -11,5 +11,5 @@ class WarCoin(Bitcoin):
     symbols = ('WRC', )
     seeds = ("node.walletbuilders.com")
     port = 10395
-	
+
 # no testnet

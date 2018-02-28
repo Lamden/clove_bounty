@@ -11,5 +11,5 @@ class SelenCoin(Bitcoin):
     symbols = ('SEL', )
     seeds = ("88.99.47.154")
     port = 55552
-	
+
 # no testnet

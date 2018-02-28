@@ -10,7 +10,8 @@ class Joulecoin(Bitcoin):
     """
     name = 'joulecoin'
     symbols = ('XJO', )
-    seeds = ('seed1.jouleco.in', 'seed2.jouleco.in', 'seed3.jouleco.in', 'seed4.jouleco.in', 'joulecoin1.chickenkiller.com', 'joulecoin2.crabdance.com')
+    seeds = ('seed1.jouleco.in', 'seed2.jouleco.in', 'seed3.jouleco.in',
+             'seed4.jouleco.in', 'joulecoin1.chickenkiller.com', 'joulecoin2.crabdance.com')
     port = 26789
 
 

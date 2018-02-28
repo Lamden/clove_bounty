@@ -27,8 +27,8 @@ class Fractalcoin(Bitcoin):
              "seed8.fractalco.in",
              "earlz.net")
     port = 33112
-	
-   
+
+
 class FractalcoinTestNet(Fractalcoin):
     """
     Class with all the necessary Fractalcoin testing network information based on
@@ -54,6 +54,4 @@ class FractalcoinTestNet(Fractalcoin):
              "seed6.fractalco.in",
              "seed7.fractalco.in",
              "seed8.fractalco.in")
-    port = 44112              
-	
-
+    port = 44112

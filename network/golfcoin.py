@@ -10,11 +10,11 @@ class Golfcoin(Bitcoin):
     name = 'golfcoin'
     symbols = ('GOLF', )
     seeds = ('seed1.cryptolife.net',
-			 'seed2.cryptolife.net',
-			 'seed3.cryptolife.net',
-			 'electrum1.cryptolife.net',
-			 'electrum3.cryptolife.net',
-			 'explore.cryptolife.net')
+             'seed2.cryptolife.net',
+             'seed3.cryptolife.net',
+             'electrum1.cryptolife.net',
+             'electrum3.cryptolife.net',
+             'explore.cryptolife.net')
     port = 38931
 
 # no testnet

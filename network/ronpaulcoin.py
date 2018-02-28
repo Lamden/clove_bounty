@@ -11,8 +11,8 @@ class RonPaulCoin(Bitcoin):
     symbols = ('RPC', )
     seeds = ("dnsseed.ronpaulcoin.nl")
     port = 9027
-	
-   
+
+
 class RonPaulCoinTestNet(RonPaulCoin):
     """
     Class with all the necessary RonPaulCoin testing network information based on
@@ -21,4 +21,4 @@ class RonPaulCoinTestNet(RonPaulCoin):
     """
     name = 'test-ronpaulcoin'
     seeds = ("testnet-seed.ronpaulcoin.nl")
-    port = 19027               
+    port = 19027

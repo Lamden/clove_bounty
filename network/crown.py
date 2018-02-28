@@ -37,7 +37,7 @@ class CrownTestNet(Crown):
         'nyc-testnet-crwdns.infernopool.com',
         'tor-testnet-crwdns.infernopool.com',
         'sfo-testnet-crwdns.infernopool.com',
-        'ams-testnet-crwdns.infernopool.com,
+        'ams-testnet-crwdns.infernopool.com',
         'crw-testnet.infernopool.com',
     )
     port = 19340

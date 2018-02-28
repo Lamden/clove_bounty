@@ -12,8 +12,8 @@ class HamsterCoin(Bitcoin):
     seeds = ("31.131.23.80",
              "31.131.23.80")
     port = 35895
-	
-   
+
+
 class HamsterCoinTestNet(HamsterCoin):
     """
     Class with all the necessary HamsterCoin testing network information based on
@@ -23,6 +23,4 @@ class HamsterCoinTestNet(HamsterCoin):
     name = 'test-hamstercoin'
     seeds = ("31.131.23.80",
              "31.131.23.80")
-    port = 135895              
-	
-
+    port = 135895

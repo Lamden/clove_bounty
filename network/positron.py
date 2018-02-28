@@ -11,5 +11,5 @@ class Positron(Bitcoin):
     symbols = ('TRON', )
     seeds = ("seed.positron.ninja")
     port = 21454
-	
+
 # no testnet

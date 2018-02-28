@@ -13,10 +13,10 @@ class Aseancoin(Bitcoin):
              "dnsseed.bluematt.me",
              "dnsseed.bitcoin.dashjr.org",
              "seed.bitcoinstats.com",
-             "bitseed.xf2.org")	
+             "bitseed.xf2.org")
     port = 8333
-	
-   
+
+
 class AseancoinTestNet(Aseancoin):
     """
     Class with all the necessary Aseancoin testing network information based on
@@ -28,8 +28,4 @@ class AseancoinTestNet(Aseancoin):
              "testnet-seed.bitcoin.petertodd.org",
              "testnet-seed.bluematt.me",
              "testnet-seed.bitcoin.schildbach.de")
-    port = 18333              
-	
-	
-
-
+    port = 18333

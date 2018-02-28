@@ -15,5 +15,5 @@ class Biocoin(Bitcoin):
              "seed4.cryptolife.net",
              "seed5.cryptolife.net")
     port = 24885
-	
+
 # Has no testnet

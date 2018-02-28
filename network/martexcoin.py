@@ -15,5 +15,5 @@ class MarteXcoin(Bitcoin):
              "seed3.martexcoin.org:51315",
              "seed4.martexcoin.org:51315")
     port = 51314
-	
+
 # no testnet

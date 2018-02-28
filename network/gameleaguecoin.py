@@ -9,6 +9,5 @@ class GameLeagueCoin(Bitcoin):
     """
     name = 'gameleaguecoin'
     symbols = ('GML', )
-    seeds = ("95.85.38.109","204.152.209.25")
+    seeds = ("95.85.38.109", "204.152.209.25")
     port = 20851
-	

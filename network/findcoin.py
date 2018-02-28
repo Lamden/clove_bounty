@@ -11,5 +11,5 @@ class FindCoin(Bitcoin):
     symbols = ('FIND', )
     seeds = ("178.63.51.87")
     port = 55097
-	
+
 # no testnet

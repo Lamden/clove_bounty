@@ -13,4 +13,3 @@ class Marijuanacoin(Bitcoin):
              "seed1.marijuanacoin.org",
              "seed2.marijuanacoin.org")
     port = 18829
-	

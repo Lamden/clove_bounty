@@ -12,10 +12,10 @@ class MonetaryUnit(Bitcoin):
     seeds = ("nodes.muex.io",
              "nodes.monetaryunit.org",
              "nodes.mymue.com",
-             "nodes.cryptophi.com")	
+             "nodes.cryptophi.com")
     port = 19683
-	
-   
+
+
 class MonetaryUnitTestNet(MonetaryUnit):
     """
     Class with all the necessary Diamond testing network information based on
@@ -24,4 +24,4 @@ class MonetaryUnitTestNet(MonetaryUnit):
     """
     name = 'test-monetaryunit'
     seeds = ("tnodes.muex.io")
-    port = 18683              
+    port = 18683

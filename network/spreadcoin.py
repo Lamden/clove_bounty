@@ -20,8 +20,5 @@ class SpreadCoinTestNet(SpreadCoin):
     (date of access: 02/12/2018)
     """
     name = 'test-spreadcoin'
-    seeds = ("testnet-seed.darkcoin.io","testnet-seed.darkcoin.qa")
-    port = 51678 
-	
-
-	 
+    seeds = ("testnet-seed.darkcoin.io", "testnet-seed.darkcoin.qa")
+    port = 51678

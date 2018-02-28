@@ -9,8 +9,7 @@ class Xenixcoin(Bitcoin):
     """
     name = 'xenixcoin'
     symbols = ('XEN', )
-    seeds = ("92.63.57.235","92.63.57.104")
+    seeds = ("92.63.57.235", "92.63.57.104")
     port = 5556
-	
-# no testnet
 
+# no testnet

@@ -9,10 +9,10 @@ class DuckDuckCoin(Bitcoin):
     """
     name = 'duckduckcoin'
     symbols = ('DUCK', )
-    seeds =  ("node1.duckduckcoin.com")
+    seeds = ("node1.duckduckcoin.com")
     port = 17771
-	
-   
+
+
 class DuckDuckCoinTestNet(DuckDuckCoin):
     """
     Class with all the necessary DuckDuckCoin testing network information based on
@@ -21,4 +21,4 @@ class DuckDuckCoinTestNet(DuckDuckCoin):
     """
     name = 'test-duckduckcoin'
     seeds = ("testnode1.duckduckcoin.com")
-    port = 51474              
+    port = 51474

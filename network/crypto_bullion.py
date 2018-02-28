@@ -9,8 +9,8 @@ class CryptoBullion(Bitcoin):
     """
     name = 'cryptobullion'
     symbols = ('CBX', )
-    seeds =  ("seed.cryptobullion.io")
+    seeds = ("seed.cryptobullion.io")
     port = 7695
-	
-	
+
+
 # Has no Testnet

@@ -14,4 +14,3 @@ class Librexcoin(Bitcoin):
              "198.23.178.87",
              "23.94.38.173")
     port = 61778
-	

@@ -11,5 +11,5 @@ class MysteryCoin(Bitcoin):
     symbols = ('MYST', )
     seeds = ("dnsseed.mysterycoin.org")
     port = 11030
-	
+
 # no testnet

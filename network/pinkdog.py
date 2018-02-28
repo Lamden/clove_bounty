@@ -11,8 +11,8 @@ class PinkDog(Bitcoin):
     symbols = ('PDG', )
     seeds = ("pinkdog.party")
     port = 17771
-	
-   
+
+
 class PinkDogTestNet(PinkDog):
     """
     Class with all the necessary PinkDog testing network information based on
@@ -21,4 +21,4 @@ class PinkDogTestNet(PinkDog):
     """
     name = 'test-pinkdog'
     seeds = ("mytestseed.org")
-    port = 19777              
+    port = 19777

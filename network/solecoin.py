@@ -15,6 +15,5 @@ class Solecoin(Bitcoin):
              "66.228.43.38",
              "114.215.182.130")
     port = 20631
-	
-# no testnet
 
+# no testnet

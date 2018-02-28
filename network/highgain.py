@@ -1,7 +1,7 @@
 from clove.network.bitcoin import Bitcoin
 
 
-class  HighGain(Bitcoin):
+class HighGain(Bitcoin):
     """
     Class with all the necessary  High Gain (HIGH) network information based on
     https://github.com/highgainqubit/highgain/blob/master/src/net.cpp
@@ -9,7 +9,7 @@ class  HighGain(Bitcoin):
     """
     name = 'highgain'
     symbols = ('HIGH', )
-    seeds =  ('34.214.230.207')
+    seeds = ('34.214.230.207')
     port = 4664
 
 

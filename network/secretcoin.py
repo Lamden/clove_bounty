@@ -11,5 +11,5 @@ class SecretCoin(Bitcoin):
     symbols = ('SCRT', )
     seeds = ("23.227.190.110")
     port = 23152
-	
+
 # no testnet

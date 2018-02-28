@@ -9,8 +9,8 @@ class Version(Bitcoin):
     """
     name = 'version'
     symbols = ('V', )
-    seeds = ('dns.seed.version2.org', 'node1.version2.org', 'node2.version2.org', 
-			 'node3.version2.org', 'node4.version2.org')
+    seeds = ('dns.seed.version2.org', 'node1.version2.org', 'node2.version2.org',
+             'node3.version2.org', 'node4.version2.org')
     port = 9988
 
 # no testnet

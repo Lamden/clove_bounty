@@ -12,4 +12,3 @@ class NubisCoin(Bitcoin):
     seeds = ("seeder1.nubiscoin.xyz",
              "seeder2.nubiscoin.xyz")
     port = 9912
-	

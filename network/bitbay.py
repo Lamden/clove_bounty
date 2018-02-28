@@ -9,7 +9,7 @@ class BitBay(Bitcoin):
     """
     name = 'bitbay'
     symbols = ('BAY', )
-    seeds =  ("178.62.201.53","128.199.251.218")
+    seeds = ("178.62.201.53", "128.199.251.218")
     port = 19914
-	
+
 # Has no testnet

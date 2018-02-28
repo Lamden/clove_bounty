@@ -1,4 +1,3 @@
-
 from clove.network.bitcoin import Bitcoin
 
 
@@ -10,7 +9,12 @@ class AquariusCoin(Bitcoin):
     """
     name = 'aquariuscoin'
     symbols = ('ARCO', )
-    seeds = ('node1.aquariuscoin.com', 'node2.aquariuscoin.com', 'node3.aquariuscoin.com', 'node4.aquariuscoin.com', 'node5.aquariuscoin.com', 'node6.aquariuscoin.com', 'node7.aquariuscoin.com', 'node8.aquariuscoin.com', 'node9.aquariuscoin.com', 'node.bit-coin.pw')
+    seeds = (
+        'node1.aquariuscoin.com', 'node2.aquariuscoin.com', 'node3.aquariuscoin.com',
+        'node4.aquariuscoin.com', 'node5.aquariuscoin.com', 'node6.aquariuscoin.com',
+        'node7.aquariuscoin.com', 'node8.aquariuscoin.com', 'node9.aquariuscoin.com',
+        'node.bit-coin.pw'
+    )
     port = 6205
 
 

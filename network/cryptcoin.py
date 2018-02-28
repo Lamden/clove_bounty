@@ -9,7 +9,7 @@ class CryptCoin(Bitcoin):
     """
     name = 'cryptcoin'
     symbols = ('CRYPT', )
-    seeds =  ("seed.cryptco.org")
+    seeds = ("seed.cryptco.org")
     port = 17771
-	
+
 # Has no 27114

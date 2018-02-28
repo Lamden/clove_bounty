@@ -10,7 +10,8 @@ class Diamond(Bitcoin):
     """
     name = 'diamond'
     symbols = ('DMD', )
-    seeds = ('dnsseed.bit.diamonds', '37.120.186.85', '185.194.140.60', '188.68.39.1', '188.68.52.172')
+    seeds = ('dnsseed.bit.diamonds', '37.120.186.85',
+             '185.194.140.60', '188.68.39.1', '188.68.52.172')
     port = 17771
 
 

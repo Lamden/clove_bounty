@@ -21,5 +21,6 @@ class FastcoinTestNet(Fastcoin):
     (date of access: 02/11/2018)
     """
     name = 'test-fastcoin'
-    seeds = ('dnsseed.fastcoinpool.org', 'dnsseed.weminemnc.combase58Prefixes[PUBKEY_ADDRESS]=list_of96', 'testnet-seed.fastcointools.com', 'testnet-seed.ltc.xurious.com', 'dnsseed.wemine-testnet.com')
+    seeds = ('dnsseed.fastcoinpool.org', 'dnsseed.weminemnc.combase58Prefixes[PUBKEY_ADDRESS]=list_of96',
+             'testnet-seed.fastcointools.com', 'testnet-seed.ltc.xurious.com', 'dnsseed.wemine-testnet.com')
     port = 19526

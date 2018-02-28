@@ -11,5 +11,5 @@ class MasterCar(Bitcoin):
     symbols = ('MCAR', )
     seeds = ("52.28.35.168")
     port = 10333
-	
+
 # no testnet

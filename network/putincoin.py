@@ -9,8 +9,5 @@ class PutinCoin(Bitcoin):
     """
     name = 'putincoin'
     symbols = ('PUT', )
-    seeds = ("45.76.1.121","45.76.187.49")
+    seeds = ("45.76.1.121", "45.76.187.49")
     port = 20095
-
-
-

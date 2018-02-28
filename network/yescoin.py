@@ -10,7 +10,8 @@ class Yescoin(Bitcoin):
     """
     name = 'yescoin'
     symbols = ('YES', )
-    seeds = ('seed.yescoin.us', 'seed2.yescoin.us', 'seed3.yescoin.us', 'seed4.yescoin.us', 'seed.yescoin.us')
+    seeds = ('seed.yescoin.us', 'seed2.yescoin.us',
+             'seed3.yescoin.us', 'seed4.yescoin.us', 'seed.yescoin.us')
     port = 4444
 
 

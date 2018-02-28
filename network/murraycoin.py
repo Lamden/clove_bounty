@@ -13,5 +13,5 @@ class Murraycoin(Bitcoin):
              "dnsseed2.murraycoin.org",
              "sfo.fusionhash.com")
     port = 11951
-	
+
 # no testnet

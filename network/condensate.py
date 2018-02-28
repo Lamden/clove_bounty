@@ -14,4 +14,3 @@ class Condensate(Bitcoin):
              "seed3.rain.trade",
              "seed4.rain.trade")
     port = 23373
-	

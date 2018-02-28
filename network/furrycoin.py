@@ -11,8 +11,8 @@ class Furrycoin(Bitcoin):
     symbols = ('FUR', )
     seeds = ("seed1.furrycoin.net")
     port = 11000
-	
-   
+
+
 class FurrycoinTestNet(Furrycoin):
     """
     Class with all the necessary Furrycoin testing network information based on
@@ -21,4 +21,4 @@ class FurrycoinTestNet(Furrycoin):
     """
     name = 'test-furrycoin'
     seeds = ("test-seed1.furrycoin.net")
-    port = 5744              
+    port = 5744

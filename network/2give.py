@@ -1,6 +1,7 @@
 from clove.network.bitcoin import Bitcoin
 
-class  TwoGIVE(Bitcoin):
+
+class TwoGIVE(Bitcoin):
     """
     Class with all the necessary  2GIVE (2GIVE) network information based on
     https://github.com/LittleDuke/2GIVE/blob/master/src/net.cpp
@@ -8,11 +9,11 @@ class  TwoGIVE(Bitcoin):
     """
     name = '2give'
     symbols = ('2GIVE', )
-    seeds =  ('seed2.givecoin.io')
+    seeds = ('seed2.givecoin.io')
     port = 6763
 
 
-class  TwoGIVETestNet(TwoGIVE):
+class TwoGIVETestNet(TwoGIVE):
     """
     Class with all the necessary  2GIVE (2GIVE) network information based on
     https://github.com/LittleDuke/2GIVE/blob/master/src/net.cpp
@@ -20,5 +21,5 @@ class  TwoGIVETestNet(TwoGIVE):
     """
     name = 'test-2give'
     symbols = ('2GIVE', )
-    seeds =  ()
+    seeds = ()
     port = 16763

@@ -21,5 +21,6 @@ class MachinecoinTestNet(Machinecoin):
     (date of access: 02/11/2018)
     """
     name = 'test-machinecoin'
-    seeds = ('dnsseed2.machinecoin.org', 'testnetdnsseed1.machinecoin.org', 'testnetdnsseed2.machinecoin.org')
+    seeds = ('dnsseed2.machinecoin.org', 'testnetdnsseed1.machinecoin.org',
+             'testnetdnsseed2.machinecoin.org')
     port = 50333

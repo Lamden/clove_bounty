@@ -11,5 +11,5 @@ class NiceCoin(Bitcoin):
     symbols = ('NICE', )
     seeds = ("5.101.119.57")
     port = 27730
-	
+
 # no testnet

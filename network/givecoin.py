@@ -13,5 +13,5 @@ class GiveCoin(Bitcoin):
              "5.250.177.28",
              "66.172.12.54")
     port = 31415
-	
+
 # no testnet

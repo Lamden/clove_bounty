@@ -10,7 +10,8 @@ class ClubCoin(Bitcoin):
     """
     name = 'clubcoin'
     symbols = ('CLUB', )
-    seeds = ('seed1.clubcoin.io', 'seed2.clubcoin.io', 'seed3.clubcoin.io', 'seed4.clubcoin.io', 'seed5.clubcoin.io')
+    seeds = ('seed1.clubcoin.io', 'seed2.clubcoin.io',
+             'seed3.clubcoin.io', 'seed4.clubcoin.io', 'seed5.clubcoin.io')
     port = 18114
 
 

@@ -19,8 +19,8 @@ class PLNcoin(Bitcoin):
              "plncoin.org",
              "rav3n.dtdns.net")
     port = 9334
-	
-   
+
+
 class PLNcoinTestNet(PLNcoin):
     """
     Class with all the necessary Diamond testing network information based on
@@ -33,5 +33,4 @@ class PLNcoinTestNet(PLNcoin):
              "testnet3.plncoin.org",
              "testnet4.plncoin.org",
              "rav3n.dtdns.net")
-    port = 19333              
-	
+    port = 19333

@@ -12,4 +12,3 @@ class DarkShibe(Bitcoin):
     seeds = ("104.131.102.57",
              "104.131.102.91")
     port = 54312
-	

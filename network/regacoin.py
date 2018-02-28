@@ -9,7 +9,8 @@ class REGAcoin(Bitcoin):
     """
     name = 'regacoin'
     symbols = ('REGA', )
-    seeds = ('seed3.cryptolife.net', 'electrum3.cryptolife.net', 'seed4.cryptolife.net', '51.255.38.250')
+    seeds = ('seed3.cryptolife.net', 'electrum3.cryptolife.net',
+             'seed4.cryptolife.net', '51.255.38.250')
     port = 28192
 
 # no testnet

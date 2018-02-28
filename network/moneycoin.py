@@ -11,5 +11,5 @@ class MoneyCoin(Bitcoin):
     symbols = ('MONEY', )
     seeds = ("seed.moneycoin.pw")
     port = 15554
-	
+
 # no testnet

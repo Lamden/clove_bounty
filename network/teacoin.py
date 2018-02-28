@@ -11,5 +11,5 @@ class Teacoin(Bitcoin):
     symbols = ('TEA', )
     seeds = ("66.85.164.76")
     port = 7921
-	
+
 # no testnet

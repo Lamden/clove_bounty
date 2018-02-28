@@ -14,5 +14,5 @@ class Monoeci(Bitcoin):
              "dorado.monoeci.io",
              "block.monoeci.io")
     port = 24157
-	
+
 # no testnet

@@ -9,7 +9,8 @@ class TravelFlex(Bitcoin):
     """
     name = 'travelflex'
     symbols = ('TRF', )
-    seeds = ('seed.travelflex.mycryptocoins.net', 'seednodes.travelflex.mycryptocoins.net')
+    seeds = ('seed.travelflex.mycryptocoins.net',
+             'seednodes.travelflex.mycryptocoins.net')
     port = 54322
 
 # no testnet

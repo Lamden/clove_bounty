@@ -9,8 +9,8 @@ class FinCoin(Bitcoin):
     """
     name = 'fincoin'
     symbols = ('FNC', )
-    seeds = ('seed5.cryptolife.net', 'seed2.cryptolife.net', 'seed3.cryptolife.net', 
-			 'electrum1.cryptolife.net', 'wallet.cryptolife.net', 'explore.cryptolife.net')
+    seeds = ('seed5.cryptolife.net', 'seed2.cryptolife.net', 'seed3.cryptolife.net',
+             'electrum1.cryptolife.net', 'wallet.cryptolife.net', 'explore.cryptolife.net')
     port = 20092
 
 # no testnet

@@ -9,7 +9,7 @@ class LiteCoinX(Bitcoin):
     """
     name = 'litecoinx'
     symbols = ('LTCX', )
-    seeds = ("108.61.196.125","114.215.110.130")
+    seeds = ("108.61.196.125", "114.215.110.130")
     port = 12316
 
 # no testnet

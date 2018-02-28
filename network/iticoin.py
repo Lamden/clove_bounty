@@ -9,9 +9,10 @@ class iTicoin(Bitcoin):
     """
     name = 'iTicoin'
     symbols = ('ITI', )
-    seeds = ("seed1.super-ppl.com","seed2.super-ppl.com","seed3.super-ppl.com")
+    seeds = ("seed1.super-ppl.com",
+             "seed2.super-ppl.com", "seed3.super-ppl.com")
     port = 42177
 
 
 # Has no testnet
-("seed1.super-ppl.com","seed2.super-ppl.com","seed3.super-ppl.com")
+("seed1.super-ppl.com", "seed2.super-ppl.com", "seed3.super-ppl.com")

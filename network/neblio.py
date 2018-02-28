@@ -13,7 +13,7 @@ class Neblio(Bitcoin):
     port = 6325
 
 
-class NeblioTestNet(Adzcoin):
+class NeblioTestNet(Neblio):
     """
     Class with all the necessary Neblio (NEBL) testing network information based on
     https://github.com/NeblioTeam/neblio/blob/master/src/net.cpp

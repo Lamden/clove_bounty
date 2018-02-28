@@ -18,5 +18,5 @@ class LiteDoge(Bitcoin):
              "71.197.143.70",
              "188.153.14.20")
     port = 17014
-	
+
 # no testnet

@@ -11,8 +11,8 @@ class MediterraneanCoin(Bitcoin):
     symbols = ('MED', )
     seeds = ("dnsseed.mediterraneancoin.org")
     port = 9373
-	
-   
+
+
 class MediterraneanCoinTestNet(MediterraneanCoin):
     """
     Class with all the necessary MediterraneanCoin testing network information based on
@@ -21,4 +21,4 @@ class MediterraneanCoinTestNet(MediterraneanCoin):
     """
     name = 'test-mediterraneancoin'
     seeds = ("testnet-seed.mediterraneancoin.org")
-    port = 19373              
+    port = 19373

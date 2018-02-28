@@ -12,4 +12,3 @@ class GravityBit(Bitcoin):
     seeds = ("162.243.17.197",
              "159.203.126.200")
     port = 49011
-	

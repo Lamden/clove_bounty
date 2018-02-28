@@ -16,8 +16,8 @@ class Linx(Bitcoin):
              "seed4.mylinx.io",
              "seed5.mylinx.io")
     port = 13925
-	
-   
+
+
 class LinxTestNet(Linx):
     """
     Class with all the necessary Linx testing network information based on
@@ -32,5 +32,4 @@ class LinxTestNet(Linx):
              "testnet4.mylinx.io",
              "testnet5.mylinx.io",
              "testlinx.ffptech.com")
-    port = 24915              
-	
+    port = 24915

@@ -13,8 +13,8 @@ class BCT_Coin(Bitcoin):
              "76.74.178.182",
              "69.90.132.171")
     port = 2455
-	
-   
+
+
 class BCT_CoinTestNet(BCT_Coin):
     """
     Class with all the necessary BCT Coin testing network information based on
@@ -25,5 +25,4 @@ class BCT_CoinTestNet(BCT_Coin):
     seeds = ("208.167.233.222",
              "76.74.178.182",
              "69.90.132.171")
-    port = 12455               
-	
+    port = 12455

@@ -12,6 +12,6 @@ class Bones(Bitcoin):
     seeds = ("seed.Bones.com",
              "209.208.111.233")
     port = 55355
-	
-   
+
+
 # Has no testnet

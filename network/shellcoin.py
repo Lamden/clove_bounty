@@ -10,5 +10,4 @@ class ShellCoin(Bitcoin):
     name = 'shellcoin'
     symbols = ('SHELL', )
     seeds = ("153.92.98.55")
-    port = 12454   
-	
+    port = 12454

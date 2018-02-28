@@ -1,7 +1,7 @@
 from clove.network.bitcoin import Bitcoin
 
 
-class  Atmos(Bitcoin):
+class Atmos(Bitcoin):
     """
     Class with all the necessary  Atmos (ATMS) network information based on
     https://github.com/asphyxiating/atmostemp/blob/master/atmos-master/src/chainparams.cpp
@@ -9,11 +9,11 @@ class  Atmos(Bitcoin):
     """
     name = 'atmos'
     symbols = ('ATMS', )
-    seeds =  ('212.129.37.112')
+    seeds = ('212.129.37.112')
     port = 9834
 
 
-class  AtmosTestNet(Atmos):
+class AtmosTestNet(Atmos):
     """
     Class with all the necessary  Atmos (ATMS) network information based on
     https://github.com/asphyxiating/atmostemp/blob/master/atmos-master/src/chainparams.cpp
@@ -21,5 +21,5 @@ class  AtmosTestNet(Atmos):
     """
     name = 'test-atmos'
     symbols = ('ATMS', )
-    seeds =  ()
+    seeds = ()
     port = 9835

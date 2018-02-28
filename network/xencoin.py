@@ -11,5 +11,5 @@ class XenCoin(Bitcoin):
     symbols = ('XNC', )
     seeds = ("192.241.131.40")
     port = 4334
-	
+
 # no testnet

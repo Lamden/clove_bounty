@@ -11,5 +11,5 @@ class ReturnCoin(Bitcoin):
     symbols = ('RNC', )
     seeds = ("37.97.135.16")
     port = 60144
-	
+
 # no testnet

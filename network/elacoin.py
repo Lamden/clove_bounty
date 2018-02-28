@@ -9,7 +9,7 @@ class Elacoin(Bitcoin):
     """
     name = 'elacoin'
     symbols = ('ELC', )
-    seeds = ("51.255.6.35","91.203.142.168")
+    seeds = ("51.255.6.35", "91.203.142.168")
     port = 9223
 
 

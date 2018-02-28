@@ -10,7 +10,8 @@ class Unify(Bitcoin):
     """
     name = 'unify'
     symbols = ('UNIFY', )
-    seeds = ('95.85.59.180', '145.239.89.215', '158.69.212.99', 'node1.unifycoin.ovh', 'node2.unifycoin.ovh', 'node3.unifycoin.ovh', 'node1.unifycoin.pl', 'node2.unifycoin.pl', 'node3.unifycoin.pl')
+    seeds = ('95.85.59.180', '145.239.89.215', '158.69.212.99', 'node1.unifycoin.ovh', 'node2.unifycoin.ovh',
+             'node3.unifycoin.ovh', 'node1.unifycoin.pl', 'node2.unifycoin.pl', 'node3.unifycoin.pl')
     port = 18649
 
 

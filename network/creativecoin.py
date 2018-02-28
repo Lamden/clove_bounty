@@ -16,7 +16,7 @@ class CreativeCoin(Bitcoin):
 class CreativeCoinTestNet(CreativeCoin):
     """
     Class with all the necessary CreativeCoin (CREA) testing network information based on
-    https://github.com/creativechain/creativechain-core/blob/master/src/chainparams.cpp    
+    https://github.com/creativechain/creativechain-core/blob/master/src/chainparams.cpp
     (date of access: 02/17/2018)
     """
     name = 'test-creativecoin'

@@ -10,9 +10,9 @@ class Bitstar(Bitcoin):
     name = 'Bitstar'
     symbols = ('BITS', )
     seeds = ("seed.bitstarcoin.com", "seed.bitstarcoin.com",
-    "seed2.bitstarcoin.com", "seed2.bitstarcoin.com",
-    "seed3.bitstarcoin.com", "seed3.bitstarcoin.com",
-    "seed4.bitstarcoin.com", "seed4.bitstarcoin.com")
+             "seed2.bitstarcoin.com", "seed2.bitstarcoin.com",
+             "seed3.bitstarcoin.com", "seed3.bitstarcoin.com",
+             "seed4.bitstarcoin.com", "seed4.bitstarcoin.com")
     port = 62123
 
 

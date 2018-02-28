@@ -9,7 +9,7 @@ class Quebecoin(Bitcoin):
     """
     name = 'quebecoin'
     symbols = ('QBC', )
-    seeds = ("dnsseed.qbc.io","54.86.39.92")
+    seeds = ("dnsseed.qbc.io", "54.86.39.92")
     port = 56790
 
 
@@ -21,7 +21,4 @@ class QuebecoinTestNet(Quebecoin):
     """
     name = 'test-quebecoin'
     seeds = ("testnet-seed.qbc.io")
-    port = 46790  
-	
-
-	 
+    port = 46790

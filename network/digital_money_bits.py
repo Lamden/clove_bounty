@@ -1,7 +1,7 @@
 from clove.network.bitcoin import Bitcoin
 
 
-class  DigitalMoneyBits(Bitcoin):
+class DigitalMoneyBits(Bitcoin):
     """
     Class with all the necessary  Digital Money Bits (DMB) network information based on
     https://github.com/DMBcryptocurrency/DMB-project/blob/master/DigitalMoneyBits-master/src/net.cpp
@@ -9,11 +9,11 @@ class  DigitalMoneyBits(Bitcoin):
     """
     name = 'digital_money_bits'
     symbols = ('DMB', )
-    seeds =  ('195.74.52.227')
+    seeds = ('195.74.52.227')
     port = 64008
 
 
-class  DigitalMoneyBitsTestNet(DigitalMoneyBits):
+class DigitalMoneyBitsTestNet(DigitalMoneyBits):
     """
     Class with all the necessary  Digital Money Bits (DMB) network information based on
     https://github.com/DMBcryptocurrency/DMB-project/blob/master/DigitalMoneyBits-master/src/net.cpp
@@ -21,5 +21,5 @@ class  DigitalMoneyBitsTestNet(DigitalMoneyBits):
     """
     name = 'test-digital_money_bits'
     symbols = ('DMB', )
-    seeds =  ()
+    seeds = ()
     port = 16408

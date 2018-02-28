@@ -14,4 +14,3 @@ class Happy_Creator_Coin(Bitcoin):
              "seed3.cryptolife.net",
              "electrum1.cryptolife.net")
     port = 11176
-

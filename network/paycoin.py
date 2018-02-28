@@ -14,9 +14,9 @@ class PayCoin(Bitcoin):
              "dnsseed.xpydev.org")
 
     port = 8998
-	
-   
-class PayCoinTestNet(Diamond):
+
+
+class PayCoinTestNet(Bitcoin):
     """
     Class with all the necessary PayCoin testing network information based on
     https://github.com/PaycoinFoundation/paycoin/blob/master/src/net.cpp
@@ -24,6 +24,5 @@ class PayCoinTestNet(Diamond):
     """
     name = 'test-paycoin'
     seeds = ("tseed.paycoin.com",
-	         "testnet-seed.paycoin.mitchellcash.com")
-    port = 9000              
-	
+             "testnet-seed.paycoin.mitchellcash.com")
+    port = 9000

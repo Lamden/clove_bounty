@@ -11,5 +11,5 @@ class NewZealandCoin(Bitcoin):
     symbols = ('NZC', )
     seeds = ("node.walletbuilders.com")
     port = 7769
-	
+
 # no testnet

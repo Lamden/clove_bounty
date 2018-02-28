@@ -11,5 +11,5 @@ class Sojourn(Bitcoin):
     symbols = ('SOJ', )
     seeds = ("35.165.166.142")
     port = 19951
-	
+
 # no testnet

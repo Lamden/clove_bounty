@@ -11,5 +11,5 @@ class SweetStake(Bitcoin):
     symbols = ('SWEET', )
     seeds = ("sweetstake.endofinternet.net")
     port = 34613
-	
+
 # no testnet

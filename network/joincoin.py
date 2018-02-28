@@ -14,8 +14,8 @@ class Joincoin(Bitcoin):
              "seed3.joincoin.org",
              "seed4.joincoin.org")
     port = 17941
-	
-   
+
+
 class JoincoinTestNet(Joincoin):
     """
     Class with all the necessary Joincoin testing network information based on
@@ -24,5 +24,4 @@ class JoincoinTestNet(Joincoin):
     """
     name = 'test-joincoin'
     seeds = ("testseed1.joincoin.org")
-    port = 27941              
-	
+    port = 27941

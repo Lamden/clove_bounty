@@ -11,5 +11,5 @@ class NumbersCoin(Bitcoin):
     symbols = ('NUM', )
     seeds = ("node.walletbuilders.com")
     port = 6975
-	
+
 # no testnet

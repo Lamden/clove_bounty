@@ -21,5 +21,6 @@ class AdCoinTestNet(AdCoin):
     (date of access: 02/11/2018)
     """
     name = 'test-adcoin'
-    seeds = ('testnet-seed.adcointools.com', 'seed-b.adcoin.loshan.co.uk', 'dnsseed-testnet.thrasher.io')
+    seeds = ('testnet-seed.adcointools.com',
+             'seed-b.adcoin.loshan.co.uk', 'dnsseed-testnet.thrasher.io')
     port = 19335

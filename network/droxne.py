@@ -9,8 +9,8 @@ class DROXNE(Bitcoin):
     """
     name = 'droxne'
     symbols = ('DRXNE', )
-    seeds = ("198.199.90.93","45.55.89.248")
+    seeds = ("198.199.90.93", "45.55.89.248")
     port = 41241
 
-	
+
 # No Testnet

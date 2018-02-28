@@ -9,7 +9,7 @@ class GBCGoldCoin(Bitcoin):
     """
     name = 'gbcgoldcoin'
     symbols = ('GBC', )
-    seeds = ("dnsseed.qbc.io","54.86.39.92")
+    seeds = ("dnsseed.qbc.io", "54.86.39.92")
     port = 56790
 
 
@@ -21,4 +21,4 @@ class GBCGoldCoinTestNet(GBCGoldCoin):
     """
     name = 'test-gbcgoldcoin'
     seeds = ("testnet-seed.qbc.io")
-    port = 46790 
+    port = 46790

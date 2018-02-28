@@ -11,5 +11,5 @@ class Degas_Coin(Bitcoin):
     symbols = ('DEA', )
     seeds = ("node.45.32.222.247")
     port = 12699
-	
+
 # no test net

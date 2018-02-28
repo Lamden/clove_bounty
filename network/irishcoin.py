@@ -13,12 +13,12 @@ class IrishCoin(Bitcoin):
     port = 12375
 
 
-classIrishCoinTestNet(IrishCoin):
+class IrishCoinTestNet(IrishCoin):
     """
     Class with all the necessary IrishCoin testing network information based on
     https://github.com/irishcoinproject/irishcoin/blob/master/src/net.cpp
     (date of access: 02/12/2018)
     """
     name = 'test-irishcoin'
-    seeds = ('testnode.irishcoin.org','testdns.irishcoin.org')
-    port = 11375 
+    seeds = ('testnode.irishcoin.org', 'testdns.irishcoin.org')
+    port = 11375

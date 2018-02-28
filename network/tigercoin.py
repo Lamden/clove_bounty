@@ -14,5 +14,5 @@ class Tigercoin(Bitcoin):
              "bitseed.xf2.org",
              "dnsseed.bitcoin.dashjr.org")
     port = 15660
-	
+
 # no testnet

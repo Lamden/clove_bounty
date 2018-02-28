@@ -11,5 +11,5 @@ class Radicalcoin(Bitcoin):
     symbols = ('RADI', )
     seeds = ("5.196.10.57")
     port = 42522
-	
+
 # no testnet

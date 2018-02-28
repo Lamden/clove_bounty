@@ -9,15 +9,15 @@ class InternetOfPeople(Bitcoin):
     """
     name = 'internetofpeople'
     symbols = ('IOP', )
-    seeds = ('mainnet.iop.cash', 'main1.iop.cash', 'main2.iop.cash' , 'main3.iop.cash',
-			 'main4.iop.cash', 'main5.iop.cash', 'main6.iop.cash')
+    seeds = ('mainnet.iop.cash', 'main1.iop.cash', 'main2.iop.cash', 'main3.iop.cash',
+             'main4.iop.cash', 'main5.iop.cash', 'main6.iop.cash')
     port = 4877
 
 
 class InternetOfPeopleTestNet(InternetOfPeople):
     """
     Class with all the Internet Of People (IOP) testing network information based on
-    https://github.com/Internet-of-People/iop-core/blob/master/src/chainparams.cpp    
+    https://github.com/Internet-of-People/iop-core/blob/master/src/chainparams.cpp
     (date of access: 02/17/2018)
     """
     name = 'test-internetofpeople'

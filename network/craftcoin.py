@@ -9,7 +9,7 @@ class CraftCoin(Bitcoin):
     """
     name = 'craftcoin'
     symbols = ('CRC', )
-    seeds =  ("smp1.spendlitecoins.com")
+    seeds = ("smp1.spendlitecoins.com")
     port = 12124
-	
+
 # Has no testnet

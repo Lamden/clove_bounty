@@ -11,5 +11,5 @@ class Horse_Power(Bitcoin):
     symbols = ('HSP', )
     seeds = ("45.55.236.105")
     port = 32421
-	
+
 # no testnet

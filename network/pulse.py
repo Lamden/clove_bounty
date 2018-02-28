@@ -12,6 +12,5 @@ class Pulse(Bitcoin):
     seeds = ("52.34.51.188")
     port = 57152
 
-	
 
 # No Testnet

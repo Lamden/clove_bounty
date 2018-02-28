@@ -9,7 +9,8 @@ class Digibyte(Bitcoin):
     """
     name = 'digibyte'
     symbols = ('DGB', )
-    seeds = ('seed.digibyte.io', 'digiexplorer.info', 'digihash.co', 'seed.digibyteprojects.com')
+    seeds = ('seed.digibyte.io', 'digiexplorer.info',
+             'digihash.co', 'seed.digibyteprojects.com')
     port = 12024
 
 

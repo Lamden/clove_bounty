@@ -11,5 +11,5 @@ class WeAreSatoshi(Bitcoin):
     symbols = ('WSX', )
     seeds = ("wsx.dnsseed.crypto2.net")
     port = 8922
-	
+
 # no testnet

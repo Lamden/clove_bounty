@@ -19,4 +19,3 @@ class Sarcoin(Bitcoin):
              "node7.sarcoin.info",
              "node8.sarcoin.info")
     port = 25902
-	

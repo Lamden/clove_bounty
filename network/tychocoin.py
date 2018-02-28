@@ -11,8 +11,8 @@ class Tychocoin(Bitcoin):
     symbols = ('TYCHO', )
     seeds = ("50.63.164.183")
     port = 9333
-	
-   
+
+
 class TychocoinTestNet(Tychocoin):
     """
     Class with all the necessary Tychocoin testing network information based on
@@ -21,4 +21,4 @@ class TychocoinTestNet(Tychocoin):
     """
     name = 'test-tychocoin'
     seeds = ("50.63.164.183")
-    port = 19333              
+    port = 19333

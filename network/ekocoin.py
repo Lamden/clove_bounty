@@ -9,7 +9,7 @@ class EcoCoin(Bitcoin):
     """
     name = 'ecocoin'
     symbols = ('ECO', )
-    seeds =  ("node.walletbuilders.com")
+    seeds = ("node.walletbuilders.com")
     port = 7257
-	
+
 # no testnet

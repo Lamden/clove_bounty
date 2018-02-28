@@ -15,8 +15,8 @@ class Vectorcoin(Bitcoin):
              "dnsseed.koin-project.com",
              "dnsseed.weminemnc.com")
     port = 55333
-	
-   
+
+
 class VectorcoinTestNet(Vectorcoin):
     """
     Class with all the necessary Vectorcoin testing network information based on
@@ -27,4 +27,4 @@ class VectorcoinTestNet(Vectorcoin):
     seeds = ("testnet-seed.litecointools.com",
              "testnet-seed.ltc.xurious.com",
              "dnsseed.wemine-testnet.com")
-    port = 55444              
+    port = 55444

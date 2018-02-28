@@ -9,7 +9,7 @@ class Conquestcoin(Bitcoin):
     """
     name = 'conquestcoin'
     symbols = ('CQST', )
-    seeds =  ("216.31.12.30")
+    seeds = ("216.31.12.30")
     port = 7837
-	
+
 # Has no testnet

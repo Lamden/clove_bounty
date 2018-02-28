@@ -10,7 +10,8 @@ class Valorbit(Bitcoin):
     """
     name = 'valorbit'
     symbols = ('VAL', )
-    seeds = ('seed.valorbit.com', 'seed2.valorbit.com', 'seed3.valorbit.com', 'seed.dblore.com', 'seed2.dblore.com')
+    seeds = ('seed.valorbit.com', 'seed2.valorbit.com',
+             'seed3.valorbit.com', 'seed.dblore.com', 'seed2.dblore.com')
     port = 8338
 
 

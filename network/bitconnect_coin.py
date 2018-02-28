@@ -11,5 +11,5 @@ class Bitconnect_Coin(Bitcoin):
     symbols = ('BCCOIN', )
     seeds = ("198.211.115.116")
     port = 9239
-	
+
 # no testnet

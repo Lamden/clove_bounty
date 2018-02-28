@@ -9,8 +9,8 @@ class Curecoin(Bitcoin):
     """
     name = 'curecoin'
     symbols = ('CURE', )
-    seeds =  ("seed.curecoin.net", "seed2.curecoin.net")
+    seeds = ("seed.curecoin.net", "seed2.curecoin.net")
     port = 9911
-	
-   
+
+
 # Has no Testnet

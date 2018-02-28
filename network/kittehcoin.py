@@ -14,8 +14,8 @@ class Kittehcoin(Bitcoin):
              "dnsseed.kittehcoinblockexplorer.com",
              "dnsseed.kittehcoinpool.com")
     port = 22566
-	
-   
+
+
 class KittehcoinTestNet(Kittehcoin):
     """
     Class with all the necessary Kittehcoin testing network information based on
@@ -24,4 +24,4 @@ class KittehcoinTestNet(Kittehcoin):
     """
     name = 'test-kittehcoin'
     seeds = ("dnsseed.kittehcoinblockexplorer.com")
-    port = 44566              
+    port = 44566

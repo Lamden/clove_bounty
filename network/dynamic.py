@@ -9,7 +9,8 @@ class Dynamic(Bitcoin):
     """
     name = 'dynamic'
     symbols = ('DYN', )
-    seeds = ('dyn2.dnsseeder.io', 'dyn2.dnsseeder.com', 'dyn2.dnsseeder.host', 'dyn2.dnsseeder.net')
+    seeds = ('dyn2.dnsseeder.io', 'dyn2.dnsseeder.com',
+             'dyn2.dnsseeder.host', 'dyn2.dnsseeder.net')
     port = 33300
 
 # no testnet

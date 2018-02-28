@@ -10,7 +10,8 @@ class Viacoin(Bitcoin):
     """
     name = 'viacoin'
     symbols = ('VIA', )
-    seeds = ('seed.viacoin.net', 'viaseeder.barbatos.fr', 'seed.zzy.su', 'mainnet.viacoin.net')
+    seeds = ('seed.viacoin.net', 'viaseeder.barbatos.fr',
+             'seed.zzy.su', 'mainnet.viacoin.net')
     port = 5223
 
 

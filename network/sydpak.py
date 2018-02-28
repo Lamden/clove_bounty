@@ -11,5 +11,5 @@ class SydPak(Bitcoin):
     symbols = ('SDP', )
     seeds = ("89.204.139.80")
     port = 54321
-	
+
 # no testnet

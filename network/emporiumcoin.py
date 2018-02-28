@@ -9,7 +9,7 @@ class EmporiumCoin(Bitcoin):
     """
     name = 'emporiumcoin'
     symbols = ('EMPC', )
-    seeds =  ("40.68.31.20")
+    seeds = ("40.68.31.20")
     port = 8295
-	
+
 # no testnet

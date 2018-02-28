@@ -12,5 +12,3 @@ class Litecred(Bitcoin):
     seeds = ("litenode1.litecred.org",
              "litenode2.litecred.org")
     port = 8868
-	
-   

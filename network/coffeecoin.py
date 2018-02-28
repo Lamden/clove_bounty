@@ -9,7 +9,7 @@ class CoffeeCoin(Bitcoin):
     """
     name = 'coffeecoin'
     symbols = ('CFC', )
-    seeds =  ("54.235.70.55","54.235.244.167")
+    seeds = ("54.235.70.55", "54.235.244.167")
     port = 16789
-	
+
 # Has no testnet

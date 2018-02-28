@@ -11,8 +11,8 @@ class ZiftrCOIN(Bitcoin):
     symbols = ('ZRC', )
     seeds = ("seed.ziftrcoin.com")
     port = 10333
-	
-   
+
+
 class ZiftrCOINTestNet(ZiftrCOIN):
     """
     Class with all the necessary ZiftrCOIN testing network information based on
@@ -21,4 +21,4 @@ class ZiftrCOINTestNet(ZiftrCOIN):
     """
     name = 'test-ziftrcoin'
     seeds = ("testnet-seed1.ziftrcoin.com")
-    port = 11333              
+    port = 11333

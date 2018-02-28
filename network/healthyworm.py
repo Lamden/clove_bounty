@@ -13,4 +13,3 @@ class HealthyWormCoin(Bitcoin):
              "164.132.189.192",
              "worm.healthyworm.com")
     port = 8064
-	

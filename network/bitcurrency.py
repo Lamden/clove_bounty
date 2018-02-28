@@ -21,5 +21,9 @@ class BitcurrencyTestNet(Bitcurrency):
     (date of access: 02/11/2018)
     """
     name = 'test-bitcurrency'
-    seeds = ('dns1.BitCurrencyPro.org', 'dns2.BitCurrencyPro.org', 'dns3.BitCurrencyPro.org', 'dns4.BitCurrencyPro.org', 'dns5.BitCurrencyPro.org', 'dns6.BitCurrencyPro.org', 'dns7.BitCurrencyPro.org', 'dns8.BitCurrencyPro.org', 'dns9.BitCurrencyPro.org')
+    seeds = (
+        'dns1.BitCurrencyPro.org', 'dns2.BitCurrencyPro.org', 'dns3.BitCurrencyPro.org', 'dns4.BitCurrencyPro.org',
+        'dns5.BitCurrencyPro.org', 'dns6.BitCurrencyPro.org', 'dns7.BitCurrencyPro.org', 'dns8.BitCurrencyPro.org',
+        'dns9.BitCurrencyPro.org'
+    )
     port = 26814

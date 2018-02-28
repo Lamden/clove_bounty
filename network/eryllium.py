@@ -9,7 +9,8 @@ class Eryllium(Bitcoin):
     """
     name = 'eryllium'
     symbols = ('ERY', )
-    seeds = ('138.197.23.193', 'seed1.cryptolife.net', 'seed2.cryptolife.net', 'seed3.cryptolife.net', 'electrum1.cryptolife.net', 'explore.cryptolife.net')
+    seeds = ('138.197.23.193', 'seed1.cryptolife.net', 'seed2.cryptolife.net',
+             'seed3.cryptolife.net', 'electrum1.cryptolife.net', 'explore.cryptolife.net')
     port = 34821
 
 # no testnet

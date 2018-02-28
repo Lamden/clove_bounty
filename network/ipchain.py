@@ -10,10 +10,10 @@ class IPChain(Bitcoin):
     name = 'ipchain'
     symbols = ('IPC', )
     seeds = ("seed.ipchainglobal.com",
-             "seed.qingdoutech.com")	
+             "seed.qingdoutech.com")
     port = 15166
-	
-   
+
+
 class IPChainTestNet(IPChain):
     """
     Class with all the necessary IPChain testing network information based on
@@ -23,5 +23,4 @@ class IPChainTestNet(IPChain):
     name = 'test-ipchain'
     seeds = ("seedt.ipchainglobal.com",
              "seedt.qingdoutech.com")
-    port = 25166              
-	
+    port = 25166

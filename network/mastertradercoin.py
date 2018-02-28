@@ -17,4 +17,3 @@ class MasterTraderCoin(Bitcoin):
              "mtr-seed06.chainworksindustries.com",
              "mtr-seed07.chainworksindustries.com")
     port = 14475
-	

@@ -20,5 +20,3 @@ class DigitalPrice(Bitcoin):
              "dns8.digitalprice.org",
              "dns9.digitalprice.org")
     port = 42742
-
-	

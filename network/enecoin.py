@@ -9,7 +9,7 @@ class EneCoin(Bitcoin):
     """
     name = 'enecoin'
     symbols = ('ENE', )
-    seeds =  ("52.37.214.176")
+    seeds = ("52.37.214.176")
     port = 12124
-	
+
 # no testnet

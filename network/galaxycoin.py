@@ -11,5 +11,5 @@ class GalaxyCoin(Bitcoin):
     symbols = ('GLX', )
     seeds = ("galaxycoin.no-ip.biz")
     port = 15521
-	
+
 # no testnet

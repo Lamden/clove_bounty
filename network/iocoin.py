@@ -13,6 +13,5 @@ class IOcoin(Bitcoin):
              "seed1.iocoin.io",
              "seed2.iocoin.io")
     port = 33764
-	
-# no testnet
 
+# no testnet

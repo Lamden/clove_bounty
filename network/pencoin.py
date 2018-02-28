@@ -11,5 +11,5 @@ class PenCoin(Bitcoin):
     symbols = ('PEN', )
     seeds = ("108.61.103.46")
     port = 31810
-	
+
 # no testnet

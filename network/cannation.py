@@ -9,7 +9,7 @@ class Cannation(Bitcoin):
     """
     name = 'Cannation'
     symbols = ('CNNC', )
-    seeds =  ("195.74.52.227", "149.56.154.65")
+    seeds = ("195.74.52.227", "149.56.154.65")
     port = 12367
 
 

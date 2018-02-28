@@ -13,5 +13,5 @@ class BitStone(Bitcoin):
              "bst-seed2.granitecoin.com",
              "bst-seed3.granitecoin.com")
     port = 28392
-	
+
 # Has no testnet

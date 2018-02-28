@@ -1,7 +1,7 @@
 from clove.network.bitcoin import Bitcoin
 
 
-class T-coin(Bitcoin):
+class TCoin(Bitcoin):
     """
     Class with all the necessary T-coin network information based on
     https://github.com/tcoindev/t-coin/blob/master/src/net.cpp

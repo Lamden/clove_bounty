@@ -12,10 +12,10 @@ class SafecCoin(Bitcoin):
     seeds = ("seed.bitcoin.sipa.be",
              "dnsseed.bluematt.me",
              "dnsseed.bitcoin.dashjr.org",
-             "bitseed.xf2.org")	
+             "bitseed.xf2.org")
     port = 8333
-	
-   
+
+
 class SafecCoinTestNet(SafecCoin):
     """
     Class with all the necessary SafecCoin testing network information based on
@@ -25,5 +25,4 @@ class SafecCoinTestNet(SafecCoin):
     name = 'test-safecoin'
     seeds = ("testnet-seed.bitcoin.petertodd.org",
              "testnet-seed.bluematt.me")
-    port = 18333              
-	
+    port = 18333

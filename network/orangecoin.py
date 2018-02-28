@@ -10,7 +10,7 @@ class OrangeCoin(Bitcoin):
     name = 'orangecoin'
     symbols = ('OC', )
     seeds = ("54.235.70.55",
-             "54.235.244.167")	
+             "54.235.244.167")
     port = 18872
-	
+
 # no testnet

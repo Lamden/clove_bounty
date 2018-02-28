@@ -15,5 +15,3 @@ class Flycoin(Bitcoin):
              "www.walletbootstraps.com",
              "4.6.147.2")
     port = 41568
-	
-   

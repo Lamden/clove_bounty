@@ -14,4 +14,3 @@ class Kobocoin(Bitcoin):
              "dns3.kobocoin.com",
              "dns4.kobocoin.com")
     port = 9011
-	

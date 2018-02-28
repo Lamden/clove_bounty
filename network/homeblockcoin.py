@@ -13,4 +13,3 @@ class HomeBlockCoin(Bitcoin):
              "91.92.128.161",
              "82.221.141.12")
     port = 45690
-	

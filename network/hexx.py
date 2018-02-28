@@ -11,5 +11,5 @@ class Hexx(Bitcoin):
     symbols = ('HXX', )
     seeds = ("76.74.170.249")
     port = 29100
-	
+
 # no testnet

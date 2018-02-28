@@ -9,7 +9,8 @@ class Spectrecoin(Bitcoin):
     """
     name = 'spectrecoin'
     symbols = ('XSPEC', )
-    seeds = ('node1.spectreproject.io', 'node2.spectreproject.io', 'node3.spectreproject.io', 'node4.spectreproject.io')
+    seeds = ('node1.spectreproject.io', 'node2.spectreproject.io',
+             'node3.spectreproject.io', 'node4.spectreproject.io')
     port = 37347
 
 # no testnet

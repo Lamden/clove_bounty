@@ -11,7 +11,7 @@ class Gram_Coin(Bitcoin):
     symbols = ('GRAM', )
     seeds = ("node.GramCoin.org",
              "node.GramCoin.cf",
-             "GramCoin.no-ip.org")	
+             "GramCoin.no-ip.org")
     port = 7567
-	
+
 # no testnet

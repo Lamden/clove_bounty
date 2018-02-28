@@ -10,7 +10,8 @@ class Unobtanium(Bitcoin):
     """
     name = 'unobtanium'
     symbols = ('UNO', )
-    seeds = ('node1.unobtanium.uno', 'node2.unobtanium.uno', 'unobtanium.cryptap.us')
+    seeds = ('node1.unobtanium.uno', 'node2.unobtanium.uno',
+             'unobtanium.cryptap.us')
     port = 65534
 
 

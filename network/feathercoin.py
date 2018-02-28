@@ -11,12 +11,12 @@ class Feathercoin(Bitcoin):
     symbols = ('FTC', )
     seeds = ("dnsseed.feathercoin.com",
              "explorer2.feathercoin.com",
-             "dnsseed.alltheco.in", 
+             "dnsseed.alltheco.in",
              "block.ftc-c.com",
-             "dnsseed-static.feathercoin.ch")	
+             "dnsseed-static.feathercoin.ch")
     port = 9336
-	
-   
+
+
 class FeathercoinTestNet(Feathercoin):
     """
     Class with all the necessary Feathercoin testing network information based on
@@ -24,5 +24,6 @@ class FeathercoinTestNet(Feathercoin):
     (date of access: 02/15/2018)
     """
     name = 'test-feathercoin'
-    seeds = ("testnet-explorer2.feathercoin.com","testnet-dnsseed.feathercoin.com")
-    port = 19336              
+    seeds = ("testnet-explorer2.feathercoin.com",
+             "testnet-dnsseed.feathercoin.com")
+    port = 19336

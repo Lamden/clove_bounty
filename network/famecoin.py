@@ -16,4 +16,3 @@ class FameCoin(Bitcoin):
     port = 52758
 
 # no testnet
-	

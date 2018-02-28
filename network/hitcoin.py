@@ -12,4 +12,3 @@ class HitCoin(Bitcoin):
     seeds = ("107.170.204.131",
              "107.170.126.142")
     port = 42030
-	

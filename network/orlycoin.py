@@ -11,5 +11,5 @@ class Orlycoin(Bitcoin):
     symbols = ('ORLY', )
     seeds = ("158.69.159.45")
     port = 23452
-	
+
 # no testnet

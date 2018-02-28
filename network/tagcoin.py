@@ -9,8 +9,8 @@ class TagCoin(Bitcoin):
     """
     name = 'tagcoin'
     symbols = ('TAG', )
-    seeds = ('dnsseed.tagbond.com', 'tag.cryptopools.com', '52.6.244.211', 
-			 'seed1.tagbond.com', 'seed4.tagbond.com')
+    seeds = ('dnsseed.tagbond.com', 'tag.cryptopools.com', '52.6.244.211',
+             'seed1.tagbond.com', 'seed4.tagbond.com')
     port = 8623
 
 # no testnet

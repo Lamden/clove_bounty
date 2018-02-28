@@ -11,5 +11,5 @@ class Indicoin(Bitcoin):
     symbols = ('INDI', )
     seeds = ("dnsseed.inditrades.org")
     port = 7366
-	
+
 # no testnet

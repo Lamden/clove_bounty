@@ -1,7 +1,7 @@
 from clove.network.bitcoin import Bitcoin
 
 
-class  Era(Bitcoin):
+class Era(Bitcoin):
     """
     Class with all the necessary  Era (ERA) network information based on
     https://github.com/cryptofun/blas/blob/master/src/chainparams.cpp
@@ -9,11 +9,11 @@ class  Era(Bitcoin):
     """
     name = 'era'
     symbols = ('ERA', )
-    seeds =  ('216.144.230.95')
+    seeds = ('216.144.230.95')
     port = 14442
 
 
-class  EraTestNet(Era):
+class EraTestNet(Era):
     """
     Class with all the necessary  Era (ERA) network information based on
     https://github.com/cryptofun/blas/blob/master/src/chainparams.cpp
@@ -21,5 +21,5 @@ class  EraTestNet(Era):
     """
     name = 'test-era'
     symbols = ('ERA', )
-    seeds =  ('216.144.230.95')
+    seeds = ('216.144.230.95')
     port = 24442

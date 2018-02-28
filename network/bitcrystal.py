@@ -9,7 +9,7 @@ class BitCrystal(Bitcoin):
     """
     name = 'bitcrystal'
     symbols = ('BTCRY', )
-    seeds =  ("176.57.143.201")
+    seeds = ("176.57.143.201")
     port = 9299
-	
+
 # Has no testnet

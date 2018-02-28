@@ -9,7 +9,7 @@ class Trezarcoin(Bitcoin):
     """
     name = 'trezarcoin'
     symbols = ('TZC', )
-    seeds = ("seed0.trezarcoin.com","seed1.trezarcoin.com")
+    seeds = ("seed0.trezarcoin.com", "seed1.trezarcoin.com")
     port = 17298
-	
+
 # no testnet

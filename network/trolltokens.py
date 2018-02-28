@@ -11,5 +11,5 @@ class TrollTokens(Bitcoin):
     symbols = ('TKN', )
     seeds = ("68.117.4.111")
     port = 16385
-	
+
 # no testnet

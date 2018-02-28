@@ -13,5 +13,5 @@ class NoLimitCoin(Bitcoin):
              "seed2.nlc2.info",
              "seed3.nlc2.info")
     port = 6521
-	
+
 # no testnet

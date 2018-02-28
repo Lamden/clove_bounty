@@ -10,8 +10,8 @@ class Rubies(Bitcoin):
     name = 'rubies'
     symbols = ('RBIES', )
     seeds = ('seed1.rbies.org', 'seed2.rbies.org', 'seed3.rbies.org', 'seed4.rbies.org', 'node1.betterbets.io',
-			 'node2.betterbets.io', 'node3.betterbets.io', 'node4.betterbets.io', 'node5.betterbets.io', 
-			 'node6.betterbets.io', 'node7.betterbets.io', 'node8.betterbets.io', 'rbies2.bost.link')
+             'node2.betterbets.io', 'node3.betterbets.io', 'node4.betterbets.io', 'node5.betterbets.io',
+             'node6.betterbets.io', 'node7.betterbets.io', 'node8.betterbets.io', 'rbies2.bost.link')
     port = 8423
 
 # no testnet

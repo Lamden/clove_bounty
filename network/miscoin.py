@@ -9,8 +9,10 @@ class MIScoin(Bitcoin):
     """
     name = 'miscoin'
     symbols = ('DMD', )
-    seeds = ("seed1.miscoin.org",
-             "seed2.miscoin.org") 
-	port = 14552
+    seeds = (
+        "seed1.miscoin.org",
+        "seed2.miscoin.org"
+    )
+    port = 14552
 
 # no testnet

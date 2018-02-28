@@ -9,7 +9,8 @@ class Happycoin(Bitcoin):
     """
     name = 'happycoin'
     symbols = ('HPC', )
-    seeds = ("159.203.165.4","seed5.cryptolife.net","seed3.cryptolife.net","electrum5.cryptolife.net","seed4.cryptolife.net","explore.cryptolife.net")
+    seeds = ("159.203.165.4", "seed5.cryptolife.net", "seed3.cryptolife.net",
+             "electrum5.cryptolife.net", "seed4.cryptolife.net", "explore.cryptolife.net")
     port = 12846
 
 

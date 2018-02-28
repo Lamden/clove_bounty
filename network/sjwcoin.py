@@ -11,5 +11,5 @@ class SJWCoin(Bitcoin):
     symbols = ('SJW', )
     seeds = ("seed.sjwcoin.com")
     port = 19966
-	
+
 # no testnet

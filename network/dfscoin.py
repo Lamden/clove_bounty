@@ -13,7 +13,4 @@ class DFSCoin(Bitcoin):
     port = 20373
 
 
-#Has no testnet
-	
-	
-	
+# Has no testnet

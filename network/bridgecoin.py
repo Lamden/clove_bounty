@@ -13,8 +13,8 @@ class BridgeCoin(Bitcoin):
              "seed2.bridgecoin.org",
              "seed3.bridgecoin.org")
     port = 6333
-	
-   
+
+
 class BridgeCoinTestNet(BridgeCoin):
     """
     Class with all the necessary BridgeCoin testing network information based on
@@ -25,5 +25,4 @@ class BridgeCoinTestNet(BridgeCoin):
     seeds = ("seed1.bridgecoin.org",
              "seed2.bridgecoin.org",
              "seed3.bridgecoin.org")
-    port = 16333              
-	
+    port = 16333

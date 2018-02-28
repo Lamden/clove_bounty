@@ -11,8 +11,8 @@ class FirstCoin(Bitcoin):
     symbols = ('FRST', )
     seeds = ("108.179.227.118")
     port = 10667
-	
-   
+
+
 class FirstCoinTestNet(FirstCoin):
     """
     Class with all the necessary FirstCoin testing network information based on
@@ -21,4 +21,4 @@ class FirstCoinTestNet(FirstCoin):
     """
     name = 'test-firstcoin'
     seeds = ("192.168.200.100")
-    port = 10667              
+    port = 10667

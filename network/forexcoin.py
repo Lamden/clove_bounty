@@ -11,8 +11,8 @@ class Forexcoin(Bitcoin):
     symbols = ('FRX', )
     seeds = ("v3dnsseed.globalforexcoin.com")
     port = 9369
-	
-   
+
+
 class ForexcoinTestNet(Forexcoin):
     """
     Class with all the necessary Forexcoin testing network information based on
@@ -21,4 +21,4 @@ class ForexcoinTestNet(Forexcoin):
     """
     name = 'test-forexcoin'
     seeds = ("v3testnet-seed.globalforexcoin.com")
-    port = 19369              
+    port = 19369

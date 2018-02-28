@@ -13,7 +13,7 @@ class Blackstar(Bitcoin):
     port = 16878
 
 
-class BlackstarTestNet(BlackstarCoin):
+class BlackstarTestNet(Blackstar):
     """
     Class with all the necessary BSTAR testing network information based on
     https://github.com/bstarcoin/blackstar/blob/master/src/chainparams.cpp

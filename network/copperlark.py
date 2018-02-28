@@ -14,8 +14,8 @@ class Copperlark(Bitcoin):
              "dnsseed.bitcoin.dashjr.org",
              "bitseed.xf2.org")
     port = 10333
-	
-   
+
+
 class CopperlarkTestNet(Copperlark):
     """
     Class with all the necessary Copperlark testing network information based on
@@ -24,4 +24,4 @@ class CopperlarkTestNet(Copperlark):
     """
     name = 'test-copperlark'
     seeds = ("testnet-seed.bitcoin.petertodd.org")
-    port = 20333               
+    port = 20333

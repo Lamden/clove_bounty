@@ -9,10 +9,10 @@ class CanYaCoin(Bitcoin):
     """
     name = 'canyacoin'
     symbols = ('CAN', )
-    seeds =  ("dnsseed.canya.io")
+    seeds = ("dnsseed.canya.io")
     port = 9033
-	
-   
+
+
 class CanYaCoinTestNet(CanYaCoin):
     """
     Class with all the necessary CanYaCoin testing network information based on
@@ -21,5 +21,4 @@ class CanYaCoinTestNet(CanYaCoin):
     """
     name = 'test-canyacoin'
     seeds = ("dnsseed.testnet.canya.io")
-    port = 19133              
-	
+    port = 19133

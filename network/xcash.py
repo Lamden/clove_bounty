@@ -11,5 +11,5 @@ class XCash(Bitcoin):
     symbols = ('XCASH', )
     seeds = ("seed.xcash.cc")
     port = 32524
-	
+
 # no testnet

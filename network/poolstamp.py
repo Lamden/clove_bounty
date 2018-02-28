@@ -9,7 +9,7 @@ class PoolStamp(Bitcoin):
     """
     name = 'poolstamp'
     symbols = ('XSP', )
-    seeds = ("104.236.120.8","188.166.56.148")
+    seeds = ("104.236.120.8", "188.166.56.148")
     port = 24662
-	
+
 # no testnet

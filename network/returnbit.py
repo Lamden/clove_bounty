@@ -13,8 +13,8 @@ class ReturnBit(Bitcoin):
              "45.55.167.126",
              "159.203.106.65")
     port = 9313
-	
-   
+
+
 class ReturnBitTestNet(ReturnBit):
     """
     Class with all the necessary ReturnBit testing network information based on
@@ -26,4 +26,4 @@ class ReturnBitTestNet(ReturnBit):
              "159.203.109.115",
              "37.59.24.15",
              "216.106.225.215")
-    port = 19113              
+    port = 19113

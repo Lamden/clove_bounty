@@ -9,10 +9,10 @@ class GlobalBoost(Bitcoin):
     """
     name = 'globalboost'
     symbols = ('BSTY', )
-    seeds = ("seeder.globalboost.info","seeder2.globalboost.info")
+    seeds = ("seeder.globalboost.info", "seeder2.globalboost.info")
     port = 8226
-	
-   
+
+
 class GlobalBoostTestNet(GlobalBoost):
     """
     Class with all the necessary GlobalBoost testing network information based on
@@ -21,4 +21,4 @@ class GlobalBoostTestNet(GlobalBoost):
     """
     name = 'test-globalboost'
     seeds = ("testnet-seeder.globalboost.info")
-    port = 18226              
+    port = 18226

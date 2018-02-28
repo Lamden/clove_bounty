@@ -13,5 +13,5 @@ class Huncoin(Bitcoin):
              "seed2.cryptolife.net",
              "electrum1.cryptolife.net")
     port = 22093
-	
+
 # no testnet

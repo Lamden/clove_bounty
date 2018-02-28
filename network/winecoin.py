@@ -11,5 +11,5 @@ class Winecoin(Bitcoin):
     symbols = ('WINE', )
     seeds = ("198.199.90.93")
     port = 18473
-	
+
 # no testnet

@@ -9,7 +9,8 @@ class IgnitionCoin(Bitcoin):
     """
     name = 'ignitioncoin'
     symbols = ('IC', )
-    seeds = ('america.ignitioncoin.org', 'europ.ignitioncoin.org', 'asia.ignitioncoin.org', 'explorer.ignitioncoin.org')
+    seeds = ('america.ignitioncoin.org', 'europ.ignitioncoin.org',
+             'asia.ignitioncoin.org', 'explorer.ignitioncoin.org')
     port = 44144
 
 # no testnet

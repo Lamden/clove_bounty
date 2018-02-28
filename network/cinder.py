@@ -14,5 +14,5 @@ class Cinder(Bitcoin):
              "104.236.49.247",
              "128.199.57.33")
     port = 22555
-	
+
 # Has no testnet

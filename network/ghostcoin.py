@@ -11,8 +11,8 @@ class Ghostcoin(Bitcoin):
     symbols = ('GHOST', )
     seeds = ("54.39.20.116")
     port = 9334
-	
-   
+
+
 class GhostcoinTestNet(Ghostcoin):
     """
     Class with all the necessary Ghostcoin testing network information based on
@@ -21,4 +21,4 @@ class GhostcoinTestNet(Ghostcoin):
     """
     name = 'test-ghostcoin'
     seeds = ("testnet-seed.ghostcoin.info")
-    port = 19334               
+    port = 19334

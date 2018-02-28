@@ -12,6 +12,5 @@ class Xiaomicoin(Bitcoin):
     seeds = ("120.25.158.22",
              "121.42.12.176")
     port = 27896
-	
-# no testnet
 
+# no testnet

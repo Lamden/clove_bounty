@@ -9,7 +9,8 @@ class Htmlcoin(Bitcoin):
     """
     name = 'htmlcoin'
     symbols = ('HTML', )
-    seeds = ('seed1.htmlcoin.com', 'seed2.htmlcoin.com', 'seed3.htmlcoin.com', 'seed4.htmlcoin.com')
+    seeds = ('seed1.htmlcoin.com', 'seed2.htmlcoin.com',
+             'seed3.htmlcoin.com', 'seed4.htmlcoin.com')
     port = 4888
 
 

@@ -20,8 +20,8 @@ class BoostCoin(Bitcoin):
              "node9.bost.link",
              "node10.bost.link")
     port = 9697
-	
-   
+
+
 class BoostCoinTestNet(BoostCoin):
     """
     Class with all the necessary BoostCoin testing network information based on
@@ -39,4 +39,4 @@ class BoostCoinTestNet(BoostCoin):
              "o2jjy6kkavi7wbx3.onion",
              "rzqujgnsnejxkk3e.onion",
              "ylou7bnzivq2xgfc.onion",)
-    port = 19697               
+    port = 19697

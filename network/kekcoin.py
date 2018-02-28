@@ -13,8 +13,8 @@ class KekCoin(Bitcoin):
              "209.250.246.178",
              "209.250.246.85")
     port = 13337
-	
-   
+
+
 class KekCoinTestNet(KekCoin):
     """
     Class with all the necessary KekCoin testing network information based on
@@ -23,4 +23,4 @@ class KekCoinTestNet(KekCoin):
     """
     name = 'test-kekcoin'
     seeds = ("209.250.246.85")
-    port = 13777              
+    port = 13777

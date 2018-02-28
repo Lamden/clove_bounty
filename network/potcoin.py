@@ -16,9 +16,9 @@ class Potcoin(Bitcoin):
 class PotcoinTestNet(Potcoin):
     """
     Class with all the necessary Potcoin (POT) testing network information based on
-    https://github.com/potcoin/Potcoin/blob/master/src/net.cpp    
+    https://github.com/potcoin/Potcoin/blob/master/src/net.cpp
     (date of access: 02/16/2018)
     """
     name = 'test-potcoin'
-    seeds = ('testnet-seed.potcoin.com')
+    seeds = ('testnet-seed.potcoin.com', )
     port = 14200

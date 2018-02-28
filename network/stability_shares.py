@@ -20,6 +20,5 @@ class Stability_Shares(Bitcoin):
              "88.127.170.75",
              "94.23.196.92")
     port = 7711
-	
-# no testnet
 
+# no testnet

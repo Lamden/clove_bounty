@@ -13,5 +13,5 @@ class Memorycoin(Bitcoin):
              "104.223.6.205",
              "192.187.113.218")
     port = 1968
-	
+
 # no testnet

@@ -19,8 +19,8 @@ class Bitmark(Bitcoin):
              "da.bitmark.mx",
              "btm.zmark.org")
     port = 9265
-	
-   
+
+
 class BitmarkTestNet(Bitmark):
     """
     Class with all the necessary Bitmark testing network information based on
@@ -29,5 +29,4 @@ class BitmarkTestNet(Bitmark):
     """
     name = 'test-bitmark'
     seeds = ("test.bitmark.co")
-    port = 19265              
-	
+    port = 19265

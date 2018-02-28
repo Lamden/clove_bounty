@@ -12,8 +12,8 @@ class Saffroncoin(Bitcoin):
     seeds = ("saffroncoin.com",
              "182.18.175.110")
     port = 19717
-	
-   
+
+
 class SaffroncoinTestNet(Saffroncoin):
     """
     Class with all the necessary Saffroncoin testing network information based on
@@ -22,4 +22,4 @@ class SaffroncoinTestNet(Saffroncoin):
     """
     name = 'test-saffroncoin'
     seeds = ("testseed1.saffroncoin.org")
-    port = 29717              
+    port = 29717

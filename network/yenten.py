@@ -1,7 +1,7 @@
 from clove.network.bitcoin import Bitcoin
 
 
-class  Yenten(Bitcoin):
+class Yenten(Bitcoin):
     """
     Class with all the necessary  Yenten (YTN) network information based on
     https://github.com/conan-equal-newone/yenten/blob/master/src/chainparams.cpp
@@ -9,11 +9,11 @@ class  Yenten(Bitcoin):
     """
     name = 'yenten'
     symbols = ('YTN', )
-    seeds =  ('seed.yenten.org')
+    seeds = ('seed.yenten.org')
     port = 9981
 
 
-class  YentenTestNet(Yenten):
+class YentenTestNet(Yenten):
     """
     Class with all the necessary  Yenten (YTN) network information based on
     https://github.com/conan-equal-newone/yenten/blob/master/src/chainparams.cpp
@@ -21,5 +21,5 @@ class  YentenTestNet(Yenten):
     """
     name = 'test-yenten'
     symbols = ('YTN', )
-    seeds =  ()
+    seeds = ()
     port = 19981

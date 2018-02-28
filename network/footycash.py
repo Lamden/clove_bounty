@@ -9,8 +9,8 @@ class FootyCash(Bitcoin):
     """
     name = 'footycash'
     symbols = ('XFT', )
-    seeds = ('seedv2.footycash.com', 'xftseed1.dblocks.io', 'xftseed2.dblocks.io', 
-			 'ns2.footycash.com', 'ns1.footycash.com')
+    seeds = ('seedv2.footycash.com', 'xftseed1.dblocks.io', 'xftseed2.dblocks.io',
+             'ns2.footycash.com', 'ns1.footycash.com')
     port = 17017
 
 # no testnet

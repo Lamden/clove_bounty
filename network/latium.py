@@ -13,4 +13,3 @@ class Latium(Bitcoin):
              "seed2.latium.cc",
              "seed3.latium.cc")
     port = 12688
-	

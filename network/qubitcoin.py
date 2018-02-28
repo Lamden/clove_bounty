@@ -10,7 +10,8 @@ class QubitCoin(Bitcoin):
     """
     name = 'qubitcoin'
     symbols = ('Q2C', )
-    seeds = ('q2c1.ignorelist.com', 'q2c2.ignorelist.com', 'q2c3.ignorelist.com', 'q2c4.ignorelist.com')
+    seeds = ('q2c1.ignorelist.com', 'q2c2.ignorelist.com',
+             'q2c3.ignorelist.com', 'q2c4.ignorelist.com')
     port = 7788
 
 

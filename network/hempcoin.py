@@ -11,5 +11,5 @@ class HempCoin(Bitcoin):
     symbols = ('THC', )
     seeds = ("162.243.1.45")
     port = 21054
-	
+
 # no testnet

@@ -10,7 +10,8 @@ class Phore(Bitcoin):
     """
     name = 'phore'
     symbols = ('PHR', )
-    seeds = ('dns0.phore.io', 'dns1.phore.io', 'dns2.phore.io', 'dns3.phore.io', 'dns4.phore.io', 'dns5.phore.io', 'dns6.phore.io', 'dns7.phore.io', 'dns8.phore.io', 'dns9.phore.io')
+    seeds = ('dns0.phore.io', 'dns1.phore.io', 'dns2.phore.io', 'dns3.phore.io', 'dns4.phore.io',
+             'dns5.phore.io', 'dns6.phore.io', 'dns7.phore.io', 'dns8.phore.io', 'dns9.phore.io')
     port = 11771
 
 

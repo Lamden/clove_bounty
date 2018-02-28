@@ -10,7 +10,8 @@ class GeyserCoin(Bitcoin):
     """
     name = 'geysercoin'
     symbols = ('GSR', )
-    seeds = ('nodea.geysercoin.com', 'nodeb.geysercoin.com', 'nodec.geysercoin.com')
+    seeds = ('nodea.geysercoin.com',
+             'nodeb.geysercoin.com', 'nodec.geysercoin.com')
     port = 10556
 
 

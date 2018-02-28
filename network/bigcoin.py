@@ -9,7 +9,7 @@ class BigCoin(Bitcoin):
     """
     name = 'bigcoin'
     symbols = ('HUGE', )
-    seeds =  ("bigcoin.org")
+    seeds = ("bigcoin.org")
     port = 55884
-	
+
 # Has no testnet

@@ -13,5 +13,5 @@ class CaliphCoin(Bitcoin):
              "213.252.245.142",
              "electrum3.cryptolife.net")
     port = 29291
-	
+
 # Has no testnet

@@ -10,7 +10,7 @@ class Cerium(Bitcoin):
     """
     name = 'cerium'
     symbols = ('XCE', )
-    seeds =  ("104.131.117.31")
+    seeds = ("104.131.117.31")
     port = 45455
-	
+
 # Has no testnet

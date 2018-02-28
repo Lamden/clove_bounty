@@ -14,5 +14,5 @@ class IcebergCoin(Bitcoin):
              "31.220.50.78",
              "embi.zapto.org")
     port = 20703
-	
+
 # No testnet

@@ -12,8 +12,8 @@ class Spaincoin(Bitcoin):
     seeds = ("dnsseed.ds.spaincoin.org",
              "dnsseed.spaincoin.org")
     port = 11492
-	
-   
+
+
 class SpaincoinTestNet(Spaincoin):
     """
     Class with all the necessary Spaincoin testing network information based on
@@ -22,5 +22,4 @@ class SpaincoinTestNet(Spaincoin):
     """
     name = 'test-spaincoin'
     seeds = ("dnsseed.spaincoin.org")
-    port = 21492              
-	
+    port = 21492

@@ -9,7 +9,7 @@ class Astral(Bitcoin):
     """
     name = 'astral'
     symbols = ('AST', )
-    seeds =  ("2.62.25.198")
+    seeds = ("2.62.25.198")
     port = 96755
-	
+
 # Has no testnet

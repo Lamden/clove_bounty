@@ -13,8 +13,8 @@ class Hshare(Bitcoin):
              "hshare-dns2.h.cash",
              "hshare-dns3.h.cash")
     port = 11616
-	
-   
+
+
 class HshareTestNet(Hshare):
     """
     Class with all the necessary Hshare testing network information based on
@@ -23,5 +23,4 @@ class HshareTestNet(Hshare):
     """
     name = 'test-hshare'
     seeds = ("testnode1.hshareplatform.com")
-    port = 26178              
-	
+    port = 26178

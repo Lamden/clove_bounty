@@ -9,7 +9,7 @@ class Coven(Bitcoin):
     """
     name = 'coven'
     symbols = ('COV', )
-    seeds =  ("104.238.182.76")
+    seeds = ("104.238.182.76")
     port = 83350
-	
+
 # Has no testnet

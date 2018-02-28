@@ -11,5 +11,5 @@ class PeopleCoin(Bitcoin):
     symbols = ('MEN', )
     seeds = ("seed.peoplecoin.pw")
     port = 7721
-	
+
 # no testnet

@@ -9,8 +9,8 @@ class ArpaCoin(Bitcoin):
     """
     name = 'arpacoin'
     symbols = ('ARPA', )
-    seeds =  ("109.237.25.123")
+    seeds = ("109.237.25.123")
     port = 56631
-	
-   
+
+
 # Has no testnet

@@ -10,7 +10,7 @@ class Saturn2Coin(Bitcoin):
     name = 'saturn2coin'
     symbols = ('SAT2', )
     seeds = ("seed.saturn2coin.mycryptocoins.net",
-	         "seednodes.saturn2coin.mycryptocoins.net")
+             "seednodes.saturn2coin.mycryptocoins.net")
     port = 17771
-	
+
 # no testnet

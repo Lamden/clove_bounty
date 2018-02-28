@@ -11,8 +11,8 @@ class ChampCoin(Bitcoin):
     symbols = ('TCC', )
     seeds = ("champcointools.com")
     port = 38173
-	
-   
+
+
 class ChampCoinTestNet(ChampCoin):
     """
     Class with all the necessary ChampCoin testing network information based on
@@ -22,6 +22,5 @@ class ChampCoinTestNet(ChampCoin):
     name = 'test-champcoin'
     seeds = ("testnet-seed.champcointools.com",
              "testnet-seed.champ.xurious.com",
-             "dnsseed.wemine-testnet.com")	
-    port = 39173               
-	
+             "dnsseed.wemine-testnet.com")
+    port = 39173

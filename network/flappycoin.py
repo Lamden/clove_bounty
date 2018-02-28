@@ -16,9 +16,9 @@ class Flappycoin(Bitcoin):
 class FlappycoinTestNet(Flappycoin):
     """
     Class with all the necessary Flappycoin (FLAP) testing network information based on
-    https://github.com/flappycoin-project/flappycoin/blob/master/src/net.cpp    
+    https://github.com/flappycoin-project/flappycoin/blob/master/src/net.cpp
     (date of access: 02/16/2018)
     """
     name = 'test-flappycoin'
-    seeds = ('dnsseed.flap.so')
+    seeds = ('dnsseed.flap.so', )
     port = 33556

@@ -14,4 +14,3 @@ class Onix(Bitcoin):
              "seed3.cryptolife.net",
              "electrum6.cryptolife.net")
     port = 41016
-	

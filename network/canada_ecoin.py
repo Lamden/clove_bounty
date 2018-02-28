@@ -9,10 +9,10 @@ class Canada_eCoin(Bitcoin):
     """
     name = 'canada_ecoin'
     symbols = ('CDN', )
-    seeds =  ("alberta.canadaecoin.net")
+    seeds = ("alberta.canadaecoin.net")
     port = 34331
-	
-   
+
+
 class Canada_eCoinTestNet(Canada_eCoin):
     """
     Class with all the necessary Canada eCoin testing network information based on
@@ -21,6 +21,4 @@ class Canada_eCoinTestNet(Canada_eCoin):
     """
     name = 'test-canada_ecoin'
     seeds = ("ontario.canadaecoin.net")
-    port = 41331               
-	
-	
+    port = 41331

@@ -11,5 +11,5 @@ class Extremecoin(Bitcoin):
     symbols = ('EXC', )
     seeds = ("212.48.67.126")
     port = 26667
-	
+
 # No testnet

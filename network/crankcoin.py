@@ -9,7 +9,7 @@ class CrankCoin(Bitcoin):
     """
     name = 'crankcoin'
     symbols = ('CRNK', )
-    seeds =  ("192.99.32.58")
+    seeds = ("192.99.32.58")
     port = 17771
-	
+
 # Has no testnet

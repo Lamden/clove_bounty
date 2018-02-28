@@ -16,9 +16,9 @@ class Money(Bitcoin):
 class MoneyTestNet(Money):
     """
     Class with all the necessary Money ($$$) testing network information based on
-    https://github.com/moneyfoundation/money/blob/master-0.8/src/net.cpp    
+    https://github.com/moneyfoundation/money/blob/master-0.8/src/net.cpp
     (date of access: 02/18/2018)
     """
     name = 'test-money'
-    seeds = ('dns.yourmoneyknowledge.com')
+    seeds = ('dns.yourmoneyknowledge.com', )
     port = 21082

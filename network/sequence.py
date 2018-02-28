@@ -12,7 +12,7 @@ class Sequence(Bitcoin):
     seeds = ("seq.dnsseeder.io",
              "seq.dnsseeder.com",
              "seq.dnsseeder.host",
-             "seq.dnsseeder.net")	
+             "seq.dnsseeder.net")
     port = 16662
-	
+
 # no testnet

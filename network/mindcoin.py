@@ -17,4 +17,3 @@ class MindCoin(Bitcoin):
 
 
 # Has no testnet
-

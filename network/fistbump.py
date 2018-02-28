@@ -11,5 +11,5 @@ class FistBump(Bitcoin):
     symbols = ('FIST', )
     seeds = ("104.219.53.59")
     port = 13337
-	
+
 # No testnet

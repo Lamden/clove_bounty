@@ -12,5 +12,5 @@ class Mineralscoin(Bitcoin):
     seeds = ("dnsseed1.minerals.pro",
              "dnsseed2.minerals.pro")
     port = 33442
-	
+
 # no testnet

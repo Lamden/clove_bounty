@@ -11,8 +11,8 @@ class PupaCoin(Bitcoin):
     symbols = ('PUPA', )
     seeds = ("213.169.33.11")
     port = 6811
-	
-   
+
+
 class PupaCoinTestNet(PupaCoin):
     """
     Class with all the necessary PupaCoin testing network information based on
@@ -21,4 +21,4 @@ class PupaCoinTestNet(PupaCoin):
     """
     name = 'test-pupacoin'
     seeds = ("test1.PupaCoin.pw")
-    port = 16811              
+    port = 16811

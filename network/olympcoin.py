@@ -11,5 +11,5 @@ class OlympCoin(Bitcoin):
     symbols = ('OLYMP', )
     seeds = ("40.68.155.213")
     port = 3530
-	
+
 # no testnet

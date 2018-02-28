@@ -9,10 +9,8 @@ class InflationCoin(Bitcoin):
     """
     name = 'inflationcoin'
     symbols = ('IFLT', )
-    seeds = ("45.42.189.71","45.42.189.111")
+    seeds = ("45.42.189.71", "45.42.189.111")
     port = 11370
 
 
 # Has no testnet
-	
-	

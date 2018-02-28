@@ -9,10 +9,10 @@ class EarthCoin(Bitcoin):
     """
     name = 'earthcoin'
     symbols = ('EAC', )
-    seeds =  ("dnsseed.earthcointools.org")
+    seeds = ("dnsseed.earthcointools.org")
     port = 15677
-	
-   
+
+
 class EarthCoinTestNet(EarthCoin):
     """
     Class with all the necessary EarthCoin testing network information based on
@@ -21,4 +21,4 @@ class EarthCoinTestNet(EarthCoin):
     """
     name = 'test-earthcoin'
     seeds = ("testnet-seed.earthcointools.org")
-    port = 25677               
+    port = 25677

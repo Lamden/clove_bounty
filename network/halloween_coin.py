@@ -9,9 +9,8 @@ class HalloweenCoin(Bitcoin):
     """
     name = 'halloweencoin'
     symbols = ('HALLO', )
-    seeds = ("91.134.120.210","149.56.154.75")
+    seeds = ("91.134.120.210", "149.56.154.75")
     port = 35727
 
 
 # Has no Testnet
-

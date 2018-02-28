@@ -17,8 +17,8 @@ class BitcoinZ(Bitcoin):
              "btcz.vnminers.com",
              "dnsseed.ppcall.ru")
     port = 1989
-	
-   
+
+
 class BitcoinZTestNet(BitcoinZ):
     """
     Class with all the necessary BitcoinZ testing network information based on
@@ -27,5 +27,4 @@ class BitcoinZTestNet(BitcoinZ):
     """
     name = 'test-BitcoinZ'
     seeds = ("test-dnsseed.rotorproject.org")
-    port = 11989              
-	
+    port = 11989

@@ -11,5 +11,5 @@ class Nerdcoin(Bitcoin):
     symbols = ('NERD', )
     seeds = ("45.55.148.6")
     port = 31338
-	
+
 # no testnet

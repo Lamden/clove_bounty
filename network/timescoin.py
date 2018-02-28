@@ -11,5 +11,5 @@ class TimesCoin(Bitcoin):
     symbols = ('TMC', )
     seeds = ("andarazoroflove.org")
     port = 55884
-	
+
 # no testnet

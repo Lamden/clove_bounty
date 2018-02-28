@@ -12,4 +12,3 @@ class Twelve(Bitcoin):
     seeds = ("46.101.21.51",
              "46.101.155.214")
     port = 29662
-	

@@ -11,5 +11,5 @@ class Firecoin(Bitcoin):
     symbols = ('FIRE', )
     seeds = ("23.254.97.249")
     port = 49697
-	
+
 # no testnet

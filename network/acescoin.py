@@ -1,7 +1,7 @@
 from clove.network.bitcoin import Bitcoin
 
 
-class  Aces(Bitcoin):
+class Aces(Bitcoin):
     """
     Class with all the necessary  Aces (ACES) network information based on
     https://github.com/aces-coin/AcesCoin/blob/master/src/net.cpp
@@ -9,11 +9,11 @@ class  Aces(Bitcoin):
     """
     name = 'aces'
     symbols = ('ACES', )
-    seeds =  ('81.4.123.155')
+    seeds = ('81.4.123.155')
     port = 21274
 
 
-class  AcesTestNet(Aces):
+class AcesTestNet(Aces):
     """
     Class with all the necessary  Aces (ACES) network information based on
     https://github.com/aces-coin/AcesCoin/blob/master/src/net.cpp
@@ -21,5 +21,5 @@ class  AcesTestNet(Aces):
     """
     name = 'test-aces'
     symbols = ('ACES', )
-    seeds =  ()
+    seeds = ()
     port = 21275

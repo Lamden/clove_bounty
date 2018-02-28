@@ -10,7 +10,8 @@ class TransferCoin(Bitcoin):
     """
     name = 'transfercoin'
     symbols = ('TX', )
-    seeds = ('txdns.infernopool.com', 'txdns2.infernopool.com', 'txdns3.infernopool.com')
+    seeds = ('txdns.infernopool.com', 'txdns2.infernopool.com',
+             'txdns3.infernopool.com')
     port = 17170
 
 

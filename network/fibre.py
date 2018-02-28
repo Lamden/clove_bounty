@@ -15,5 +15,5 @@ class Fibre(Bitcoin):
              "seed4.worldfibre.net",
              "seed5.worldfibre.net")
     port = 7223
-	
+
 # no testnet

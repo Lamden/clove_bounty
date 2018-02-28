@@ -9,7 +9,8 @@ class BiblePay(Bitcoin):
     """
     name = 'biblepay'
     symbols = ('BBP', )
-    seeds =  ('dnsseed.biblepay.org', 'node.biblepay.org', 'dnsseed.biblepay-explorer.org')
+    seeds = ('dnsseed.biblepay.org', 'node.biblepay.org',
+             'dnsseed.biblepay-explorer.org')
     port = 40000
 
 
@@ -21,5 +22,5 @@ class BiblePayTestNet(BiblePay):
     """
     name = 'test-biblepay'
     symbols = ('BBP', )
-    seeds =  ('testnet-seed.biblepaydot.io', 'test.dnsseed.masternode.io')
+    seeds = ('testnet-seed.biblepaydot.io', 'test.dnsseed.masternode.io')
     port = 40001

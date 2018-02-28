@@ -9,8 +9,8 @@ class SACoin(Bitcoin):
     """
     name = 'sacoin'
     symbols = ('SAC', )
-    seeds = ('seed5.cryptolife.net', 'seed2.cryptolife.net', 'seed3.cryptolife.net', 'electrum1.cryptolife.net', 
-			 'wallet.cryptolife.net', 'explore.cryptolife.net')
+    seeds = ('seed5.cryptolife.net', 'seed2.cryptolife.net', 'seed3.cryptolife.net', 'electrum1.cryptolife.net',
+             'wallet.cryptolife.net', 'explore.cryptolife.net')
     port = 21996
 
 # no testnet

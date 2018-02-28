@@ -16,4 +16,3 @@ class Fazzcoin(Bitcoin):
              "wallet.cryptolife.net",
              "explore.cryptolife.net")
     port = 32263
-	

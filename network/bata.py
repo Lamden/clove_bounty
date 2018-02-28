@@ -21,5 +21,6 @@ class BataTestNet(Bata):
     (date of access: 02/11/2018)
     """
     name = 'test-bata'
-    seeds = ('testnet-seed.bata.io', 'testnet-bata.midnightminer.net', 'dnsseed.wemine-testnet.com')
+    seeds = ('testnet-seed.bata.io', 'testnet-bata.midnightminer.net',
+             'dnsseed.wemine-testnet.com')
     port = 33813

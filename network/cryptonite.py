@@ -9,10 +9,10 @@ class Cryptonite(Bitcoin):
     """
     name = 'cryptonite'
     symbols = ('XCN', )
-    seeds =  ("gpile.it")
+    seeds = ("gpile.it")
     port = 8253
-	
-   
+
+
 class CryptoniteTestNet(Cryptonite):
     """
     Class with all the necessary Diamond testing network information based on
@@ -21,4 +21,4 @@ class CryptoniteTestNet(Cryptonite):
     """
     name = 'test-cryptonite'
     seeds = ("seed.cryptonite.info")
-    port = 18253              
+    port = 18253

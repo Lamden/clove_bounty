@@ -11,5 +11,5 @@ class LemonCoin(Bitcoin):
     symbols = ('LEMON', )
     seeds = ("45.32.180.199")
     port = 22331
-	
+
 # no testnet
