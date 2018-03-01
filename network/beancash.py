@@ -10,7 +10,8 @@ class BeanCash(Bitcoin):
     """
     name = 'beancash'
     symbols = ('BITB', )
-    seeds = ('stalk1.bitbean.org', 'stalk2.bitbean.org', 'stalk3.bitbean.org', 'stalk1.beancash.net', 'stalk2.beancash.net', 'stalk3.beancash.net')
+    seeds = ('stalk1.bitbean.org', 'stalk2.bitbean.org', 'stalk3.bitbean.org',
+             'stalk1.beancash.net', 'stalk2.beancash.net', 'stalk3.beancash.net')
     port = 22460
 
 

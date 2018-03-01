@@ -21,5 +21,6 @@ class BitcoreTestNet(Bitcore):
     (date of access: 02/11/2018)
     """
     name = 'test-bitcore'
-    seeds = ('188.68.52.172', '37.120.186.85', '37.120.190.76', 'dnsseed1.bitcore.org', 'dnsseed2.bitcore.org')
+    seeds = ('188.68.52.172', '37.120.186.85', '37.120.190.76',
+             'dnsseed1.bitcore.org', 'dnsseed2.bitcore.org')
     port = 18333

@@ -13,5 +13,3 @@ class bitGold(Bitcoin):
              "dnsseed.BitGold.ru",
              "dnsseed.novaco.in")
     port = 5772
-	
-   

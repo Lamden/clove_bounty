@@ -9,9 +9,8 @@ class Sativacoin(Bitcoin):
     """
     name = 'Sativacoin'
     symbols = ('STV', )
-    seeds = ("0.stv.bitnodes.net","1.stv.bitnodes.net","2.stv.bitnodes.net")
+    seeds = ("0.stv.bitnodes.net", "1.stv.bitnodes.net", "2.stv.bitnodes.net")
     port = 60990
 
 
 # Has no testnet
-

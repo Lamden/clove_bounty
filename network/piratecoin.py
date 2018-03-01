@@ -11,5 +11,5 @@ class PirateCoin(Bitcoin):
     symbols = ('PIR', )
     seeds = ("dnsseed.piratecoin.co")
     port = 17771
-	
+
 # no 11656

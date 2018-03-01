@@ -14,4 +14,3 @@ class InvisibleCoin(Bitcoin):
 
 
 # Has no testnet
-	

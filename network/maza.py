@@ -9,9 +9,9 @@ class Maza(Bitcoin):
     """
     name = 'maza'
     symbols = ('MZC', )
-    seeds =("node.mazacoin.org",
-            "node.mazacoin.cf",
-            "mazacoin.no-ip.org")
+    seeds = ("node.mazacoin.org",
+             "node.mazacoin.cf",
+             "mazacoin.no-ip.org")
     port = 12835
-	
+
 # no testnet

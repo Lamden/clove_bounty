@@ -15,8 +15,8 @@ class Thundercoin(Bitcoin):
              "dnsseed.koin-project.com",
              "dnsseed.weminemnc.com")
     port = 94383
-	
-   
+
+
 class ThundercoinTestNet(Thundercoin):
     """
     Class with all the necessary Thundercoin testing network information based on
@@ -27,9 +27,4 @@ class ThundercoinTestNet(Thundercoin):
     seeds = ("testnet-seed.litecointools.com",
              "testnet-seed.ltc.xurious.com",
              "dnsseed.wemine-testnet.com")
-    port = 64547               
-	
-	
-	
-	
-	
+    port = 64547

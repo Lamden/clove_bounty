@@ -12,4 +12,3 @@ class EqualCoin(Bitcoin):
     seeds = ("216.31.12.38",
              "216.31.12.99")
     port = 13787
-	

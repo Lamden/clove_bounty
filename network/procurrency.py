@@ -25,5 +25,5 @@ class ProCurrency(Bitcoin):
              "66.222.148.57",
              "47.157.52.95")
     port = 35950
-	
+
 # no testnet

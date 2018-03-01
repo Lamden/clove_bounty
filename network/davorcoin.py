@@ -9,7 +9,7 @@ class DavorCoin(Bitcoin):
     """
     name = 'davorcoin'
     symbols = ('DAV', )
-    seeds =  ("52.77.118.10")
+    seeds = ("52.77.118.10")
     port = 17511
-	
+
 # No testnet

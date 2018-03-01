@@ -14,5 +14,3 @@ class HighVoltage(Bitcoin):
 
 
 # has no testnet
-
-

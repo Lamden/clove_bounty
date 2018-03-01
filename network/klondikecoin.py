@@ -12,8 +12,8 @@ class KlondikeCoin(Bitcoin):
     seeds = ("dnsseed.klondikecoin.com",
              "dnsseed2.klondikecoin.com")
     port = 56680
-	
-   
+
+
 class KlondikeCoinTestNet(KlondikeCoin):
     """
     Class with all the necessary KlondikeCoin testing network information based on
@@ -21,6 +21,6 @@ class KlondikeCoinTestNet(KlondikeCoin):
     (date of access: 02/16/2018)
     """
     name = 'test-klondikecoin'
-    seeds = ("testnet-seed.klondikecointools.com","testnet-seed.weminemnc.com")
-    port = 19333               
-	
+    seeds = ("testnet-seed.klondikecointools.com",
+             "testnet-seed.weminemnc.com")
+    port = 19333

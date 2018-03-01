@@ -11,5 +11,5 @@ class RichCoin(Bitcoin):
     symbols = ('RICHX', )
     seeds = ("richcoin.us")
     port = 11777
-	
+
 # no testnet

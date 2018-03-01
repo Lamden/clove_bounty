@@ -9,7 +9,7 @@ class DeltaCredits(Bitcoin):
     """
     name = 'deltacredits'
     symbols = ('DCRE', )
-    seeds =  ("108.61.72.49")
+    seeds = ("108.61.72.49")
     port = 31414
-	
+
 # Has no testnet

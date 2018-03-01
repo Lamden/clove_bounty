@@ -9,10 +9,10 @@ class Execoin(Bitcoin):
     """
     name = 'execoin'
     symbols = ('DMD', )
-    seeds =  ("dnsseed.execoin.net")
+    seeds = ("dnsseed.execoin.net")
     port = 9989
-	
-   
+
+
 class ExecoinTestNet(Execoin):
     """
     Class with all the necessary Execoin testing network information based on
@@ -21,4 +21,4 @@ class ExecoinTestNet(Execoin):
     """
     name = 'test-execoin'
     seeds = ("testnet-seed.execoin.net")
-    port = 19989              
+    port = 19989

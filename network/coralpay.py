@@ -9,7 +9,7 @@ class CoralPay(Bitcoin):
     """
     name = 'coralpay'
     symbols = ('CORAL', )
-    seeds =  ("35.163.164.145")
+    seeds = ("35.163.164.145")
     port = 60093
-	
+
 # Has no testnet

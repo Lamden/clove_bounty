@@ -25,4 +25,3 @@ class Fuloos_Coin(Bitcoin):
              "52.62.108.155",
              "54.153.229.81")
     port = 11217
-	

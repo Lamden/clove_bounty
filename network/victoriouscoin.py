@@ -11,5 +11,5 @@ class Victoriouscoin(Bitcoin):
     symbols = ('VTY', )
     seeds = ("node.walletbuilders.com")
     port = 7955
-	
+
 # no testnet

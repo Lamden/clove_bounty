@@ -9,7 +9,7 @@ class SpaceCoin(Bitcoin):
     """
     name = 'spacecoin'
     symbols = ('SPACE', )
-    seeds = ('seed1.spacecoin.info','seed2.spacecoin.info')
+    seeds = ('seed1.spacecoin.info', 'seed2.spacecoin.info')
     port = 9172
 
 

@@ -9,7 +9,7 @@ class BlackCoin(Bitcoin):
     """
     name = 'BlackCoin'
     symbols = ('BLK', )
-    seeds =  ("dnsseed.vasin.nl")
+    seeds = ("dnsseed.vasin.nl")
     port = 15714
-	
+
 # Has no testnet

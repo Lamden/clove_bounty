@@ -9,10 +9,10 @@ class Einsteinium(Bitcoin):
     """
     name = 'einsteinium'
     symbols = ('EMC2', )
-    seeds =  ("dnsseed.einsteinium.org")
+    seeds = ("dnsseed.einsteinium.org")
     port = 41878
-	
-   
+
+
 class EinsteiniumTestNet(Einsteinium):
     """
     Class with all the necessary Einsteinium testing network information based on
@@ -20,5 +20,5 @@ class EinsteiniumTestNet(Einsteinium):
     (date of access: 02/14/2018)
     """
     name = 'test-einsteinium'
-    seeds = ("testnet-seed.einsteiniumtools.com","testnet-seed.weminemnc.com")
-    port = 31878              
+    seeds = ("testnet-seed.einsteiniumtools.com", "testnet-seed.weminemnc.com")
+    port = 31878

@@ -9,7 +9,7 @@ class ConcealCoin(Bitcoin):
     """
     name = 'concealcoin'
     symbols = ('CNL', )
-    seeds =  ("54.76.49.245")
+    seeds = ("54.76.49.245")
     port = 27712
-	
+
 # Has no testnet

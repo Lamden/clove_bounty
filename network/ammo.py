@@ -1,7 +1,7 @@
 from clove.network.bitcoin import Bitcoin
 
 
-class  Ammo(Bitcoin):
+class Ammo(Bitcoin):
     """
     Class with all the necessary  Ammo Reloaded (AMMO) network information based on
     https://github.com/AmmoCore/AmmoReloaded/blob/master/src/net.cpp
@@ -9,11 +9,11 @@ class  Ammo(Bitcoin):
     """
     name = 'ammo'
     symbols = ('AMMO', )
-    seeds =  ('ammoreloaded.io')
+    seeds = ('ammoreloaded.io')
     port = 21582
 
 
-class  AmmoTestNet(Ammo):
+class AmmoTestNet(Ammo):
     """
     Class with all the necessary  Ammo Reloaded (AMMO) network information based on
     https://github.com/AmmoCore/AmmoReloaded/blob/master/src/net.cpp
@@ -21,5 +21,5 @@ class  AmmoTestNet(Ammo):
     """
     name = 'test-ammo'
     symbols = ('AMMO', )
-    seeds =  ()
+    seeds = ()
     port = 28582

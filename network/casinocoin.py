@@ -22,8 +22,8 @@ class CasinoCoin(Bitcoin):
              "seed3.casinocoin.org",
              "seed5.casinocoin.info")
     port = 47950
-	
-   
+
+
 class CasinoCoinTestNet(CasinoCoin):
     """
     Class with all the necessary CasinoCoin testing network information based on
@@ -32,5 +32,4 @@ class CasinoCoinTestNet(CasinoCoin):
     """
     name = 'test-casinocoin'
     seeds = ("testnet-seed1.casinocoin.org")
-    port = 17950               
-	
+    port = 17950

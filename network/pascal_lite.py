@@ -10,13 +10,13 @@ class PascalLite(Bitcoin):
     name = 'pascallite'
     symbols = ('PASL', )
     seeds = ('pascallite.ddns.net',
-			 'pascallite2.ddns.net',
-			 'pascallite3.ddns.net',
-			 'pascallite4.dynamic-dns.net',
-			 'pascallite5.dynamic-dns.net',
-			 'pascallite.dynamic-dns.net',
-			 'pascallite2.dynamic-dns.net',
-			 'pascallite3.dynamic-dns.net')
+             'pascallite2.ddns.net',
+             'pascallite3.ddns.net',
+             'pascallite4.dynamic-dns.net',
+             'pascallite5.dynamic-dns.net',
+             'pascallite.dynamic-dns.net',
+             'pascallite2.dynamic-dns.net',
+             'pascallite3.dynamic-dns.net')
     port = 4004
 
 # no testnet

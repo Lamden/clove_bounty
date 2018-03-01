@@ -9,15 +9,25 @@ class EGulden(Bitcoin):
     """
     name = 'egulden'
     symbols = ('EFL', )
-    seeds = ('dnsseed1.egulden.org', 'dnsseed2.egulden.org', 'dnsseed3.egulden.org', 'dnsseed4.egulden.org', 'dnsseed5.egulden.org',
-			 'dnsseed6.egulden.org', 'dnsseed7.egulden.org', 'dnsseed8.egulden.org', 'dnsseed9.egulden.org', 'dnsseed10.egulden.org')
+    seeds = (
+        'dnsseed1.egulden.org',
+        'dnsseed2.egulden.org',
+        'dnsseed3.egulden.org',
+        'dnsseed4.egulden.org',
+        'dnsseed5.egulden.org',
+        'dnsseed6.egulden.org',
+        'dnsseed7.egulden.org',
+        'dnsseed8.egulden.org',
+        'dnsseed9.egulden.org',
+        'dnsseed10.egulden.org'
+    )
     port = 11015
 
 
 class EGuldenTestNet(EGulden):
     """
     Class with all the necessary eGulden (EFL) testing network information based on
-    https://github.com/Electronic-Gulden-Foundation/egulden/blob/master/src/chainparams.cpp    
+    https://github.com/Electronic-Gulden-Foundation/egulden/blob/master/src/chainparams.cpp
     (date of access: 02/17/2018)
     """
     name = 'test-egulden'

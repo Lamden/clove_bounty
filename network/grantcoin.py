@@ -14,5 +14,5 @@ class Grantcoin(Bitcoin):
              "dnsseed.bitcoin.dashjr.org",
              "bitseed.xf2.org")
     port = 8333
-	
+
 # no testnet

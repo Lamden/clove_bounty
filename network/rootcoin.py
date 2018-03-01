@@ -15,5 +15,5 @@ class RootCoin(Bitcoin):
              "198.23.160.13",
              "192.99.223.96")
     port = 28388
-	
+
 # no testnet

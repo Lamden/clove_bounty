@@ -13,8 +13,8 @@ class Hush(Bitcoin):
              "zdash.suprnova.cc",
              "76.188.211.191")
     port = 8888
-	
-   
+
+
 class HushTestNet(Hush):
     """
     Class with all the necessary Hush testing network information based on
@@ -24,6 +24,5 @@ class HushTestNet(Hush):
     name = 'test-hush'
     seeds = ("tush.cryptominingpools.org",
              "testnet.myhush.network",
-             "testnet.madmining.club") 
-    port = 18888              
-	
+             "testnet.madmining.club")
+    port = 18888

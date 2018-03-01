@@ -11,5 +11,5 @@ class Networkcoin(Bitcoin):
     symbols = ('NETC', )
     seeds = ("45.63.5.183")
     port = 19172
-	
+
 # no testnet

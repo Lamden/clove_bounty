@@ -12,4 +12,3 @@ class JumBucks(Bitcoin):
     seeds = ("seed1.getjumbucks.com",
              "dnsseed1.getjumbucks.com")
     port = 51717
-	  

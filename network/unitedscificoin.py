@@ -12,4 +12,3 @@ class UnitedSciFiCoin(Bitcoin):
     seeds = ("dnsseed.unitedscifi.com",
              "pool.unitedscifi.com")
     port = 8454
-	

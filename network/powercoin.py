@@ -11,5 +11,5 @@ class Powercoin(Bitcoin):
     symbols = ('PWR', )
     seeds = ("52.39.155.228")
     port = 4504
-	
+
 # no testnet

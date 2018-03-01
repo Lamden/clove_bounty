@@ -11,5 +11,5 @@ class Manet_Coin(Bitcoin):
     symbols = ('MAT', )
     seeds = ("node.45.76.117.168")
     port = 17795
-	
+
 # no testnet

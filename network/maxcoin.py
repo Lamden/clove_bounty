@@ -12,4 +12,3 @@ class MaxCoin(Bitcoin):
     seeds = ("a.seed.maxcoinproject.net",
              "b.seed.maxcoinproject.net")
     port = 8668
-	

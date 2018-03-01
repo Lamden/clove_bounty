@@ -12,8 +12,8 @@ class ProsperCoin(Bitcoin):
     seeds = ("seed.inmean.com",
              "seed.khmer.biz")
     port = 9431
-	
-   
+
+
 class ProsperCoinTestNet(ProsperCoin):
     """
     Class with all the necessary ProsperCoin testing network information based on
@@ -23,5 +23,4 @@ class ProsperCoinTestNet(ProsperCoin):
     name = 'test-prospercoin'
     seeds = ("seedtest.inmean.com",
              "seed2.khmer.biz")
-    port = 19222              
-	
+    port = 19222

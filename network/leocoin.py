@@ -1,4 +1,3 @@
-
 from clove.network.bitcoin import Bitcoin
 
 
@@ -10,7 +9,11 @@ class LEOcoin(Bitcoin):
     """
     name = 'leocoin'
     symbols = ('LEO', )
-    seeds = ('dnsseed.leocoin.org', 'leoseed.leocoin.org', 'node1.leocoin.org', 'node2.leocoin.org', 'node3.leocoin.org', 'node4.leocoin.org', 'node5.leocoin.org', 'node6.leocoin.org', 'node7.leocoin.org', 'node8.leocoin.org', 'node9.leocoin.org', 'node10.leocoin.org')
+    seeds = (
+        'dnsseed.leocoin.org', 'leoseed.leocoin.org', 'node1.leocoin.org', 'node2.leocoin.org', 'node3.leocoin.org',
+        'node4.leocoin.org', 'node5.leocoin.org', 'node6.leocoin.org', 'node7.leocoin.org', 'node8.leocoin.org',
+        'node9.leocoin.org', 'node10.leocoin.org'
+    )
     port = 5840
 
 

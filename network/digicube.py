@@ -9,7 +9,7 @@ class DigiCube(Bitcoin):
     """
     name = 'digicube'
     symbols = ('CUBE', )
-    seeds =  ("digicubeseeds.freestaking.com")
+    seeds = ("digicubeseeds.freestaking.com")
     port = 8888
-	
+
 # no testnet

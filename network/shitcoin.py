@@ -11,5 +11,5 @@ class Shitcoin(Bitcoin):
     symbols = ('SHIT', )
     seeds = ("172.245.173.137")
     port = 9999
-	
+
 # no testnet

@@ -11,5 +11,5 @@ class SmurfCoin(Bitcoin):
     symbols = ('SMF', )
     seeds = ("45.55.83.96")
     port = 43221
-	
+
 # no testnet

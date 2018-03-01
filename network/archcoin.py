@@ -9,7 +9,7 @@ class ARCHcoin(Bitcoin):
     """
     name = 'archcoin'
     symbols = ('ARCH', )
-    seeds =  ("supernode.archcoin.co")
+    seeds = ("supernode.archcoin.co")
     port = 8998
-	
+
 # Has no testnet

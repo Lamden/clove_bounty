@@ -9,7 +9,7 @@ class GanjaCoin(Bitcoin):
     """
     name = 'ganjacoin'
     symbols = ('MRJA', )
-    seeds = ("178.62.211.205","178.62.202.107")
+    seeds = ("178.62.211.205", "178.62.202.107")
     port = 10995
-	
+
 # no testnet

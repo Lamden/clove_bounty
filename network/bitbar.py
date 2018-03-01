@@ -11,4 +11,3 @@ class BitBar(Bitcoin):
     symbols = ('BTB', )
     seeds = ('btb.altcointech.net')
     port = 8777
-

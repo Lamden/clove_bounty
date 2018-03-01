@@ -10,7 +10,9 @@ class Skeincoin(Bitcoin):
     """
     name = 'skeincoin'
     symbols = ('SKC', )
-    seeds = ('seed-a.skeincoin.net', 'seed-b.skeincoin.net', 'seed-c.skeincoin.net', 'seed-d.skeincoin.net', 'seed-e.skeincoin.net', 'seed-f.skeincoin.net', 'seed-g.skeincoin.net', 'seed-h.skeincoin.net', 'skein1.ignorelist.com', 'skein2.ignorelist.com', 'skein3.ignorelist.com')
+    seeds = ('seed-a.skeincoin.net', 'seed-b.skeincoin.net', 'seed-c.skeincoin.net', 'seed-d.skeincoin.net',
+             'seed-e.skeincoin.net', 'seed-f.skeincoin.net', 'seed-g.skeincoin.net', 'seed-h.skeincoin.net',
+             'skein1.ignorelist.com', 'skein2.ignorelist.com', 'skein3.ignorelist.com')
     port = 11230
 
 

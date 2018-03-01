@@ -16,6 +16,5 @@ class DickCoin(Bitcoin):
              "wallet.cryptolife.net",
              "explore.cryptolife.net")
     port = 41018
-	
+
 # Has no testnet
-	

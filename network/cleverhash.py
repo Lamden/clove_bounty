@@ -9,7 +9,7 @@ class CleverHash(Bitcoin):
     """
     name = 'cleverhash'
     symbols = ('CHASH', )
-    seeds =  ("104.131.197.190","104.236.15.167")
+    seeds = ("104.131.197.190", "104.236.15.167")
     port = 28194
-	
+
 # Has no testnet

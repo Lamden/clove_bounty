@@ -12,5 +12,3 @@ class Wisdomcoin(Bitcoin):
     seeds = ("35.163.177.45",
              "95.211.57.108")
     port = 17771
-	
-   

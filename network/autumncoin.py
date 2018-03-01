@@ -9,7 +9,7 @@ class Autumncoin(Bitcoin):
     """
     name = 'autumncoin'
     symbols = ('ATM', )
-    seeds =  ("192.241.204.48")
+    seeds = ("192.241.204.48")
     port = 58851
-	
+
 # Has no testnet

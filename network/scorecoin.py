@@ -11,5 +11,5 @@ class Scorecoin(Bitcoin):
     symbols = ('SCORE', )
     seeds = ("scorecoin.net")
     port = 17075
-	
+
 # no testnet

@@ -15,4 +15,3 @@ class Titcoin(Bitcoin):
              "seed.titcoins.info",
              "seed.titcoinpool.com")
     port = 8698
-	

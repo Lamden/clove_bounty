@@ -16,5 +16,5 @@ class Cabbage(Bitcoin):
              "wallet.cryptolife.net",
              "explore.cryptolife.net")
     port = 40718
-	
+
 # Has no testnet

@@ -8,7 +8,7 @@ class ARbit(Bitcoin):
     (date of access: 02/12/2018)
     """
     name = 'ARbit'
-    symbols ('ARB', )
+    symbols = ('ARB', )
     seeds = ('162.243.203.211', '178.62.56.172')
     port = 31930
 

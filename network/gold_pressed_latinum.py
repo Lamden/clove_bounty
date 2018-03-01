@@ -1,7 +1,7 @@
 from clove.network.bitcoin import Bitcoin
 
 
-class  GoldPressedLatinum(Bitcoin):
+class GoldPressedLatinum(Bitcoin):
     """
     Class with all the necessary  Gold Pressed Latinum (GPL) network information based on
     https://github.com/scificrypto/Gold-Pressed-Latinum/blob/master/src/net.cpp
@@ -9,7 +9,7 @@ class  GoldPressedLatinum(Bitcoin):
     """
     name = 'gold_pressed_latinum'
     symbols = ('GPL', )
-    seeds =  ('seed.goldpressedlatinum.su')
+    seeds = ('seed.goldpressedlatinum.su')
     port = 23635
 
 

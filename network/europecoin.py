@@ -24,8 +24,8 @@ class Europecoin(Bitcoin):
              "86.219.30.13",
              "95.104.192.198")
     port = 8881
-	
-   
+
+
 class EuropecoinTestNet(Europecoin):
     """
     Class with all the necessary Europecoin testing network information based on
@@ -34,5 +34,4 @@ class EuropecoinTestNet(Europecoin):
     """
     name = 'test-europecoin'
     seeds = ("85.214.68.75")
-    port = 8989              
-	
+    port = 8989

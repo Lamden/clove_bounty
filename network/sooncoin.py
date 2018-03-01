@@ -9,7 +9,7 @@ class SoonCoin(Bitcoin):
     """
     name = 'sooncoin'
     symbols = ('SOON', )
-    seeds = ("93.157.4.11","192.169.6.169")
+    seeds = ("93.157.4.11", "192.169.6.169")
     port = 22221
 
 # no testnet

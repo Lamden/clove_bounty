@@ -9,7 +9,7 @@ class Bitdeal(Bitcoin):
     """
     name = 'bitdeal'
     symbols = ('BDL', )
-    seeds =  ("dnsseed.bitdeal.co.in")
+    seeds = ("dnsseed.bitdeal.co.in")
     port = 9333
-	
+
 # Has no testnet

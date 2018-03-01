@@ -11,5 +11,5 @@ class Entropycoin(Bitcoin):
     symbols = ('ENC', )
     seeds = ("seed.entropycoins.com")
     port = 7559
-	
+
 # no testnet

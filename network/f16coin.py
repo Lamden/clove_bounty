@@ -11,5 +11,5 @@ class F16Coin(Bitcoin):
     symbols = ('F16', )
     seeds = ("node.walletbuilders.com")
     port = 18077
-	
+
 # no testnet

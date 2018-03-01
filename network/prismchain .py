@@ -11,5 +11,5 @@ class PrismChain(Bitcoin):
     symbols = ('PRM', )
     seeds = ("146.185.169.104")
     port = 21995
-	
+
 # no testnet

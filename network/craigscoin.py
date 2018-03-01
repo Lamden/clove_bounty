@@ -9,10 +9,10 @@ class CraigsCoin(Bitcoin):
     """
     name = 'craigscoin'
     symbols = ('CRAIG', )
-    seeds =  ("54.88.218.165")
+    seeds = ("54.88.218.165")
     port = 30365
-	
-   
+
+
 class CraigsCoinTestNet(CraigsCoin):
     """
     Class with all the necessary CraigsCoin testing network information based on
@@ -21,4 +21,4 @@ class CraigsCoinTestNet(CraigsCoin):
     """
     name = 'test-craigscoin'
     seeds = ("54.85.156.177")
-    port = 30367              
+    port = 30367

@@ -1,7 +1,7 @@
 from clove.network.bitcoin import Bitcoin
 
 
-class  Spec(Bitcoin):
+class Spec(Bitcoin):
     """
     Class with all the necessary  SPEC (SPEC) network information based on
     https://github.com/SpecDevelopment/spec-wallet/blob/master/src/net.cpp
@@ -9,11 +9,11 @@ class  Spec(Bitcoin):
     """
     name = 'spec'
     symbols = ('SPEC', )
-    seeds =  ('node.speccoin.com', 'node2.speccoin.com')
+    seeds = ('node.speccoin.com', 'node2.speccoin.com')
     port = 4319
 
 
-class  SpecTestNet(Spec):
+class SpecTestNet(Spec):
     """
     Class with all the necessary  SPEC (SPEC) network information based on
     https://github.com/SpecDevelopment/spec-wallet/blob/master/src/net.cpp
@@ -21,5 +21,5 @@ class  SpecTestNet(Spec):
     """
     name = 'test-spec'
     symbols = ('SPEC', )
-    seeds =  ()
+    seeds = ()
     port = 14319

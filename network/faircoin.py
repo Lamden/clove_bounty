@@ -12,8 +12,8 @@ class FairCoin(Bitcoin):
     seeds = ("faircoin2-seed1.fair-coin.org",
              "faircoin2-seed2.fair-coin.org")
     port = 40404
-	
-   
+
+
 class FairCoinTestNet(FairCoin):
     """
     Class with all the necessary FairCoin testing network information based on
@@ -22,5 +22,4 @@ class FairCoinTestNet(FairCoin):
     """
     name = 'test-faircoin'
     seeds = ("faircoin2-testnet-seed1.fair-coin.org")
-    port = 41404              
-	
+    port = 41404

@@ -12,5 +12,5 @@ class Coimatic30(Bitcoin):
     seeds = ("94.176.235.210",
              "94.176.235.203")
     port = 34222
-	
+
 # no testnet

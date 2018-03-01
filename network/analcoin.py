@@ -9,8 +9,8 @@ class AnalCoin(Bitcoin):
     """
     name = 'analcoin'
     symbols = ('ANAL', )
-    seeds =  ("108.61.178.105")
+    seeds = ("108.61.178.105")
     port = 4669
-	
-   
+
+
 # Has no testnet

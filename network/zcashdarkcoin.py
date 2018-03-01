@@ -11,5 +11,5 @@ class ZCashDarkCoin(Bitcoin):
     symbols = ('ZEC', )
     seeds = ("162.243.1.45")
     port = 7785
-	
+
 # no testnet

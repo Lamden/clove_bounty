@@ -16,7 +16,7 @@ class Votecoin(Bitcoin):
 class VotecoinTestNet(Votecoin):
     """
     Class with all the necessary Votecoin (VOT) testing network information based on
-    https://github.com/Tomas-M/VoteCoin/blob/master/src/chainparams.cpp    
+    https://github.com/Tomas-M/VoteCoin/blob/master/src/chainparams.cpp
     (date of access: 02/17/2018)
     """
     name = 'test-votecoin'

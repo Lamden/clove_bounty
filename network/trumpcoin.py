@@ -16,9 +16,9 @@ class Trumpcoin(Bitcoin):
 class TrumpcoinTestNet(Trumpcoin):
     """
     Class with all the necessary Trumpcoin (TRUMP) testing network information based on
-    https://github.com/TRUMPCOIN/TRUMP/blob/master/src/net.cpp    
+    https://github.com/TRUMPCOIN/TRUMP/blob/master/src/net.cpp
     (date of access: 02/17/2018)
     """
     name = 'test-trumpcoin'
-    seeds = ('173.44.41.235')
+    seeds = ('173.44.41.235', )
     port = 18468

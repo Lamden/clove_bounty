@@ -13,5 +13,5 @@ class CryptoSpots(Bitcoin):
              "104.236.84.239",
              "104.236.83.193")
     port = 17771
-	
+
 # Has no testnet

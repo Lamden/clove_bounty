@@ -11,5 +11,5 @@ class MilkCoin(Bitcoin):
     symbols = ('MUU', )
     seeds = ("185.69.55.50")
     port = 35235
-	
+
 # no testnet

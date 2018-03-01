@@ -9,8 +9,9 @@ class HoboNickels(Bitcoin):
     """
     name = 'hobonickels'
     symbols = ('HBN', )
-    seeds =  ("seed.scrypt.io", "seed.hobonickels.info", "seed2.hobonickels.info", "seed3.hobonickels.info", "seed4.hobonickels.info", "hbn.altcointech.net")
+    seeds = ("seed.scrypt.io", "seed.hobonickels.info", "seed2.hobonickels.info",
+             "seed3.hobonickels.info", "seed4.hobonickels.info", "hbn.altcointech.net")
     port = 7372
-	
-	
+
+
 # Has no Testnet

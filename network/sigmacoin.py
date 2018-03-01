@@ -11,5 +11,5 @@ class SIGMAcoin(Bitcoin):
     symbols = ('SIGMA', )
     seeds = ("node.walletbuilders.com")
     port = 8211
-	
+
 # no testnet

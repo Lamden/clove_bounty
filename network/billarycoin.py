@@ -11,4 +11,3 @@ class BillaryCoin(Bitcoin):
     symbols = ('BLRY', )
     seeds = ('node.walletbuilders.com')
     port = 6791
-

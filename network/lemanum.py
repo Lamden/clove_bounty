@@ -22,8 +22,8 @@ class Lemanum(Bitcoin):
              "5.228.232.59",
              "95.78.98.68")
     port = 55993
-	
-   
+
+
 class LemanumTestNet(Lemanum):
     """
     Class with all the necessary Lemanum testing network information based on
@@ -32,6 +32,4 @@ class LemanumTestNet(Lemanum):
     """
     name = 'test-lemanum'
     seeds = ("107.22.138.243")
-    port = 26178              
-	
-	
+    port = 26178

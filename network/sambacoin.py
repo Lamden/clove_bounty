@@ -17,8 +17,8 @@ class SambaCoin(Bitcoin):
              "seed5.sambacoin.info",
              "seed6.sambacoin.info")
     port = 11255
-	
-   
+
+
 class SambaCoinTestNet(SambaCoin):
     """
     Class with all the necessary SambaCoin testing network information based on
@@ -29,6 +29,4 @@ class SambaCoinTestNet(SambaCoin):
     seeds = ("seed1-testnet.sambacoin.info",
              "seed2-testnet.sambacoin.info",
              "seed-testnet.sambacoin.info")
-    port = 21255              
-	
-	
+    port = 21255

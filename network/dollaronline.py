@@ -22,6 +22,5 @@ class DollarOnline(Bitcoin):
              "s10.edollar.online")
     port = 22888
 
-	
 
 # No Testnet

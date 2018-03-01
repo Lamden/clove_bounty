@@ -9,10 +9,12 @@ class Primecoin(Bitcoin):
     """
     name = 'primecoin'
     symbols = ('XPM', )
-    seeds = "seed.ppcoin.net",
-            "dnsseed.xpm.altcointech.net",
-            "dnsseed.xpm2.altcointech.net",
-            "primeseed.muuttuja.org")	
+    seeds = (
+        'seed.ppcoin.net',
+        'dnsseed.xpm.altcointech.net',
+        'dnsseed.xpm2.altcointech.net',
+        'primeseed.muuttuja.org'
+    )
     port = 9911
 
 
@@ -23,7 +25,7 @@ class PrimecoinTestNet(Primecoin):
     (date of access: 02/12/2018)
     """
     name = 'test-primecoin'
-    seeds = ("tnseed.ppcoin.net","primeseedtn.muuttuja.org")
-    port = 9913 
-	
-
+    seeds = (
+        'tnseed.ppcoin.net', 'primeseedtn.muuttuja.org'
+    )
+    port = 9913

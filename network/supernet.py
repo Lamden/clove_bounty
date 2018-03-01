@@ -1,7 +1,7 @@
 from clove.network.bitcoin import Bitcoin
 
 
-class  SuperNET(Bitcoin):
+class SuperNET(Bitcoin):
     """
     Class with all the necessary  SuperNET (UNITY) network information based on
     https://github.com/SuperNETorg/komodo/blob/master/src/chainparams.cpp
@@ -9,11 +9,11 @@ class  SuperNET(Bitcoin):
     """
     name = 'supernet'
     symbols = ('UNITY', )
-    seeds =  ('seeds.komodoplatform.com', 'seeds.komodo.mewhub.com')
+    seeds = ('seeds.komodoplatform.com', 'seeds.komodo.mewhub.com')
     port = 7770
 
 
-class  SuperNETTestNet(SuperNET):
+class SuperNETTestNet(SuperNET):
     """
     Class with all the necessary  SuperNET (UNITY) network information based on
     https://github.com/SuperNETorg/komodo/blob/master/src/chainparams.cpp
@@ -21,5 +21,5 @@ class  SuperNETTestNet(SuperNET):
     """
     name = 'test-supernet'
     symbols = ('UNITY', )
-    seeds =  ()
+    seeds = ()
     port = 17770

@@ -9,16 +9,16 @@ class Woodcoin(Bitcoin):
     """
     name = 'woodcoin'
     symbols = ('LOG', )
-    seeds = ('dnsseed.woodcoin.org')
+    seeds = ('dnsseed.woodcoin.org', )
     port = 8338
 
 
 class WoodcoinTestNet(Woodcoin):
     """
     Class with all the necessary Woodcoin (LOG) testing network information based on
-    https://github.com/funkshelper/woodcore/blob/master/src/chainparams.cpp    
+    https://github.com/funkshelper/woodcore/blob/master/src/chainparams.cpp
     (date of access: 02/17/2018)
     """
     name = 'test-woodcoin'
-    seeds = ('dnsseed.woodcointools.com')
+    seeds = ('dnsseed.woodcointools.com', )
     port = 18338

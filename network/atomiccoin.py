@@ -9,7 +9,7 @@ class AtomicCoin(Bitcoin):
     """
     name = 'atomiccoin'
     symbols = ('ATOM', )
-    seeds =  ("199.127.226.157")
+    seeds = ("199.127.226.157")
     port = 8567
-	
+
 # Has no testnet

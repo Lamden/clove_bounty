@@ -10,7 +10,8 @@ class Luxcore(Bitcoin):
     """
     name = 'luxcore'
     symbols = ('LUX', )
-    seeds = ('5.189.142.181', '5.77.44.147', '209.250.254.156', '45.76.114.209', 'luxseed1.luxcore.io', 'luxseed2.luxcore.io', 'luxseed3.luxcore.io', 'luxseed4.luxcore.io',)
+    seeds = ('5.189.142.181', '5.77.44.147', '209.250.254.156', '45.76.114.209',
+             'luxseed1.luxcore.io', 'luxseed2.luxcore.io', 'luxseed3.luxcore.io', 'luxseed4.luxcore.io',)
     port = 26868
 
 

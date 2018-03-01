@@ -9,7 +9,7 @@ class BitLuckCoin(Bitcoin):
     """
     name = 'bitluckcoin'
     symbols = ('BTLC', )
-    seeds =  ("45.32.35.123","45.76.96.149")
+    seeds = ("45.32.35.123", "45.76.96.149")
     port = 24289
-	
+
 # Has no testnet

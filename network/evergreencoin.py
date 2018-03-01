@@ -39,9 +39,4 @@ class EverGreenCoin(Bitcoin):
     port = 5757
 
 
-	
-	
 # Has no Testnet
-	
-	
-	

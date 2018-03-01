@@ -9,7 +9,7 @@ class Pioneershares(Bitcoin):
     """
     name = 'pioneershares'
     symbols = ('PIO', )
-    seeds = ("seed.blockpioneers.info","seed2.blockpioneers.info")
+    seeds = ("seed.blockpioneers.info", "seed2.blockpioneers.info")
     port = 8572
-	
+
 # no testnet

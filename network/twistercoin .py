@@ -11,5 +11,5 @@ class Twistercoin(Bitcoin):
     symbols = ('TWIST', )
     seeds = ("52.10.32.200")
     port = 44258
-	
+
 # no testnet

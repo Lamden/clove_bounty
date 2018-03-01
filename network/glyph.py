@@ -11,5 +11,5 @@ class Glyph(Bitcoin):
     symbols = ('GLYPH', )
     seeds = ("node.glyphcoin.com")
     port = 47714
-	
+
 # no testnet

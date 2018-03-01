@@ -10,7 +10,8 @@ class ZCoin(Bitcoin):
     """
     name = 'zcoin'
     symbols = ('XZC', )
-    seeds = ('sf1.zcoin.io', 'sf2.zcoin.io', 'london.zcoin.io', 'singapore.zcoin.io', 'nyc.zcoin.io')
+    seeds = ('sf1.zcoin.io', 'sf2.zcoin.io', 'london.zcoin.io',
+             'singapore.zcoin.io', 'nyc.zcoin.io')
     port = 8168
 
 
@@ -21,5 +22,6 @@ class ZCoinTestNet(ZCoin):
     (date of access: 02/11/2018)
     """
     name = 'test-zcoin'
-    seeds = ('beta1.zcoin.io', 'beta2.zcoin.io', 'testnet-seed.bitcoin.jonasschnelli.ch', 'seed.tbtc.petertodd.org', 'testnet-seed.bluematt.me', 'testnet-seed.bitcoin.schildbach.de')
+    seeds = ('beta1.zcoin.io', 'beta2.zcoin.io', 'testnet-seed.bitcoin.jonasschnelli.ch',
+             'seed.tbtc.petertodd.org', 'testnet-seed.bluematt.me', 'testnet-seed.bitcoin.schildbach.de')
     port = 18168

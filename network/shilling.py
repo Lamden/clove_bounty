@@ -10,7 +10,8 @@ class Shilling(Bitcoin):
     """
     name = 'shilling'
     symbols = ('SH', )
-    seeds = ('wallet.cryptolife.net', 'explore.cryptolife.net', 'seed1.cryptolife.net', 'seed2.cryptolife.net')
+    seeds = ('wallet.cryptolife.net', 'explore.cryptolife.net',
+             'seed1.cryptolife.net', 'seed2.cryptolife.net')
     port = 34621
 
 

@@ -21,5 +21,9 @@ class PIVXTestNet(PIVX):
     (date of access: 02/11/2018)
     """
     name = 'test-pivx'
-    seeds = ('pivx.seed2.fuzzbawls.pw', 'coin-server.com', 's3v3nh4cks.ddns.net', '178.254.23.111', 'pivx-testnet.seed.fuzzbawls.pw', 'pivx-testnet.seed2.fuzzbawls.pw', 's3v3nh4cks.ddns.net', '88.198.192.110')
+    seeds = (
+        'pivx.seed2.fuzzbawls.pw', 'coin-server.com', 's3v3nh4cks.ddns.net', '178.254.23.111',
+        'pivx-testnet.seed.fuzzbawls.pw', 'pivx-testnet.seed2.fuzzbawls.pw', 's3v3nh4cks.ddns.net',
+        '88.198.192.110'
+    )
     port = 51474

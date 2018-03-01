@@ -10,7 +10,8 @@ class Elite(Bitcoin):
     """
     name = 'elite'
     symbols = ('1337', )
-    seeds = ('node1.seednodes.xyz', 'node2.seednodes.xyz', 'node3.seednodes.xyz', 'node4.seednodes.xyz',)
+    seeds = ('node1.seednodes.xyz', 'node2.seednodes.xyz',
+             'node3.seednodes.xyz', 'node4.seednodes.xyz',)
     port = 13373
 
 

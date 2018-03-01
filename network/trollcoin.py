@@ -1,5 +1,6 @@
 from clove.network.bitcoin import Bitcoin
 
+
 class Trollcoin(Bitcoin):
     """
     Class with all the necessary  Trollcoin (TROLL) network information based on
@@ -9,7 +10,7 @@ class Trollcoin(Bitcoin):
     name = 'trollcoin'
     symbols = ('TROLL', )
     seeds = ("dnsfeed.trollcoin.com",
-             "dnsfeed.trollcoinbase.com")	
+             "dnsfeed.trollcoinbase.com")
     port = 15000
-	
+
 # no testnet

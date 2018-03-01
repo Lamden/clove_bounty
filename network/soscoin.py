@@ -11,5 +11,5 @@ class SOSCoin(Bitcoin):
     symbols = ('SOS', )
     seeds = ("node.walletbuilders.com")
     port = 7599
-	
+
 # no testnet

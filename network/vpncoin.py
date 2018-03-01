@@ -9,9 +9,12 @@ class VPNCoin(Bitcoin):
     """
     name = 'vpncoin'
     symbols = ('VASH', )
-    seeds = ('seed.vpncoin.org', 'node.vpncoin.org', 'pool.vpncoin.org', 's4.vpncoin.org', 's5.vpncoin.org', 's6.vpncoin.org', 's7.vpncoin.org',
-			 's8.vpncoin.org', 's9.vpncoin.org', 'abe.vpncoin.org', 'faucet.vpncoin.org', 's1.bitnet.cc', 's2.bitnet.cc', 's3.bitnet.cc',
-			 's4.bitnet.cc', 's5.bitnet.cc', 's6.bitnet.cc', 's7.bitnet.cc', 's8.bitnet.cc', 's9.bitnet.cc')
+    seeds = (
+        'seed.vpncoin.org', 'node.vpncoin.org', 'pool.vpncoin.org', 's4.vpncoin.org', 's5.vpncoin.org',
+        's6.vpncoin.org', 's7.vpncoin.org', 's8.vpncoin.org', 's9.vpncoin.org', 'abe.vpncoin.org', 'faucet.vpncoin.org',
+        's1.bitnet.cc', 's2.bitnet.cc', 's3.bitnet.cc', 's4.bitnet.cc', 's5.bitnet.cc', 's6.bitnet.cc', 's7.bitnet.cc',
+        's8.bitnet.cc', 's9.bitnet.cc'
+    )
     port = 1920
 
 # no testnet

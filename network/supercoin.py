@@ -9,8 +9,8 @@ class SuperCoin(Bitcoin):
     """
     name = 'supercoin'
     symbols = ('SUPER', )
-    seeds =  ("app1.super-coin.net", "app2.super-coin.net")
+    seeds = ("app1.super-coin.net", "app2.super-coin.net")
     port = 19390
-	
-   
+
+
 # Has no Testnet

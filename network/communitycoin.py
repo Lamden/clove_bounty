@@ -10,7 +10,7 @@ class CommunityCoin(Bitcoin):
     name = 'communitycoin'
     symbols = ('COMM', )
     seeds = ("cocnode1.coolindark.com",
-             "cocnode2.coolindark.com")	 
+             "cocnode2.coolindark.com")
     port = 7643
-	
-# no testnet	
+
+# no testnet

@@ -10,7 +10,8 @@ class ParallelCoin(Bitcoin):
     """
     name = 'parallelcoin'
     symbols = ('DUO', )
-    seeds = ('seed1.parallelcoin.info', 'seed3.parallelcoin.info', 'seed2.parallelcoin.info', 'seed4.parallelcoin.info', 'seed5.parallelcoin.info')
+    seeds = ('seed1.parallelcoin.info', 'seed3.parallelcoin.info',
+             'seed2.parallelcoin.info', 'seed4.parallelcoin.info', 'seed5.parallelcoin.info')
     port = 11047
 
 

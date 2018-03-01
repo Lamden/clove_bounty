@@ -9,7 +9,7 @@ class Compcoin(Bitcoin):
     """
     name = 'compcoin'
     symbols = ('CMP', )
-    seeds =  ("52.24.217.223")
+    seeds = ("52.24.217.223")
     port = 2668
-	
+
 # Has no testnet

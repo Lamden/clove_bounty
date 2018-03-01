@@ -9,12 +9,12 @@ class AeroMe(Bitcoin):
     """
     name = 'aerome'
     symbols = ('AM', )
-    seeds =  ("aerome.publicvm.com",
-              "aerome2.publicvm.com",
-              "aerome3.publicvm.com",
-              "aerome4.publicvm.com",
-              "aerome5.publicvm.com")
+    seeds = ("aerome.publicvm.com",
+             "aerome2.publicvm.com",
+             "aerome3.publicvm.com",
+             "aerome4.publicvm.com",
+             "aerome5.publicvm.com")
     port = 6221
-	
-   
+
+
 # Has no testnet

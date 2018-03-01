@@ -12,4 +12,3 @@ class DayTrader_Coin(Bitcoin):
     seeds = ("54.94.154.243",
              "54.207.102.95")
     port = 39110
-	

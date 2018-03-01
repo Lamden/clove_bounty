@@ -10,7 +10,8 @@ class Eurocoin(Bitcoin):
     """
     name = 'eurocoin'
     symbols = ('EUC', )
-    seeds = ('seed.viapool.tk', 'seed1.eurocoin-euc.com', 'seed2.eurocoin-euc.com', 'seed3.eurocoin-euc.com')
+    seeds = ('seed.viapool.tk', 'seed1.eurocoin-euc.com',
+             'seed2.eurocoin-euc.com', 'seed3.eurocoin-euc.com')
     port = 11775
 
 

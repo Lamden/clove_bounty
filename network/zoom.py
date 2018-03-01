@@ -12,5 +12,3 @@ class Zoom(Bitcoin):
     seeds = ("seed.ZoomCoin.co",
              "45.32.199.52")
     port = 26889
-	
-   

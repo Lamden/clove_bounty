@@ -11,5 +11,5 @@ class SeedShares(Bitcoin):
     symbols = ('SEEDS', )
     seeds = ("107.170.238.71")
     port = 32231
-	
+
 # no testnet

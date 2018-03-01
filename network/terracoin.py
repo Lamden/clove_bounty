@@ -16,7 +16,7 @@ class Terracoin(Bitcoin):
 class TerracoinTestNet(Terracoin):
     """
     Class with all the necessary Terracoin (TRC) testing network information based on
-    https://github.com/terracoin/terracoin/blob/master/src/chainparams.cpp    
+    https://github.com/terracoin/terracoin/blob/master/src/chainparams.cpp
     (date of access: 02/16/2018)
     """
     name = 'test-terracoin'

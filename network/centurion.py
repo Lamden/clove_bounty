@@ -15,5 +15,5 @@ class Centurion(Bitcoin):
              "node2.centurionlab.org",
              "node3.centurionlab.org")
     port = 5556
-	
+
 # Has no testnet

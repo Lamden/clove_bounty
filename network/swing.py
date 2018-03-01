@@ -9,7 +9,7 @@ class Swing(Bitcoin):
     """
     name = 'swing'
     symbols = ('SWING', )
-    seeds = ("104.236.29.198","swing.suprnova.cc")
+    seeds = ("104.236.29.198", "swing.suprnova.cc")
     port = 16061
 
 

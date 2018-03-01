@@ -9,7 +9,7 @@ class Cinni(Bitcoin):
     """
     name = 'cinni'
     symbols = ('CINNI', )
-    seeds =  ("108.61.103.46")
+    seeds = ("108.61.103.46")
     port = 31813
-	
+
 # Has no testnet

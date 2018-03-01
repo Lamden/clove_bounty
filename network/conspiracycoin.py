@@ -17,4 +17,3 @@ class conspiracycoin(Bitcoin):
              "seeder6.conspiracycoin.org",
              "seeder7.conspiracycoin.org")
     port = 33834
-	

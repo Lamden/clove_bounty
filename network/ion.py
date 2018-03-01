@@ -16,7 +16,7 @@ class ION(Bitcoin):
 class IONTestNet(ION):
     """
     Class with all the necessary ION (ION) testing network information based on
-    https://github.com/ionomy/ion/blob/master/src/chainparams.cpp   
+    https://github.com/ionomy/ion/blob/master/src/chainparams.cpp
     (date of access: 02/16/2018)
     """
     name = 'test-ion'

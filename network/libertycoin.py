@@ -24,5 +24,5 @@ class Libertycoin(Bitcoin):
              "93.103.43.62",
              "192.241.247.229")
     port = 55901
-	
+
 # no testnet

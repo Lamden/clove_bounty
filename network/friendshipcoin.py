@@ -9,7 +9,7 @@ class FriendshipCoin2(Bitcoin):
     """
     name = 'friendshipcoin2'
     symbols = ('FSC2', )
-    seeds = ("pool.friendshipcoins.com","blocks.friendshipcoins.com")
+    seeds = ("pool.friendshipcoins.com", "blocks.friendshipcoins.com")
     port = 37636
-	
+
 # no testnet

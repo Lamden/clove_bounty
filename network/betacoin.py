@@ -9,15 +9,15 @@ class BetaCoin(Bitcoin):
     """
     name = 'betacoin'
     symbols = ('BET', )
-    seeds =  ("seed1.betacoin.org",
-              "seed2.betacoin.org",
-              "seed3.betacoin.org",
-              "seed4.betacoin.org",
-              "seed5.betacoin.org",
-              "seed6.betacoin.org")	
+    seeds = ("seed1.betacoin.org",
+             "seed2.betacoin.org",
+             "seed3.betacoin.org",
+             "seed4.betacoin.org",
+             "seed5.betacoin.org",
+             "seed6.betacoin.org")
     port = 32333
-	
-   
+
+
 class BetaCoinTestNet(BetaCoin):
     """
     Class with all the necessary BetaCoin testing network information based on
@@ -26,5 +26,4 @@ class BetaCoinTestNet(BetaCoin):
     """
     name = 'test-betacoin'
     seeds = ("xjo-test1.twilightparadox.com")
-    port = 26783              
-	
+    port = 26783

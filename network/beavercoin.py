@@ -9,10 +9,10 @@ class BeaverCoin(Bitcoin):
     """
     name = 'beavervoin'
     symbols = ('BVC', )
-    seeds =  ("dnsseed.beavercoin.org")
+    seeds = ("dnsseed.beavercoin.org")
     port = 2333
-	
-   
+
+
 class BeaverCoinTestNet(BeaverCoin):
     """
     Class with all the necessary BeaverCoin testing network information based on
@@ -21,4 +21,4 @@ class BeaverCoinTestNet(BeaverCoin):
     """
     name = 'test-beavervoin'
     seeds = ("testnet-seed.beavercoin.org")
-    port = 12333              
+    port = 12333

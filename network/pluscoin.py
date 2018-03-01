@@ -11,5 +11,5 @@ class PlusCoin(Bitcoin):
     symbols = ('PLC', )
     seeds = ("seed.xbcplus.com")
     port = 53518
-	
+
 # no testnet

@@ -15,8 +15,8 @@ class Supcoin(Bitcoin):
              "sup1.supcoin.com",
              "sup2.supcoin.com")
     port = 4411
-	
-   
+
+
 class SupcoinTestNet(Supcoin):
     """
     Class with all the necessary Supcoin testing network information based on
@@ -25,5 +25,4 @@ class SupcoinTestNet(Supcoin):
     """
     name = 'test-diamond'
     seeds = ("testnetsup.earlz.net")
-    port = 14411              
-
+    port = 14411

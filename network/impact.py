@@ -11,5 +11,5 @@ class Impact(Bitcoin):
     symbols = ('IMX', )
     seeds = ("194.135.85.185")
     port = 17771
-	
+
 # no testnet

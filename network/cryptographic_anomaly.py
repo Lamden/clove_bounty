@@ -11,5 +11,5 @@ class Cryptographic_Anomaly(Bitcoin):
     symbols = ('CGA', )
     seeds = ("cga.dnsseed.crypto2.net")
     port = 3933
-	
+
 # no testnet

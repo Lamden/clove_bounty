@@ -12,5 +12,5 @@ class GrowthCoin(Bitcoin):
     seeds = ("seed.grw.blockx.info",
              "seed1.grw.acidpool.com")
     port = 17177
-	
+
 # no testnet

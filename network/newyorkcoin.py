@@ -9,7 +9,7 @@ class NewYorkCoin(Bitcoin):
     """
     name = 'newyorkcoin'
     symbols = ('NYC', )
-    seeds = ("seed.ds.newyorkco.in","seed.newyorkco.in")	
+    seeds = ("seed.ds.newyorkco.in", "seed.newyorkco.in")
     port = 17020
 
 # no testnet

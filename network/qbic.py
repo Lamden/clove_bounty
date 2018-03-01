@@ -9,16 +9,16 @@ class Qbic(Bitcoin):
     """
     name = 'qbic'
     symbols = ('QBIC', )
-    seeds = ('seed.qbic.io')
+    seeds = ('seed.qbic.io', )
     port = 17195
 
 
 class QbicTestNet(Qbic):
     """
     Class with all the necessary Qbic (QBIC) testing network information based on
-    https://github.com/qbic-platform/qbic/blob/master/src/chainparams.cpp    
+    https://github.com/qbic-platform/qbic/blob/master/src/chainparams.cpp
     (date of access: 02/17/2018)
     """
     name = 'test-qbic'
-    seeds = ('testnet-dns.qbic.io')
+    seeds = ('testnet-dns.qbic.io', )
     port = 18196

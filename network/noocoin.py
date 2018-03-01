@@ -14,8 +14,8 @@ class NooCoin(Bitcoin):
              "j.iico.in")
 
     port = 41800
-	
-   
+
+
 class NooCoinTestNet(NooCoin):
     """
     Class with all the necessary NooCoin testing network information based on
@@ -26,6 +26,4 @@ class NooCoinTestNet(NooCoin):
     seeds = ("noocoin.iico.in",
              "home.bown.net",
              "j.iico.in")
-    port = 41810              
-	
-	
+    port = 41810

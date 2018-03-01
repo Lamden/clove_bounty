@@ -1,7 +1,7 @@
 from clove.network.bitcoin import Bitcoin
 
 
-class  TrustPlus(Bitcoin):
+class TrustPlus(Bitcoin):
     """
     Class with all the necessary  TrustPlus (TRUST) network information based on
     https://github.com/TrustPlus/TrustPlus/blob/master/src/net.cpp
@@ -9,11 +9,11 @@ class  TrustPlus(Bitcoin):
     """
     name = 'trustplus'
     symbols = ('TRUST', )
-    seeds =  ('104.197.97.72', '23.251.149.70')
+    seeds = ('104.197.97.72', '23.251.149.70')
     port = 36999
 
 
-class  TrustPlusTestNet(TrustPlus):
+class TrustPlusTestNet(TrustPlus):
     """
     Class with all the necessary  TrustPlus (TRUST) network information based on
     https://github.com/TrustPlus/TrustPlus/blob/master/src/net.cpp
@@ -21,5 +21,5 @@ class  TrustPlusTestNet(TrustPlus):
     """
     name = 'test-trustplus'
     symbols = ('TRUST', )
-    seeds =  ()
+    seeds = ()
     port = 37000

@@ -1,7 +1,7 @@
 from clove.network.bitcoin import Bitcoin
 
 
-class  Birds(Bitcoin):
+class Birds(Bitcoin):
     """
     Class with all the necessary  Birds (BIRDS) network information based on
     https://github.com/Birdsdev/Birds/blob/master/src/net.cpp
@@ -9,11 +9,11 @@ class  Birds(Bitcoin):
     """
     name = 'birds'
     symbols = ('BIRDS', )
-    seeds =  ('104.200.67.124')
+    seeds = ('104.200.67.124')
     port = 20013
 
 
-class  BirdsTestNet(Birds):
+class BirdsTestNet(Birds):
     """
     Class with all the necessary  Birds (BIRDS) network information based on
     https://github.com/Birdsdev/Birds/blob/master/src/net.cpp
@@ -21,5 +21,5 @@ class  BirdsTestNet(Birds):
     """
     name = 'test-birds'
     symbols = ('BIRDS', )
-    seeds =  ()
+    seeds = ()
     port = 30013

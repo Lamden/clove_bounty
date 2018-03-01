@@ -9,7 +9,7 @@ class NPCcoin(Bitcoin):
     """
     name = 'npccoin'
     symbols = ('NPC', )
-    seeds = ("seednode.npccoin.com","seednode2.npccoin.com")
+    seeds = ("seednode.npccoin.com", "seednode2.npccoin.com")
     port = 26102
-	
+
 # no testnet

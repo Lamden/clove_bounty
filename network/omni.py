@@ -16,8 +16,8 @@ class Omni(Bitcoin):
              "seed.bitnodes.io",
              "bitseed.xf2.org")
     port = 8333
-	
-   
+
+
 class OmniTestNet(Omni):
     """
     Class with all the necessary Omni testing network information based on
@@ -25,5 +25,5 @@ class OmniTestNet(Omni):
     (date of access: 02/16/2018)
     """
     name = 'test-omni'
-    seeds = ("testnet-seed.bitcoin.petertodd.org","testnet-seed.bluematt.me")
-    port = 18333              
+    seeds = ("testnet-seed.bitcoin.petertodd.org", "testnet-seed.bluematt.me")
+    port = 18333

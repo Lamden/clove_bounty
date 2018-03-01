@@ -14,5 +14,5 @@ class Bitswift(Bitcoin):
              "149.56.111.174",
              "144.217.15.225")
     port = 21138
-	
+
 # Has no testnet

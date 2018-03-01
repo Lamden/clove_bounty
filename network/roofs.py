@@ -1,7 +1,7 @@
 from clove.network.bitcoin import Bitcoin
 
 
-class  Roofs(Bitcoin):
+class Roofs(Bitcoin):
     """
     Class with all the necessary  Roofs (ROOFS) network information based on
     https://github.com/roofsdev/roofs/blob/master/src/net.cpp
@@ -9,7 +9,7 @@ class  Roofs(Bitcoin):
     """
     name = 'roofs'
     symbols = ('ROOFS', )
-    seeds =  ('192.161.48.19')
+    seeds = ('192.161.48.19')
     port = 20019
 
 

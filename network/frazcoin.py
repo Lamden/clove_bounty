@@ -11,8 +11,8 @@ class Frazcoin(Bitcoin):
     symbols = ('FRAZ', )
     seeds = ("frazcoin.eu")
     port = 3991
-	
-   
+
+
 class FrazcoinTestNet(Frazcoin):
     """
     Class with all the necessary Frazcoin testing network information based on
@@ -21,4 +21,4 @@ class FrazcoinTestNet(Frazcoin):
     """
     name = 'test-frazcoin'
     seeds = ("frazcoin.eu")
-    port = 3981              
+    port = 3981

@@ -12,8 +12,8 @@ class Prototanium(Bitcoin):
     seeds = ("proto.uno",
              "23skidoo.info")
     port = 65525
-	
-   
+
+
 class PrototaniumTestNet(Prototanium):
     """
     Class with all the necessary Prototanium testing network information based on
@@ -23,6 +23,4 @@ class PrototaniumTestNet(Prototanium):
     name = 'test-prototanium'
     seeds = ("23skidoo.info",
              "testnet.prototanium.info")
-    port = 65525              
-	
-	
+    port = 65525

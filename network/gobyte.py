@@ -10,7 +10,8 @@ class GoByte(Bitcoin):
     """
     name = 'gobyte'
     symbols = ('GBX', )
-    seeds = ('seed1.gobyte.network', 'seed2.gobyte.network', 'seed3.gobyte.network', 'seed4.gobyte.network')
+    seeds = ('seed1.gobyte.network', 'seed2.gobyte.network',
+             'seed3.gobyte.network', 'seed4.gobyte.network')
     port = 12455
 
 

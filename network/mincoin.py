@@ -10,10 +10,10 @@ class Mincoin(Bitcoin):
     name = 'mincoin'
     symbols = ('MNC', )
     seeds = ("seed.mincointools.com",
-	         "seed.mincoinpool.org")
+             "seed.mincoinpool.org")
     port = 9334
-	
-   
+
+
 class MincoinTestNet(Mincoin):
     """
     Class with all the necessary Mincoin testing network information based on
@@ -22,5 +22,5 @@ class MincoinTestNet(Mincoin):
     """
     name = 'test-mincoin'
     seeds = ("testnet-seed.mincointools.com",
-	         "testnet-seed.mincoinpool.org")
-    port = 19334               
+             "testnet-seed.mincoinpool.org")
+    port = 19334

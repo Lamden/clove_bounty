@@ -9,7 +9,7 @@ class Silkcoin(Bitcoin):
     """
     name = 'silkcoin'
     symbols = ('SILK', )
-    seeds = ("107.170.61.197","107.170.73.238")
+    seeds = ("107.170.61.197", "107.170.73.238")
     port = 16666
-	
+
 # no testnet

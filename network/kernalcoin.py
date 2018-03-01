@@ -11,5 +11,5 @@ class Kernalcoin(Bitcoin):
     symbols = ('KC', )
     seeds = ("45.63.71.91")
     port = 4769
-	
+
 # no testnet

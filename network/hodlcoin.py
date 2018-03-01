@@ -20,5 +20,5 @@ class HOdlcoin(Bitcoin):
              "54.201.171.55",
              "54.213.104.91")
     port = 1989
-	
+
 # no testnet

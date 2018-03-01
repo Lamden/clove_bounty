@@ -12,4 +12,3 @@ class Molecular(Bitcoin):
     seeds = ("seed.moleculecoin.com",
              "blocks.moleculecoin.com")
     port = 11879
-	

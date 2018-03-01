@@ -10,7 +10,8 @@ class CrowdCoin(Bitcoin):
     """
     name = 'crowdcoin'
     symbols = ('CRC', )
-    seeds = ('crowdcoin1.masterhash.us', 'crowdcoin2.masterhash.us', 'crowdcoin3.masterhash.us', 'crowdcoin4.masterhash.us', 'crowdcoin5.masterhash.us', 'crowdcoin6.masterhash.us')
+    seeds = ('crowdcoin1.masterhash.us', 'crowdcoin2.masterhash.us', 'crowdcoin3.masterhash.us',
+             'crowdcoin4.masterhash.us', 'crowdcoin5.masterhash.us', 'crowdcoin6.masterhash.us')
     port = 12875
 
 

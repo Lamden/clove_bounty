@@ -11,5 +11,5 @@ class FutCoin(Bitcoin):
     symbols = ('FUTC', )
     seeds = ("seed1.FutCoin.eu")
     port = 2345
-	
+
 # No testnet

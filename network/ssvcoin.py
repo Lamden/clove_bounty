@@ -11,5 +11,5 @@ class SSVCoin(Bitcoin):
     symbols = ('SSV', )
     seeds = ("91.246.70.114")
     port = 9235
-	
+
 # no testnet

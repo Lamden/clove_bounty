@@ -13,4 +13,3 @@ class Opal(Bitcoin):
              "seeder1.opal-coin.com",
              "seeder2.opal-coin.com")
     port = 50990
-	

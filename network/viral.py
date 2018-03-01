@@ -11,5 +11,5 @@ class Viral(Bitcoin):
     symbols = ('VIRAL', )
     seeds = ("45.55.218.62")
     port = 28110
-	
+
 # no testnet

@@ -9,7 +9,8 @@ class Sphere(Bitcoin):
     """
     name = 'sphere'
     symbols = ('SPHR', )
-    seeds = ('162.243.247.203', '162.243.25.133', '104.236.163.165', 'gqunlgogqx7x42zy.onion')
+    seeds = ('162.243.247.203', '162.243.25.133',
+             '104.236.163.165', 'gqunlgogqx7x42zy.onion')
     port = 37544
 
 # no testnet

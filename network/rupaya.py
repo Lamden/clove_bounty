@@ -9,15 +9,15 @@ class Rupaya(Bitcoin):
     """
     name = 'rupaya'
     symbols = ('RUPX', )
-    seeds = ("dns.rupx.io", 
-             "209.250.241.176",  
+    seeds = ("dns.rupx.io",
+             "209.250.241.176",
              "209.250.243.131",
-             "45.77.239.108", 
+             "45.77.239.108",
              "107.191.44.102",
              "144.202.0.206")
     port = 9020
-	
-   
+
+
 class RupayaTestNet(Rupaya):
     """
     Class with all the necessary Rupaya testing network information based on
@@ -26,11 +26,6 @@ class RupayaTestNet(Rupaya):
     """
     name = 'test-rupaya'
     seeds = ("207.148.0.129",
-             "45.77.239.30",  
+             "45.77.239.30",
              "45.76.226.204")
-    port = 51434              
-	
-	
-	
-	
-	
+    port = 51434

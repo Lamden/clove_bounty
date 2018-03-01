@@ -14,7 +14,5 @@ class CAIx(Bitcoin):
              "walrusbonzo.ddns.net",
              "alpho2k.ddns.net")
     port = 1511
-	
-# Has no testnet
 
-	
+# Has no testnet

@@ -10,7 +10,7 @@ class CybCSec(Bitcoin):
     name = 'cybcsec'
     symbols = ('XCS', )
     seeds = ("45.32.174.216",
-             "45.76.87.39")	
+             "45.76.87.39")
     port = 6601
-	
+
 # Has no testnet

@@ -9,7 +9,8 @@ class Gambit(Bitcoin):
     """
     name = 'gambit'
     symbols = ('GAM', )
-    seeds = ('node1.gambitcrypto.com', 'node2.gambitcrypto.com', 'node3.gambitcrypto.com')
+    seeds = ('node1.gambitcrypto.com',
+             'node2.gambitcrypto.com', 'node3.gambitcrypto.com')
     port = 47077
 
 # no testnet

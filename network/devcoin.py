@@ -21,7 +21,7 @@ class Devcoin(Bitcoin):
              "dvcstable07.dvcnode.org",
              "node01.dvcnode.com",
              "node02.dvcnode.com",
-             "node03.dvcnode.com")	
+             "node03.dvcnode.com")
     port = 52333
-	
+
 # Has no testnet

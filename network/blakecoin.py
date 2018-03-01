@@ -12,8 +12,8 @@ class Blakecoin(Bitcoin):
     seeds = ("blakecoin.org",
              "blakecoin.com")
     port = 8773
-	
-   
+
+
 class BlakecoinTestNet(Blakecoin):
     """
     Class with all the necessary Blakecoin testing network information based on
@@ -23,6 +23,4 @@ class BlakecoinTestNet(Blakecoin):
     name = 'test-blakecoin'
     seeds = ("blakecoin.org",
              "blakecoin.com")
-    port = 18773               
-	
-
+    port = 18773

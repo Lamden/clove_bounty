@@ -11,5 +11,5 @@ class NetCoin(Bitcoin):
     symbols = ('NET', )
     seeds = ("netseed.presstab.pw")
     port = 11310
-	
+
 # no testnet

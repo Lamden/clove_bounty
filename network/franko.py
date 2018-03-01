@@ -1,4 +1,3 @@
-
 from clove.network.bitcoin import Bitcoin
 
 
@@ -21,5 +20,9 @@ class FrankoTestNet(Franko):
     (date of access: 02/11/2018)
     """
     name = 'test-franko'
-    seeds = ('dnsseed.bluematt.me', 'dnsseed.bitcoin.dashjr.org', 'seed.bitcoinstats.com', 'bitseed.xf2.org', 'seed.bitcoin.jonasschnelli.ch', 'testnet-seed.alexykot.me', 'testnet-seed.bitcoin.petertodd.org', 'testnet-seed.bluematt.me', 'testnet-seed.bitcoin.schildbach.de')
+    seeds = (
+        'dnsseed.bluematt.me', 'dnsseed.bitcoin.dashjr.org', 'seed.bitcoinstats.com', 'bitseed.xf2.org',
+        'seed.bitcoin.jonasschnelli.ch', 'testnet-seed.alexykot.me', 'testnet-seed.bitcoin.petertodd.org',
+        'testnet-seed.bluematt.me', 'testnet-seed.bitcoin.schildbach.de'
+    )
     port = 18333

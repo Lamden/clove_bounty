@@ -11,8 +11,8 @@ class TotCoin(Bitcoin):
     symbols = ('TOT', )
     seeds = ("78.113.252.129")
     port = 42400
-	
-   
+
+
 class TotCoinTestNet(TotCoin):
     """
     Class with all the necessary TotCoin testing network information based on
@@ -21,4 +21,4 @@ class TotCoinTestNet(TotCoin):
     """
     name = 'test-totcoin'
     seeds = ("soscoindev.ddns.net")
-    port = 19999              
+    port = 19999

@@ -10,7 +10,8 @@ class ReddCoin(Bitcoin):
     """
     name = 'reddcoin'
     symbols = ('RDD', )
-    seeds = ('seed.reddcoin.com', 'dnsseed01.redd.ink', 'dnsseed02.redd.ink', 'dnsseed03.redd.ink')
+    seeds = ('seed.reddcoin.com', 'dnsseed01.redd.ink',
+             'dnsseed02.redd.ink', 'dnsseed03.redd.ink')
     port = 45444
 
 

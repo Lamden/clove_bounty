@@ -11,5 +11,5 @@ class Honey(Bitcoin):
     symbols = ('HONEY', )
     seeds = ("honey.thecryptochat.net")
     port = 40638
-	
+
 # no testnet

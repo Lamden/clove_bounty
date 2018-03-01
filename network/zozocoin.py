@@ -9,8 +9,11 @@ class ZoZoCoin(Bitcoin):
     """
     name = 'zozocoin'
     symbols = ('ZZC', )
-    seeds = ('seed_chainbytes1.chickenkiller.com', 'seed_chainbytes2.chickenkiller.com', 'seed_chainbytes3.chickenkiller.com',
-			 'seed_chainbytes4.chickenkiller.com', 'seed_chainbytes5.chickenkiller.com')
+    seeds = (
+        'seed_chainbytes1.chickenkiller.com', 'seed_chainbytes2.chickenkiller.com',
+        'seed_chainbytes3.chickenkiller.com', 'seed_chainbytes4.chickenkiller.com',
+        'seed_chainbytes5.chickenkiller.com'
+    )
     port = 19995
 
 # no testnet

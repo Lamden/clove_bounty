@@ -21,10 +21,10 @@ class Protoshares(Bitcoin):
              "50.112.199.32",
              "106.187.41.67",
              "54.218.232.206",
-             "54.212.175.33")	
+             "54.212.175.33")
     port = 3888
-	
-   
+
+
 class ProtosharesTestNet(Protoshares):
     """
     Class with all the necessary Protoshares testing network information based on
@@ -34,6 +34,4 @@ class ProtosharesTestNet(Protoshares):
     name = 'test-protoshares'
     seeds = ("testnet-seed.bitcoin.petertodd.org",
              "testnet-seed.bluematt.me")
-    port = 13888              
-	
-
+    port = 13888

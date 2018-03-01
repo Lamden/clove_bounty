@@ -9,10 +9,10 @@ class Guncoin(Bitcoin):
     """
     name = 'guncoin'
     symbols = ('GUN', )
-    seeds = ("seed.guncoin.info","seed2.guncoin.info")
+    seeds = ("seed.guncoin.info", "seed2.guncoin.info")
     port = 42954
-	
-   
+
+
 class GuncoinTestNet(Guncoin):
     """
     Class with all the necessary Guncoin testing network information based on
@@ -20,5 +20,5 @@ class GuncoinTestNet(Guncoin):
     (date of access: 02/15/2018)
     """
     name = 'test-guncoin'
-    seeds = ("testnet-seed.guncoin.info","testnet-seed2.guncoin.info")
-    port = 52954              
+    seeds = ("testnet-seed.guncoin.info", "testnet-seed2.guncoin.info")
+    port = 52954

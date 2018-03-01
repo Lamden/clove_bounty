@@ -12,4 +12,3 @@ class StalinCoin(Bitcoin):
     seeds = ("seed1.stalincoin.info",
              "seed2.stalincoin.info")
     port = 5422
-	

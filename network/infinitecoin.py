@@ -13,5 +13,3 @@ class Infinitecoin(Bitcoin):
              "dnsseed.bytesized-vps.com",
              "dnsseed.ltc.xurious.com")
     port = 9321
-	
-   

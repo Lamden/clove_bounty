@@ -12,5 +12,3 @@ class World_Trade_Funds(Bitcoin):
     seeds = ("107.170.189.185",
              "144.76.139.212")
     port = 42733
-	
-   

@@ -16,8 +16,8 @@ class CannaCoin(Bitcoin):
              "seed4.cannacoin.cc",
              "seed5.cannacoin.cc")
     port = 7143
-	
-   
+
+
 class CannaCoinTestNet(CannaCoin):
     """
     Class with all the necessary CannaCoin testing network information based on
@@ -26,5 +26,4 @@ class CannaCoinTestNet(CannaCoin):
     """
     name = 'test-cannacoin'
     seeds = ("testnet.cannacoin.cc")
-    port = 17143               
-	
+    port = 17143

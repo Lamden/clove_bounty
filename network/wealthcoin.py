@@ -11,5 +11,5 @@ class WealthCoin(Bitcoin):
     symbols = ('WEALTH', )
     seeds = ("104.236.220.47")
     port = 15152
-	
+
 # no testnet

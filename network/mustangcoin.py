@@ -18,4 +18,3 @@ class MustangCoin(Bitcoin):
 
 
 # Has no testnet
-

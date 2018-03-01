@@ -9,10 +9,10 @@ class Bitmxittz(Bitcoin):
     """
     name = 'bitmxittz'
     symbols = ('BMXT', )
-    seeds =  ("52.192.16.19")
+    seeds = ("52.192.16.19")
     port = 14433
-	
-   
+
+
 class BitmxittzTestNet(Bitmxittz):
     """
     Class with all the necessary Bitmxittz testing network information based on
@@ -23,5 +23,4 @@ class BitmxittzTestNet(Bitmxittz):
     seeds = ("testnet-seed.bitmxittztools.com",
              "testnet-seed.ltc.xurious.com",
              "dnsseed.wemine-testnet.com")
-    port = 15433              
-	
+    port = 15433

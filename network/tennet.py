@@ -11,5 +11,5 @@ class TenneT(Bitcoin):
     symbols = ('TENNET', )
     seeds = ("52.26.15.236")
     port = 9782
-	
+
 # no testnet

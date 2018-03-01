@@ -12,5 +12,5 @@ class Clinton(Bitcoin):
     seeds = ("will.52.207.247.50",
              "bill.54.152.47.236")
     port = 6779
-	
+
 # no testnet

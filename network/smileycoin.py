@@ -11,5 +11,5 @@ class SmileyCoin(Bitcoin):
     symbols = ('SMLY', )
     seeds = ("dnsseed.smileyco.in")
     port = 11337
-	
+
 # no testnet

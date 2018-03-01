@@ -21,5 +21,6 @@ class VapersCoinTestNet(VapersCoin):
     (date of access: 02/11/2018)
     """
     name = 'test-vaperscoin'
-    seeds = ('seed.mophides.com', 'seed.dglibrary.org', 'seed.epcchain.info', 'testepc-seed.lionservers.de', 'testepc-seed-static.lionservers.de')
+    seeds = ('seed.mophides.com', 'seed.dglibrary.org', 'seed.epcchain.info',
+             'testepc-seed.lionservers.de', 'testepc-seed-static.lionservers.de')
     port = 14444

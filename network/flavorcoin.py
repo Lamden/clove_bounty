@@ -11,5 +11,5 @@ class FlavorCoin(Bitcoin):
     symbols = ('FLVR', )
     seeds = ("2flav.nodes.altcoinsteps.com")
     port = 17771
-	
+
 # No testnet

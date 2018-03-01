@@ -17,5 +17,5 @@ class Shield(Bitcoin):
              "198.13.33.179",
              "electrum-1.shieldcurrency.com")
     port = 21103
-	
+
 # no testnet

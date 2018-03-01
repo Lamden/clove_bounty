@@ -12,4 +12,3 @@ class Coupecoin(Bitcoin):
     seeds = ("45.79.66.198",
              "electrum5.cryptolife.net")
     port = 17739
-	

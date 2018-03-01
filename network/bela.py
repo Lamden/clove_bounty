@@ -9,8 +9,8 @@ class Bela(Bitcoin):
     """
     name = 'bela'
     symbols = ('BELA', )
-    seeds =  ("seed.belacoin.org")
+    seeds = ("seed.belacoin.org")
     port = 10554
-	
-   
+
+
 # Has no testnet

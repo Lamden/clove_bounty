@@ -11,8 +11,8 @@ class RubleBit(Bitcoin):
     symbols = ('RUBIT', )
     seeds = ("128.199.38.11")
     port = 11333
-	
-   
+
+
 class RubleBitTestNet(RubleBit):
     """
     Class with all the necessary RubleBit testing network information based on
@@ -21,5 +21,5 @@ class RubleBitTestNet(RubleBit):
     """
     name = 'test-rublebit'
     seeds = ("testnet-seed.ltc.xurious.com",
-	         "dnsseed.wemine-testnet.com")
-    port = 11333               
+             "dnsseed.wemine-testnet.com")
+    port = 11333

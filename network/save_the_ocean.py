@@ -11,5 +11,5 @@ class Save_The_Ocean(Bitcoin):
     symbols = ('STO', )
     seeds = ("52.169.14.55")
     port = 4555
-	
+
 # no testnet

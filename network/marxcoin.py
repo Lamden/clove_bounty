@@ -9,7 +9,8 @@ class MarxCoin(Bitcoin):
     """
     name = 'marxcoin'
     symbols = ('MARX', )
-    seeds = ("seed4.cryptolife.net","seed2.cryptolife.net","seed3.cryptolife.net","electrum3.cryptolife.net")
+    seeds = ("seed4.cryptolife.net", "seed2.cryptolife.net",
+             "seed3.cryptolife.net", "electrum3.cryptolife.net")
     port = 41103
 
 

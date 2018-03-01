@@ -15,4 +15,3 @@ class Kronecoin(Bitcoin):
              "35.176.166.149",
              "seed.kronecoin.org")
     port = 16765
-	

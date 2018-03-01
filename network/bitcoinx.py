@@ -16,7 +16,7 @@ class BitcoinX(Bitcoin):
 class BitcoinXTestNet(BitcoinX):
     """
     Class with all the necessary BitcoinX (BCX) testing network information based on
-    https://github.com/bitcoinx-project/bitcoinx/blob/master/src/chainparams.cpp    
+    https://github.com/bitcoinx-project/bitcoinx/blob/master/src/chainparams.cpp
     (date of access: 02/17/2018)
     """
     name = 'test-bitcoinx'

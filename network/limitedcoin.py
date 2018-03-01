@@ -11,5 +11,5 @@ class LimitedCoin(Bitcoin):
     symbols = ('LTD', )
     seeds = ("limitedcoin.dyndns.org")
     port = 39569
-	
+
 # no testnet

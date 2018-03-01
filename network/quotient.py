@@ -9,7 +9,7 @@ class Quotient(Bitcoin):
     """
     name = 'Quotient'
     symbols = ('XQN', )
-    seeds =  ("seed.quotientcoin.com")
+    seeds = ("seed.quotientcoin.com")
     port = 30994
 
 

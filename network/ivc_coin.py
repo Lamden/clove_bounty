@@ -15,5 +15,5 @@ class IVC_Coin(Bitcoin):
              "seed2.cryptolife.net",
              "45.77.7.67")
     port = 41184
-	
+
 # no testnet

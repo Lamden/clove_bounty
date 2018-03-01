@@ -9,8 +9,9 @@ class DotCoin(Bitcoin):
     """
     name = 'dotcoin'
     symbols = ('DOT', )
-    seeds =  ("162.255.117.105","nodes1.cryptopia.co.nz","nodes2.cryptopia.co.nz","pools1.cryptopia.co.nz","pools2.cryptopia.co.nz")
+    seeds = ("162.255.117.105", "nodes1.cryptopia.co.nz", "nodes2.cryptopia.co.nz",
+             "pools1.cryptopia.co.nz", "pools2.cryptopia.co.nz")
     port = 19745
-	
-	
+
+
 # Has no Testnet

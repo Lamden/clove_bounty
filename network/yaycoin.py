@@ -12,8 +12,8 @@ class YAYcoin(Bitcoin):
     seeds = ("yaycoin.sun.ddns.vc",
              "yaycoin.luna.ddns.vc")
     port = 7785
-	
-   
+
+
 class YAYcoinTestNet(YAYcoin):
     """
     Class with all the necessary YAYcoin testing network information based on
@@ -23,5 +23,4 @@ class YAYcoinTestNet(YAYcoin):
     name = 'test-yaycoin'
     seeds = ("yaycoin.sun.ddns.vc",
              "yaycoin.luna.ddns.vc")
-    port = 17785                
-	
+    port = 17785

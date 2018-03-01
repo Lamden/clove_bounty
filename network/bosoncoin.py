@@ -12,5 +12,3 @@ class BosonCoin(Bitcoin):
     seeds = ("45.42.189.74",
              "107.190.164.220")
     port = 12090
-	
-   

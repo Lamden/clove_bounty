@@ -15,6 +15,5 @@ class DonationCoin(Bitcoin):
              "seed4.donationcoin.org")
     port = 11060
 
-	
 
 # No Testnet

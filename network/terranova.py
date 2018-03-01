@@ -11,5 +11,5 @@ class TerraNova(Bitcoin):
     symbols = ('TER', )
     seeds = ("194.87.96.140")
     port = 14542
-	
+
 # no testnet

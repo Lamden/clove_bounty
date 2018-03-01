@@ -14,5 +14,3 @@ class iBank(Bitcoin):
 
 
 # Has no testnet
-	
-	

@@ -11,5 +11,5 @@ class Pentacoin(Bitcoin):
     symbols = ('PTA', )
     seeds = ("104.236.199.148")
     port = 25631
-	
+
 # no testnet

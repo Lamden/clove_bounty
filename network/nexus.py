@@ -16,7 +16,7 @@ class Nexus(Bitcoin):
 class NexusTestNet(Nexus):
     """
     Class with all the necessary Nexus NXS testing network information based on
-    https://github.com/Nexusoft/Nexus/blob/master/src/net/net.cpp    
+    https://github.com/Nexusoft/Nexus/blob/master/src/net/net.cpp
     (date of access: 02/12/2018)
     """
     name = 'test-nexus'

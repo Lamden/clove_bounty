@@ -11,7 +11,7 @@ class Stakecoin(Bitcoin):
     symbols = ('STCN', )
     seeds = ("nodea.stakecoin.co",
              "nodeb.stakecoin.co",
-             "nodec.stakecoin.co")	
+             "nodec.stakecoin.co")
     port = 16814
-	
+
 # no testnet

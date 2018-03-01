@@ -11,8 +11,8 @@ class SmartCoin(Bitcoin):
     symbols = ('SMC', )
     seeds = ("dnsseed.smartcoin.cc")
     port = 58585
-	
-   
+
+
 class DiamondTestNet(SmartCoin):
     """
     Class with all the necessary SmartCoin testing network information based on
@@ -21,8 +21,7 @@ class DiamondTestNet(SmartCoin):
     """
     name = 'test-smartcoin'
     seeds = ("testnet-seed.alexykot.me",
-            "testnet-seed.bitcoin.petertodd.org",
-            "testnet-seed.bluematt.me",
-            "testnet-seed.bitcoin.schildbach.de")
-    port = 18333              
-	
+             "testnet-seed.bitcoin.petertodd.org",
+             "testnet-seed.bluematt.me",
+             "testnet-seed.bitcoin.schildbach.de")
+    port = 18333

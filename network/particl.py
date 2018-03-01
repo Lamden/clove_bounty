@@ -9,7 +9,8 @@ class Particl(Bitcoin):
     """
     name = 'particl'
     symbols = ('PART', )
-    seeds = ('mainnet-seed.particl.io', 'dnsseed-mainnet.particl.io', 'mainnet.particl.io')
+    seeds = ('mainnet-seed.particl.io',
+             'dnsseed-mainnet.particl.io', 'mainnet.particl.io')
     port = 51738
 
 

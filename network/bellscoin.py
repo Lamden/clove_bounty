@@ -14,8 +14,8 @@ class Bellscoin(Bitcoin):
              "203.20.114.252",
              "31.31.202.138")
     port = 19919
-	
-   
+
+
 class BellscoinTestNet(Bellscoin):
     """
     Class with all the necessary Bellscoin testing network information based on
@@ -26,6 +26,4 @@ class BellscoinTestNet(Bellscoin):
     seeds = ("testnet-seed.Bellstools.com",
              "testnet-seed.BELLS.xurious.com",
              "dnsseed.wemine-testnet.com")
-    port = 29919               
-	
-
+    port = 29919

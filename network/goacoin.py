@@ -14,5 +14,5 @@ class Goacoin(Bitcoin):
              "seed3.goaco.in",
              "seed4.goaco.in")
     port = 1947
-	
+
 # no testnet

@@ -11,5 +11,5 @@ class Free_Game_Zone(Bitcoin):
     symbols = ('FGZ', )
     seeds = ("node.45.32.217.42")
     port = 8999
-	
+
 # no testnet

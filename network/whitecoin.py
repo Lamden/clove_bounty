@@ -9,7 +9,8 @@ class Whitecoin(Bitcoin):
     """
     name = 'whitecoin'
     symbols = ('XWC', )
-    seeds = ('dnsseed.oizopower.nl', 'dnsseed-cn.whitecoin.info', 'seed1.oizopower.nl', 'seed2.oizopower.nl', 'seed3.oizopower.nl', 'xwcseeder.ftc-c.com')
+    seeds = ('dnsseed.oizopower.nl', 'dnsseed-cn.whitecoin.info', 'seed1.oizopower.nl',
+             'seed2.oizopower.nl', 'seed3.oizopower.nl', 'xwcseeder.ftc-c.com')
     port = 15814
 
 # no testnet

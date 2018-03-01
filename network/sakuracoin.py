@@ -11,8 +11,8 @@ class Sakuracoin(Bitcoin):
     symbols = ('SKR', )
     seeds = ("skrseed.sighash.info")
     port = 9301
-	
-   
+
+
 class SakuracoinTestNet(Sakuracoin):
     """
     Class with all the necessary Sakuracoin testing network information based on
@@ -21,4 +21,4 @@ class SakuracoinTestNet(Sakuracoin):
     """
     name = 'test-sakuracoin'
     seeds = ("skrseed.sighash.info")
-    port = 19301              
+    port = 19301

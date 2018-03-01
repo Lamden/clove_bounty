@@ -10,7 +10,8 @@ class Visio(Bitcoin):
     """
     name = 'visio'
     symbols = ('VISIO', )
-    seeds = ('seed.visio.wtf', 'seeda.visio.wtf', 'seedb.visio.wtf', 'seedc.visio.wtf', '94.102.50.82', '185.145.131.149')
+    seeds = ('seed.visio.wtf', 'seeda.visio.wtf', 'seedb.visio.wtf',
+             'seedc.visio.wtf', '94.102.50.82', '185.145.131.149')
     port = 16778
 
 

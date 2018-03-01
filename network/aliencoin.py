@@ -9,8 +9,8 @@ class Aliencoin(Bitcoin):
     """
     name = 'Aliencoin'
     symbols = ('ALN', )
-    seeds =  ("45.32.130.243")
+    seeds = ("45.32.130.243")
     port = 15424
-	
-   
+
+
 # Has no testnet

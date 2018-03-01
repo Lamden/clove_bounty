@@ -13,6 +13,5 @@ class Cetuscoin(Bitcoin):
              "seed2.cetuscoin.cc",
              "seed3.cetuscoin.cc")
     port = 24772
-	
-# no testnet
 
+# no testnet

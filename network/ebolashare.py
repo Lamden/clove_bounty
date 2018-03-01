@@ -9,7 +9,7 @@ class EbolaShare(Bitcoin):
     """
     name = 'ebolashare'
     symbols = ('EBS', )
-    seeds =  ("37.25.41.54")
+    seeds = ("37.25.41.54")
     port = 9333
-	
+
 # no testnet

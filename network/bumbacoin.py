@@ -9,7 +9,7 @@ class Bumbacoin(Bitcoin):
     """
     name = 'Bumbacoin'
     symbols = ('BUMBA', )
-    seeds = ("82.211.31.215","84.200.210.130")
+    seeds = ("82.211.31.215", "84.200.210.130")
     port = 20222
 
 

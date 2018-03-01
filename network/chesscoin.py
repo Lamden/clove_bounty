@@ -9,7 +9,7 @@ class Chesscoin(Bitcoin):
     """
     name = 'Chesscoin'
     symbols = ('CHESS', )
-    seeds =  ("node.walletbuilders.com")
+    seeds = ("node.walletbuilders.com")
     port = 7323
 
 

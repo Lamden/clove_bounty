@@ -11,5 +11,5 @@ class Zeta2Coin(Bitcoin):
     symbols = ('ZET2', )
     seeds = ("185.61.151.109")
     port = 25589
-	
+
 # no testnet

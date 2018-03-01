@@ -9,7 +9,8 @@ class GlobalTourCoin(Bitcoin):
     """
     name = 'globaltourcoin'
     symbols = ('GTC', )
-    seeds = ('wallet.cryptolife.net', 'explore.cryptolife.net', 'seed4.cryptolife.net', 'seed2.cryptolife.net')
+    seeds = ('wallet.cryptolife.net', 'explore.cryptolife.net',
+             'seed4.cryptolife.net', 'seed2.cryptolife.net')
     port = 28111
 
 # no testnet

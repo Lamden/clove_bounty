@@ -9,7 +9,7 @@ class Bithire(Bitcoin):
     """
     name = 'bithire'
     symbols = ('HIRE', )
-    seeds =  ("46.101.3.80")
+    seeds = ("46.101.3.80")
     port = 11816
-	
+
 # Has no testnet

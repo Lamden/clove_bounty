@@ -12,11 +12,11 @@ class Bitcoin_Unlimited(Bitcoin):
     seeds = ("btccash-seeder.bitcoinunlimited.info",
              "seed.bitcoinabc.org",
              "seed-abc.bitcoinforks.org",
-             "seed.bitprim.org", 
+             "seed.bitprim.org",
              "seed.deadalnix.me")
-    port = 8333 
-	
-   
+    port = 8333
+
+
 class Bitcoin_UnlimitedTestNet(Bitcoin_Unlimited):
     """
     Class with all the necessary Bitcoin Unlimited testing network information based on
@@ -25,4 +25,4 @@ class Bitcoin_UnlimitedTestNet(Bitcoin_Unlimited):
     """
     name = 'test-bitcoin_unlimited'
     seeds = ("nolnet-seed.bitcoinunlimited.info")
-    port = 18333              
+    port = 18333

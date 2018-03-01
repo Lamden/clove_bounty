@@ -9,7 +9,7 @@ class DigitalBullionGold(Bitcoin):
     """
     name = 'digitalbulliongold'
     symbols = ('DBG', )
-    seeds = (178.62.122.246)
+    nodes = ('178.62.122.246', )
     port = 32113
 
 # No testnet

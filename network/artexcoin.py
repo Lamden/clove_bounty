@@ -9,9 +9,8 @@ class ArtexCoin(Bitcoin):
     """
     name = 'artexcoin'
     symbols = ('ATX', )
-    seeds =  ("162.243.85.154",
-              "162.243.99.178",
-              "seed3.cryptolife.net",
-              "electrum3.cryptolife.net")
+    seeds = ("162.243.85.154",
+             "162.243.99.178",
+             "seed3.cryptolife.net",
+             "electrum3.cryptolife.net")
     port = 14584
-	

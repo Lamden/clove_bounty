@@ -16,7 +16,7 @@ class Blocknet(Bitcoin):
 class BlocknetTestNet(Blocknet):
     """
     Class with all the necessary Blocknet (BLOCK) testing network information based on
-    https://github.com/BlocknetDX/BlockDX/blob/master/src/chainparams.cpp    
+    https://github.com/BlocknetDX/BlockDX/blob/master/src/chainparams.cpp
     (date of access: 02/12/2018)
     """
     name = 'test-blocknet'

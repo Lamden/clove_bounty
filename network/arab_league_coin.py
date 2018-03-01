@@ -11,5 +11,5 @@ class Arab_League_Coin(Bitcoin):
     symbols = ('ALC', )
     seeds = ("37.59.104.238")
     port = 33612
-	
+
 # no testnet

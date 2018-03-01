@@ -16,7 +16,7 @@ class TattocoinSE(Bitcoin):
 class TattocoinSETestNet(TattocoinSE):
     """
     Class with all the necessary Tattocoin Standard Edition (TSE) testing network information based on
-    https://github.com/CryptoCoderz/Tattoocoin-TSE/blob/master/src/net.cpp    
+    https://github.com/CryptoCoderz/Tattoocoin-TSE/blob/master/src/net.cpp
     (date of access: 02/17/2018)
     """
     name = 'test-tattocoinse'

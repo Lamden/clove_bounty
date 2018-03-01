@@ -11,8 +11,8 @@ class LandCoin(Bitcoin):
     symbols = ('LND', )
     seeds = ("seed.landcoin.net")
     port = 1911
-	
-   
+
+
 class LandCoinTestNet(LandCoin):
     """
     Class with all the necessary LandCoin testing network information based on
@@ -21,4 +21,4 @@ class LandCoinTestNet(LandCoin):
     """
     name = 'test-landcoin'
     seeds = ("seed.landcoin.net")
-    port = 11911              
+    port = 11911

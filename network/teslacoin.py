@@ -22,8 +22,8 @@ class TeslaCoin(Bitcoin):
              "5.189.187.91",
              "74.65.200.29",
              "81.245.187.75",
-             "94.177.203.132")	 
+             "94.177.203.132")
     port = 1856
 
 
-# has no testnet 
+# has no testnet

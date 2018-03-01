@@ -21,5 +21,6 @@ class AricoinTestNet(Aricoin):
     (date of access: 02/11/2018)
     """
     name = 'test-aricoin'
-    seeds = ('seed.mophides.com', 'seed.dglibrary.org', 'seed.arichain.info', 'testari-seed.lionservers.de', 'testari-seed-static.lionservers.de')
+    seeds = ('seed.mophides.com', 'seed.dglibrary.org', 'seed.arichain.info',
+             'testari-seed.lionservers.de', 'testari-seed-static.lionservers.de')
     port = 26567

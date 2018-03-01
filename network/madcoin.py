@@ -13,5 +13,5 @@ class Madcoin(Bitcoin):
              "node1.madcoin.life",
              "node2.madcoin.life")
     port = 10882
-	
+
 # no testnet

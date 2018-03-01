@@ -14,5 +14,5 @@ class PhilsCurrency(Bitcoin):
              "dnsseed3.philscurrency.org",
              "explorer.philscurrency.org")
     port = 36003
-	
+
 # no testnet

@@ -9,7 +9,7 @@ class Comet(Bitcoin):
     """
     name = 'comet'
     symbols = ('CMT', )
-    seeds =  ("node.cometcoin.com")
+    seeds = ("node.cometcoin.com")
     port = 7045
-	
+
 # Has no testnet

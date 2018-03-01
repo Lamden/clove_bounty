@@ -9,7 +9,7 @@ class MonkeyProject(Bitcoin):
     """
     name = 'MonkeyProject'
     symbols = ('MONK', )
-    seeds = ('185.150.191.36','185.150.191.23')
+    seeds = ('185.150.191.36', '185.150.191.23')
     port = 8710
 
 

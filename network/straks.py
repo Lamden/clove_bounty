@@ -15,8 +15,8 @@ class STRAKS(Bitcoin):
              "sm004.alphaqub.com",
              "sm005.alphaqub.com")
     port = 7575
-	
-   
+
+
 class STRAKSTestNet(STRAKS):
     """
     Class with all the necessary STRAKS testing network information based on
@@ -26,5 +26,4 @@ class STRAKSTestNet(STRAKS):
     name = 'test-straks'
     seeds = ("st001.radixpi.com",
              "st002.radixpi.com")
-    port = 7565              
-	
+    port = 7565

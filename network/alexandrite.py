@@ -9,7 +9,7 @@ class Alexandrite(Bitcoin):
     """
     name = 'alexandrite'
     symbols = ('ALEX', )
-    seeds =  ("194.135.85.41")
+    seeds = ("194.135.85.41")
     port = 19531
-	
+
 # Has no testnet

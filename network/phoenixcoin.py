@@ -9,7 +9,8 @@ class Phoenixcoin(Bitcoin):
     """
     name = 'phoenixcoin'
     symbols = ('PXC', )
-    seeds = ('seed0.phoenixcoin.org','seed1.phoenixcoin.org','seed2.phoenixcoin.org')
+    seeds = ('seed0.phoenixcoin.org',
+             'seed1.phoenixcoin.org', 'seed2.phoenixcoin.org')
     port = 9555
 
 

@@ -11,5 +11,5 @@ class LiviaCoin(Bitcoin):
     symbols = ('LIV', )
     seeds = ("162.243.239.239")
     port = 42623
-	
+
 # no testnet

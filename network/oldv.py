@@ -11,5 +11,5 @@ class OldV(Bitcoin):
     symbols = ('OLV', )
     seeds = ("vsyncnode1.servep2p.com")
     port = 18154
-	
+
 # no testnet

@@ -10,10 +10,10 @@ class Obsidian(Bitcoin):
     name = 'obsidian'
     symbols = ('ODN', )
     seeds = ('obsidianblockchain1.westeurope.cloudapp.azure.com',
-			 'obsidianblockchain2.westeurope.cloudapp.azure.com',
-			 'obsidianseednode1.westeurope.cloudapp.azure.com',
-			 'seed1.obsidianplatform.com',
-			 'seed2.obsidianplatform.com')
+             'obsidianblockchain2.westeurope.cloudapp.azure.com',
+             'obsidianseednode1.westeurope.cloudapp.azure.com',
+             'seed1.obsidianplatform.com',
+             'seed2.obsidianplatform.com')
     port = 56660
 
 # no testnet

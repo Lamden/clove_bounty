@@ -9,7 +9,8 @@ class BlitzCash(Bitcoin):
     """
     name = 'blitzcash'
     symbols = ('BLITZ', )
-    seeds = ('blitz1.mooo.com', 'blitz2.mooo.com', 'blitz3.mooo.com', 'blitz4.mooo.com', 'blitz5.mooo.com')
+    seeds = ('blitz1.mooo.com', 'blitz2.mooo.com',
+             'blitz3.mooo.com', 'blitz4.mooo.com', 'blitz5.mooo.com')
     port = 9627
 
 # no testnet

@@ -11,5 +11,5 @@ class MrsaCoin(Bitcoin):
     symbols = ('MRSA', )
     seeds = ("45.42.140.50")
     port = 17930
-	
+
 # no testnet

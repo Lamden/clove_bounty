@@ -1,7 +1,7 @@
 from clove.network.bitcoin import Bitcoin
 
 
-class  StrikeBitClub(Bitcoin):
+class StrikeBitClub(Bitcoin):
     """
     Class with all the necessary  StrikeBitClub (SBC) network information based on
     https://github.com/sbccoin/sbccoin-source/blob/master/src/net.cpp
@@ -9,11 +9,11 @@ class  StrikeBitClub(Bitcoin):
     """
     name = 'strike_bit_club'
     symbols = ('SBC', )
-    seeds =  ('sbc01.seednode.online', 'sbc02.seednode.online')
+    seeds = ('sbc01.seednode.online', 'sbc02.seednode.online')
     port = 21575
 
 
-class  StrikeBitClubTestNet(StrikeBitClub):
+class StrikeBitClubTestNet(StrikeBitClub):
     """
     Class with all the necessary  StrikeBitClub (SBC) network information based on
     https://github.com/sbccoin/sbccoin-source/blob/master/src/net.cpp
@@ -21,5 +21,5 @@ class  StrikeBitClubTestNet(StrikeBitClub):
     """
     name = 'test-strike_bit_club'
     symbols = ('SBC', )
-    seeds =  ()
+    seeds = ()
     port = 31575

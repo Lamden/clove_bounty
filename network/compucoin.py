@@ -9,10 +9,10 @@ class CompuCoin(Bitcoin):
     """
     name = 'compucoin'
     symbols = ('CPN', )
-    seeds =  ("209.188.7.177")
+    seeds = ("209.188.7.177")
     port = 45444
-	
-   
+
+
 class CompuCoinTestNet(CompuCoin):
     """
     Class with all the necessary CompuCoin testing network information based on
@@ -21,4 +21,4 @@ class CompuCoinTestNet(CompuCoin):
     """
     name = 'test-compucoin'
     seeds = ("testnet-seed.compucoin.com")
-    port = 55444               
+    port = 55444

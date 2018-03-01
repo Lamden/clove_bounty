@@ -9,9 +9,8 @@ class StrikeBitClub(Bitcoin):
     """
     name = 'strikebitclub'
     symbols = ('SBC', )
-    seeds = ("sbc01.seednode.online","sbc02.seednode.online")
+    seeds = ("sbc01.seednode.online", "sbc02.seednode.online")
     port = 21575
 
 
 # Has no testnet
- 

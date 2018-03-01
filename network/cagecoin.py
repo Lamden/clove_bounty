@@ -11,5 +11,5 @@ class CageCoin(Bitcoin):
     symbols = ('CAGE', )
     seeds = ("seed.cagecoin.com")
     port = 33112
-	
+
 # no testnet

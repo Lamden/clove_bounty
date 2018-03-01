@@ -9,11 +9,10 @@ class Tellurion(Bitcoin):
     """
     name = 'tellurion'
     symbols = ('TELL', )
-    seeds = ("seed1.tellurion.co","seed2.tellurion.co",
-            "seed3.tellurion.co","seed4.tellurion.co",
-            "ok1.altcoinsfoundation.com") 
+    seeds = ("seed1.tellurion.co", "seed2.tellurion.co",
+             "seed3.tellurion.co", "seed4.tellurion.co",
+             "ok1.altcoinsfoundation.com")
     port = 9999
 
 
 # Has no testnet
-

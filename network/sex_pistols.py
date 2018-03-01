@@ -11,5 +11,5 @@ class Sex_Pistols(Bitcoin):
     symbols = ('SP', )
     seeds = ("node.walletbuilders.com")
     port = 7515
-	
+
 #  no testnet

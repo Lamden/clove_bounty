@@ -12,5 +12,3 @@ class Washingtoncoin(Bitcoin):
     seeds = ("45.42.140.30",
              "84.200.210.130")
     port = 15150
-	
-   

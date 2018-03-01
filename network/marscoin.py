@@ -13,8 +13,8 @@ class Marscoin(Bitcoin):
              "dnsseed.marscoin.org",
              "dnsseed.marsbiotech.com")
     port = 8338
-	
-   
+
+
 class MarscoinTestNet(Marscoin):
     """
     Class with all the necessary Diamond testing network information based on
@@ -24,5 +24,4 @@ class MarscoinTestNet(Marscoin):
     name = 'test-marscoin'
     seeds = ("dnsseed.marscoin.ru",
              "testnet-seed.marscointools.com")
-    port = 18338               
-
+    port = 18338

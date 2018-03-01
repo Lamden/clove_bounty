@@ -13,6 +13,5 @@ class Magnet(Bitcoin):
              "magdns2.magnetwork.io",
              "magdns3.magnetwork.io")
     port = 17177
-	
+
 # no test net
-	

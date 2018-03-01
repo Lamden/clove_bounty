@@ -9,7 +9,7 @@ class United_Arab_Emirates_Coin(Bitcoin):
     """
     name = 'united_arab_emirates_coin'
     symbols = ('UAEC', )
-    seeds =  ("107.155.87.16")
+    seeds = ("107.155.87.16")
     port = 44887
-	
+
 # Has no testnet

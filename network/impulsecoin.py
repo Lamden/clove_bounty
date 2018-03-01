@@ -18,4 +18,3 @@ class ImpulseCoin(Bitcoin):
 
 
 # Has no testnet
-

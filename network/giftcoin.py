@@ -13,8 +13,8 @@ class Giftcoin(Bitcoin):
              "node.giftcoin.info",
              "nodegift.poolnetwork.org")
     port = 8855
-	
-   
+
+
 class GiftcoinTestNet(Giftcoin):
     """
     Class with all the necessary Giftcoin testing network information based on
@@ -24,5 +24,4 @@ class GiftcoinTestNet(Giftcoin):
     name = 'test-giftcoin'
     seeds = ("node.giftcoin.info",
              "nodegift.poolnetwork.org")
-    port = 18855              
-	
+    port = 18855

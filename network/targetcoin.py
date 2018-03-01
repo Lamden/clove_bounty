@@ -11,5 +11,5 @@ class TargetCoin(Bitcoin):
     symbols = ('TAR', )
     seeds = ("192.168.145.1")
     port = 56680
-	
+
 # no testnet

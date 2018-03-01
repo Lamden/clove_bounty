@@ -9,14 +9,16 @@ class AidCoin(Bitcoin):
     """
     name = 'aidcoin'
     symbols = ('AID', )
-    seeds =  ("dnsseed.aidcoinstools.com"}
-              "dnsseed.aidcoinspool.org"}
-              "dnsseed.ltc.xurious.com"}
-              "dnsseed.koin-project.com"}
-              "dnsseed.weminemnc.com")
+    seeds = (
+        'dnsseed.aidcoinstools.com',
+        'dnsseed.aidcoinspool.org',
+        'dnsseed.ltc.xurious.com',
+        'dnsseed.koin-project.com',
+        'dnsseed.weminemnc.com',
+    )
     port = 12223
-	
-   
+
+
 class AidCoinTestNet(AidCoin):
     """
     Class with all the necessary AidCoin testing network information based on
@@ -24,13 +26,9 @@ class AidCoinTestNet(AidCoin):
     (date of access: 02/13/2018)
     """
     name = 'test-aidcoin'
-    seeds = ("testnet-seed.aidcoinstools.com",
-             "testnet-seed.ltc.xurious.com",
-             "dnsseed.wemine-testnet.com")
-    port = 13330               
-	
-	
-	
-
-	
-	
+    seeds = (
+        'testnet-seed.aidcoinstools.com',
+        'testnet-seed.ltc.xurious.com',
+        'dnsseed.wemine-testnet.com',
+    )
+    port = 13330

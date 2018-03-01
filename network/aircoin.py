@@ -9,14 +9,14 @@ class AIRcoin(Bitcoin):
     """
     name = 'aircoin'
     symbols = ('AIR', )
-    seeds =  ("dnsseed.aircointools.org",
-              "aircointools.com",
-              "dnsseed.ltc.xurious.com",
-              "dnsseed.koin-project.com",
-              "dnsseed.weminemnc.com")	
+    seeds = ("dnsseed.aircointools.org",
+             "aircointools.com",
+             "dnsseed.ltc.xurious.com",
+             "dnsseed.koin-project.com",
+             "dnsseed.weminemnc.com")
     port = 1631
-	
-   
+
+
 class AIRcoinTestNet(AIRcoin):
     """
     Class with all the necessary AIRcoin testing network information based on
@@ -26,9 +26,4 @@ class AIRcoinTestNet(AIRcoin):
     name = 'test-aircoin'
     seeds = ("testnet-seed.AIRcointools.com",
              "testnet-seed.weminemnc.com")
-    port = 1632              
-	
-	
-
-
-
+    port = 1632

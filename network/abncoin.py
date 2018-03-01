@@ -11,5 +11,5 @@ class Abncoin(Bitcoin):
     symbols = ('ABN', )
     seeds = ("node.walletbuilders.com")
     port = 10267
-	
+
 # no testnet

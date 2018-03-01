@@ -11,5 +11,5 @@ class Unfed(Bitcoin):
     symbols = ('UNF', )
     seeds = ("52.36.161.129")
     port = 12387
-	
+
 # no testnet

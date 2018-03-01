@@ -12,4 +12,3 @@ class SPEC(Bitcoin):
     seeds = ("node.speccoin.com",
              "node2.speccoin.com")
     port = 4319
-	

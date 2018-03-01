@@ -9,10 +9,10 @@ class Anoncoin(Bitcoin):
     """
     name = 'Anoncoin'
     symbols = ('ANC', )
-    seeds =  ("seed.frank2.net",
-              "dnsseed03.anoncoin.net",
-              "anc.dnsseed01.anoncoin.darkgamex.ch")
+    seeds = ("seed.frank2.net",
+             "dnsseed03.anoncoin.net",
+             "anc.dnsseed01.anoncoin.darkgamex.ch")
     port = 9377
-	
-   
+
+
 # No testnet

@@ -9,7 +9,7 @@ class KushCoin(Bitcoin):
     """
     name = 'kushcoin'
     symbols = ('KUSH', )
-    seeds = ("seed-a.kushcoin.co","seed-b.kushcoin.co")
+    seeds = ("seed-a.kushcoin.co", "seed-b.kushcoin.co")
     port = 31544
 
 

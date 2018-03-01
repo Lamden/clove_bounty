@@ -21,7 +21,4 @@ class SpotsTestNet(Spots):
     """
     name = 'test-spots'
     seeds = ("dstest.theSPT.com")
-    port = 15588 
-	
-
-	 
+    port = 15588

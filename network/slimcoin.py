@@ -13,4 +13,3 @@ class Slimcoin(Bitcoin):
              "dnsseed.furiousnomad.com",
              "dnsseed.shitcoinrapist.club")
     port = 41682
-	

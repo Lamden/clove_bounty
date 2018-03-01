@@ -11,5 +11,5 @@ class Shorty(Bitcoin):
     symbols = ('SHORTY', )
     seeds = ("35.163.38.207")
     port = 28188
-	
+
 # no testnet

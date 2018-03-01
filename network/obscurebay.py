@@ -11,5 +11,5 @@ class Obscurebay(Bitcoin):
     symbols = ('OBS', )
     seeds = ("54.149.102.226")
     port = 47458
-	
+
 # no testnet

@@ -11,5 +11,5 @@ class XxXcoin(Bitcoin):
     symbols = ('XXX', )
     seeds = ("85.214.147.99")
     port = 20133
-	
+
 # no testnet

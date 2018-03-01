@@ -10,7 +10,9 @@ class LanaCoin(Bitcoin):
     """
     name = 'lanacoin'
     symbols = ('LANA', )
-    seeds = ('seed1.lanacoin.com', 'seed2.lanacoin.com', 'seed3.lanacoin.com', 'seed4.lanacoin.com', 'seed5.lanacoin.com', 'seed6.lanacoin.com', 'seed7.lanacoin.com', 'seed8.lanacoin.com', 'seed9.lanacoin.com')
+    seeds = ('seed1.lanacoin.com', 'seed2.lanacoin.com', 'seed3.lanacoin.com', 'seed4.lanacoin.com',
+             'seed5.lanacoin.com', 'seed6.lanacoin.com', 'seed7.lanacoin.com', 'seed8.lanacoin.com',
+             'seed9.lanacoin.com')
     port = 7506
 
 

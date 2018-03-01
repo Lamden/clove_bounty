@@ -9,10 +9,10 @@ class CrevaCoin(Bitcoin):
     """
     name = 'crevacoin'
     symbols = ('CREVA', )
-    seeds =  ("123.57.60.128")
+    seeds = ("123.57.60.128")
     port = 22440
-	
-   
+
+
 class CrevaCoinTestNet(CrevaCoin):
     """
     Class with all the necessary CrevaCoin testing network information based on
@@ -21,4 +21,4 @@ class CrevaCoinTestNet(CrevaCoin):
     """
     name = 'test-crevacoin'
     seeds = ("23.23.186.131")
-    port = 22441              
+    port = 22441

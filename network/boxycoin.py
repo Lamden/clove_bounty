@@ -15,8 +15,8 @@ class BoxyCoin(Bitcoin):
              "boxycoin.ddns.net", "138.68.174.82",
              "electrum.boxy.online", "211.28.42.157")
     port = 21524
-	
-   
+
+
 class BoxyCoinTestNet(BoxyCoin):
     """
     Class with all the necessary BoxyCoin testing network information based on
@@ -26,5 +26,4 @@ class BoxyCoinTestNet(BoxyCoin):
     name = 'test-boxycoin'
     seeds = ("testnet-seed.boxy.online",
              "testnet-seed.boxycoin.org")
-    port = 121524               
-	
+    port = 121524

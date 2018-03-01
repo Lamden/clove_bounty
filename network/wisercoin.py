@@ -12,4 +12,3 @@ class WiserCoin(Bitcoin):
     seeds = ("sec1.wisercoin.com",
              "sec2.wisercoin.com")
     port = 21777
-	

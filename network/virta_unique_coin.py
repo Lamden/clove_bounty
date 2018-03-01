@@ -9,11 +9,11 @@ class VirtaUniqueCoin(Bitcoin):
     """
     name = 'virta-unique-coin'
     symbols = ('VUC', )
-    seeds = ('50.63.163.129')
+    seeds = ('50.63.163.129', )
     port = 15702
 
 
-class VirtaUniqueCoinTestNet(Virtauniquecoin):
+class VirtaUniqueCoinTestNet(VirtaUniqueCoin):
     """
     Class with all the necessary Virta Unique Coin (VUC) testing network information based on
     https://github.com/virtauniquecoin/virtauniquecoin-master/blob/master/src/net.cpp

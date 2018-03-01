@@ -11,5 +11,5 @@ class Octanox(Bitcoin):
     symbols = ('OTX', )
     seeds = ("185.69.54.33")
     port = 36212
-	
+
 # no testnet

@@ -9,6 +9,5 @@ class GoldReserve(Bitcoin):
     """
     name = 'goldreserve'
     symbols = ('XGR', )
-    seeds = ('108.61.103.33','5.250.177.24')
+    seeds = ('108.61.103.33', '5.250.177.24')
     port = 21192
-

@@ -11,5 +11,5 @@ class UnitaryStatus_Dollar(Bitcoin):
     symbols = ('USDE', )
     seeds = ("liteminers.com")
     port = 54449
-	
+
 # no testnet

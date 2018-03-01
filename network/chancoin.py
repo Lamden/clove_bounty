@@ -9,7 +9,7 @@ class ChanCoin(Bitcoin):
     """
     name = 'chancoin'
     symbols = ('CHAN', )
-    seeds =  ("node.walletbuilders.com")
+    seeds = ("node.walletbuilders.com")
     port = 19117
-	
+
 # Has no testnet

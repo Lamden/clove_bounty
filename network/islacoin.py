@@ -9,9 +9,8 @@ class IslaCoin(Bitcoin):
     """
     name = 'islacoin'
     symbols = ('ISL', )
-    seeds = (("seed1.islacoin.net", "seed2.islacoin.net", "seed3.islacoin.net")
+    seeds = ("seed1.islacoin.net", "seed2.islacoin.net", "seed3.islacoin.net")
     port = 9731
 
 
 # Has no testnet
-

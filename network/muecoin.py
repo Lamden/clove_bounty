@@ -1,7 +1,7 @@
 from clove.network.bitcoin import Bitcoin
 
 
-class  MonetaryUnit(Bitcoin):
+class MonetaryUnit(Bitcoin):
     """
     Class with all the necessary  MonetaryUnit (MUE) network information based on
     https://github.com/muecoin/MUECore/blob/master/src/chainparams.cpp
@@ -9,11 +9,12 @@ class  MonetaryUnit(Bitcoin):
     """
     name = 'monetaryunit'
     symbols = ('MUE', )
-    seeds =  ('nodes.muex.io', 'nodes.monetaryunit.org', 'nodes.mymue.com', 'nodes.cryptophi.com')
+    seeds = ('nodes.muex.io', 'nodes.monetaryunit.org',
+             'nodes.mymue.com', 'nodes.cryptophi.com')
     port = 19683
 
 
-class  MonetaryUnitTestNet(MonetaryUnit):
+class MonetaryUnitTestNet(MonetaryUnit):
     """
     Class with all the necessary  MonetaryUnit (MUE) network information based on
     https://github.com/muecoin/MUECore/blob/master/src/chainparams.cpp
@@ -21,5 +22,5 @@ class  MonetaryUnitTestNet(MonetaryUnit):
     """
     name = 'test-monetaryunit'
     symbols = ('MUE', )
-    seeds =  ('tnodes.muex.io')
+    seeds = ('tnodes.muex.io')
     port = 18683

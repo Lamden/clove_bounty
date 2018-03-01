@@ -11,5 +11,5 @@ class TakCoin(Bitcoin):
     symbols = ('TAK', )
     seeds = ("node.walletbuilders.com")
     port = 32965
-	
+
 # no testnet

@@ -10,7 +10,8 @@ class Zayedcoin(Bitcoin):
     """
     name = 'zayedcoin'
     symbols = ('ZYD', )
-    seeds = ('node.zayedcoin.net', 'node1.zayedcoin.net', 'node2.zayedcoin.net', 'node3.zayedcoin.net', 'node4.zayedcoin.net')
+    seeds = ('node.zayedcoin.net', 'node1.zayedcoin.net',
+             'node2.zayedcoin.net', 'node3.zayedcoin.net', 'node4.zayedcoin.net')
     port = 8371
 
 

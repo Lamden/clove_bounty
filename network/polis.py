@@ -13,5 +13,5 @@ class Polis(Bitcoin):
              "node2.polispay.org",
              "node3.polispay.org")
     port = 24126
-	
+
 # no testnet

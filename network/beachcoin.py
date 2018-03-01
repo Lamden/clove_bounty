@@ -14,6 +14,5 @@ class BeachCoin(Bitcoin):
              "seed3.cryptolife.net",
              "electrum6.cryptolife.net")
     port = 17771
-	
-# Has no testnet
 
+# Has no testnet

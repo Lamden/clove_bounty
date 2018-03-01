@@ -10,7 +10,8 @@ class InsaneCoin(Bitcoin):
     """
     name = 'insanecoin'
     symbols = ('INSN', )
-    seeds = ('insn.cryptocoderz.com', 'insane.cryptocoderz.com', '195.74.52.227')
+    seeds = ('insn.cryptocoderz.com',
+             'insane.cryptocoderz.com', '195.74.52.227')
     port = 10255
 
 

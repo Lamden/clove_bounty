@@ -1,7 +1,7 @@
 from clove.network.bitcoin import Bitcoin
 
 
-class  Syndicate(Bitcoin):
+class Syndicate(Bitcoin):
     """
     Class with all the necessary  Syndicate (SYNX) network information based on
     https://github.com/SyndicateLtd/SyndicateQT/blob/master/src/chainparams.cpp
@@ -9,11 +9,11 @@ class  Syndicate(Bitcoin):
     """
     name = 'syndicate'
     symbols = ('SYNX', )
-    seeds =  ('seed.synx.online')
+    seeds = ('seed.synx.online')
     port = 9999
 
 
-class  SyndicateTestNet(Syndicate):
+class SyndicateTestNet(Syndicate):
     """
     Class with all the necessary  Syndicate (SYNX) network information based on
     https://github.com/SyndicateLtd/SyndicateQT/blob/master/src/chainparams.cpp
@@ -21,5 +21,5 @@ class  SyndicateTestNet(Syndicate):
     """
     name = 'test-syndicate'
     symbols = ('SYNX', )
-    seeds =  ('')
+    seeds = ('')
     port = 27170

@@ -9,7 +9,8 @@ class Emercoin(Bitcoin):
     """
     name = 'emercoin'
     symbols = ('EMC', )
-    seeds = ('seed.emercoin.com', 'seed.emercoin.net', 'seed.emergate.net', 'seed.emc')
+    seeds = ('seed.emercoin.com', 'seed.emercoin.net',
+             'seed.emergate.net', 'seed.emc')
     port = 6661
 
 

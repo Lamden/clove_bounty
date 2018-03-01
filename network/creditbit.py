@@ -19,7 +19,7 @@ class Creditbit(Bitcoin):
              "node7.creditbit.org",
              "node8.creditbit.org",
              "node9.creditbit.org",
-             "node10.creditbit.org")	
+             "node10.creditbit.org")
     port = 5556
-	
+
 # Has no testnet

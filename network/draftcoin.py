@@ -43,5 +43,5 @@ class DraftCoin(Bitcoin):
              "68.206.29.192",
              "209.195.104.6")
     port = 20302
-	
+
 # no testnet

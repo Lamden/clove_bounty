@@ -12,5 +12,5 @@ class Imperialcoin(Bitcoin):
     seeds = ("68.232.180.111",
              "54.94.148.228")
     port = 10240
-	
+
 # no testnet

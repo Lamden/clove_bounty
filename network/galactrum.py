@@ -15,8 +15,8 @@ class Galactrum(Bitcoin):
              "seed4.galactrum.network",
              "seed5.galactrum.network")
     port = 6270
-	
-   
+
+
 class GalactrumTestNet(Galactrum):
     """
     Class with all the necessary Galactrum testing network information based on
@@ -25,5 +25,4 @@ class GalactrumTestNet(Galactrum):
     """
     name = 'test-galactrum'
     seeds = ("seed1.testnet.galactrum.network")
-    port = 16270              
-	
+    port = 16270

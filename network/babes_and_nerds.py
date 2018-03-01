@@ -11,5 +11,5 @@ class Babes_and_Nerds(Bitcoin):
     symbols = ('ban', )
     seeds = ("52.88.144.119")
     port = 44258
-	
+
 # no testnet

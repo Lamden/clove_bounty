@@ -8,8 +8,9 @@ class Auroracoin(Bitcoin):
     (date of access: 02/12/2018)
     """
     name = 'Auroracoin'
-    symbols ('AUR', )
-    seeds = ('s1.auroraseed.net', 'aurseed1.criptoe.com', 's1.auroraseed.com', 's1.auroraseed.org', 's1.auroraseed.eu', 'electrum2.aurorcoin.is', 'electrum3.auroracoin.is', 'electrum4.auroracoin.is')
+    symbols = ('AUR', )
+    seeds = ('s1.auroraseed.net', 'aurseed1.criptoe.com', 's1.auroraseed.com', 's1.auroraseed.org',
+             's1.auroraseed.eu', 'electrum2.aurorcoin.is', 'electrum3.auroracoin.is', 'electrum4.auroracoin.is')
     port = 12340
 
 

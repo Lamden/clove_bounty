@@ -11,5 +11,5 @@ class LeninCoin(Bitcoin):
     symbols = ('LENIN', )
     seeds = ("kicks.servep2p.com")
     port = 10157
-	
+
 # no testnet

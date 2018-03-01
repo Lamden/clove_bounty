@@ -12,5 +12,3 @@ class MaryJane(Bitcoin):
     seeds = ("maryjseed.earlz.net",
              "chainz.cryptoid.info")
     port = 19559
-	
-   

@@ -11,5 +11,5 @@ class LoMoCoin(Bitcoin):
     symbols = ('LMC', )
     seeds = ("seed.lomocoin.com")
     port = 6801
-	
+
 # no testnet

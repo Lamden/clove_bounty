@@ -16,7 +16,7 @@ class VirtualCoin(Bitcoin):
 class VirtualCoinTestNet(VirtualCoin):
     """
     Class with all the necessary VirtualCoin (VC) testing network information based on
-    https://github.com/vcoin-z/virtualcoin/blob/9.2.0/src/net.cpp    
+    https://github.com/vcoin-z/virtualcoin/blob/9.2.0/src/net.cpp
     (date of access: 02/17/2018)
     """
     name = 'test-virtualcoin'

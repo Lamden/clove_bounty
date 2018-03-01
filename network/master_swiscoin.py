@@ -13,6 +13,5 @@ class Master_Swiscoin(Bitcoin):
              "swisexplorer.com",
              "dns.swisexplorer.com")
     port = 20774
-	
+
 # no testnet
-	

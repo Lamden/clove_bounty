@@ -9,10 +9,9 @@ class Equitrade(Bitcoin):
     """
     name = 'equitrade'
     symbols = ('EQT', )
-    seeds = ("seed1.cryptolife.net","seed2.cryptolife.net","seed3.cryptolife.net","seed5.cryptolife.net", "wallet.cryptolife.net","explore.cryptolife.net")
+    seeds = ("seed1.cryptolife.net", "seed2.cryptolife.net", "seed3.cryptolife.net",
+             "seed5.cryptolife.net", "wallet.cryptolife.net", "explore.cryptolife.net")
     port = 43103
 
 
-	
-	
 # Equitrade has no Testnet

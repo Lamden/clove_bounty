@@ -9,9 +9,8 @@ class Agilereservecoin(Bitcoin):
     """
     name = 'agilereservecoin '
     symbols = ('ARC', )
-    seeds =  ("seeds.arc.ie1.cn",
-              "seed1.arc.ie1.cn",
-              "seed2.arc.ie1.cn",
-              "tnseeds.arc.ie1.cn")
+    seeds = ("seeds.arc.ie1.cn",
+             "seed1.arc.ie1.cn",
+             "seed2.arc.ie1.cn",
+             "tnseeds.arc.ie1.cn")
     port = 8888
- 

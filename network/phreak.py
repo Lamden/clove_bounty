@@ -11,5 +11,5 @@ class Phreak(Bitcoin):
     symbols = ('PHR', )
     seeds = ("52.26.166.22")
     port = 4744
-	
+
 # no testnet

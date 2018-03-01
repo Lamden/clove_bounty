@@ -15,7 +15,7 @@ class Diamond(Bitcoin):
              "slingseed4.slingmarket.io",
              "slingseed5.slingmarket.tech",
              "slingseed6.slingcoin.info",
-             "slingseed7.slingcoin.info")	
+             "slingseed7.slingcoin.info")
     port = 30137
-	
+
 # no testnet

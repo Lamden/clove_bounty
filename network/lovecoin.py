@@ -11,5 +11,5 @@ class LOVEcoin(Bitcoin):
     symbols = ('LOVE', )
     seeds = ("dnsseed.btc5.net")
     port = 8863
-	
+
 # no testnet

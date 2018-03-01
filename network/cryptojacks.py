@@ -9,7 +9,8 @@ class CryptoJacks(Bitcoin):
     """
     name = 'cryptojacks'
     symbols = ('CJ', )
-    seeds =  ("node1.cryptojacks.com","node2.cryptojacks.com","node3.cryptojacks.com","node4.cryptojacks.com","node5.cryptojacks.com","node6.cryptojacks.com","node7.cryptojacks.com")
+    seeds = ("node1.cryptojacks.com", "node2.cryptojacks.com", "node3.cryptojacks.com",
+             "node4.cryptojacks.com", "node5.cryptojacks.com", "node6.cryptojacks.com", "node7.cryptojacks.com")
     port = 33433
-	
+
 # Has no Testnet

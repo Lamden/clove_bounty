@@ -13,5 +13,5 @@ class ToaCoin(Bitcoin):
              "212.24.111.8",
              "212.24.111.34")
     port = 9642
-	
+
 # no test net

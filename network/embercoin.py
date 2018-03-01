@@ -13,5 +13,5 @@ class EmberCoin(Bitcoin):
              "emb_01.0xify.com",
              "emb_02.0xify.com")
     port = 10024
-	
+
 # no testnet

@@ -12,8 +12,8 @@ class Vault_Coin(Bitcoin):
     seeds = ("162.250.125.26",
              "120.145.149.109")
     port = 15050
-	
-   
+
+
 class Vault_CoinTestNet(Vault_Coin):
     """
     Class with all the necessary Vault_Coin testing network information based on
@@ -23,10 +23,4 @@ class Vault_CoinTestNet(Vault_Coin):
     name = 'test-vault_coin'
     seeds = ("testnet-seed.vaultcointools.com",
              "testnet-seed.weminemnc.com")
-    port = 25050              
-	
-
-	
-	
-
-	
+    port = 25050

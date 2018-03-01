@@ -11,5 +11,5 @@ class GSMcoin(Bitcoin):
     symbols = ('GSM', )
     seeds = ("195.34.100.2")
     port = 18446
-	
+
 # no testnet

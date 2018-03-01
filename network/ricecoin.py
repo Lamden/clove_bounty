@@ -11,5 +11,5 @@ class RiceCoin(Bitcoin):
     symbols = ('RICE', )
     seeds = ("130.193.81.218")
     port = 41981
-	
+
 # no testnet

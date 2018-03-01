@@ -9,7 +9,7 @@ class CludCoin(Bitcoin):
     """
     name = 'cludcoin'
     symbols = ('CLUD', )
-    seeds =  ("node.walletbuilders.com")
+    seeds = ("node.walletbuilders.com")
     port = 6959
-	
+
 # Has no testnet

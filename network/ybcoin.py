@@ -14,4 +14,3 @@ class YbCoin(Bitcoin):
              "seed2.ybcoin.org",
              "tnseeds.ybcoin.com")
     port = 7337
-	

@@ -9,13 +9,35 @@ class Sterlingcoin(Bitcoin):
     """
     name = 'sterlingcoin'
     symbols = ('SLG', )
-    seeds = ('seed1.sterlingcoin.org.uk', 'seed2.sterlingcoin.org.uk', 'cwi-seed01.sterlingcoin.org', 'cwi-seed02.sterlingcoin.org',
-			 'cwi-seed03.sterlingcoin.org', 'cwi-seed04.sterlingcoin.org', 'cwi-seed05.sterlingcoin.org', 'cwi-seed06.sterlingcoin.org',
-			 'cwi-seed07.sterlingcoin.org', 'cwi-seed08.sterlingcoin.org', 'cwi-seed09.sterlingcoin.org', 'cwi-seed10.sterlingcoin.org',
-			 'cwi-seed11.sterlingcoin.org', 'cwi-seed12.sterlingcoin.org', 'cwi-seed13.sterlingcoin.org', 'cwi-seed14.sterlingcoin.org',
-			 'cwi-seed15.sterlingcoin.org', 'cwi-seed16.sterlingcoin.org', 'cwi-seed17.sterlingcoin.org', 'cwi-seed18.sterlingcoin.org',
-			 'cwi-seed19.sterlingcoin.org', 'cwi-seed20.sterlingcoin.org', 'cwi-seed21.sterlingcoin.org', 'cwi-seed22.sterlingcoin.org',
-			 'cwi-seed23.sterlingcoin.org', 'cwi-seed24.sterlingcoin.org', 'cwi-seed25.sterlingcoin.org')
+    seeds = (
+        'seed1.sterlingcoin.org.uk',
+        'seed2.sterlingcoin.org.uk',
+        'cwi-seed01.sterlingcoin.org',
+        'cwi-seed02.sterlingcoin.org',
+        'cwi-seed03.sterlingcoin.org',
+        'cwi-seed04.sterlingcoin.org',
+        'cwi-seed05.sterlingcoin.org',
+        'cwi-seed06.sterlingcoin.org',
+        'cwi-seed07.sterlingcoin.org',
+        'cwi-seed08.sterlingcoin.org',
+        'cwi-seed09.sterlingcoin.org',
+        'cwi-seed10.sterlingcoin.org',
+        'cwi-seed11.sterlingcoin.org',
+        'cwi-seed12.sterlingcoin.org',
+        'cwi-seed13.sterlingcoin.org',
+        'cwi-seed14.sterlingcoin.org',
+        'cwi-seed15.sterlingcoin.org',
+        'cwi-seed16.sterlingcoin.org',
+        'cwi-seed17.sterlingcoin.org',
+        'cwi-seed18.sterlingcoin.org',
+        'cwi-seed19.sterlingcoin.org',
+        'cwi-seed20.sterlingcoin.org',
+        'cwi-seed21.sterlingcoin.org',
+        'cwi-seed22.sterlingcoin.org',
+        'cwi-seed23.sterlingcoin.org',
+        'cwi-seed24.sterlingcoin.org',
+        'cwi-seed25.sterlingcoin.org'
+    )
     port = 1141
 
 # no testnet

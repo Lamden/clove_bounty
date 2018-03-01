@@ -9,7 +9,7 @@ class ChoofCoin(Bitcoin):
     """
     name = 'choofcoin'
     symbols = ('CHOOF', )
-    seeds =  ("162.243.1.45")
+    seeds = ("162.243.1.45")
     port = 7777
-	
+
 # Has no testnet

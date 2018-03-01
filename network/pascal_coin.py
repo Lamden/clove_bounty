@@ -10,13 +10,13 @@ class PascalCoin(Bitcoin):
     name = 'pascalcoin'
     symbols = ('PASC', )
     seeds = ('bpascal1.dynamic-dns.net',
-			 'bpascal2.dynamic-dns.net',
-			 'pascalcoin1.dynamic-dns.net',
-			 'pascalcoin2.dynamic-dns.net',
-			 'pascalcoin1.dns1.us',
-			 'pascalcoin2.dns1.us',
-			 'pascalcoin1.dns2.us',
-			 'pascalcoin2.dns2.us')
+             'bpascal2.dynamic-dns.net',
+             'pascalcoin1.dynamic-dns.net',
+             'pascalcoin2.dynamic-dns.net',
+             'pascalcoin1.dns1.us',
+             'pascalcoin2.dns1.us',
+             'pascalcoin1.dns2.us',
+             'pascalcoin2.dns2.us')
     port = 4004
 
 # no testnet

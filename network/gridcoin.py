@@ -9,7 +9,8 @@ class Gridcoin(Bitcoin):
     """
     name = 'Gridcoin'
     symbols = ('GRC', )
-    seeds = ("node.gridcoin.us","london.grcnode.co.uk","gridcoin.crypto.fans","www.grcpool.com","nuad.de","seeds.gridcoin.ifoggz-network.xyz")
+    seeds = ("node.gridcoin.us", "london.grcnode.co.uk", "gridcoin.crypto.fans",
+             "www.grcpool.com", "nuad.de", "seeds.gridcoin.ifoggz-network.xyz")
     port = 32749
 
 

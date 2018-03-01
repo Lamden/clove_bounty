@@ -10,7 +10,8 @@ class Netko(Bitcoin):
     """
     name = 'netko'
     symbols = ('NETKO', )
-    seeds = ('node1.netko.tech', 'node2.netko.tech', 'node3.netko.tech', 'node4.netko.tech')
+    seeds = ('node1.netko.tech', 'node2.netko.tech',
+             'node3.netko.tech', 'node4.netko.tech')
     port = 25960
 
 

@@ -11,5 +11,5 @@ class Pesobit(Bitcoin):
     symbols = ('PSB', )
     seeds = ("212.24.104.88")
     port = 7867
-	
+
 # no testnet

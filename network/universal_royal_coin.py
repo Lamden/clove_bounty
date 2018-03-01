@@ -9,7 +9,8 @@ class UniversalRoyalCoin(Bitcoin):
     """
     name = 'universalroyalcoin'
     symbols = ('UNRC', )
-    seeds = ('217.61.21.132', 'seed2.unrc.eu', 'seed3.unrc.eu', 'seed4.unrc.eu', 'seed5.unrc.eu')
+    seeds = ('217.61.21.132', 'seed2.unrc.eu',
+             'seed3.unrc.eu', 'seed4.unrc.eu', 'seed5.unrc.eu')
     port = 24298
 
 # no testnet

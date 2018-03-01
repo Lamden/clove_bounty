@@ -12,8 +12,8 @@ class Gulden(Bitcoin):
     seeds = ("seed.gulden.com",
              "rotterdam.gulden.network")
     port = 9231
-	
-   
+
+
 class GuldenTestNet(Gulden):
     """
     Class with all the necessary Diamond testing network information based on
@@ -24,7 +24,4 @@ class GuldenTestNet(Gulden):
     seeds = ("testseed.gulden.blue",
              "testseed.gulden.network",
              "testseed.coinpool.nl")
-    port = 9923              
-	
-
-	
+    port = 9923
