@@ -9,7 +9,7 @@ class FlutterCoin(Bitcoin):
     """
     name = 'fluttercoin'
     symbols = ('FLT', )
-    seeds = ('dnsseed.fluttercoin.me')
+    seeds = ('dnsseed.fluttercoin.me', )
     port = 7408
     message_start = b'\xcf\xd1\xe8\xea'
     base58_prefixes = {

@@ -10,7 +10,7 @@ class AdCoin(Bitcoin):
     """
     name = 'adcoin'
     symbols = ('ACC', )
-    seeds = ('node1.getadcoin.com', 'node2.getadcoin.com')
+    seeds = ('node1.getadcoin.com', 'node2.getadcoin.com', )
     port = 19499
     message_start = b'\x3d\x05\x35\x77'
     base58_prefixes = {

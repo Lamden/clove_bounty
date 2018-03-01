@@ -9,7 +9,7 @@ class OldV(Bitcoin):
     """
     name = 'oldv'
     symbols = ('OLV', )
-    seeds = ("vsyncnode1.servep2p.com")
+    seeds = ("vsyncnode1.servep2p.com", )
     port = 18154
     message_start = b'\x50\x33\x24\x12'
     base58_prefixes = {

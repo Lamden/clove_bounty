@@ -9,7 +9,7 @@ class Lemanum(Bitcoin):
     """
     name = 'lemanum'
     symbols = ('LMN', )
-    seeds = ("37.139.2.62",
+    nodes = ("37.139.2.62",
              "107.185.68.254",
              "109.236.215.17",
              "116.91.31.66",
@@ -37,7 +37,7 @@ class LemanumTestNet(Lemanum):
     (date of access: 02/18/2018)
     """
     name = 'test-lemanum'
-    seeds = ("107.22.138.243")
+    nodes = ("107.22.138.243", )
     port = 26178
     message_start = b'\x71\x31\x21\x11'
     base58_prefixes = {

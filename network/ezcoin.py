@@ -29,7 +29,7 @@ class EZCoinTestNet(EZCoin):
     (date of access: 02/14/2018)
     """
     name = 'test-ezcoin'
-    seeds = ("testseed1.ezcoin.org")
+    seeds = ("testseed1.ezcoin.org", )
     port = 17955
     message_start = b'\xf2\xc5\xa7\xde'
     base58_prefixes = {

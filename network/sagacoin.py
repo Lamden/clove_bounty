@@ -10,7 +10,7 @@ class SagaCoin(Bitcoin):
     """
     name = 'sagacoin'
     symbols = ('SAGA', )
-    seeds = ('node1.sagacoin.net', 'node2.sagacoin.net', 'node3.sagacoin.net')
+    seeds = ('node1.sagacoin.net', 'node2.sagacoin.net', 'node3.sagacoin.net', )
     port = 48744
     message_start = b'\xaa\xa3\xb2\xc4'
     base58_prefixes = {

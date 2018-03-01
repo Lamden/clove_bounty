@@ -9,7 +9,7 @@ class AgrolifeCoin(Bitcoin):
     """
     name = 'agrolifecoin'
     symbols = ('AGLC', )
-    seeds = ('seed.agrolifecoin.org', 'seed2.agrolifecoin.org')
+    seeds = ('seed.agrolifecoin.org', 'seed2.agrolifecoin.org', )
     port = 27330
     message_start = b'\xa4\x22\xf8\xa6'
     base58_prefixes = {

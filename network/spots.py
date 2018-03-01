@@ -9,7 +9,7 @@ class Spots(Bitcoin):
     """
     name = 'spots'
     symbols = ('SPT', )
-    seeds = ("spots.dnsseed.crypto2.net")
+    seeds = ("spots.dnsseed.crypto2.net", )
     port = 4588
     message_start = b'\xfb\xc0\xb6\xdb'
     base58_prefixes = {
@@ -26,7 +26,7 @@ class SpotsTestNet(Spots):
     (date of access: 02/12/2018)
     """
     name = 'test-spots'
-    seeds = ("dstest.theSPT.com")
+    seeds = ("dstest.theSPT.com", )
     port = 15588
     message_start = b'\xfd\xc2\xb8\xdd'
     base58_prefixes = {

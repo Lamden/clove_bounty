@@ -9,7 +9,7 @@ class Orlycoin(Bitcoin):
     """
     name = 'orlycoin'
     symbols = ('ORLY', )
-    seeds = ("158.69.159.45")
+    nodes = ("158.69.159.45", )
     port = 23452
     message_start = b'\xa1\xa0\xa2\xa3'
     base58_prefixes = {

@@ -27,7 +27,7 @@ class HtmlcoinTestNet(Htmlcoin):
     (date of access: 02/12/2018)
     """
     name = 'test-htmlcoin'
-    seeds = ('testnet-seed1.htmlcoin.com', 'testnet-seed2.htmlcoin.com')
+    seeds = ('testnet-seed1.htmlcoin.com', 'testnet-seed2.htmlcoin.com', )
     port = 14888
     message_start = b'\x2f\x3e\x4d\x5c'
     base58_prefixes = {

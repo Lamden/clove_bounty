@@ -37,7 +37,7 @@ class CasinoCoinTestNet(CasinoCoin):
     (date of access: 02/14/2018)
     """
     name = 'test-casinocoin'
-    seeds = ("testnet-seed1.casinocoin.org")
+    seeds = ("testnet-seed1.casinocoin.org", )
     port = 17950
     message_start = b'\xfc\xc1\xb7\xdc'
     base58_prefixes = {

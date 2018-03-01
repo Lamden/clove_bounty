@@ -9,7 +9,7 @@ class IrishCoin(Bitcoin):
     """
     name = 'irishcoin'
     symbols = ('IRL', )
-    seeds = ('node.irishcoin.org', 'dns.irishcoin.org')
+    seeds = ('node.irishcoin.org', 'dns.irishcoin.org', )
     port = 12375
     message_start = b'\xf7\xc1\xb6\xdb'
     base58_prefixes = {
@@ -26,7 +26,7 @@ class IrishCoinTestNet(IrishCoin):
     (date of access: 02/12/2018)
     """
     name = 'test-irishcoin'
-    seeds = ('testnode.irishcoin.org', 'testdns.irishcoin.org')
+    seeds = ('testnode.irishcoin.org', 'testdns.irishcoin.org', )
     port = 11375
     message_start = b'\xfc\xc1\xb7\xdc'
     base58_prefixes = {

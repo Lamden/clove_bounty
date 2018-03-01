@@ -9,7 +9,7 @@ class Abncoin(Bitcoin):
     """
     name = 'abncoin'
     symbols = ('ABN', )
-    seeds = ("node.walletbuilders.com")
+    seeds = ("node.walletbuilders.com", )
     port = 10267
     message_start = b'\x3b\x40\x9d\x4f'
     base58_prefixes = {

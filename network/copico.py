@@ -10,7 +10,7 @@ class Copico(Bitcoin):
     """
     name = 'copico'
     symbols = ('XCPO', )
-    seeds = ('seed1.copico.io', 'seed2.copico.io')
+    seeds = ('seed1.copico.io', 'seed2.copico.io', )
     port = 17356
     message_start = b'\x4d\xb1\x24\xc1'
     base58_prefixes = {

@@ -1,7 +1,7 @@
 from clove.network.bitcoin import Bitcoin
 
 
-class Diamond(Bitcoin):
+class Sling(Bitcoin):
     """
     Class with all the necessary Diamond network information based on
     https://github.com/slingcoin/sling/blob/master/src/chainparams.cpp

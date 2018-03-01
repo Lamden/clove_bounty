@@ -10,7 +10,7 @@ class CthulhuOfferings(Bitcoin):
     """
     name = 'cthulhuofferings'
     symbols = ('OFF', )
-    seeds = ('144.76.91.109',)
+    nodes = ('144.76.91.109', )
     port = 20000
     message_start = b'\xfe\xa5\x03\xdd'
     base58_prefixes = {
@@ -27,7 +27,7 @@ class CthulhuOfferingsTestNet(CthulhuOfferings):
     (date of access: 02/11/2018)
     """
     name = 'test-cthulhuofferings'
-    seeds = ('',)
+    seeds = ('', )
     port = 21973
     message_start = b'\x01\x1a\x39\xf7'
     base58_prefixes = {

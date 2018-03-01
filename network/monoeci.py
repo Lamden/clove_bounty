@@ -10,8 +10,7 @@ class Monoeci(Bitcoin):
     """
     name = 'monoeci'
     symbols = ('XMCC', )
-    seeds = ("163.172.157.172",
-             "dorado.monoeci.io",
+    seeds = ("dorado.monoeci.io",
              "block.monoeci.io")
     port = 24157
     message_start = b'\xbf\x0c\x6b\xbd'

@@ -9,7 +9,7 @@ class Neurocoin(Bitcoin):
     """
     name = 'neurocoin'
     symbols = ('NRO', )
-    seeds = ("46.101.192.195",
+    nodes = ("46.101.192.195",
              "188.226.150.84",
              "147.135.191.162")
     port = 17771

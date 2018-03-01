@@ -9,7 +9,7 @@ class Viorcoin(Bitcoin):
     """
     name = 'viorcoin'
     symbols = ('VIOR', )
-    seeds = ("178.62.244.59", "178.62.147.100")
+    nodes = ("178.62.244.59", "178.62.147.100", )
     port = 51737
     message_start = b'\xfa\xf2\xef\xb4'
     base58_prefixes = {

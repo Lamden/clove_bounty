@@ -9,7 +9,7 @@ class Radicalcoin(Bitcoin):
     """
     name = 'radicalcoin'
     symbols = ('RADI', )
-    seeds = ("5.196.10.57")
+    nodes = ("5.196.10.57", )
     port = 42522
     message_start = b'\x70\x35\x22\x05'
     base58_prefixes = {

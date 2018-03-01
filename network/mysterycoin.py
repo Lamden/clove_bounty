@@ -9,7 +9,7 @@ class MysteryCoin(Bitcoin):
     """
     name = 'mysterycoin'
     symbols = ('MYST', )
-    seeds = ("dnsseed.mysterycoin.org")
+    seeds = ("dnsseed.mysterycoin.org", )
     port = 11030
     message_start = b'\xf9\xbe\xb4\xd9'
     base58_prefixes = {

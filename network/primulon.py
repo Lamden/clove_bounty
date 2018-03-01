@@ -9,7 +9,7 @@ class Primulon(Bitcoin):
     """
     name = 'primulon'
     symbols = ('PRIMU', )
-    seeds = ("198.136.28.100")
+    nodes = ("198.136.28.100", )
     port = 19667
     message_start = b'\xed\x2a\x5d\x99'
     base58_prefixes = {

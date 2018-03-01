@@ -9,7 +9,7 @@ class Ammo(Bitcoin):
     """
     name = 'ammo'
     symbols = ('AMMO', )
-    seeds = ('ammoreloaded.io')
+    seeds = ('ammoreloaded.io', )
     port = 21582
     message_start = b'\xc3\xc5\xa2\xa3'
     base58_prefixes = {

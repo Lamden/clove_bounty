@@ -9,7 +9,7 @@ class ExitCoin(Bitcoin):
     """
     name = 'exitcoin'
     symbols = ('EXIT', )
-    seeds = ("node.walletbuilders.com")
+    seeds = ("node.walletbuilders.com", )
     port = 7381
     message_start = b'\x1b\x98\x7e\xbd'
     base58_prefixes = {

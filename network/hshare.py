@@ -28,7 +28,7 @@ class HshareTestNet(Hshare):
     (date of access: 02/16/2018)
     """
     name = 'test-hshare'
-    seeds = ("testnode1.hshareplatform.com")
+    seeds = ("testnode1.hshareplatform.com", )
     port = 26178
     message_start = b'\x71\x31\x21\x11'
     base58_prefixes = {

@@ -9,7 +9,7 @@ class Scorecoin(Bitcoin):
     """
     name = 'scorecoin'
     symbols = ('SCORE', )
-    seeds = ("scorecoin.net")
+    seeds = ("scorecoin.net", )
     port = 17075
     message_start = b'\xac\xcd\xdf\xdc'
     base58_prefixes = {

@@ -10,7 +10,7 @@ class SwagBucks(Bitcoin):
     """
     name = 'swagbucks'
     symbols = ('BUCKS', )
-    seeds = ('', '')
+    seeds = ('', '', )
     port = 1337
     message_start = b'\x70\x35\x22\x05'
     base58_prefixes = {

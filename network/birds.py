@@ -9,7 +9,7 @@ class Birds(Bitcoin):
     """
     name = 'birds'
     symbols = ('BIRDS', )
-    seeds = ('104.200.67.124')
+    nodes = ('104.200.67.124', )
     port = 20013
     message_start = b'\x17\xf7\xfe\xdf'
     base58_prefixes = {

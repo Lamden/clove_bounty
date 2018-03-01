@@ -9,7 +9,7 @@ class Pulse(Bitcoin):
     """
     name = 'pulse'
     symbols = ('PULSE', )
-    seeds = ("52.34.51.188")
+    nodes = ("52.34.51.188", )
     port = 57152
     message_start = b'\xfc\xf9\xb9\xf3'
     base58_prefixes = {

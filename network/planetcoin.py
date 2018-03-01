@@ -9,7 +9,7 @@ class PlanetCoin(Bitcoin):
     """
     name = 'planetcoin'
     symbols = ('PLANET', )
-    seeds = ("178.62.235.171")
+    nodes = ("178.62.235.171", )
     port = 10410
     message_start = b'\xcb\xfb\xfa\xdb'
     base58_prefixes = {

@@ -10,7 +10,7 @@ class Renos(Bitcoin):
     """
     name = 'renos'
     symbols = ('RNS', )
-    seeds = ('seed.renoscoin.com', 'seed.renos.network')
+    seeds = ('seed.renoscoin.com', 'seed.renos.network', )
     port = 57155
     message_start = b'\xaa\xa3\xb2\xc4'
     base58_prefixes = {

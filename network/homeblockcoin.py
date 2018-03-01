@@ -9,7 +9,7 @@ class HomeBlockCoin(Bitcoin):
     """
     name = 'homeblockcoin'
     symbols = ('HBC', )
-    seeds = ("91.92.136.176",
+    nodes = ("91.92.136.176",
              "91.92.128.161",
              "82.221.141.12")
     port = 45690

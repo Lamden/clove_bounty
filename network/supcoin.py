@@ -30,7 +30,7 @@ class SupcoinTestNet(Supcoin):
     (date of access: 02/18/2018)
     """
     name = 'test-diamond'
-    seeds = ("testnetsup.earlz.net")
+    seeds = ("testnetsup.earlz.net", )
     port = 14411
     message_start = b'\x1b\x12\x19\x02'
     base58_prefixes = {

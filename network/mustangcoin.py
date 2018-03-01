@@ -9,7 +9,7 @@ class MustangCoin(Bitcoin):
     """
     name = 'mustangcoin'
     symbols = ('MST', )
-    seeds = ("185.122.59.164",
+    nodes = ("185.122.59.164",
              "185.117.22.239",
              "185.122.58.95",
              "51.254.181.195",

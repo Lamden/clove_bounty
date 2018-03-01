@@ -9,7 +9,7 @@ class BeaverCoin(Bitcoin):
     """
     name = 'beavervoin'
     symbols = ('BVC', )
-    seeds = ("dnsseed.beavercoin.org")
+    seeds = ("dnsseed.beavercoin.org", )
     port = 2333
     message_start = b'\xfd\xc2\xb8\xdd'
     base58_prefixes = {
@@ -26,7 +26,7 @@ class BeaverCoinTestNet(BeaverCoin):
     (date of access: 02/14/2018)
     """
     name = 'test-beavervoin'
-    seeds = ("testnet-seed.beavercoin.org")
+    seeds = ("testnet-seed.beavercoin.org", )
     port = 12333
     message_start = b'\xfc\xc1\xb7\xdc'
     base58_prefixes = {

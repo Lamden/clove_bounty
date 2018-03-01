@@ -9,7 +9,7 @@ class Money(Bitcoin):
     """
     name = 'money'
     symbols = ('$$$', )
-    seeds = ('dns.yourmoneyknowledge.com', 'moneydns.info.tm')
+    seeds = ('dns.yourmoneyknowledge.com', 'moneydns.info.tm', )
     port = 11082
     message_start = b'\xfb\xc0\xb6\xdb'
     base58_prefixes = {

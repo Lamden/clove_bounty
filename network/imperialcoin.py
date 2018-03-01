@@ -9,7 +9,7 @@ class Imperialcoin(Bitcoin):
     """
     name = 'imperialcoin'
     symbols = ('IPC', )
-    seeds = ("68.232.180.111",
+    nodes = ("68.232.180.111",
              "54.94.148.228")
     port = 10240
     message_start = b'\x0A\x05\x03\x0C'

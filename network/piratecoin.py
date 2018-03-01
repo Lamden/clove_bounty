@@ -9,7 +9,7 @@ class PirateCoin(Bitcoin):
     """
     name = 'piratecoin'
     symbols = ('PIR', )
-    seeds = ("dnsseed.piratecoin.co")
+    seeds = ("dnsseed.piratecoin.co", )
     port = 17771
     message_start = b'\xdd\xb9\xb7\xef'
     base58_prefixes = {

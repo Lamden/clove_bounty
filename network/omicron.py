@@ -9,7 +9,7 @@ class Omicron(Bitcoin):
     """
     name = 'omicron'
     symbols = ('OMC', )
-    seeds = ('159.203.62.235')
+    nodes = ('159.203.62.235', )
     port = 8519
     message_start = b'\xf2\x40\xeb\xb3'
     base58_prefixes = {

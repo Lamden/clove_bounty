@@ -9,7 +9,7 @@ class Furrycoin(Bitcoin):
     """
     name = 'furrycoin'
     symbols = ('FUR', )
-    seeds = ("seed1.furrycoin.net")
+    seeds = ("seed1.furrycoin.net", )
     port = 11000
     message_start = b'\xfb\xc0\xb6\xdb'
     base58_prefixes = {
@@ -26,7 +26,7 @@ class FurrycoinTestNet(Furrycoin):
     (date of access: 02/21/2018)
     """
     name = 'test-furrycoin'
-    seeds = ("test-seed1.furrycoin.net")
+    seeds = ("test-seed1.furrycoin.net", )
     port = 5744
     message_start = b'\xfc\xc1\xb7\xdc'
     base58_prefixes = {

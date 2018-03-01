@@ -10,7 +10,7 @@ class DeutscheeMark(Bitcoin):
     """
     name = 'deutsche-emark'
     symbols = ('DEM', )
-    seeds = ('seed.deutsche-emark.de',)
+    seeds = ('seed.deutsche-emark.de', )
     port = 5556
     message_start = b'\xe4\xe8\xe9\xe5'
     base58_prefixes = {

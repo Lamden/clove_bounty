@@ -9,7 +9,7 @@ class RichCoin(Bitcoin):
     """
     name = 'richcoin'
     symbols = ('RICHX', )
-    seeds = ("richcoin.us")
+    seeds = ("richcoin.us", )
     port = 11777
     message_start = b'\xe4\xe8\xbd\xfd'
     base58_prefixes = {

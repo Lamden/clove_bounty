@@ -9,7 +9,7 @@ class CraftCoin(Bitcoin):
     """
     name = 'craftcoin'
     symbols = ('CRC', )
-    seeds = ("smp1.spendlitecoins.com")
+    seeds = ("smp1.spendlitecoins.com", )
     port = 12124
     message_start = b'\xfc\xd9\xb7\xdd'
     base58_prefixes = {

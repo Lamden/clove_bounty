@@ -37,7 +37,7 @@ class EGuldenTestNet(EGulden):
     (date of access: 02/17/2018)
     """
     name = 'test-egulden'
-    seeds = ('testnetseed1.egulden.org')
+    seeds = ('testnetseed1.egulden.org', )
     port = 5744
     message_start = b'\x80\x83\x4c\x31'
     base58_prefixes = {

@@ -10,7 +10,7 @@ class Zeitcoin(Bitcoin):
     """
     name = 'zeitcoin'
     symbols = ('ZEIT', )
-    seeds = ('seed.zeit-coin.net', 'zeitseed2.ddns.net', 'seed.aeternity.cc')
+    seeds = ('seed.zeit-coin.net', 'zeitseed2.ddns.net', 'seed.aeternity.cc', )
     port = 44845
     message_start = b'\xce\xd5\xdb\xfa'
     base58_prefixes = {

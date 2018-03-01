@@ -9,7 +9,7 @@ class Bitmxittz(Bitcoin):
     """
     name = 'bitmxittz'
     symbols = ('BMXT', )
-    seeds = ("52.192.16.19")
+    nodes = ("52.192.16.19", )
     port = 14433
     message_start = b'\xc2\xd1\xd3\xbd'
     base58_prefixes = {

@@ -9,7 +9,7 @@ class FutCoin(Bitcoin):
     """
     name = 'futcoin'
     symbols = ('FUTC', )
-    seeds = ("seed1.FutCoin.eu")
+    seeds = ("seed1.FutCoin.eu", )
     port = 2345
     message_start = b'\x70\x35\x22\x05'
     base58_prefixes = {

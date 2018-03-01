@@ -16,13 +16,7 @@ class TeslaCoin(Bitcoin):
              "tes1.altcoinsfoundation.com",
              "seed1.teslacoinfoundation.org",
              "seed1.teslachain.info",
-             "seed2.teslachain.info",
-             "108.49.185.3",
-             "115.28.38.190",
-             "5.189.187.91",
-             "74.65.200.29",
-             "81.245.187.75",
-             "94.177.203.132")
+             "seed2.teslachain.info")
     port = 1856
     message_start = b'\xe5\xd7\xe6\xf3'
     base58_prefixes = {

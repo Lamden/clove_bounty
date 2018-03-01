@@ -9,7 +9,7 @@ class Coimatic30(Bitcoin):
     """
     name = 'Coimatic30'
     symbols = ('CTIC3', )
-    seeds = ("94.176.235.210",
+    nodes = ("94.176.235.210",
              "94.176.235.203")
     port = 34222
     message_start = b'\xb1\xb6\xb3\xc5'

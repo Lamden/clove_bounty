@@ -9,7 +9,7 @@ class Glyph(Bitcoin):
     """
     name = 'glyph'
     symbols = ('GLYPH', )
-    seeds = ("node.glyphcoin.com")
+    seeds = ("node.glyphcoin.com", )
     port = 47714
     message_start = b'\xa1\xa0\xa2\xa3'
     base58_prefixes = {

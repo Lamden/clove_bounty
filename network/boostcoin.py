@@ -35,7 +35,7 @@ class BoostCoinTestNet(BoostCoin):
     (date of access: 02/14/2018)
     """
     name = 'test-boostcoin'
-    seeds = ("5kbw5bcuudj2s75s.onion",
+    nodes = ("5kbw5bcuudj2s75s.onion",
              "gjgbuc3l52fxea5o.onion",
              "dg5moxtmks3auqc5.onion",
              "5hrzeemkppcdalp3.onion",
@@ -44,7 +44,7 @@ class BoostCoinTestNet(BoostCoin):
              "bivpn37zx5g25u2g.onion",
              "o2jjy6kkavi7wbx3.onion",
              "rzqujgnsnejxkk3e.onion",
-             "ylou7bnzivq2xgfc.onion",)
+             "ylou7bnzivq2xgfc.onion", )
     port = 19697
     message_start = b'\x70\x35\x22\x05'
     base58_prefixes = {

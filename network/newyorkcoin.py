@@ -9,7 +9,7 @@ class NewYorkCoin(Bitcoin):
     """
     name = 'newyorkcoin'
     symbols = ('NYC', )
-    seeds = ("seed.ds.newyorkco.in", "seed.newyorkco.in")
+    seeds = ("seed.ds.newyorkco.in", "seed.newyorkco.in", )
     port = 17020
     message_start = b'\xc0\xc0\xc0\xc0'
     base58_prefixes = {

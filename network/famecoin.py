@@ -9,7 +9,7 @@ class FameCoin(Bitcoin):
     """
     name = 'famecoin'
     symbols = ('FAME', )
-    seeds = ("45.77.80.117",
+    nodes = ("45.77.80.117",
              "45.32.172.67",
              "185.183.99.171",
              "185.183.99.19")

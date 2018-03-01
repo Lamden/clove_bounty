@@ -9,7 +9,7 @@ class Evilcoin(Bitcoin):
     """
     name = 'evilcoin'
     symbols = ('EVIL', )
-    seeds = ("104.236.89.11", "192.241.198.44",
+    nodes = ("104.236.89.11", "192.241.198.44",
              "104.236.60.15", "45.55.157.54", "185.61.151.109")
     port = 20001
     message_start = b'\xa1\xa0\xa2\xa3'

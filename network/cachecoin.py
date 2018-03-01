@@ -9,7 +9,7 @@ class CacheCoin(Bitcoin):
     """
     name = 'cachecoin'
     symbols = ('CACH', )
-    seeds = ('seed.novacoin.su')
+    seeds = ('seed.novacoin.su', )
     port = 2225
     message_start = b'\xd9\xe6\xe7\xe5'
     base58_prefixes = {

@@ -9,7 +9,7 @@ class Chronos(Bitcoin):
     """
     name = 'chronos'
     symbols = ('CRX', )
-    seeds = ("199.127.226.174",
+    nodes = ("199.127.226.174",
              "89.207.129.108")
     port = 7633
     message_start = b'\xe7\xf0\x1a\x8a'

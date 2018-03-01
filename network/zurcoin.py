@@ -10,7 +10,7 @@ class Zurcoin(Bitcoin):
     """
     name = 'zurcoin'
     symbols = ('ZUR', )
-    seeds = ('50.116.55.60',)
+    nodes = ('50.116.55.60', )
     port = 18071
     message_start = b'\xfe\xa5\x03\xdd'
     base58_prefixes = {

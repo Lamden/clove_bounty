@@ -9,7 +9,7 @@ class FirstCoin(Bitcoin):
     """
     name = 'firstcoin'
     symbols = ('FRST', )
-    seeds = ("108.179.227.118")
+    nodes = ("108.179.227.118", )
     port = 10667
     message_start = b'\xc3\xd2\xd1\xbd'
     base58_prefixes = {
@@ -26,7 +26,7 @@ class FirstCoinTestNet(FirstCoin):
     (date of access: 02/15/2018)
     """
     name = 'test-firstcoin'
-    seeds = ("192.168.200.100")
+    nodes = ("192.168.200.100", )
     port = 10667
     message_start = b'\xd1\xb2\xa4\xdc'
     base58_prefixes = {

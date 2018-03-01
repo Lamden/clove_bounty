@@ -9,7 +9,7 @@ class Wisdomcoin(Bitcoin):
     """
     name = 'wisdomcoin'
     symbols = ('WISC', )
-    seeds = ("35.163.177.45",
+    nodes = ("35.163.177.45",
              "95.211.57.108")
     port = 17771
     message_start = b'\xeb\x3d\x1c\xc4'

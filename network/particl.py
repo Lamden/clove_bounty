@@ -27,7 +27,7 @@ class ParticlTestNet(Particl):
     (date of access: 02/12/2018)
     """
     name = 'test-particl'
-    seeds = ('testnet-seed.particl.io', 'dnsseed-testnet.particl.io')
+    seeds = ('testnet-seed.particl.io', 'dnsseed-testnet.particl.io', )
     port = 51938
     message_start = b'\x08\x11\x05\x0b'
     base58_prefixes = {

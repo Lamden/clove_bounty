@@ -9,7 +9,7 @@ class Coven(Bitcoin):
     """
     name = 'coven'
     symbols = ('COV', )
-    seeds = ("104.238.182.76")
+    nodes = ("104.238.182.76", )
     port = 83350
     message_start = b'\x3c\xc2\x12\xd1'
     base58_prefixes = {

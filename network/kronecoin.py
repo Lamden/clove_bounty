@@ -9,11 +9,7 @@ class Kronecoin(Bitcoin):
     """
     name = 'kronecoin'
     symbols = ('KRONE', )
-    seeds = ("35.176.102.26",
-             "35.176.12.96",
-             "35.176.130.60",
-             "35.176.166.149",
-             "seed.kronecoin.org")
+    seeds = ("seed.kronecoin.org", )
     port = 16765
     message_start = b'\xd2\xca\xaf\xeb'
     base58_prefixes = {

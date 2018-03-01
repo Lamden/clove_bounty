@@ -9,9 +9,8 @@ class Cashme(Bitcoin):
     """
     name = 'cashme'
     symbols = ('CME', )
-    seeds = ("64.90.187.238",
+    nodes = ("64.90.187.238",
              "89.204.139.80",
-             "cme.pool.mn",
              "136.243.50.159",
              "60.241.118.21",
              "93.157.25.130",
@@ -21,8 +20,7 @@ class Cashme(Bitcoin):
              "85.25.214.214",
              "75.130.163.51",
              "92.46.21.75",
-             "80.229.27.64",
-             "cme.binpool.com")
+             "80.229.27.64",)
     port = 13370
     message_start = b'\x5a\xc3\x82\xd3'
     base58_prefixes = {

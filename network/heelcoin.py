@@ -9,7 +9,7 @@ class HeelCoin(Bitcoin):
     """
     name = 'heelcoin'
     symbols = ('HEEL', )
-    seeds = ("52.10.89.163")
+    nodes = ("52.10.89.163", )
     port = 22077
     message_start = b'\x2c\xc7\xbc\xba'
     base58_prefixes = {

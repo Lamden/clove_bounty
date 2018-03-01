@@ -9,7 +9,7 @@ class GameLeagueCoin(Bitcoin):
     """
     name = 'gameleaguecoin'
     symbols = ('GML', )
-    seeds = ("95.85.38.109", "204.152.209.25")
+    nodes = ("95.85.38.109", "204.152.209.25", )
     port = 20851
     message_start = b'\xe4\xe8\xbd\xfd'
     base58_prefixes = {

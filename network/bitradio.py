@@ -10,7 +10,7 @@ class Bitradio(Bitcoin):
     """
     name = 'bitradio'
     symbols = ('BRO', )
-    seeds = ('node1.bitrad.io', 'node2.bitrad.io', 'node3.bitrad.io')
+    seeds = ('node1.bitrad.io', 'node2.bitrad.io', 'node3.bitrad.io', )
     port = 32454
     message_start = b'\xd3\x1a\x3d\xe4'
     base58_prefixes = {

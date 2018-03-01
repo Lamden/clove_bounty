@@ -1,7 +1,7 @@
 from clove.network.bitcoin import Bitcoin
 
 
-class Free_Game_Zone(Bitcoin):
+class FreeGameZone(Bitcoin):
     """
     Class with all the necessary Free Game Zone network information based on
     https://github.com/carlcaleb43/freegamezone-source/blob/master/src/net.cpp
@@ -9,7 +9,7 @@ class Free_Game_Zone(Bitcoin):
     """
     name = 'free_game_zone'
     symbols = ('FGZ', )
-    seeds = ("node.45.32.217.42")
+    nodes = ("45.32.217.42", )
     port = 8999
     message_start = b'\x3d\x09\x06\x43'
     base58_prefixes = {

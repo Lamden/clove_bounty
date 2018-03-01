@@ -9,11 +9,7 @@ class BlackholeCoin(Bitcoin):
     """
     name = 'diamond'
     symbols = ('BHC', )
-    seeds = ("148.153.8.154",
-             "38.121.61.46",
-             "38.123.100.66",
-             "148.153.8.50",
-             "blackholecoin.io",
+    seeds = ("blackholecoin.io",
              "blackholecoin.com",
              "blackholecoin.org")
     port = 19100

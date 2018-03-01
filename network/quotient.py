@@ -9,7 +9,7 @@ class Quotient(Bitcoin):
     """
     name = 'Quotient'
     symbols = ('XQN', )
-    seeds = ("seed.quotientcoin.com")
+    seeds = ("seed.quotientcoin.com", )
     port = 30994
     message_start = b'\xef\xb2\xfa\xf2'
     base58_prefixes = {

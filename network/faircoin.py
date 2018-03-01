@@ -27,7 +27,7 @@ class FairCoinTestNet(FairCoin):
     (date of access: 02/15/2018)
     """
     name = 'test-faircoin'
-    seeds = ("faircoin2-testnet-seed1.fair-coin.org")
+    seeds = ("faircoin2-testnet-seed1.fair-coin.org", )
     port = 41404
     message_start = b'\x0c\x12\x0a\x08'
     base58_prefixes = {

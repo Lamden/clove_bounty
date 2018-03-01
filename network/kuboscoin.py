@@ -9,7 +9,7 @@ class KubosCoin(Bitcoin):
     """
     name = 'kuboscoin'
     symbols = ('KUBO', )
-    seeds = ("node.walletbuilders.com")
+    seeds = ("node.walletbuilders.com", )
     port = 7715
     message_start = b'\xf2\x05\x42\x70'
     base58_prefixes = {

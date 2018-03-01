@@ -9,7 +9,7 @@ class ParkByte(Bitcoin):
     """
     name = 'parkbyte'
     symbols = ('PKB', )
-    seeds = ('198.50.147.234', '151.80.232.34', '37.187.139.3')
+    nodes = ('198.50.147.234', '151.80.232.34', '37.187.139.3', )
     port = 58060
     message_start = b'\xe4\xc2\xd8\xe6'
     base58_prefixes = {

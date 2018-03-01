@@ -9,7 +9,7 @@ class MetalCoin(Bitcoin):
     """
     name = 'metalcoin'
     symbols = ('METAL', )
-    seeds = ('104.236.4.12')
+    nodes = ('104.236.4.12', )
     port = 22332
     message_start = b'\xa1\xa0\xa2\xa3'
     base58_prefixes = {

@@ -10,7 +10,7 @@ class Axiom(Bitcoin):
     """
     name = 'axiom'
     symbols = ('AXIOM', )
-    seeds = ('seed.axiomcoin.xyz',)
+    seeds = ('seed.axiomcoin.xyz', )
     port = 15760
     message_start = b'\x03\x3f\x1a\x0c'
     base58_prefixes = {

@@ -9,9 +9,7 @@ class SpaceCash(Bitcoin):
     """
     name = 'spacecash'
     symbols = ('SCASH', )
-    seeds = ("185.61.151.109",
-             "94.177.229.242",
-             "stratumtest.ddns.net")
+    seeds = ("stratumtest.ddns.net", )
     port = 55554
     message_start = b'\x5a\xc3\x82\xd3'
     base58_prefixes = {

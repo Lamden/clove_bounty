@@ -9,7 +9,7 @@ class BigCoin(Bitcoin):
     """
     name = 'bigcoin'
     symbols = ('HUGE', )
-    seeds = ("bigcoin.org")
+    seeds = ("bigcoin.org", )
     port = 55884
     message_start = b'\xfc\xd9\xb7\xdd'
     base58_prefixes = {

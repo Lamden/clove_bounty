@@ -9,7 +9,7 @@ class Xtrabytes(Bitcoin):
     """
     name = 'Xtrabytes'
     symbols = ('XBY', )
-    seeds = ("79.172.210.27", "79.172.210.45")
+    nodes = ("79.172.210.27", "79.172.210.45", )
     port = 34002
     message_start = b'\xa1\xa0\xa2\xa3'
     base58_prefixes = {

@@ -9,7 +9,7 @@ class Cypher(Bitcoin):
     """
     name = 'cypher'
     symbols = ('CYP', )
-    seeds = (
+    nodes = (
         '54.148.121.237',
     )
     port = 5424
@@ -29,6 +29,7 @@ class CypherTestNet(Cypher):
     """
     name = 'test-cypher'
     seeds = ()
+    nodes = ()
     port = 28224
     message_start = b'\x70\x35\x22\x05'
     base58_prefixes = {

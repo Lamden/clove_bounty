@@ -9,7 +9,7 @@ class Kernalcoin(Bitcoin):
     """
     name = 'kernalcoin'
     symbols = ('KC', )
-    seeds = ("45.63.71.91")
+    nodes = ("45.63.71.91", )
     port = 4769
     message_start = b'\xf5\xe2\xf7\xb1'
     base58_prefixes = {

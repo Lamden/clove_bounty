@@ -27,7 +27,7 @@ class QuatlooTestNet(Quatloo):
     (date of access: 02/12/2018)
     """
     name = 'test-quatloo'
-    seeds = ("testnet-seed.quatloos.org")
+    seeds = ("testnet-seed.quatloos.org", )
     port = 17912
     message_start = b'\xfb\xcd\xbf\xdb'
     base58_prefixes = {

@@ -29,7 +29,7 @@ class JoincoinTestNet(Joincoin):
     (date of access: 02/16/2018)
     """
     name = 'test-joincoin'
-    seeds = ("testseed1.joincoin.org")
+    seeds = ("testseed1.joincoin.org", )
     port = 27941
     message_start = b'\x5a\x7b\xff\xfa'
     base58_prefixes = {

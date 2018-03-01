@@ -9,7 +9,7 @@ class RootCoin(Bitcoin):
     """
     name = 'rootcoin'
     symbols = ('ROOT', )
-    seeds = ("94.156.237.70",
+    nodes = ("94.156.237.70",
              "195.34.100.2",
              "212.91.189.164",
              "198.23.160.13",

@@ -9,7 +9,7 @@ class Unfed(Bitcoin):
     """
     name = 'unfed'
     symbols = ('UNF', )
-    seeds = ("52.36.161.129")
+    nodes = ("52.36.161.129", )
     port = 12387
     message_start = b'\xfd\xc1\xa5\xdb'
     base58_prefixes = {

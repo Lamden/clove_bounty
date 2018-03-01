@@ -1,7 +1,7 @@
 from clove.network.bitcoin import Bitcoin
 
 
-class Babes_and_Nerds(Bitcoin):
+class BabesAndNerds(Bitcoin):
     """
     Class with all the necessary Babes and Nerds network information based on
     https://github.com/marksize/lowered/blob/master/src/net.cpp
@@ -9,7 +9,7 @@ class Babes_and_Nerds(Bitcoin):
     """
     name = 'babes_and_nerds'
     symbols = ('ban', )
-    seeds = ("52.88.144.119")
+    nodes = ("52.88.144.119", )
     port = 44258
     message_start = b'\xf3\x2d\xa5\x71'
     base58_prefixes = {

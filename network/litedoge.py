@@ -9,7 +9,7 @@ class LiteDoge(Bitcoin):
     """
     name = 'litedoge'
     symbols = ('LDOGE', )
-    seeds = ("46.4.37.190",
+    nodes = ("46.4.37.190",
              "134.255.218.110",
              "213.133.99.84",
              "66.214.14.254",

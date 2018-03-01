@@ -10,7 +10,7 @@ class Adzcoin(Bitcoin):
     """
     name = 'adzcoin'
     symbols = ('ADZ', )
-    seeds = ('seed1.cryptolife.net', 'seed2.cryptolife.net')
+    seeds = ('seed1.cryptolife.net', 'seed2.cryptolife.net', )
     port = 43029
     message_start = b'\xfd\xc3\xb9\xde'
     base58_prefixes = {

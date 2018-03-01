@@ -9,7 +9,7 @@ class OctoCoin(Bitcoin):
     """
     name = 'octocoin'
     symbols = ('888', )
-    seeds = ('octocoin.seeds.securepayment.cc')
+    seeds = ('octocoin.seeds.securepayment.cc', )
     port = 22889
     message_start = b'\x0c\x8b\xc0\xb8'
     base58_prefixes = {
@@ -27,7 +27,7 @@ class OctoCoinTestNet(OctoCoin):
     """
     name = 'test-octocoin'
     symbols = ('888', )
-    seeds = ('octocoin.seeds.securepayment.cc')
+    seeds = ('octocoin.seeds.securepayment.cc', )
     port = 32889
     message_start = b'\x0c\x7b\xc0\xb7'
     base58_prefixes = {

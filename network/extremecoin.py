@@ -9,7 +9,7 @@ class Extremecoin(Bitcoin):
     """
     name = 'extremecoin'
     symbols = ('EXC', )
-    seeds = ("212.48.67.126")
+    nodes = ("212.48.67.126", )
     port = 26667
     message_start = b'\xfc\xd9\xb7\xdd'
     base58_prefixes = {

@@ -9,7 +9,7 @@ class Peacecoin(Bitcoin):
     """
     name = 'peacecoin'
     symbols = ('PEC', )
-    seeds = ("coingen-seed-scrypt.bluematt.me")
+    seeds = ("coingen-seed-scrypt.bluematt.me", )
     port = 1945
     message_start = b'\xa5\x10\xce\x32'
     base58_prefixes = {
@@ -19,7 +19,7 @@ class Peacecoin(Bitcoin):
     }
 
 
-class PeacecoinTestNet(Bitcoin):
+class PeacecoinTestNet(Peacecoin):
     """
     Class with all the necessary Peacecoin testing network information based on
     https://github.com/peacedevelop/peacecoin/blob/master/src/net.cpp

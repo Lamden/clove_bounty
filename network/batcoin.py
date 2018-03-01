@@ -9,7 +9,7 @@ class BatCoin(Bitcoin):
     """
     name = 'batcoin'
     symbols = ('BAT', )
-    seeds = ('46.253.203.113', '204.27.58.214', '173.167.113.73')
+    nodes = ('46.253.203.113', '204.27.58.214', '173.167.113.73', )
     port = 10743
     message_start = b'\xfc\xd9\xb7\xdd'
     base58_prefixes = {

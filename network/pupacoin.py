@@ -9,7 +9,7 @@ class PupaCoin(Bitcoin):
     """
     name = 'pupacoin'
     symbols = ('PUPA', )
-    seeds = ("213.169.33.11")
+    nodes = ("213.169.33.11", )
     port = 6811
     message_start = b'\xee\x17\xea\xcb'
     base58_prefixes = {
@@ -26,7 +26,7 @@ class PupaCoinTestNet(PupaCoin):
     (date of access: 02/17/2018)
     """
     name = 'test-pupacoin'
-    seeds = ("test1.PupaCoin.pw")
+    seeds = ("test1.PupaCoin.pw", )
     port = 16811
     message_start = b'\xa7\x41\xae\x7c'
     base58_prefixes = {

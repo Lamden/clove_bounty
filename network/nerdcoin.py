@@ -9,7 +9,7 @@ class Nerdcoin(Bitcoin):
     """
     name = 'nerdcoin'
     symbols = ('NERD', )
-    seeds = ("45.55.148.6")
+    nodes = ("45.55.148.6", )
     port = 31338
     message_start = b'\xe4\xe8\xbd\xfd'
     base58_prefixes = {

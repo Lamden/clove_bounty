@@ -19,9 +19,6 @@ class Gaycoin(Bitcoin):
         'seed07.gay.money',
         'seed08.gay.money',
         'seed09.gay.money',
-        '91.121.67.93',
-        '138.68.237.158',
-        '91.109.38.231',
     )
     port = 24241
     message_start = b'\xf1\xe0\xa2\xd3'

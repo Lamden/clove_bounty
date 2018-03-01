@@ -9,7 +9,7 @@ class Solecoin(Bitcoin):
     """
     name = 'solecoin'
     symbols = ('SOLE', )
-    seeds = ("50.116.32.118",
+    nodes = ("50.116.32.118",
              "23.239.21.88",
              "106.185.33.98",
              "66.228.43.38",

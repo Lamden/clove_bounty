@@ -23,5 +23,5 @@ class AlpaCoinTestNet(AlpaCoin):
     (date of access: 02/13/2018)
     """
     name = 'test-alpacoin'
-    seeds = ("test.AlpaCoin.org")
+    seeds = ("test.AlpaCoin.org", )
     port = 11835

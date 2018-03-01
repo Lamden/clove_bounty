@@ -9,7 +9,7 @@ class Pesobit(Bitcoin):
     """
     name = 'pesobit'
     symbols = ('PSB', )
-    seeds = ("212.24.104.88")
+    nodes = ("212.24.104.88", )
     port = 7867
     message_start = b'\xea\xaf\xe3\xc7'
     base58_prefixes = {

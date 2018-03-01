@@ -9,7 +9,7 @@ class MoneyCoin(Bitcoin):
     """
     name = 'moneycoin'
     symbols = ('MONEY', )
-    seeds = ("seed.moneycoin.pw")
+    seeds = ("seed.moneycoin.pw", )
     port = 15554
     message_start = b'\xa1\x2b\x1f\xb1'
     base58_prefixes = {

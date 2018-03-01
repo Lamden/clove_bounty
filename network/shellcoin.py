@@ -9,7 +9,7 @@ class ShellCoin(Bitcoin):
     """
     name = 'shellcoin'
     symbols = ('SHELL', )
-    seeds = ("153.92.98.55")
+    nodes = ("153.92.98.55", )
     port = 12454
     message_start = b'\xdd\x2f\x1a\x1d'
     base58_prefixes = {

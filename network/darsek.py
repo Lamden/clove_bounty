@@ -9,7 +9,7 @@ class Darsek(Bitcoin):
     """
     name = 'darsek'
     symbols = ('KED', )
-    seeds = ('dnsseed.ked.altcointech.net', 'seed.ked.altcointech.net')
+    seeds = ('dnsseed.ked.altcointech.net', 'seed.ked.altcointech.net', )
     port = 8443
     message_start = b'\xda\xff\xda\xff'
     base58_prefixes = {

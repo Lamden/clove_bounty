@@ -9,7 +9,7 @@ class Memorycoin(Bitcoin):
     """
     name = 'memorycoin'
     symbols = ('MMC', )
-    seeds = ("69.30.249.2",
+    nodes = ("69.30.249.2",
              "104.223.6.205",
              "192.187.113.218")
     port = 1968

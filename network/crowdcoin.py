@@ -28,7 +28,7 @@ class CrowdCoinTestNet(CrowdCoin):
     (date of access: 02/11/2018)
     """
     name = 'test-crowdcoin'
-    seeds = ('dns.shmest.win', 'testnet-dns.crowdcoinnodes.space')
+    seeds = ('dns.shmest.win', 'testnet-dns.crowdcoinnodes.space', )
     port = 13845
     message_start = b'\xda\x24\xb5\x7a'
     base58_prefixes = {

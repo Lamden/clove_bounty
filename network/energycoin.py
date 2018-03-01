@@ -9,7 +9,7 @@ class Energycoin(Bitcoin):
     """
     name = 'energycoin'
     symbols = ('ENRG', )
-    seeds = ("207.12.89.180",
+    nodes = ("207.12.89.180",
              "212.114.59.109",
              "162.243.248.229")
     port = 22706

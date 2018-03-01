@@ -9,7 +9,7 @@ class Zeta2Coin(Bitcoin):
     """
     name = 'zeta2coin'
     symbols = ('ZET2', )
-    seeds = ("185.61.151.109")
+    nodes = ("185.61.151.109", )
     port = 25589
     message_start = b'\xa5\xf0\xaa\x01'
     base58_prefixes = {

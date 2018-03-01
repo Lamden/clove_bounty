@@ -9,7 +9,7 @@ class AsiaCoin(Bitcoin):
     """
     name = 'asiacoin'
     symbols = ('AC', )
-    seeds = ("dnsseedac.planetdollar.org")
+    seeds = ("dnsseedac.planetdollar.org", )
     port = 35656
     message_start = b'\x32\xf5\xd2\xea'
     base58_prefixes = {

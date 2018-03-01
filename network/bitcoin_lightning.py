@@ -9,7 +9,7 @@ class BitcoinLightning(Bitcoin):
     """
     name = 'bitcoinlightning'
     symbols = ('BLT', )
-    seeds = ('165.227.219.245', '159.89.38.145',
+    nodes = ('165.227.219.245', '159.89.38.145',
              '159.89.47.190', '159.89.40.45')
     port = 17127
     message_start = b'\x1c\x4e\xb6\xc3'

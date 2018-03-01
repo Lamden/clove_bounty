@@ -9,7 +9,7 @@ class Kurrent(Bitcoin):
     """
     name = 'kurrent'
     symbols = ('KURT', )
-    seeds = ('212.24.107.99')
+    nodes = ('212.24.107.99', )
     port = 18080
     message_start = b'\xdb\xc3\xfa\xfc'
     base58_prefixes = {

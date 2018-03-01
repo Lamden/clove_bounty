@@ -10,7 +10,7 @@ class BitTokens(Bitcoin):
     """
     name = 'bittokens'
     symbols = ('BXT', )
-    seeds = ('node.walletbuilders.com', '84.200.17.159')
+    seeds = ('node.walletbuilders.com', )
     port = 8223
     message_start = b'\x57\xab\xdb\x52'
     base58_prefixes = {

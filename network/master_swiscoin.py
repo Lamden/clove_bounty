@@ -1,7 +1,7 @@
 from clove.network.bitcoin import Bitcoin
 
 
-class Master_Swiscoin(Bitcoin):
+class MasterSwiscoin(Bitcoin):
     """
     Class with all the necessary Master Swiscoin network information based on
     https://github.com/SCNPay/Swiscoin-Master/blob/master/src/net.cpp
@@ -9,8 +9,7 @@ class Master_Swiscoin(Bitcoin):
     """
     name = 'master_swiscoin'
     symbols = ('MSCN', )
-    seeds = ("188.166.182.57",
-             "swisexplorer.com",
+    seeds = ("swisexplorer.com",
              "dns.swisexplorer.com")
     port = 20774
     message_start = b'\xb6\xfe\xe0\xc5'

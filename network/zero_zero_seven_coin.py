@@ -9,7 +9,7 @@ class Coin007(Bitcoin):
     """
     name = '007coin'
     symbols = ('007', )
-    seeds = ('46.101.7.165')
+    nodes = ('46.101.7.165', )
     port = 11007
     message_start = b'\x2f\x24\x15\x05'
     base58_prefixes = {

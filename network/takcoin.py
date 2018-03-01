@@ -9,7 +9,7 @@ class TakCoin(Bitcoin):
     """
     name = 'takcoin'
     symbols = ('TAK', )
-    seeds = ("node.walletbuilders.com")
+    seeds = ("node.walletbuilders.com", )
     port = 32965
     message_start = b'\x6f\xc1\xd5\xb7'
     base58_prefixes = {

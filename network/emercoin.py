@@ -27,7 +27,7 @@ class EmercoinTestNet(Emercoin):
     (date of access: 02/12/2018)
     """
     name = 'test-emercoin'
-    seeds = ('tnseed.emercoin.com')
+    seeds = ('tnseed.emercoin.com', )
     port = 6663
     message_start = b'\xcb\xf2\xc0\xef'
     base58_prefixes = {

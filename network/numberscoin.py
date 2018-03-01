@@ -9,7 +9,7 @@ class NumbersCoin(Bitcoin):
     """
     name = 'numberscoin'
     symbols = ('NUM', )
-    seeds = ("node.walletbuilders.com")
+    seeds = ("node.walletbuilders.com", )
     port = 6975
     message_start = b'\x42\x22\xae\x3c'
     base58_prefixes = {

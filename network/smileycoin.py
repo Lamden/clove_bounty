@@ -9,7 +9,7 @@ class SmileyCoin(Bitcoin):
     """
     name = 'smileycoin'
     symbols = ('SMLY', )
-    seeds = ("dnsseed.smileyco.in")
+    seeds = ("dnsseed.smileyco.in", )
     port = 11337
     message_start = b'\xfb\xc0\xb6\xdb'
     base58_prefixes = {

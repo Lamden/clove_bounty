@@ -9,7 +9,7 @@ class SoonCoin(Bitcoin):
     """
     name = 'sooncoin'
     symbols = ('SOON', )
-    seeds = ("93.157.4.11", "192.169.6.169")
+    nodes = ("93.157.4.11", "192.169.6.169", )
     port = 22221
     message_start = b'\x01\x02\x01\x04'
     base58_prefixes = {

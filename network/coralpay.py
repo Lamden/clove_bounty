@@ -9,7 +9,7 @@ class CoralPay(Bitcoin):
     """
     name = 'coralpay'
     symbols = ('CORAL', )
-    seeds = ("35.163.164.145")
+    nodes = ("35.163.164.145", )
     port = 60093
     message_start = b'\xc4\x4b\xb1\xb9'
     base58_prefixes = {

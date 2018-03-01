@@ -9,7 +9,7 @@ class DBGold(Bitcoin):
     """
     name = 'dbgold'
     symbols = ('DBG', )
-    seeds = (
+    nodes = (
         '178.62.122.246',
     )
     port = 32113

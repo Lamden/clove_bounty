@@ -10,7 +10,7 @@ class SaluS(Bitcoin):
     """
     name = 'salus'
     symbols = ('SLS', )
-    seeds = ('198.50.243.69',)
+    nodes = ('198.50.243.69', )
     port = 22534
     message_start = b'\xd3\xc5\xa7\x21'
     base58_prefixes = {

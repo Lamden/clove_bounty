@@ -10,7 +10,7 @@ class Aricoin(Bitcoin):
     """
     name = 'aricoin'
     symbols = ('ARI', )
-    seeds = ('seed.aricoin.com',)
+    seeds = ('seed.aricoin.com', )
     port = 16567
     message_start = b'\xc2\xdb\xf1\xfd'
     base58_prefixes = {

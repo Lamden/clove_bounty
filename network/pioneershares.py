@@ -9,7 +9,7 @@ class Pioneershares(Bitcoin):
     """
     name = 'pioneershares'
     symbols = ('PIO', )
-    seeds = ("seed.blockpioneers.info", "seed2.blockpioneers.info")
+    seeds = ("seed.blockpioneers.info", "seed2.blockpioneers.info", )
     port = 8572
     message_start = b'\xc3\xc5\xa2\xa3'
     base58_prefixes = {

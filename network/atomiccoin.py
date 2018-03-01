@@ -9,7 +9,7 @@ class AtomicCoin(Bitcoin):
     """
     name = 'atomiccoin'
     symbols = ('ATOM', )
-    seeds = ("199.127.226.157")
+    nodes = ("199.127.226.157", )
     port = 8567
     message_start = b'\x81\x99\x92\x18'
     base58_prefixes = {

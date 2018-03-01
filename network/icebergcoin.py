@@ -11,7 +11,6 @@ class IcebergCoin(Bitcoin):
     symbols = ('ICB', )
     seeds = ("seed.icebergco.in",
              "seed.shurpool.com",
-             "31.220.50.78",
              "embi.zapto.org")
     port = 20703
     message_start = b'\xa1\xa0\xa2\xa3'

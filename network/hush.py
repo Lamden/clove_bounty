@@ -9,9 +9,7 @@ class Hush(Bitcoin):
     """
     name = 'hush'
     symbols = ('HUSH', )
-    seeds = ("192.99.3.29",
-             "zdash.suprnova.cc",
-             "76.188.211.191")
+    seeds = ("zdash.suprnova.cc", )
     port = 8888
 
 

@@ -40,7 +40,7 @@ class GraniteTestNet(Granite):
     (date of access: 02/12/2018)
     """
     name = 'test-granite'
-    seeds = ('grn-testseed01.chainworksindustries.com',)
+    seeds = ('grn-testseed01.chainworksindustries.com', )
     port = 22777
     message_start = b'\xfe\xc4\xba\xde'
     base58_prefixes = {

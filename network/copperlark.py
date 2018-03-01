@@ -29,7 +29,7 @@ class CopperlarkTestNet(Copperlark):
     (date of access: 02/14/2018)
     """
     name = 'test-copperlark'
-    seeds = ("testnet-seed.bitcoin.petertodd.org")
+    seeds = ("testnet-seed.bitcoin.petertodd.org", )
     port = 20333
     message_start = b'\x0b\x11\x09\x07'
     base58_prefixes = {

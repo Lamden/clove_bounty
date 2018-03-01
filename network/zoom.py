@@ -9,8 +9,7 @@ class Zoom(Bitcoin):
     """
     name = 'zoom'
     symbols = ('ZOOM', )
-    seeds = ("seed.ZoomCoin.co",
-             "45.32.199.52")
+    seeds = ("seed.ZoomCoin.co", )
     port = 26889
     message_start = b'\xfb\xbf\xa5\x4a'
     base58_prefixes = {

@@ -9,7 +9,7 @@ class GalaxyCoin(Bitcoin):
     """
     name = 'galaxycoin'
     symbols = ('GLX', )
-    seeds = ("galaxycoin.no-ip.biz")
+    seeds = ("galaxycoin.no-ip.biz", )
     port = 15521
     message_start = b'\xfd\xc0\xe9\xdb'
     base58_prefixes = {

@@ -9,7 +9,7 @@ class RubleBit(Bitcoin):
     """
     name = 'rublebit'
     symbols = ('RUBIT', )
-    seeds = ("128.199.38.11")
+    nodes = ("128.199.38.11", )
     port = 11333
     message_start = b'\xc3\xd2\xd1\xbd'
     base58_prefixes = {

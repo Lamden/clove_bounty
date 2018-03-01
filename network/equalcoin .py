@@ -9,7 +9,7 @@ class EqualCoin(Bitcoin):
     """
     name = 'equalcoin'
     symbols = ('EQUAL', )
-    seeds = ("216.31.12.38",
+    nodes = ("216.31.12.38",
              "216.31.12.99")
     port = 13787
     message_start = b'\xc3\xda\xf1\xfb'

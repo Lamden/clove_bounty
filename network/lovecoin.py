@@ -9,7 +9,7 @@ class LOVEcoin(Bitcoin):
     """
     name = 'lovecoin'
     symbols = ('LOVE', )
-    seeds = ("dnsseed.btc5.net")
+    seeds = ("dnsseed.btc5.net", )
     port = 8863
     message_start = b'\xfb\xc0\xb6\xdb'
     base58_prefixes = {

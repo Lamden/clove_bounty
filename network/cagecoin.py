@@ -9,7 +9,7 @@ class CageCoin(Bitcoin):
     """
     name = 'cagecoin'
     symbols = ('CAGE', )
-    seeds = ("seed.cagecoin.com")
+    seeds = ("seed.cagecoin.com", )
     port = 33112
     message_start = b'\xc0\xc0\xc0\xc0'
     base58_prefixes = {

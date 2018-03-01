@@ -9,7 +9,7 @@ class Honey(Bitcoin):
     """
     name = 'honey'
     symbols = ('HONEY', )
-    seeds = ("honey.thecryptochat.net")
+    seeds = ("honey.thecryptochat.net", )
     port = 40638
     message_start = b'\xce\xfb\x13\x4e'
     base58_prefixes = {

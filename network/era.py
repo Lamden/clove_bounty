@@ -9,7 +9,7 @@ class Era(Bitcoin):
     """
     name = 'era'
     symbols = ('ERA', )
-    seeds = ('216.144.230.95')
+    nodes = ('216.144.230.95', )
     port = 14442
     message_start = b'\xea\x11\x7a\xcc'
     base58_prefixes = {
@@ -27,7 +27,7 @@ class EraTestNet(Era):
     """
     name = 'test-era'
     symbols = ('ERA', )
-    seeds = ('216.144.230.95')
+    nodes = ('216.144.230.95', )
     port = 24442
     message_start = b'\xa7\x41\xae\x7c'
     base58_prefixes = {

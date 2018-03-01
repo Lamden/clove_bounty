@@ -29,7 +29,7 @@ class LanaCoinTestNet(LanaCoin):
     (date of access: 02/11/2018)
     """
     name = 'test-lanacoin'
-    seeds = ('test1.lanacoin.com', 'test2.lanacoin.com')
+    seeds = ('test1.lanacoin.com', 'test2.lanacoin.com', )
     port = 17506
     message_start = b'\xcc\xcb\xd2\x7f'
     base58_prefixes = {

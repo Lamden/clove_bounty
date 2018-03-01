@@ -9,7 +9,7 @@ class SydPak(Bitcoin):
     """
     name = 'sydpak'
     symbols = ('SDP', )
-    seeds = ("89.204.139.80")
+    nodes = ("89.204.139.80", )
     port = 54321
     message_start = b'\x5a\xc3\x82\xd3'
     base58_prefixes = {

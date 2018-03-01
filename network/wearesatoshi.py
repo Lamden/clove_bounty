@@ -9,7 +9,7 @@ class WeAreSatoshi(Bitcoin):
     """
     name = 'wearesatoshi'
     symbols = ('WSX', )
-    seeds = ("wsx.dnsseed.crypto2.net")
+    seeds = ("wsx.dnsseed.crypto2.net", )
     port = 8922
     message_start = b'\xFA\x4D\x44\xFC'
     base58_prefixes = {

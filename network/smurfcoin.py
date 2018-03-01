@@ -9,7 +9,7 @@ class SmurfCoin(Bitcoin):
     """
     name = 'smurfcoin'
     symbols = ('SMF', )
-    seeds = ("45.55.83.96")
+    nodes = ("45.55.83.96", )
     port = 43221
     message_start = b'\xb4\xf9\xe2\xe5'
     base58_prefixes = {

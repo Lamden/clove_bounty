@@ -9,7 +9,7 @@ class GAKHcoin(Bitcoin):
     """
     name = 'gakhcoin'
     symbols = ('GAKH', )
-    seeds = ("46.166.168.155")
+    nodes = ("46.166.168.155", )
     port = 7829
 
 # no testnet

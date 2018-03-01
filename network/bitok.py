@@ -10,7 +10,7 @@ class Bitok(Bitcoin):
     """
     name = 'bitok'
     symbols = ('BITOK', )
-    seeds = ('seed.bitok.online', 'seed2.bitok.online', 'seed3.bitok.online')
+    seeds = ('seed.bitok.online', 'seed2.bitok.online', 'seed3.bitok.online', )
     port = 11122
     message_start = b'\xbc\xa3\xfb\x5c'
     base58_prefixes = {

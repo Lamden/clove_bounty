@@ -10,7 +10,7 @@ class CampusCoin(Bitcoin):
     """
     name = 'campuscoin'
     symbols = ('CMPCO', )
-    seeds = ('seed5.cryptolife.net', 'seed6.cryptolife.net')
+    seeds = ('seed5.cryptolife.net', 'seed6.cryptolife.net', )
     port = 28195
     message_start = b'\xd7\xcf\xa4\xe6'
     base58_prefixes = {

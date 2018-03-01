@@ -10,7 +10,7 @@ class PIVX(Bitcoin):
     """
     name = 'pivx'
     symbols = ('PIVX', )
-    seeds = ('pivx.seed.fuzzbawls.pw',)
+    seeds = ('pivx.seed.fuzzbawls.pw', )
     port = 51472
     message_start = b'\x90\xc4\xfd\xe9'
     base58_prefixes = {
@@ -28,9 +28,8 @@ class PIVXTestNet(PIVX):
     """
     name = 'test-pivx'
     seeds = (
-        'pivx.seed2.fuzzbawls.pw', 'coin-server.com', 's3v3nh4cks.ddns.net', '178.254.23.111',
+        'pivx.seed2.fuzzbawls.pw', 'coin-server.com', 's3v3nh4cks.ddns.net',
         'pivx-testnet.seed.fuzzbawls.pw', 'pivx-testnet.seed2.fuzzbawls.pw', 's3v3nh4cks.ddns.net',
-        '88.198.192.110'
     )
     port = 51474
     message_start = b'\x45\x76\x65\xba'

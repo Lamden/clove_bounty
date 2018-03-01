@@ -10,7 +10,7 @@ class SecureCoin(Bitcoin):
     """
     name = 'securecoin'
     symbols = ('SRC', )
-    seeds = ('securecoin.org',)
+    seeds = ('securecoin.org', )
     port = 12567
     message_start = b'\xfc\xb4\xd9\xab'
     base58_prefixes = {

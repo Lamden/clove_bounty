@@ -9,7 +9,7 @@ class TimesCoin(Bitcoin):
     """
     name = 'timescoin'
     symbols = ('TMC', )
-    seeds = ("andarazoroflove.org")
+    seeds = ("andarazoroflove.org", )
     port = 55884
     message_start = b'\xfc\xd9\xb7\xdd'
     base58_prefixes = {

@@ -9,7 +9,7 @@ class Shitcoin(Bitcoin):
     """
     name = 'shitcoin'
     symbols = ('SHIT', )
-    seeds = ("172.245.173.137")
+    nodes = ("172.245.173.137", )
     port = 9999
     message_start = b'\xf3\x2d\xa5\x71'
     base58_prefixes = {

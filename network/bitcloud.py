@@ -10,7 +10,7 @@ class Bitcloud(Bitcoin):
     """
     name = 'bitcloud'
     symbols = ('BTDX', )
-    seeds = ('188.68.52.172', '37.120.186.85', '37.120.190.76')
+    nodes = ('188.68.52.172', '37.120.186.85', '37.120.190.76', )
     port = 8329
     message_start = b'\xe4\xe8\xbd\xfd'
     base58_prefixes = {
@@ -27,7 +27,7 @@ class BitcloudTestNet(Bitcloud):
     (date of access: 02/11/2018)
     """
     name = 'test-bitcloud'
-    seeds = ('188.68.52.172', '37.120.186.85', '37.120.190.76')
+    nodes = ('188.68.52.172', '37.120.186.85', '37.120.190.76', )
     port = 51474
     message_start = b'\x45\x76\x65\xba'
     base58_prefixes = {

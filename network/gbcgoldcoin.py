@@ -9,7 +9,7 @@ class GBCGoldCoin(Bitcoin):
     """
     name = 'gbcgoldcoin'
     symbols = ('GBC', )
-    seeds = ("dnsseed.qbc.io", "54.86.39.92")
+    seeds = ("dnsseed.qbc.io", )
     port = 56790
     message_start = b'\xd3\xed\xc9\xf1'
     base58_prefixes = {
@@ -26,7 +26,7 @@ class GBCGoldCoinTestNet(GBCGoldCoin):
     (date of access: 02/12/2018)
     """
     name = 'test-gbcgoldcoin'
-    seeds = ("testnet-seed.qbc.io")
+    seeds = ("testnet-seed.qbc.io", )
     port = 46790
     message_start = b'\xd3\xed\xc9\xf1'
     base58_prefixes = {

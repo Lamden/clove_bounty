@@ -9,7 +9,7 @@ class LitecoinPlus(Bitcoin):
     """
     name = 'litecoinplus'
     symbols = ('LCP', )
-    seeds = ("lcp.altcoinwarz.com")
+    seeds = ("lcp.altcoinwarz.com", )
     port = 44351
     message_start = b'\xce\xfb\xfa\xdb'
     base58_prefixes = {

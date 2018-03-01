@@ -9,7 +9,7 @@ class BitcoinDark(Bitcoin):
     """
     name = 'bitcoindark'
     symbols = ('BTCD', )
-    seeds = ('223.75.211.121',
+    nodes = ('223.75.211.121',
              '121.52.210.155',
              '38.188.2.173',
              '122.183.67.173',

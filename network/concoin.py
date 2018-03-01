@@ -9,7 +9,7 @@ class Concoin(Bitcoin):
     """
     name = 'concoin'
     symbols = ('CONX', )
-    seeds = ("94.176.236.84",
+    nodes = ("94.176.236.84",
              "212.47.238.107",
              "94.176.235.111")
     port = 40100

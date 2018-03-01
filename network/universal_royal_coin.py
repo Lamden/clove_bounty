@@ -9,8 +9,7 @@ class UniversalRoyalCoin(Bitcoin):
     """
     name = 'universalroyalcoin'
     symbols = ('UNRC', )
-    seeds = ('217.61.21.132', 'seed2.unrc.eu',
-             'seed3.unrc.eu', 'seed4.unrc.eu', 'seed5.unrc.eu')
+    seeds = ('seed2.unrc.eu', 'seed3.unrc.eu', 'seed4.unrc.eu', 'seed5.unrc.eu')
     port = 24298
     message_start = b'\xb5\xf5\xe5\xb6'
     base58_prefixes = {

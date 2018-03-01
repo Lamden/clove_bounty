@@ -10,7 +10,7 @@ class BlazeCoin(Bitcoin):
     """
     name = 'blazecoin'
     symbols = ('BLZ', )
-    seeds = ('172.245.137.35',)
+    nodes = ('172.245.137.35', )
     port = 55414
     message_start = b'\xfb\xc0\xb6\xdb'
     base58_prefixes = {
@@ -27,7 +27,7 @@ class BlazeCoinTestNet(BlazeCoin):
     (date of access: 02/12/2018)
     """
     name = 'test-blazecoin'
-    seeds = ('testnet.seedtest.blazeco.in',)
+    seeds = ('testnet.seedtest.blazeco.in', )
     port = 75414
     message_start = b'\xed\xb2\xa8\xcd'
     base58_prefixes = {

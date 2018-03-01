@@ -9,7 +9,7 @@ class PlusCoin(Bitcoin):
     """
     name = 'pluscoin'
     symbols = ('PLC', )
-    seeds = ("seed.xbcplus.com")
+    seeds = ("seed.xbcplus.com", )
     port = 53518
     message_start = b'\xde\xd1\xeb\xf2'
     base58_prefixes = {

@@ -9,7 +9,7 @@ class Aliencoin(Bitcoin):
     """
     name = 'Aliencoin'
     symbols = ('ALN', )
-    seeds = ("45.32.130.243")
+    nodes = ("45.32.130.243", )
     port = 15424
     message_start = b'\x21\x05\x36\x71'
     base58_prefixes = {

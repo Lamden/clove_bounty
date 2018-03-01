@@ -9,7 +9,7 @@ class HollywoodCoin(Bitcoin):
     """
     name = 'hollywoodcoin'
     symbols = ('HWC', )
-    seeds = ('seed.hollywoodcoin.biz')
+    seeds = ('seed.hollywoodcoin.biz', )
     port = 10267
     message_start = b'\x3b\x40\x9d\x4f'
     base58_prefixes = {

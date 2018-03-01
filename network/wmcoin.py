@@ -9,9 +9,7 @@ class Wmcoin(Bitcoin):
     """
     name = 'wmcoin'
     symbols = ('WMC', )
-    seeds = (
-        '120.27.114.125',
-    )
+    nodes = ('120.27.114.125', )
     port = 32866
     message_start = b'\xce\xfb\xfa\xdb'
     base58_prefixes = {

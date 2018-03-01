@@ -10,7 +10,7 @@ class HarvestMasternodeCoin(Bitcoin):
     """
     name = 'harvest-masternode-coin'
     symbols = ('HC', )
-    seeds = ('107.170.198.173', '192.81.214.238', '159.203.35.209')
+    nodes = ('107.170.198.173', '192.81.214.238', '159.203.35.209', )
     port = 12116
     message_start = b'\x1d\x7e\xa6\x2d'
     base58_prefixes = {

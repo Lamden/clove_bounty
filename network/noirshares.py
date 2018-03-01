@@ -9,7 +9,7 @@ class NoirShares(Bitcoin):
     """
     name = 'noirshares'
     symbols = ('NRS', )
-    seeds = ("107.170.254.5",
+    nodes = ("107.170.254.5",
              "192.241.213.244",
              "172.245.183.30",
              "162.243.131.88",

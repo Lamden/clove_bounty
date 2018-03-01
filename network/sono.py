@@ -10,8 +10,7 @@ class SONO(Bitcoin):
     """
     name = 'sono'
     symbols = ('ALTCOM', )
-    seeds = ('109.230.231.216', '109.230.231.221',
-             '212.109.218.47', 'zPools.de')
+    seeds = ('zPools.de', )
     port = 29855
     message_start = b'\x4a\x12\x22\x14'
     base58_prefixes = {
@@ -28,7 +27,7 @@ class SONOTestNet(SONO):
     (date of access: 02/11/2018)
     """
     name = 'test-sono'
-    seeds = ('',)
+    seeds = ()
     port = 29844
     message_start = b'\x54\xac\xb3\xaa'
     base58_prefixes = {

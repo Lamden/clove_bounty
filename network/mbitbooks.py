@@ -9,8 +9,8 @@ class Mbitbooks(Bitcoin):
     """
     name = 'mbitbooks'
     symbols = ('MBIT', )
-    seeds = ("59.95.128.24",
-             "95.211.57.108.")
+    nodes = ("59.95.128.24",
+             "95.211.57.108")
     port = 12207
     message_start = b'\xbd\x29\xf3\x0a'
     base58_prefixes = {

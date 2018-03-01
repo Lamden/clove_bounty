@@ -9,7 +9,7 @@ class ArtByte(Bitcoin):
     """
     name = 'artbyte'
     symbols = ('ABY', )
-    seeds = ('dnsseed1.artbyte.me', 'dnsseed2.artbyte.me')
+    seeds = ('dnsseed1.artbyte.me', 'dnsseed2.artbyte.me', )
     port = 8608
     message_start = b'\xea\xaf\xa5\xca'
     base58_prefixes = {

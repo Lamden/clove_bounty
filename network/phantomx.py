@@ -9,7 +9,7 @@ class Phantomx(Bitcoin):
     """
     name = 'phantomx'
     symbols = ('PNX', )
-    seeds = ('78.109.28.154',
+    nodes = ('78.109.28.154',
              '5.9.13.72',
              '45.76.248.87',
              '77.246.157.77',

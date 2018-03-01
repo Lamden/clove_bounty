@@ -9,7 +9,7 @@ class FistBump(Bitcoin):
     """
     name = 'fistbump'
     symbols = ('FIST', )
-    seeds = ("104.219.53.59")
+    nodes = ("104.219.53.59", )
     port = 13337
     message_start = b'\xe4\xe8\xbd\xfd'
     base58_prefixes = {

@@ -9,7 +9,7 @@ class ConcealCoin(Bitcoin):
     """
     name = 'concealcoin'
     symbols = ('CNL', )
-    seeds = ("54.76.49.245")
+    nodes = ("54.76.49.245", )
     port = 27712
     message_start = b'\xa1\xa0\xa2\xa3'
     base58_prefixes = {

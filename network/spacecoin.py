@@ -9,7 +9,7 @@ class SpaceCoin(Bitcoin):
     """
     name = 'spacecoin'
     symbols = ('SPACE', )
-    seeds = ('seed1.spacecoin.info', 'seed2.spacecoin.info')
+    seeds = ('seed1.spacecoin.info', 'seed2.spacecoin.info', )
     port = 9172
     message_start = b'\xf4\xf2\xf9\xfb'
     base58_prefixes = {

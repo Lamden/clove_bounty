@@ -10,7 +10,7 @@ class Rubycoin(Bitcoin):
     """
     name = 'rubycoin'
     symbols = ('RBY', )
-    seeds = ('neptune.rubycoin.org', 'pluto.rubycoin.org')
+    seeds = ('neptune.rubycoin.org', 'pluto.rubycoin.org', )
     port = 5937
     message_start = b'\x13\x12\x16\x11'
     base58_prefixes = {

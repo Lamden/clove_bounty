@@ -27,7 +27,7 @@ class SpaincoinTestNet(Spaincoin):
     (date of access: 02/18/2018)
     """
     name = 'test-spaincoin'
-    seeds = ("dnsseed.spaincoin.org")
+    seeds = ("dnsseed.spaincoin.org", )
     port = 21492
     message_start = b'\xfd\xc2\xb8\xdd'
     base58_prefixes = {

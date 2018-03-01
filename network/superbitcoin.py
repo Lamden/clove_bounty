@@ -9,7 +9,7 @@ class SuperBitcoin(Bitcoin):
     """
     name = 'superbitcoin'
     symbols = ('SBTC', )
-    seeds = ('seed.superbtca.com', 'seed.superbtca.info', 'seed.superbtc.org')
+    seeds = ('seed.superbtca.com', 'seed.superbtca.info', 'seed.superbtc.org', )
     port = 8334
     message_start = b'\xf9\xbe\xb4\xd9'
     base58_prefixes = {
@@ -27,7 +27,7 @@ class SuperBitcoinTestNet(SuperBitcoin):
     """
     name = 'test-superbitcoin'
     symbols = ('SBTC', )
-    seeds = ('seedtest.superbtc.org')
+    seeds = ('seedtest.superbtc.org', )
     port = 18334
     message_start = b'\x0b\x11\x09\x07'
     base58_prefixes = {

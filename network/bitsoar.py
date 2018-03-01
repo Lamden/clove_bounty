@@ -9,7 +9,7 @@ class BitSoar(Bitcoin):
     """
     name = 'bitsoar'
     symbols = ('BSR', )
-    seeds = ('139.59.7.111', '138.197.156.193')
+    nodes = ('139.59.7.111', '138.197.156.193', )
     port = 40119
     message_start = b'\x53\x74\x69\x42'
     base58_prefixes = {

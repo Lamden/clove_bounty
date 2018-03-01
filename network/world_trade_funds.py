@@ -1,7 +1,7 @@
 from clove.network.bitcoin import Bitcoin
 
 
-class World_Trade_Funds(Bitcoin):
+class WorldTradeFunds(Bitcoin):
     """
     Class with all the necessary World Trade Funds network information based on
     https://github.com/wtfteam/wtfcoin/blob/master/src/net.cpp
@@ -9,7 +9,7 @@ class World_Trade_Funds(Bitcoin):
     """
     name = 'world_trade_funds'
     symbols = ('XWT', )
-    seeds = ("107.170.189.185",
+    nodes = ("107.170.189.185",
              "144.76.139.212")
     port = 42733
     message_start = b'\xa1\xa0\xa2\xa3'

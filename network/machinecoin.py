@@ -10,7 +10,7 @@ class Machinecoin(Bitcoin):
     """
     name = 'machinecoin'
     symbols = ('MAC', )
-    seeds = ('dnsseed1.machinecoin.org',)
+    seeds = ('dnsseed1.machinecoin.org', )
     port = 40333
     message_start = b'\xfb\xc0\xb6\xdb'
     base58_prefixes = {

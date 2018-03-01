@@ -9,7 +9,7 @@ class Sakuracoin(Bitcoin):
     """
     name = 'sakuracoin'
     symbols = ('SKR', )
-    seeds = ("skrseed.sighash.info")
+    seeds = ("skrseed.sighash.info", )
     port = 9301
     message_start = b'\xfb\xc0\xb6\xdb'
     base58_prefixes = {
@@ -26,7 +26,7 @@ class SakuracoinTestNet(Sakuracoin):
     (date of access: 02/17/2018)
     """
     name = 'test-sakuracoin'
-    seeds = ("skrseed.sighash.info")
+    seeds = ("skrseed.sighash.info", )
     port = 19301
     message_start = b'\xfc\xc1\xb7\xdc'
     base58_prefixes = {

@@ -9,7 +9,7 @@ class ZCashDarkCoin(Bitcoin):
     """
     name = 'zcashdarkcoin'
     symbols = ('ZEC', )
-    seeds = ("162.243.1.45")
+    nodes = ("162.243.1.45", )
     port = 7785
     message_start = b'\xb4\xa6\xfa\x09'
     base58_prefixes = {

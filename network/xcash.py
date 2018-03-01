@@ -9,7 +9,7 @@ class XCash(Bitcoin):
     """
     name = 'xcash'
     symbols = ('XCASH', )
-    seeds = ("seed.xcash.cc")
+    seeds = ("seed.xcash.cc", )
     port = 32524
     message_start = b'\xfa\xf2\xef\xb4'
     base58_prefixes = {

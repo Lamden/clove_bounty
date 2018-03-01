@@ -9,7 +9,7 @@ class AnalCoin(Bitcoin):
     """
     name = 'analcoin'
     symbols = ('ANAL', )
-    seeds = ("108.61.178.105")
+    nodes = ("108.61.178.105", )
     port = 4669
     message_start = b'\xf5\xe2\xf7\xb1'
     base58_prefixes = {

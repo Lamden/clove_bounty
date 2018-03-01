@@ -9,7 +9,7 @@ class CludCoin(Bitcoin):
     """
     name = 'cludcoin'
     symbols = ('CLUD', )
-    seeds = ("node.walletbuilders.com")
+    seeds = ("node.walletbuilders.com", )
     port = 6959
     message_start = b'\xae\x20\x2d\xb0'
     base58_prefixes = {

@@ -10,7 +10,7 @@ class Fastcoin(Bitcoin):
     """
     name = 'fastcoin'
     symbols = ('FST', )
-    seeds = ('s1.fastcoin.ws', 'u2.fastcoin.ws', 'a1.fastcoin.ws')
+    seeds = ('s1.fastcoin.ws', 'u2.fastcoin.ws', 'a1.fastcoin.ws', )
     port = 9526
     message_start = b'\xfb\xc0\xb6\xdb'
     base58_prefixes = {

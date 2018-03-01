@@ -9,7 +9,7 @@ class Antibitcoin(Bitcoin):
     """
     name = 'Antibitcoin'
     symbols = ('ANTI', )
-    seeds = ('188.213.171.167', '108.61.165.75')
+    nodes = ('188.213.171.167', '108.61.165.75', )
     port = 11650
     message_start = b'\xa4\xd2\xf8\xa6'
     base58_prefixes = {

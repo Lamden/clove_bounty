@@ -9,7 +9,7 @@ class BitBay(Bitcoin):
     """
     name = 'bitbay'
     symbols = ('BAY', )
-    seeds = ("178.62.201.53", "128.199.251.218")
+    nodes = ("178.62.201.53", "128.199.251.218", )
     port = 19914
     message_start = b'\x70\x35\x22\x05'
     base58_prefixes = {

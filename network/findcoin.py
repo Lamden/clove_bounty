@@ -9,7 +9,7 @@ class FindCoin(Bitcoin):
     """
     name = 'findcoin'
     symbols = ('FIND', )
-    seeds = ("178.63.51.87")
+    nodes = ("178.63.51.87", )
     port = 55097
     message_start = b'\xc4\x4b\xb1\xb9'
     base58_prefixes = {

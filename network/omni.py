@@ -31,7 +31,7 @@ class OmniTestNet(Omni):
     (date of access: 02/16/2018)
     """
     name = 'test-omni'
-    seeds = ("testnet-seed.bitcoin.petertodd.org", "testnet-seed.bluematt.me")
+    seeds = ("testnet-seed.bitcoin.petertodd.org", "testnet-seed.bluematt.me", )
     port = 18333
     message_start = b'\x0b\x11\x09\x07'
     base58_prefixes = {

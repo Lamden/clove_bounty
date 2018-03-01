@@ -10,7 +10,7 @@ class GameUnits(Bitcoin):
     """
     name = 'gameunits'
     symbols = ('UNITS', )
-    seeds = ('151.80.95.45', '91.121.108.101', '5.196.89.126')
+    nodes = ('151.80.95.45', '91.121.108.101', '5.196.89.126', )
     port = 1338
     message_start = b'\x13\xfa\x37\x2f'
     base58_prefixes = {

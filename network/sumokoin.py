@@ -9,7 +9,7 @@ class Sumokoin(Bitcoin):
     """
     name = 'sumokoin'
     symbols = ('SUMO', )
-    seeds = ('158.69.242.193',
+    nodes = ('158.69.242.193',
              '91.121.81.92',
              '144.217.164.165',
              '168.235.77.153',
@@ -25,7 +25,7 @@ class SumokoinTestNet(Sumokoin):
     (date of access: 02/22/2018)
     """
     name = 'test-sumokoin'
-    seeds = ('158.69.242.193',
+    nodes = ('158.69.242.193',
              '91.121.81.92',
              '144.217.164.165')
     port = 29733

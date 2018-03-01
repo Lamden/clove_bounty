@@ -10,7 +10,7 @@ class Warp(Bitcoin):
     """
     name = 'warp'
     symbols = ('WARP', )
-    seeds = ('84.200.4.70')
+    nodes = ('84.200.4.70', )
     port = 31312
     message_start = b'\x5a\xc3\x82\xd3'
     base58_prefixes = {

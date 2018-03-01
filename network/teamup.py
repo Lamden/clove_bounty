@@ -9,7 +9,7 @@ class TeamUp(Bitcoin):
     """
     name = 'teamup'
     symbols = ('TEAM', )
-    seeds = ("185.106.122.32")
+    nodes = ("185.106.122.32", )
     port = 37091
     message_start = b'\x5a\x3c\xa4\xb2'
     base58_prefixes = {

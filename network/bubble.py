@@ -10,7 +10,7 @@ class Bubble(Bitcoin):
     """
     name = 'bubble'
     symbols = ('BUB', )
-    seeds = ('194.135.85.45',)
+    nodes = ('194.135.85.45', )
     port = 15716
     message_start = b'\xcd\x21\x19\xdd'
     base58_prefixes = {

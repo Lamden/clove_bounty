@@ -9,7 +9,7 @@ class GSMcoin(Bitcoin):
     """
     name = 'gsmcoin'
     symbols = ('GSM', )
-    seeds = ("195.34.100.2")
+    nodes = ("195.34.100.2", )
     port = 18446
     message_start = b'\xcc\xdd\x77\x17'
     base58_prefixes = {

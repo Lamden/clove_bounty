@@ -9,7 +9,7 @@ class TAGRcoin(Bitcoin):
     """
     name = 'tagrcoin'
     symbols = ('TAGR', )
-    seeds = ("195.34.100.2", "212.91.189.164")
+    nodes = ("195.34.100.2", "212.91.189.164", )
     port = 18885
     message_start = b'\xbb\x11\xcc\x3f'
     base58_prefixes = {

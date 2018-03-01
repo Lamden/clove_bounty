@@ -9,7 +9,7 @@ class ULAcoin(Bitcoin):
     """
     name = 'ulacoin'
     symbols = ('ULA', )
-    seeds = ('ulacoin.com', 'node.walletbuilders.com')
+    seeds = ('ulacoin.com', 'node.walletbuilders.com', )
     port = 21659
     message_start = b'\x8b\xa3\x36\x9a'
     base58_prefixes = {

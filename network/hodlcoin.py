@@ -15,10 +15,7 @@ class HOdlcoin(Bitcoin):
              "asia.hodlcoin.com",
              "seed.hodlcoin.oo.fi",
              "seed.hodlcoin.dk",
-             "seed.hodlcoin.com",
-             "174.140.166.133",
-             "54.201.171.55",
-             "54.213.104.91")
+             "seed.hodlcoin.com")
     port = 1989
     message_start = b'\xf9\xbc\xb5\xd9'
     base58_prefixes = {

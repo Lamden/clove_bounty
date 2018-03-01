@@ -10,7 +10,7 @@ class VectorAI(Bitcoin):
     """
     name = 'vectorai'
     symbols = ('VEC2', )
-    seeds = ('104.207.128.39', '45.32.234.225')
+    nodes = ('104.207.128.39', '45.32.234.225', )
     port = 1715
     message_start = b'\xe7\x92\x60\xe8'
     base58_prefixes = {

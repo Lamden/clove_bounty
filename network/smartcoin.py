@@ -9,7 +9,7 @@ class SmartCoin(Bitcoin):
     """
     name = 'smartcoin'
     symbols = ('SMC', )
-    seeds = ("dnsseed.smartcoin.cc")
+    seeds = ("dnsseed.smartcoin.cc", )
     port = 58585
     message_start = b'\xde\xfa\xce\xd0'
     base58_prefixes = {
@@ -19,7 +19,7 @@ class SmartCoin(Bitcoin):
     }
 
 
-class DiamondTestNet(SmartCoin):
+class SmartCoinTestNet(SmartCoin):
     """
     Class with all the necessary SmartCoin testing network information based on
     https://github.com/psionin/smartcoin/blob/0.11/src/chainparams.cpp

@@ -9,7 +9,7 @@ class EcoCoin(Bitcoin):
     """
     name = 'ecocoin'
     symbols = ('ECO', )
-    seeds = ("node.walletbuilders.com")
+    seeds = ("node.walletbuilders.com", )
     port = 7257
     message_start = b'\x8d\xb9\x92\x39'
     base58_prefixes = {

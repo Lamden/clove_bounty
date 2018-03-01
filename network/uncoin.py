@@ -9,7 +9,7 @@ class UNCoin(Bitcoin):
     """
     name = 'UNCoin'
     symbols = ('LUX', )
-    seeds = ('120.27.44.15', '114.215.178.237', '115.29.224.192')
+    nodes = ('120.27.44.15', '114.215.178.237', '115.29.224.192', )
     port = 33156
     message_start = b'\x74\xf5\x1c\x61'
     base58_prefixes = {

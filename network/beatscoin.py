@@ -9,7 +9,7 @@ class Beatscoin(Bitcoin):
     """
     name = 'Beatscoin'
     symbols = ('XBTS', )
-    seeds = ('81.4.125.138')
+    nodes = ('81.4.125.138', )
     port = 26152
     message_start = b'\xa1\xa0\xa2\xa3'
     base58_prefixes = {

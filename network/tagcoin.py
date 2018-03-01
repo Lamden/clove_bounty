@@ -9,7 +9,7 @@ class TagCoin(Bitcoin):
     """
     name = 'tagcoin'
     symbols = ('TAG', )
-    seeds = ('dnsseed.tagbond.com', 'tag.cryptopools.com', '52.6.244.211',
+    seeds = ('dnsseed.tagbond.com', 'tag.cryptopools.com',
              'seed1.tagbond.com', 'seed4.tagbond.com')
     port = 8623
     message_start = b'\xf4\xed\xe2\xb9'

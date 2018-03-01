@@ -9,7 +9,7 @@ class EducoinV(Bitcoin):
     """
     name = 'educoinv'
     symbols = ('EDC', )
-    seeds = ("5.9.165.252", "159.203.123.176")
+    nodes = ("5.9.165.252", "159.203.123.176", )
     port = 6677
     message_start = b'\xbe\x18\xe9\x1d'
     base58_prefixes = {

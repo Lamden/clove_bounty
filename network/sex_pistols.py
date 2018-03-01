@@ -1,7 +1,7 @@
 from clove.network.bitcoin import Bitcoin
 
 
-class Sex_Pistols(Bitcoin):
+class SexPistols(Bitcoin):
     """
     Class with all the necessary Sex Pistols network information based on
     https://github.com/sexpist/sexpistols/blob/master/src/net.cpp
@@ -9,7 +9,7 @@ class Sex_Pistols(Bitcoin):
     """
     name = 'sex_pistols'
     symbols = ('SP', )
-    seeds = ("node.walletbuilders.com")
+    seeds = ("node.walletbuilders.com", )
     port = 7515
     message_start = b'\x36\x06\x0c\xc3'
     base58_prefixes = {

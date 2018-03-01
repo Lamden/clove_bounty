@@ -9,7 +9,7 @@ class Bitswift(Bitcoin):
     """
     name = 'Bitswift'
     symbols = ('SWIFT', )
-    seeds = ("144.217.81.218",
+    nodes = ("144.217.81.218",
              "144.217.4.246",
              "149.56.111.174",
              "144.217.15.225")

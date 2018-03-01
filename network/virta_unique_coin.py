@@ -9,7 +9,7 @@ class VirtaUniqueCoin(Bitcoin):
     """
     name = 'virta-unique-coin'
     symbols = ('VUC', )
-    seeds = ('50.63.163.129', )
+    nodes = ('50.63.163.129', )
     port = 15702
     message_start = b'\xa1\xb3\xc7\xd1'
     base58_prefixes = {

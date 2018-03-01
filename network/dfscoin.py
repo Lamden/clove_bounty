@@ -9,7 +9,7 @@ class DFSCoin(Bitcoin):
     """
     name = 'dfscoin'
     symbols = ('DFS', )
-    seeds = ('192.155.85.156')
+    nodes = ('192.155.85.156', )
     port = 20373
     message_start = b'\xa1\xa0\xa2\xa3'
     base58_prefixes = {

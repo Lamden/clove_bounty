@@ -9,7 +9,7 @@ class iBank(Bitcoin):
     """
     name = 'ibank'
     symbols = ('IBANK', )
-    seeds = ('46.166.168.156', '78.153.4.77')
+    nodes = ('46.166.168.156', '78.153.4.77', )
     port = 7619
     message_start = b'\xf4\x54\x90\xdc'
     base58_prefixes = {

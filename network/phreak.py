@@ -9,7 +9,7 @@ class Phreak(Bitcoin):
     """
     name = 'phreak'
     symbols = ('PHR', )
-    seeds = ("52.26.166.22")
+    nodes = ("52.26.166.22", )
     port = 4744
     message_start = b'\x2d\x3f\xa2\xf5'
     base58_prefixes = {

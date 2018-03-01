@@ -9,7 +9,7 @@ class CryptoSpots(Bitcoin):
     """
     name = 'cryptospots'
     symbols = ('CS', )
-    seeds = ("45.55.243.122",
+    nodes = ("45.55.243.122",
              "104.236.84.239",
              "104.236.83.193")
     port = 17771

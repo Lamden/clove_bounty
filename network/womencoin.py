@@ -10,7 +10,7 @@ class WomenCoin(Bitcoin):
     """
     name = 'womencoin'
     symbols = ('WOMEN', )
-    seeds = ('104.200.67.104')
+    nodes = ('104.200.67.104', )
     port = 19207
     message_start = b'\xf1\x13\x94\xee'
     base58_prefixes = {

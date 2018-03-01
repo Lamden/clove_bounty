@@ -10,7 +10,7 @@ class Vulcano(Bitcoin):
     """
     name = 'vulcano'
     symbols = ('VULC', )
-    seeds = ('198.136.28.100')
+    nodes = ('198.136.28.100', )
     port = 21041
     message_start = b'\xe5\x77\x77\x46'
     base58_prefixes = {

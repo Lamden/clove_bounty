@@ -10,7 +10,7 @@ class Catcoin(Bitcoin):
     """
     name = 'catcoin'
     symbols = ('CAT', )
-    seeds = ('seed.catcoinwallets.com', 'cat.geekhash.org')
+    seeds = ('seed.catcoinwallets.com', 'cat.geekhash.org', )
     port = 9933
     message_start = b'\xfc\xc1\xb7\xdc'
     base58_prefixes = {
@@ -27,7 +27,7 @@ class CatcoinTestNet(Catcoin):
     (date of access: 02/12/2018)
     """
     name = 'test-catcoin'
-    seeds = ('seed.catcoinwallets.com',)
+    seeds = ('seed.catcoinwallets.com', )
     port = 19933
     message_start = b'\xfd\xcb\xb8\xdd'
     base58_prefixes = {

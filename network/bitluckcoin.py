@@ -9,7 +9,7 @@ class BitLuckCoin(Bitcoin):
     """
     name = 'bitluckcoin'
     symbols = ('BTLC', )
-    seeds = ("45.32.35.123", "45.76.96.149")
+    nodes = ("45.32.35.123", "45.76.96.149", )
     port = 24289
     message_start = b'\xb4\xfc\xc8\xd2'
     base58_prefixes = {

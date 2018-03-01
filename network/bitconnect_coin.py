@@ -1,7 +1,7 @@
 from clove.network.bitcoin import Bitcoin
 
 
-class Bitconnect_Coin(Bitcoin):
+class BitconnectCoin(Bitcoin):
     """
     Class with all the necessary Bitconnect_Coin network information based on
     https://github.com/bitconnectcoin/bitconnectcoin/blob/master/src/net.cpp
@@ -9,7 +9,7 @@ class Bitconnect_Coin(Bitcoin):
     """
     name = 'bitconnect_coin'
     symbols = ('BCCOIN', )
-    seeds = ("198.211.115.116")
+    nodes = ("198.211.115.116", )
     port = 9239
     message_start = b'\x32\x5e\x6f\x86'
     base58_prefixes = {

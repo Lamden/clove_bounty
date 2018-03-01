@@ -9,7 +9,7 @@ class Indicoin(Bitcoin):
     """
     name = 'indicoin'
     symbols = ('INDI', )
-    seeds = ("dnsseed.inditrades.org")
+    seeds = ("dnsseed.inditrades.org", )
     port = 7366
     message_start = b'\xe4\xe8\xe9\xe5'
     base58_prefixes = {

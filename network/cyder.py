@@ -9,7 +9,7 @@ class Cyder(Bitcoin):
     """
     name = 'cyder'
     symbols = ('CYDER', )
-    seeds = ('34.212.55.142')
+    nodes = ('34.212.55.142', )
     port = 48848
     message_start = b'\xf3\x2d\xa5\x71'
     base58_prefixes = {

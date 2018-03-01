@@ -9,7 +9,7 @@ class Moin(Bitcoin):
     """
     name = 'moin'
     symbols = ('MOIN', )
-    seeds = ('seed.discovermoin.com', 'seed2.discovermoin.com')
+    seeds = ('seed.discovermoin.com', 'seed2.discovermoin.com', )
     port = 7997
     message_start = b'\x23\xfc\x25\x9c'
     base58_prefixes = {

@@ -28,7 +28,7 @@ class ReddCoinTestNet(ReddCoin):
     (date of access: 02/11/2018)
     """
     name = 'test-reddcoin'
-    seeds = ('testnet-seed.reddcoin.com', 'testnet-dnsseed.redd.ink')
+    seeds = ('testnet-seed.reddcoin.com', 'testnet-dnsseed.redd.ink', )
     port = 55444
     message_start = b'\xfe\xc3\xb9\xde'
     base58_prefixes = {

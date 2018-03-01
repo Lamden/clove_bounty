@@ -9,11 +9,11 @@ class BoxyCoin(Bitcoin):
     """
     name = 'boxycoin'
     symbols = ('BOXY', )
-    seeds = ("boxy.online", "159.203.161.244",
-             "pool.boxy.online", "198.199.124.131",
-             "node.bubtails.com", "147.135.130.119",
-             "boxycoin.ddns.net", "138.68.174.82",
-             "electrum.boxy.online", "211.28.42.157")
+    seeds = ("boxy.online",
+             "pool.boxy.online",
+             "node.bubtails.com",
+             "boxycoin.ddns.net",
+             "electrum.boxy.online")
     port = 21524
     message_start = b'\xf1\xc3\xa4\xdc'
     base58_prefixes = {

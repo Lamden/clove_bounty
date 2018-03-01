@@ -11,7 +11,7 @@ class InsaneCoin(Bitcoin):
     name = 'insanecoin'
     symbols = ('INSN', )
     seeds = ('insn.cryptocoderz.com',
-             'insane.cryptocoderz.com', '195.74.52.227')
+             'insane.cryptocoderz.com')
     port = 10255
     message_start = b'\xa4\x3c\x2e\xf9'
     base58_prefixes = {

@@ -9,7 +9,7 @@ class LoMoCoin(Bitcoin):
     """
     name = 'lomocoin'
     symbols = ('LMC', )
-    seeds = ("seed.lomocoin.com")
+    seeds = ("seed.lomocoin.com", )
     port = 6801
     message_start = b'\xa6\xb8\xc9\xd5'
     base58_prefixes = {

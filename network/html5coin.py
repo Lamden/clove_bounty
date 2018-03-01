@@ -9,7 +9,7 @@ class HTML5COIN(Bitcoin):
     """
     name = 'html5coin'
     symbols = ('HTML5', )
-    seeds = ("seed.htmlcoin.net")
+    seeds = ("seed.htmlcoin.net", )
     port = 6877
     message_start = b'\xa8\xa3\xa1\xa4'
     base58_prefixes = {

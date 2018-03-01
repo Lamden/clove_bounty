@@ -9,7 +9,7 @@ class YamahaCoin(Bitcoin):
     """
     name = 'yamahacoin'
     symbols = ('YMC', )
-    seeds = ("node.walletbuilders.com")
+    seeds = ("node.walletbuilders.com", )
     port = 8003
     message_start = b'\x1b\x6d\x06\x34'
     base58_prefixes = {

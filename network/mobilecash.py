@@ -9,7 +9,7 @@ class MobileCash(Bitcoin):
     """
     name = 'mobilecash'
     symbols = ('MBL', )
-    seeds = ('dnsseed.mbl.cash')
+    seeds = ('dnsseed.mbl.cash', )
     port = 14415
     message_start = b'\xfa\xbd\xb5\xd8'
     base58_prefixes = {

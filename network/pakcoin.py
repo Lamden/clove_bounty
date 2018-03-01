@@ -10,7 +10,7 @@ class Pakcoin(Bitcoin):
     """
     name = 'pakcoin'
     symbols = ('PAK', )
-    seeds = ('seed.pakcoin.org',)
+    seeds = ('seed.pakcoin.org', )
     port = 7867
     message_start = b'\x70\x61\x6b\x63'
     base58_prefixes = {

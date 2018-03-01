@@ -9,8 +9,7 @@ class AnarchistsPrime(Bitcoin):
     """
     name = 'anarchistsprime'
     symbols = ('ACP', )
-    seeds = ('acp.servep2p.com', '159.203.31.42', '139.59.255.88',
-             '138.68.143.185', '138.68.14.183', '188.166.175.90', '203.212.152.229')
+    seeds = ('acp.servep2p.com', )
     port = 11050
     message_start = b'\xf9\xbe\xb4\xd9'
     base58_prefixes = {

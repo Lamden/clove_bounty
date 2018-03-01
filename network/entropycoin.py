@@ -9,7 +9,7 @@ class Entropycoin(Bitcoin):
     """
     name = 'entropycoin'
     symbols = ('ENC', )
-    seeds = ("seed.entropycoins.com")
+    seeds = ("seed.entropycoins.com", )
     port = 7559
     message_start = b'\xfb\xc0\xb6\xdb'
     base58_prefixes = {

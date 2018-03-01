@@ -9,7 +9,7 @@ class SecretCoin(Bitcoin):
     """
     name = 'secretcoin'
     symbols = ('SCRT', )
-    seeds = ("23.227.190.110")
+    nodes = ("23.227.190.110", )
     port = 23152
     message_start = b'\xa1\xa0\xa2\xa3'
     base58_prefixes = {

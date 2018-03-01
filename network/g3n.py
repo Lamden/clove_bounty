@@ -9,7 +9,7 @@ class GEN(Bitcoin):
     """
     name = 'g3n'
     symbols = ('G3N', )
-    seeds = ('genseed.presstab.pw', 'gen.seed.fuzzbawls.pw', 'gen.netcraft.ch')
+    seeds = ('genseed.presstab.pw', 'gen.seed.fuzzbawls.pw', 'gen.netcraft.ch', )
     port = 9341
     message_start = b'\xf1\xf7\xf9\xfb'
     base58_prefixes = {

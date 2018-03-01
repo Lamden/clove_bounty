@@ -9,7 +9,7 @@ class CryptoBullion(Bitcoin):
     """
     name = 'cryptobullion'
     symbols = ('CBX', )
-    seeds = ("seed.cryptobullion.io")
+    seeds = ("seed.cryptobullion.io", )
     port = 7695
     message_start = b'\xe4\xe8\xe9\xe5'
     base58_prefixes = {

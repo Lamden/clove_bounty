@@ -9,7 +9,7 @@ class F16Coin(Bitcoin):
     """
     name = 'f16coin'
     symbols = ('F16', )
-    seeds = ("node.walletbuilders.com")
+    seeds = ("node.walletbuilders.com", )
     port = 18077
     message_start = b'\xac\x1e\xab\x45'
     base58_prefixes = {

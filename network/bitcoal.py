@@ -9,7 +9,7 @@ class BitCoal(Bitcoin):
     """
     name = 'bitcoal'
     symbols = ('COAL', )
-    seeds = ('108.61.188.93', '136.243.69.10', '192.121.166.182')
+    nodes = ('108.61.188.93', '136.243.69.10', '192.121.166.182', )
     port = 7700
 
 # no testnet

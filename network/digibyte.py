@@ -27,7 +27,7 @@ class DigibyteTestNet(Digibyte):
     (date of access: 02/12/2018)
     """
     name = 'test-digibyte'
-    seeds = ('testnet-seed.digibyteprojects.com')
+    seeds = ('testnet-seed.digibyteprojects.com', )
     port = 12025
     message_start = b'\xfd\xc8\xbd\xdd'
     base58_prefixes = {

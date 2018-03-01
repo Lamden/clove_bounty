@@ -10,7 +10,7 @@ class LetItRide(Bitcoin):
     """
     name = 'letitride'
     symbols = ('LIR', )
-    seeds = ('198.27.90.242',)
+    nodes = ('198.27.90.242', )
     port = 2717
     message_start = b'\x2f\xc3\xe5\x27'
     base58_prefixes = {

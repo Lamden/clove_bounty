@@ -10,7 +10,7 @@ class VapersCoin(Bitcoin):
     """
     name = 'vaperscoin'
     symbols = ('VPRC', )
-    seeds = ('37.187.125.97',)
+    nodes = ('37.187.125.97', )
     port = 4444
     message_start = b'\xc0\xc0\xc0\xc0'
     base58_prefixes = {

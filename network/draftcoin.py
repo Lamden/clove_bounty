@@ -34,14 +34,7 @@ class DraftCoin(Bitcoin):
              "node23.btcdraft.com",
              "node24.btcdraft.com",
              "node25.btcdraft.com",
-             "dns.btcdraft.ca",
-             "204.188.161.57",
-             "149.56.101.219",
-             "158.69.199.130",
-             "204.188.161.61",
-             "99.248.230.242",
-             "68.206.29.192",
-             "209.195.104.6")
+             "dns.btcdraft.ca")
     port = 20302
     message_start = b'\xa2\x7a\xc1\x7c'
     base58_prefixes = {

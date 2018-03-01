@@ -9,7 +9,7 @@ class DarkShibe(Bitcoin):
     """
     name = 'DarkShibe'
     symbols = ('DSB', )
-    seeds = ("104.131.102.57",
+    nodes = ("104.131.102.57",
              "104.131.102.91")
     port = 54312
     message_start = b'\xfb\xf5\xff\xfa'

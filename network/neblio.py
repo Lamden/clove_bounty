@@ -9,7 +9,7 @@ class Neblio(Bitcoin):
     """
     name = 'neblio'
     symbols = ('NEBL', )
-    seeds = ('seed.nebl.io')
+    seeds = ('seed.nebl.io', )
     port = 6325
     message_start = b'\x32\x5e\x6f\x86'
     base58_prefixes = {

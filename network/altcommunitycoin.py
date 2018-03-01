@@ -9,8 +9,8 @@ class Altcommunitycoin(Bitcoin):
     """
     name = 'Altcommunitycoin'
     symbols = ('ALTCOM', )
-    seeds = ('109.230.231.216', '109.230.231.221',
-             '212.109.218.47', 'zPools.de')
+    nodes = ('109.230.231.216', '109.230.231.221',
+             '212.109.218.47')
     port = 29855
     message_start = b'\x4a\x12\x22\x14'
     base58_prefixes = {

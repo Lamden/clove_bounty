@@ -9,7 +9,7 @@ class ApexCoin(Bitcoin):
     """
     name = 'ApexCoin'
     symbols = ('APEX', )
-    seeds = ("62.116.254.204",
+    nodes = ("62.116.254.204",
              "162.243.118.225",
              "5.9.23.116",
              "67.215.11.195")

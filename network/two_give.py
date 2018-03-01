@@ -9,7 +9,7 @@ class TwoGIVE(Bitcoin):
     """
     name = '2give'
     symbols = ('2GIVE', )
-    seeds = ('seed2.givecoin.io')
+    seeds = ('seed2.givecoin.io', )
     port = 6763
     message_start = b'\xce\xd5\xdb\xfa'
     base58_prefixes = {

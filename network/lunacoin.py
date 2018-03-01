@@ -9,7 +9,7 @@ class LunaCoin(Bitcoin):
     """
     name = 'lunacoin'
     symbols = ('LUNA', )
-    seeds = ('212.24.102.92')
+    nodes = ('212.24.102.92', )
     port = 38353
     message_start = b'\xe4\xa8\xbb\xe5'
     base58_prefixes = {

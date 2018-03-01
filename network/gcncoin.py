@@ -9,7 +9,7 @@ class GCNcoin(Bitcoin):
     """
     name = 'gcncoin'
     symbols = ('GCN', )
-    seeds = ('225.149.199.33', '49.211.161.66')
+    nodes = ('225.149.199.33', '49.211.161.66', )
     port = 3908
     message_start = b'\xd8\xc7\xef\xeb'
     base58_prefixes = {

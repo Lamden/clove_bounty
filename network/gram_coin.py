@@ -1,7 +1,7 @@
 from clove.network.bitcoin import Bitcoin
 
 
-class Gram_Coin(Bitcoin):
+class GramCoin(Bitcoin):
     """
     Class with all the necessary Gram Coin network information based on
     https://github.com/kilogram1/kilogram1/blob/master/src/chainparams.cpp

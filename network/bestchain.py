@@ -9,7 +9,7 @@ class BestChain(Bitcoin):
     """
     name = 'bestchain '
     symbols = ('BEST', )
-    seeds = ("54.68.215.235",
+    nodes = ("54.68.215.235",
              "95.211.57.108",
              "94.23.216.214",
              "81.169.212.185",

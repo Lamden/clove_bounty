@@ -9,7 +9,7 @@ class Bithire(Bitcoin):
     """
     name = 'bithire'
     symbols = ('HIRE', )
-    seeds = ("46.101.3.80")
+    nodes = ("46.101.3.80", )
     port = 11816
     message_start = b'\x07\xa1\x11\xb3'
     base58_prefixes = {

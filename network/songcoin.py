@@ -10,7 +10,7 @@ class SongCoin(Bitcoin):
     """
     name = 'songcoin'
     symbols = ('SONG', )
-    seeds = ('seed.songcoin.org',)
+    seeds = ('seed.songcoin.org', )
     port = 8335
     message_start = b'\x53\x4f\x4e\x47'
     base58_prefixes = {
@@ -27,7 +27,7 @@ class SongCoinTestNet(SongCoin):
     (date of access: 02/12/2018)
     """
     name = 'test-songcoin'
-    seeds = ('seed.songcoin.org',)
+    seeds = ('seed.songcoin.org', )
     port = 18335
     message_start = b'\xfc\xc1\xb7\xdc'
     base58_prefixes = {

@@ -9,7 +9,7 @@ class Radioactivecoin(Bitcoin):
     """
     name = 'radioactivecoin'
     symbols = ('RAD', )
-    seeds = ("162.250.125.26")
+    nodes = ("162.250.125.26", )
     port = 23555
     message_start = b'\xd9\xf6\xe7\xd5'
     base58_prefixes = {

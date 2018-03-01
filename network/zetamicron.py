@@ -9,7 +9,7 @@ class ZetaMicron(Bitcoin):
     """
     name = 'zetamicron'
     symbols = ('ZMC', )
-    seeds = ('node.walletbuilders.com')
+    seeds = ('node.walletbuilders.com', )
     port = 9077
     message_start = b'\xa4\x50\xb2\x41'
     base58_prefixes = {

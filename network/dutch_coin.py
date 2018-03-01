@@ -9,7 +9,7 @@ class DutchCoin(Bitcoin):
     """
     name = 'dutchcoin'
     symbols = ('DUTCH', )
-    seeds = ('198.136.28.100')
+    nodes = ('198.136.28.100', )
     port = 20717
     message_start = b'\x57\xbe\xfd\xa9'
     base58_prefixes = {

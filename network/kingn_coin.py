@@ -9,7 +9,7 @@ class KingNCoin(Bitcoin):
     """
     name = 'kingncoin'
     symbols = ('KNC', )
-    seeds = ("node.walletbuilders.com")
+    seeds = ("node.walletbuilders.com", )
     port = 18373
     message_start = b'\xfc\x4c\x87\x36'
     base58_prefixes = {

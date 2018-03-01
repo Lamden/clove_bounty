@@ -9,7 +9,7 @@ class XxXcoin(Bitcoin):
     """
     name = 'xxxcoin'
     symbols = ('XXX', )
-    seeds = ("85.214.147.99")
+    nodes = ("85.214.147.99", )
     port = 20133
     message_start = b'\xce\xfb\xeb\xdb'
     base58_prefixes = {

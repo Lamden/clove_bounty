@@ -9,7 +9,7 @@ class EACoin(Bitcoin):
     """
     name = 'eacoin'
     symbols = ('EAG', )
-    seeds = ('eaglive.co')
+    seeds = ('eaglive.co', )
     port = 28635
     message_start = b'\xc4\xb1\xc6\x4c'
     base58_prefixes = {

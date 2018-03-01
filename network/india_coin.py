@@ -9,7 +9,7 @@ class IndiaCoin(Bitcoin):
     """
     name = 'indiacoin'
     symbols = ('INDIA', )
-    seeds = ('104.200.67.220')
+    nodes = ('104.200.67.220', )
     port = 19679
     message_start = b'\x1f\xd9\x01\x24'
     base58_prefixes = {

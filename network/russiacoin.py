@@ -9,7 +9,7 @@ class RussiaCoin(Bitcoin):
     """
     name = 'russiacoin'
     symbols = ('RC', )
-    seeds = ("194.135.89.60")
+    nodes = ("194.135.89.60", )
     port = 19992
     message_start = b'\xc0\xc0\xc0\xc0'
     base58_prefixes = {

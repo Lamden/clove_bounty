@@ -28,7 +28,7 @@ class JoulecoinTestNet(Joulecoin):
     (date of access: 02/11/2018)
     """
     name = 'test-joulecoin'
-    seeds = ('testseed1.jouleco.in',)
+    seeds = ('testseed1.jouleco.in', )
     port = 26783
     message_start = b'\x0a\xc0\x73\x12'
     base58_prefixes = {

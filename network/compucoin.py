@@ -9,7 +9,7 @@ class CompuCoin(Bitcoin):
     """
     name = 'compucoin'
     symbols = ('CPN', )
-    seeds = ("209.188.7.177")
+    nodes = ("209.188.7.177", )
     port = 45444
     message_start = b'\xfb\xc0\xb6\xdb'
     base58_prefixes = {
@@ -26,7 +26,7 @@ class CompuCoinTestNet(CompuCoin):
     (date of access: 02/14/2018)
     """
     name = 'test-compucoin'
-    seeds = ("testnet-seed.compucoin.com")
+    seeds = ("testnet-seed.compucoin.com", )
     port = 55444
     message_start = b'\xfc\xc1\xb7\xdc'
     base58_prefixes = {

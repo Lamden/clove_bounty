@@ -9,7 +9,7 @@ class Impact(Bitcoin):
     """
     name = 'impact'
     symbols = ('IMX', )
-    seeds = ("194.135.85.185")
+    nodes = ("194.135.85.185", )
     port = 17771
     message_start = b'\xb1\xf5\xd3\xa9'
     base58_prefixes = {

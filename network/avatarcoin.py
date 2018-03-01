@@ -9,7 +9,7 @@ class AvatarCoin(Bitcoin):
     """
     name = 'AvatarCoin'
     symbols = ('AV', )
-    seeds = ('avatar.altnodes.xyz', 'avatar2.altnodes.xyz')
+    seeds = ('avatar.altnodes.xyz', 'avatar2.altnodes.xyz', )
     port = 9712
     message_start = b'\xb2\x3b\xf8\xa6'
     base58_prefixes = {

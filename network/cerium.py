@@ -10,7 +10,7 @@ class Cerium(Bitcoin):
     """
     name = 'cerium'
     symbols = ('XCE', )
-    seeds = ("104.131.117.31")
+    nodes = ("104.131.117.31", )
     port = 45455
     message_start = b'\xa4\xd2\xf8\xa6'
     base58_prefixes = {

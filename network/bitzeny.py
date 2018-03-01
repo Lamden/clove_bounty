@@ -9,7 +9,7 @@ class Bitzeny(Bitcoin):
     """
     name = 'bitzeny'
     symbols = ('ZNY', )
-    seeds = ("seed.bitzeny.org")
+    seeds = ("seed.bitzeny.org", )
     port = 9253
     message_start = b'\xda\xa5\xbe\xf9'
     base58_prefixes = {

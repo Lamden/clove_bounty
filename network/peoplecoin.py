@@ -9,7 +9,7 @@ class PeopleCoin(Bitcoin):
     """
     name = 'peoplecoin'
     symbols = ('MEN', )
-    seeds = ("seed.peoplecoin.pw")
+    seeds = ("seed.peoplecoin.pw", )
     port = 7721
     message_start = b'\x4D\x45\x4E\xb4'
     base58_prefixes = {

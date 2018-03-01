@@ -9,7 +9,7 @@ class LeviarCoin(Bitcoin):
     """
     name = 'leviarcoin'
     symbols = ('XLC', )
-    seeds = ('46.101.28.201', '138.68.176.26',
+    nodes = ('46.101.28.201', '138.68.176.26',
              '138.68.58.151', '185.111.216.136')
     port = 18001
 

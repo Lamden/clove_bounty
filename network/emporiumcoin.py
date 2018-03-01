@@ -9,7 +9,7 @@ class EmporiumCoin(Bitcoin):
     """
     name = 'emporiumcoin'
     symbols = ('EMPC', )
-    seeds = ("40.68.31.20")
+    nodes = ("40.68.31.20", )
     port = 8295
     message_start = b'\xc2\xb4\xa3\xd1'
     base58_prefixes = {

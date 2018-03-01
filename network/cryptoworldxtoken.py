@@ -9,7 +9,7 @@ class CryptoWorldXToken(Bitcoin):
     """
     name = 'cryptoworldxtoken'
     symbols = ('CWXT', )
-    seeds = ("node01.cryptoworldx.com")
+    seeds = ("node01.cryptoworldx.com", )
     port = 16205
     message_start = b'\x93\x30\x64\xc7'
     base58_prefixes = {

@@ -1,7 +1,7 @@
 from clove.network.bitcoin import Bitcoin
 
 
-class UnitaryStatus_Dollar(Bitcoin):
+class UnitaryStatusDollar(Bitcoin):
     """
     Class with all the necessary UnitaryStatus Dollar network information based on
     https://github.com/usde-project/USDE/blob/master/src/net.cpp
@@ -9,7 +9,7 @@ class UnitaryStatus_Dollar(Bitcoin):
     """
     name = 'unitarystatus_dollar'
     symbols = ('USDE', )
-    seeds = ("liteminers.com")
+    seeds = ("liteminers.com", )
     port = 54449
     message_start = b'\xd9\xd9\xf9\xbd'
     base58_prefixes = {

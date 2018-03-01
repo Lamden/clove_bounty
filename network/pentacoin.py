@@ -9,7 +9,7 @@ class Pentacoin(Bitcoin):
     """
     name = 'pentacoin'
     symbols = ('PTA', )
-    seeds = ("104.236.199.148")
+    nodes = ("104.236.199.148", )
     port = 25631
     message_start = b'\x4a\x2d\x8f\x6a'
     base58_prefixes = {

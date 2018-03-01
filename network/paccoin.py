@@ -9,7 +9,7 @@ class PACcoin(Bitcoin):
     """
     name = 'paccoin'
     symbols = ('PAC', )
-    seeds = ('pacifica-nation.com')
+    seeds = ('pacifica-nation.com', )
     port = 8112
     message_start = b'\xe4\xe8\xe9\xe5'
     base58_prefixes = {

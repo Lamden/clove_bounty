@@ -9,7 +9,7 @@ class Obscurebay(Bitcoin):
     """
     name = 'obscurebay'
     symbols = ('OBS', )
-    seeds = ("54.149.102.226")
+    nodes = ("54.149.102.226", )
     port = 47458
     message_start = b'\xf3\x2d\xa5\x71'
     base58_prefixes = {

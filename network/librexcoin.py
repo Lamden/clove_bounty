@@ -9,7 +9,7 @@ class Librexcoin(Bitcoin):
     """
     name = 'librexcoin'
     symbols = ('LXC', )
-    seeds = ("192.99.223.96",
+    nodes = ("192.99.223.96",
              "192.227.251.74",
              "198.23.178.87",
              "23.94.38.173")

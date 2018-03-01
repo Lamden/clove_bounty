@@ -9,7 +9,7 @@ class ION(Bitcoin):
     """
     name = 'ion'
     symbols = ('ION', )
-    seeds = ('main.seeder.baseserv.com', 'main.seeder.uksafedns.net')
+    seeds = ('main.seeder.baseserv.com', 'main.seeder.uksafedns.net', )
     port = 12700
     message_start = b'\xc4\xe1\xd8\xec'
     base58_prefixes = {
@@ -26,7 +26,7 @@ class IONTestNet(ION):
     (date of access: 02/16/2018)
     """
     name = 'test-ion'
-    seeds = ('testnet.seeder.baseserv.com', 'testnet.seeder.uksafedns.net')
+    seeds = ('testnet.seeder.baseserv.com', 'testnet.seeder.uksafedns.net', )
     port = 27170
     message_start = b'\xdb\x86\xfc\x69'
     base58_prefixes = {

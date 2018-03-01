@@ -9,7 +9,7 @@ class CryptCoin(Bitcoin):
     """
     name = 'cryptcoin'
     symbols = ('CRYPT', )
-    seeds = ("seed.cryptco.org")
+    seeds = ("seed.cryptco.org", )
     port = 17771
     message_start = b'\xf1\xaf\xf2\xa3'
     base58_prefixes = {

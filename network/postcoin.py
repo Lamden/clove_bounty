@@ -9,12 +9,7 @@ class PostCoin(Bitcoin):
     """
     name = 'postcoin'
     symbols = ('POST', )
-    seeds = ("5.45.66.18",
-             "node.postcoin.pw",
-             "node1.postcoin.pw",
-             "node2.postcoin.pw",
-             "node3.postcoin.pw",
-             "node4.postcoin.pw")
+    nodes = ("5.45.66.18", )
     port = 9130
     message_start = b'\x35\xc3\xd6\xa2'
     base58_prefixes = {

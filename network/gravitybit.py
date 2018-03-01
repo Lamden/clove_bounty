@@ -9,7 +9,7 @@ class GravityBit(Bitcoin):
     """
     name = 'diamond'
     symbols = ('GBIT', )
-    seeds = ("162.243.17.197",
+    nodes = ("162.243.17.197",
              "159.203.126.200")
     port = 49011
     message_start = b'\xa4\xd2\xf8\xa6'

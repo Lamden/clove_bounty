@@ -30,7 +30,7 @@ class InterzoneTestNet(Interzone):
     (date of access: 02/22/2018)
     """
     name = 'test-interzone'
-    seeds = ('seed1.interzone.space')
+    seeds = ('seed1.interzone.space', )
     port = 21817
     message_start = b'\xfb\xc2\x11\x02'
     base58_prefixes = {

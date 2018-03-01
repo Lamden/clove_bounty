@@ -9,7 +9,7 @@ class LitecoinUltra(Bitcoin):
     """
     name = 'litecoinultra'
     symbols = ('LTCU', )
-    seeds = ('litecoinultra2.dyndns.org')
+    seeds = ('litecoinultra2.dyndns.org', )
     port = 19540
     message_start = b'\xcd\x22\xd1\xa5'
     base58_prefixes = {

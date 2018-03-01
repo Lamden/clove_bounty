@@ -9,7 +9,7 @@ class Cannation(Bitcoin):
     """
     name = 'Cannation'
     symbols = ('CNNC', )
-    seeds = ("195.74.52.227", "149.56.154.65")
+    nodes = ("195.74.52.227", "149.56.154.65", )
     port = 12367
     message_start = b'\x52\x56\x8b\x9e'
     base58_prefixes = {

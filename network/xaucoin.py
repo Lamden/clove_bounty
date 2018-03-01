@@ -9,7 +9,7 @@ class Xaucoin(Bitcoin):
     """
     name = 'xaucoin'
     symbols = ('XAU', )
-    seeds = ("xaucoin.ddns.net")
+    seeds = ("xaucoin.ddns.net", )
     port = 11063
     message_start = b'\xf9\xbe\xb4\xd9'
     base58_prefixes = {

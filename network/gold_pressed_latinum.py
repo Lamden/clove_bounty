@@ -9,7 +9,7 @@ class GoldPressedLatinum(Bitcoin):
     """
     name = 'gold_pressed_latinum'
     symbols = ('GPL', )
-    seeds = ('seed.goldpressedlatinum.su')
+    seeds = ('seed.goldpressedlatinum.su', )
     port = 23635
     message_start = b'\xcd\xf2\xc0\xef'
     base58_prefixes = {

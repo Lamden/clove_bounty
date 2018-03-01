@@ -9,7 +9,7 @@ class Twistercoin(Bitcoin):
     """
     name = 'twistercoin'
     symbols = ('TWIST', )
-    seeds = ("52.10.32.200")
+    nodes = ("52.10.32.200", )
     port = 44258
     message_start = b'\xf3\x2d\xa5\x71'
     base58_prefixes = {

@@ -10,7 +10,7 @@ class PlatinumBAR(Bitcoin):
     """
     name = 'platinumbar'
     symbols = ('XPTX', )
-    seeds = ('159.203.21.62', 'seed1.platinumbar.io', 'seed2.platinumbar.io',
+    seeds = ('seed1.platinumbar.io', 'seed2.platinumbar.io',
              'seed3.platinumbar.io', 'seed4.platinumbar.io', 'seed5.platinumbar.io')
     port = 18993
     message_start = b'\x03\x03\x06\x06'

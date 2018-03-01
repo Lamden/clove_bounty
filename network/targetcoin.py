@@ -9,7 +9,7 @@ class TargetCoin(Bitcoin):
     """
     name = 'targetcoin '
     symbols = ('TAR', )
-    seeds = ("192.168.145.1")
+    nodes = ("192.168.145.1", )
     port = 56680
     message_start = b'\xfc\xd9\xb7\xdd'
     base58_prefixes = {

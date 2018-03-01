@@ -9,7 +9,7 @@ class MediterraneanCoin(Bitcoin):
     """
     name = 'mediterraneancoin'
     symbols = ('MED', )
-    seeds = ("dnsseed.mediterraneancoin.org")
+    seeds = ("dnsseed.mediterraneancoin.org", )
     port = 9373
     message_start = b'\xfb\xc0\xb6\xdb'
     base58_prefixes = {
@@ -26,7 +26,7 @@ class MediterraneanCoinTestNet(MediterraneanCoin):
     (date of access: 02/16/2018)
     """
     name = 'test-mediterraneancoin'
-    seeds = ("testnet-seed.mediterraneancoin.org")
+    seeds = ("testnet-seed.mediterraneancoin.org", )
     port = 19373
     message_start = b'\xfc\xc1\xb7\xdc'
     base58_prefixes = {

@@ -9,7 +9,7 @@ class Namecoin(Bitcoin):
     """
     name = 'namecoin'
     symbols = ('NMC', )
-    seeds = ('nmc.seed.quisquis.de', 'seed.nmc.markasoftware.com')
+    seeds = ('nmc.seed.quisquis.de', 'seed.nmc.markasoftware.com', )
     port = 8334
     message_start = b'\xf9\xbe\xb4\xfe'
     base58_prefixes = {

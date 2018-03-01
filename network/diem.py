@@ -9,7 +9,7 @@ class Diem(Bitcoin):
     """
     name = 'diem'
     symbols = ('DIEM', )
-    seeds = ("dnsseed.carpediemexplorer.com")
+    seeds = ("dnsseed.carpediemexplorer.com", )
     port = 9449
     message_start = b'\xe4\xe8\xe9\xe5'
     base58_prefixes = {

@@ -10,7 +10,7 @@ class LeaCoin(Bitcoin):
     """
     name = 'leacoin'
     symbols = ('LEA', )
-    seeds = ('dnsseed.leacoin.org',)
+    seeds = ('dnsseed.leacoin.org', )
     port = 18123
     message_start = b'\x12\x0c\x07\xdd'
     base58_prefixes = {
@@ -27,7 +27,7 @@ class LeaCoinTestNet(LeaCoin):
     (date of access: 02/11/2018)
     """
     name = 'test-leacoin'
-    seeds = ('test.leacoin.org',)
+    seeds = ('test.leacoin.org', )
     port = 55534
     message_start = b'\x01\xfe\xfe\x05'
     base58_prefixes = {

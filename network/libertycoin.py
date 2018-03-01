@@ -9,11 +9,10 @@ class Libertycoin(Bitcoin):
     """
     name = 'libertycoin'
     symbols = ('XLB', )
-    seeds = ("23.94.38.173",
+    nodes = ("23.94.38.173",
              "192.241.247.229",
              "162.243.90.199",
              "106.216.171.76",
-             "liberty.suprnova.cc",
              "82.231.48.47",
              "107.170.218.104",
              "203.195.205.72",

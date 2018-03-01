@@ -9,7 +9,7 @@ class Slothcoin(Bitcoin):
     """
     name = 'slothcoin'
     symbols = ('SLOTH', )
-    seeds = ('80.112.144.8', '82.139.127.205', '80.112.172.234',
+    nodes = ('80.112.144.8', '82.139.127.205', '80.112.172.234',
              '173.209.34.107', '198.23.161.59')
     port = 5107
     message_start = b'\xf9\xbe\xbb\xd2'
@@ -27,7 +27,7 @@ class SlothcoinTestNet(Slothcoin):
     (date of access: 02/17/2018)
     """
     name = 'test-slothcoin'
-    seeds = ('80.112.144.8', '82.139.127.205', '80.112.172.234',
+    nodes = ('80.112.144.8', '82.139.127.205', '80.112.172.234',
              '173.209.34.107', '198.23.161.59')
     port = 15107
     message_start = b'\x0b\x11\xbb\x07'

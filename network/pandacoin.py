@@ -10,7 +10,7 @@ class Pandacoin(Bitcoin):
     """
     name = 'pandacoin'
     symbols = ('PND', )
-    seeds = ('server1.cryptodepot.org',)
+    seeds = ('server1.cryptodepot.org', )
     port = 22445
     message_start = b'\xc0\xc0\xc0\xc0'
     base58_prefixes = {
@@ -27,7 +27,7 @@ class PandacoinTestNet(Pandacoin):
     (date of access: 02/12/2018)
     """
     name = 'test-pandacoin'
-    seeds = ('pndstats.com',)
+    seeds = ('pndstats.com', )
     port = 44656
     message_start = b'\xfc\xc1\xb7\xdc'
     base58_prefixes = {

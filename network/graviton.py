@@ -9,7 +9,7 @@ class Graviton(Bitcoin):
     """
     name = 'graviton'
     symbols = ('GRAV', )
-    seeds = ("seed.graviton.ninja")
+    seeds = ("seed.graviton.ninja", )
     port = 31321
     message_start = b'\xcd\x1f\x3a\x2d'
     base58_prefixes = {

@@ -9,7 +9,7 @@ class Nyancoin(Bitcoin):
     """
     name = 'Nyancoin'
     symbols = ('NYAN', )
-    seeds = ("nyanseed.com")
+    seeds = ("nyanseed.com", )
     port = 33701
     message_start = b'\xfc\xd9\xb7\xdd'
     base58_prefixes = {

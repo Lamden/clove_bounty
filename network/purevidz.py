@@ -10,7 +10,7 @@ class PureVidz(Bitcoin):
     """
     name = 'purevidz'
     symbols = ('VIDZ', )
-    seeds = ('163.172.70.91',)
+    nodes = ('163.172.70.91', )
     port = 3818
     message_start = b'\xe4\x15\x53\x11'
     base58_prefixes = {

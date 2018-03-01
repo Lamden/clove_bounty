@@ -9,7 +9,7 @@ class Coin21(Bitcoin):
     """
     name = 'coin21'
     symbols = ('C2', )
-    seeds = ('107.181.166.143', '24.22.50.162')
+    nodes = ('107.181.166.143', '24.22.50.162', )
     port = 22222
     message_start = b'\xce\xfb\xfa\xdb'
     base58_prefixes = {
