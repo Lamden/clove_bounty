@@ -13,6 +13,12 @@ class Viacoin(Bitcoin):
     seeds = ('seed.viacoin.net', 'viaseeder.barbatos.fr',
              'seed.zzy.su', 'mainnet.viacoin.net')
     port = 5223
+    message_start = b'\x0f\x68\xc6\xcb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 71,
+        'SCRIPT_ADDR': 33,
+        'SECRET_KEY': 199
+    }
 
 
 class ViacoinTestNet(Viacoin):
@@ -24,3 +30,9 @@ class ViacoinTestNet(Viacoin):
     name = 'test-viacoin'
     seeds = ('159.203.109.115', '104.131.34.150')
     port = 25223
+    message_start = b'\xa9\xc5\xef\x92'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 127,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 255
+    }

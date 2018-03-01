@@ -11,5 +11,11 @@ class NetCoin(Bitcoin):
     symbols = ('NET', )
     seeds = ("netseed.presstab.pw")
     port = 11310
+    message_start = b'\xfd\xb6\xa5\xdb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 112,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 240
+    }
 
 # no testnet

@@ -19,5 +19,11 @@ class InfChain(Bitcoin):
              '47.89.242.204',
              '47.91.93.115')
     port = 17725
+    message_start = b'\x6d\x3c\x61\x53'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 75,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 153
+    }
 
 # no testnet

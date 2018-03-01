@@ -11,5 +11,11 @@ class GoldMaxCoin(Bitcoin):
     symbols = ('GMX', )
     seeds = ('node.walletbuilders.com')
     port = 6309
+    message_start = b'\x42\x29\x0e\xb6'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 38,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 166
+    }
 
 # no testnet

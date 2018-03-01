@@ -12,6 +12,12 @@ class Bitcoin21(Bitcoin):
     seeds = ("seed1.cryptolife.net", "seed2.cryptolife.net", "seed3.cryptolife.net",
              "electrum1.cryptolife.net", "wallet.cryptolife.net", "explore.cryptolife.net")
     port = 21008
+    message_start = b'\xb4\xf8\xe2\xe5'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 3,
+        'SCRIPT_ADDR': 20,
+        'SECRET_KEY': 131
+    }
 
 
 # Has no Testnet

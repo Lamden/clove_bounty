@@ -12,3 +12,9 @@ class Zoom(Bitcoin):
     seeds = ("seed.ZoomCoin.co",
              "45.32.199.52")
     port = 26889
+    message_start = b'\xfb\xbf\xa5\x4a'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 103,
+        'SCRIPT_ADDR': 92,
+        'SECRET_KEY': 231
+    }

@@ -11,6 +11,12 @@ class TattocoinSE(Bitcoin):
     symbols = ('TSE', )
     seeds = ('195.74.52.227', '149.56.154.65')
     port = 9959
+    message_start = b'\x72\x7c\x80\x10'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 65,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 193
+    }
 
 
 class TattocoinSETestNet(TattocoinSE):

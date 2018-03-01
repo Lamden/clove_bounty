@@ -12,6 +12,12 @@ class SegWit2X(Bitcoin):
     seeds = ('node1.b2x-segwit.io',
              'node2.b2x-segwit.io', 'node3.b2x-segwit.io')
     port = 8333
+    message_start = b'\xf4\xb2\xb5\xd8'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 0,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 128
+    }
 
 
 class SegWit2XTestNet(SegWit2X):
@@ -24,3 +30,9 @@ class SegWit2XTestNet(SegWit2X):
     seeds = ('node1.b2x-segwit.io',
              'node2.b2x-segwit.io', 'node3.b2x-segwit.io')
     port = 18333
+    message_start = b'\xf3\xb1\xb4\xd7'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

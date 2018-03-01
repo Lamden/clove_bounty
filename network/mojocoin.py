@@ -22,6 +22,12 @@ class MojoCoin(Bitcoin):
         'mojonode09.mojocoin.org',
     )
     port = 9495
+    message_start = b'\x71\x31\x21\x06'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 50,
+        'SCRIPT_ADDR': 28,
+        'SECRET_KEY': 153
+    }
 
 
 class MojoCoinTestNet(MojoCoin):
@@ -33,3 +39,9 @@ class MojoCoinTestNet(MojoCoin):
     name = 'test-mojocoin'
     seeds = ()
     port = 19495
+    message_start = b'\xce\xf1\xc6\xe3'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 97,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

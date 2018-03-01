@@ -12,6 +12,12 @@ class HoboNickels(Bitcoin):
     seeds = ("seed.scrypt.io", "seed.hobonickels.info", "seed2.hobonickels.info",
              "seed3.hobonickels.info", "seed4.hobonickels.info", "hbn.altcointech.net")
     port = 7372
+    message_start = b'\xe4\xe8\xe9\xe5'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 34,
+        'SCRIPT_ADDR': 8,
+        'SECRET_KEY': 162
+    }
 
 
 # Has no Testnet

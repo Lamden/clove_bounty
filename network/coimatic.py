@@ -12,5 +12,11 @@ class Coimatic30(Bitcoin):
     seeds = ("94.176.235.210",
              "94.176.235.203")
     port = 34222
+    message_start = b'\xb1\xb6\xb3\xc5'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 28,
+        'SCRIPT_ADDR': 12,
+        'SECRET_KEY': 156
+    }
 
 # no testnet

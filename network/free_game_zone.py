@@ -11,5 +11,11 @@ class Free_Game_Zone(Bitcoin):
     symbols = ('FGZ', )
     seeds = ("node.45.32.217.42")
     port = 8999
+    message_start = b'\x3d\x09\x06\x43'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 35,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 163
+    }
 
 # no testnet

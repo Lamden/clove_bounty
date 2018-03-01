@@ -11,6 +11,12 @@ class GBCGoldCoin(Bitcoin):
     symbols = ('GBC', )
     seeds = ("dnsseed.qbc.io", "54.86.39.92")
     port = 56790
+    message_start = b'\xd3\xed\xc9\xf1'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 58,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 186
+    }
 
 
 class GBCGoldCoinTestNet(GBCGoldCoin):

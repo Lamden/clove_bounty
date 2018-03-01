@@ -24,5 +24,11 @@ class Libertycoin(Bitcoin):
              "93.103.43.62",
              "192.241.247.229")
     port = 55901
+    message_start = b'\xa1\xa0\xa2\xa3'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 48,
+        'SCRIPT_ADDR': 28,
+        'SECRET_KEY': 176
+    }
 
 # no testnet

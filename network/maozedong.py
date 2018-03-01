@@ -25,6 +25,12 @@ class MaoZedong(Bitcoin):
              "dnsseed4.mao-zedong.net",
              "dnsseed5.mao-zedong.net")
     port = 9670
+    message_start = b'\xf4\xd3\x35\xf1'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 50,
+        'SCRIPT_ADDR': 28,
+        'SECRET_KEY': 178
+    }
 
 
 # Has no testnet

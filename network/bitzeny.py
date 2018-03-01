@@ -11,6 +11,12 @@ class Bitzeny(Bitcoin):
     symbols = ('ZNY', )
     seeds = ("seed.bitzeny.org")
     port = 9253
+    message_start = b'\xda\xa5\xbe\xf9'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 81,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 128
+    }
 
 
 class BitzenyTestNet(Bitzeny):
@@ -23,3 +29,9 @@ class BitzenyTestNet(Bitzeny):
     seeds = ("testnet-seed.bitcoin.petertodd.org",
              "testnet-seed.bluematt.me")
     port = 19253
+    message_start = b'\x59\x45\x4e\x59'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

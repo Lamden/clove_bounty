@@ -11,5 +11,11 @@ class NPCcoin(Bitcoin):
     symbols = ('NPC', )
     seeds = ("seednode.npccoin.com", "seednode2.npccoin.com")
     port = 26102
+    message_start = b'\xb4\xb2\xd8\xe6'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 53,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 181
+    }
 
 # no testnet

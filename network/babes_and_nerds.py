@@ -11,5 +11,11 @@ class Babes_and_Nerds(Bitcoin):
     symbols = ('ban', )
     seeds = ("52.88.144.119")
     port = 44258
+    message_start = b'\xf3\x2d\xa5\x71'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 21,
+        'SCRIPT_ADDR': 142,
+        'SECRET_KEY': 149
+    }
 
 # no testnet

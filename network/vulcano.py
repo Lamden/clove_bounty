@@ -12,6 +12,12 @@ class Vulcano(Bitcoin):
     symbols = ('VULC', )
     seeds = ('198.136.28.100')
     port = 21041
+    message_start = b'\xe5\x77\x77\x46'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 70,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 198
+    }
 
 
 class VulcanoTestNet(Vulcano):

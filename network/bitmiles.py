@@ -11,5 +11,11 @@ class Bitmiles(Bitcoin):
     symbols = ('BTMI', )
     seeds = ("95.85.60.246")
     port = 29156
+    message_start = b'\xfc\xd9\xb7\xdd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 85,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 213
+    }
 
 # Has no testnet

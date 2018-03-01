@@ -16,6 +16,12 @@ class Linx(Bitcoin):
              "seed4.mylinx.io",
              "seed5.mylinx.io")
     port = 13925
+    message_start = b'\x23\xb2\xa3\xcb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 75,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 203
+    }
 
 
 class LinxTestNet(Linx):

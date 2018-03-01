@@ -12,6 +12,12 @@ class Ugain(Bitcoin):
     symbols = ('GAIN', )
     seeds = ()
     port = 7891
+    message_start = b'\x06\xbb\xe2\xe5'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 38,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 166
+    }
 
 
 class UgainTestNet(Ugain):
@@ -23,3 +29,9 @@ class UgainTestNet(Ugain):
     name = 'test-ugain'
     seeds = ()
     port = 17891
+    message_start = b'\x8b\xcf\xc3\x9a'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

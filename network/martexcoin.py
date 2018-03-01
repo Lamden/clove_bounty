@@ -15,5 +15,11 @@ class MarteXcoin(Bitcoin):
              "seed3.martexcoin.org:51315",
              "seed4.martexcoin.org:51315")
     port = 51314
+    message_start = b'\x2d\x3f\xa2\xf5'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 50,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 178
+    }
 
 # no testnet

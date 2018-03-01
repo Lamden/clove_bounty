@@ -14,5 +14,11 @@ class Monoeci(Bitcoin):
              "dorado.monoeci.io",
              "block.monoeci.io")
     port = 24157
+    message_start = b'\xbf\x0c\x6b\xbd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 50,
+        'SCRIPT_ADDR': 73,
+        'SECRET_KEY': 77
+    }
 
 # no testnet

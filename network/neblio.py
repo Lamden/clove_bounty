@@ -11,6 +11,12 @@ class Neblio(Bitcoin):
     symbols = ('NEBL', )
     seeds = ('seed.nebl.io')
     port = 6325
+    message_start = b'\x32\x5e\x6f\x86'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 53,
+        'SCRIPT_ADDR': 112,
+        'SECRET_KEY': 181
+    }
 
 
 class NeblioTestNet(Neblio):

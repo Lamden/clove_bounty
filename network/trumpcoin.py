@@ -11,6 +11,12 @@ class Trumpcoin(Bitcoin):
     symbols = ('TRUMP', )
     seeds = ('173.44.41.235', '178.33.84.2')
     port = 8468
+    message_start = b'\xa6\xd2\xc3\xf6'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 65,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 193
+    }
 
 
 class TrumpcoinTestNet(Trumpcoin):

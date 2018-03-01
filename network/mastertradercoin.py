@@ -17,3 +17,9 @@ class MasterTraderCoin(Bitcoin):
              "mtr-seed06.chainworksindustries.com",
              "mtr-seed07.chainworksindustries.com")
     port = 14475
+    message_start = b'\xfa\xfa\x77\xcc'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 50,
+        'SCRIPT_ADDR': 28,
+        'SECRET_KEY': 178
+    }

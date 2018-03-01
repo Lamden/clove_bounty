@@ -20,6 +20,12 @@ class DeepOnion(Bitcoin):
         'ldmhzclj5y3tk52m.onion',
     )
     port = 17570
+    message_start = b'\xd1\xf1\xdb\xf2'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 31,
+        'SCRIPT_ADDR': 78,
+        'SECRET_KEY': 159
+    }
 
 
 class DeepOnionTestNet(DeepOnion):

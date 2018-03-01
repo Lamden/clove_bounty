@@ -37,6 +37,12 @@ class B3Coin(Bitcoin):
         'seed025.b3nodes.net',
     )
     port = 5647
+    message_start = b'\xb3\x2e\x1e\xe6'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 63,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 153
+    }
 
 
 class B3CoinTestNet(B3Coin):
@@ -49,3 +55,9 @@ class B3CoinTestNet(B3Coin):
     symbols = ('KB3', )
     seeds = ()
     port = 30420
+    message_start = b'\xcd\xf2\xc0\xef'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

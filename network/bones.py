@@ -12,6 +12,12 @@ class Bones(Bitcoin):
     seeds = ("seed.Bones.com",
              "209.208.111.233")
     port = 55355
+    message_start = b'\xc0\xc0\xc0\xc0'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 25,
+        'SCRIPT_ADDR': 22,
+        'SECRET_KEY': 153
+    }
 
 
 # Has no testnet

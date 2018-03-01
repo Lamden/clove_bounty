@@ -11,6 +11,12 @@ class FujiCoin(Bitcoin):
     symbols = ('FJC', )
     seeds = ()
     port = 3777
+    message_start = b'\x66\x75\x6a\x69'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 36,
+        'SCRIPT_ADDR': 16,
+        'SECRET_KEY': 164
+    }
 
 
 class FujiCoinTestNet(FujiCoin):
@@ -22,3 +28,9 @@ class FujiCoinTestNet(FujiCoin):
     name = 'test-fujicoin'
     seeds = ()
     port = 13777
+    message_start = b'\x69\x6a\x75\x66'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 74,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 202
+    }

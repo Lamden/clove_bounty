@@ -11,3 +11,9 @@ class GameLeagueCoin(Bitcoin):
     symbols = ('GML', )
     seeds = ("95.85.38.109", "204.152.209.25")
     port = 20851
+    message_start = b'\xe4\xe8\xbd\xfd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 90,
+        'SCRIPT_ADDR': 8,
+        'SECRET_KEY': 218
+    }

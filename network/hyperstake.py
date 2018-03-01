@@ -11,6 +11,12 @@ class HyperStake(Bitcoin):
     symbols = ('HYP', )
     seeds = ('hyp.seed.fuzzbawls.pw', 'hypseed.presstab.pw')
     port = 18775
+    message_start = b'\xdb\xad\xbd\xda'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 117,
+        'SCRIPT_ADDR': 8,
+        'SECRET_KEY': 245
+    }
 
 
 # Has no Testnet

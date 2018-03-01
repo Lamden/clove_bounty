@@ -12,6 +12,12 @@ class CampusCoin(Bitcoin):
     symbols = ('CMPCO', )
     seeds = ('seed5.cryptolife.net', 'seed6.cryptolife.net')
     port = 28195
+    message_start = b'\xd7\xcf\xa4\xe6'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 28,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 156
+    }
 
 
 class CampusCoinTestNet(CampusCoin):

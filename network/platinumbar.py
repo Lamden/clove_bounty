@@ -13,6 +13,12 @@ class PlatinumBAR(Bitcoin):
     seeds = ('159.203.21.62', 'seed1.platinumbar.io', 'seed2.platinumbar.io',
              'seed3.platinumbar.io', 'seed4.platinumbar.io', 'seed5.platinumbar.io')
     port = 18993
+    message_start = b'\x03\x03\x06\x06'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 55,
+        'SCRIPT_ADDR': 117,
+        'SECRET_KEY': 214
+    }
 
 
 class PlatinumBARTestNet(PlatinumBAR):
@@ -24,3 +30,9 @@ class PlatinumBARTestNet(PlatinumBAR):
     name = 'test-platinumbar'
     seeds = ()
     port = 15001
+    message_start = b'\x01\x02\x03\x04'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 117,
+        'SCRIPT_ADDR': 55,
+        'SECRET_KEY': 246
+    }

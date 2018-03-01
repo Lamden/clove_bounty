@@ -17,6 +17,12 @@ class CryptoEscudo(Bitcoin):
         'seed9.cryptoescudo.org'
     )
     port = 61143
+    message_start = b'\xfb\xc0\xb6\xdb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 28,
+        'SCRIPT_ADDR': 88,
+        'SECRET_KEY': 156
+    }
 
 
 class CryptoEscudoTestNet(CryptoEscudo):

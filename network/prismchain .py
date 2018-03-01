@@ -11,5 +11,11 @@ class PrismChain(Bitcoin):
     symbols = ('PRM', )
     seeds = ("146.185.169.104")
     port = 21995
+    message_start = b'\xa2\xdc\xb1\xf7'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 56,
+        'SCRIPT_ADDR': 81,
+        'SECRET_KEY': 184
+    }
 
 # no testnet

@@ -11,6 +11,12 @@ class Sakuracoin(Bitcoin):
     symbols = ('SKR', )
     seeds = ("skrseed.sighash.info")
     port = 9301
+    message_start = b'\xfb\xc0\xb6\xdb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 50,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 178
+    }
 
 
 class SakuracoinTestNet(Sakuracoin):

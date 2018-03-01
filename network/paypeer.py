@@ -17,6 +17,12 @@ class Paypeer(Bitcoin):
         'ok1.altcoinsfoundation.com',
     )
     port = 33714
+    message_start = b'\x13\x02\x1b\x3c'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 56,
+        'SCRIPT_ADDR': 50,
+        'SECRET_KEY': 184
+    }
 
 
 class PaypeerTestNet(Paypeer):

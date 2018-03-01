@@ -17,5 +17,11 @@ class Verge(Bitcoin):
              'kw5bdikypbbxaf2g.onion',
              'n5ln6ke2vc47glpl.onion')
     port = 21102
+    message_start = b'\xf7\xa7\x7e\xff'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 30,
+        'SCRIPT_ADDR': 33,
+        'SECRET_KEY': 158
+    }
 
 # no testnet

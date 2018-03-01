@@ -11,5 +11,11 @@ class Save_The_Ocean(Bitcoin):
     symbols = ('STO', )
     seeds = ("52.169.14.55")
     port = 4555
+    message_start = b'\xd1\xa3\xb4\xc2'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 63,
+        'SCRIPT_ADDR': 28,
+        'SECRET_KEY': 191
+    }
 
 # no testnet

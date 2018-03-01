@@ -16,6 +16,12 @@ class Primecoin(Bitcoin):
         'primeseed.muuttuja.org'
     )
     port = 9911
+    message_start = b'\xe4\xe7\xe5\xe7'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 23,
+        'SCRIPT_ADDR': 83,
+        'SECRET_KEY': 151
+    }
 
 
 class PrimecoinTestNet(Primecoin):

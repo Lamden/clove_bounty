@@ -11,6 +11,12 @@ class CyclingCoin(Bitcoin):
     symbols = ('CYC', )
     seeds = ()
     port = 15394
+    message_start = b'\x05\x33\x19\x7B'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 28,
+        'SCRIPT_ADDR': 117,
+        'SECRET_KEY': 153
+    }
 
 
 class CyclingCoinTestNet(CyclingCoin):
@@ -22,3 +28,9 @@ class CyclingCoinTestNet(CyclingCoin):
     name = 'test-cyclingcoin'
     seeds = ()
     port = 15494
+    message_start = b'\x03\x37\x1f\x21'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 125,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

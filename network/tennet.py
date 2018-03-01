@@ -11,5 +11,11 @@ class TenneT(Bitcoin):
     symbols = ('TENNET', )
     seeds = ("52.26.15.236")
     port = 9782
+    message_start = b'\xa4\xd2\xf8\xa6'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 41,
+        'SCRIPT_ADDR': 7,
+        'SECRET_KEY': 169
+    }
 
 # no testnet

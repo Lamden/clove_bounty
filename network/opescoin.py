@@ -12,6 +12,12 @@ class Opescoin(Bitcoin):
     symbols = ('OPES', )
     seeds = ('104.218.50.15',)
     port = 6222
+    message_start = b'\xf3\xf1\xd2\xb5'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 115,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 243
+    }
 
 
 class OpescoinTestNet(Opescoin):

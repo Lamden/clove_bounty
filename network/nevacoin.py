@@ -13,6 +13,12 @@ class NevaCoin(Bitcoin):
     seeds = ('n1.nevacoin.net', 'n2.nevacoin.net',
              'n3.nevacoin.net', 'n4.nevacoin.net', 'seed.crypto.si')
     port = 7391
+    message_start = b'\xe4\x83\xe6\x32'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 53,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 177
+    }
 
 
 class NevaCoinTestNet(NevaCoin):
@@ -29,3 +35,9 @@ class NevaCoinTestNet(NevaCoin):
         'test1.nevacoin.pw'
     )
     port = 17391
+    message_start = b'\xac\x43\xfe\x8c'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

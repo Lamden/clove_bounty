@@ -15,6 +15,12 @@ class Cryptonex(Bitcoin):
         'node-bangalore.cryptonex.org'
     )
     port = 20863
+    message_start = b'\x18\xe4\x82\xa0'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 38,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 166
+    }
 
 
 class CryptonexTestNet(Cryptonex):

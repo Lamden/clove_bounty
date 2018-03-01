@@ -12,6 +12,12 @@ class ProsperCoin(Bitcoin):
     seeds = ("seed.inmean.com",
              "seed.khmer.biz")
     port = 9431
+    message_start = b'\xcb\xc2\xe6\xaf'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 58,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 186
+    }
 
 
 class ProsperCoinTestNet(ProsperCoin):

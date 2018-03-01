@@ -13,6 +13,12 @@ class PhilosopherStones(Bitcoin):
     seeds = ('node1.philosopherstones.org', 'node2.philosopherstones.org',
              'node3.philosopherstones.org', 'node4.philosopherstones.org')
     port = 16281
+    message_start = b'\xe4\xef\xdb\xfd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 21,
+        'SCRIPT_ADDR': 8,
+        'SECRET_KEY': 149
+    }
 
 
 class PhilosopherStonesTestNet(PhilosopherStones):

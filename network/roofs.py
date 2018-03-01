@@ -11,6 +11,12 @@ class Roofs(Bitcoin):
     symbols = ('ROOFS', )
     seeds = ('192.161.48.19')
     port = 20019
+    message_start = b'\x90\x4a\x92\x40'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 60,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 188
+    }
 
 
 # no testnet

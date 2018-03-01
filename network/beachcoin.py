@@ -14,5 +14,11 @@ class BeachCoin(Bitcoin):
              "seed3.cryptolife.net",
              "electrum6.cryptolife.net")
     port = 17771
+    message_start = b'\xfa\xc5\xb0\xde'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 26,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 154
+    }
 
 # Has no testnet

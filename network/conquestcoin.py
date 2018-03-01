@@ -11,5 +11,11 @@ class Conquestcoin(Bitcoin):
     symbols = ('CQST', )
     seeds = ("216.31.12.30")
     port = 7837
+    message_start = b'\xf0\xc1\xdb\xfa'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 28,
+        'SCRIPT_ADDR': 55,
+        'SECRET_KEY': 156
+    }
 
 # Has no testnet

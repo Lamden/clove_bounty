@@ -12,6 +12,12 @@ class CannabisCoin(Bitcoin):
     symbols = ('CANN', )
     seeds = ('seed.cannabiscoin.net', 'seed2.cannabiscoin.net')
     port = 39348
+    message_start = b'\xfe\xc3\xb9\xde'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 28,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 156
+    }
 
 
 class CannabisCoinTestNet(CannabisCoin):

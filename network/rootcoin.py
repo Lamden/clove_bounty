@@ -15,5 +15,11 @@ class RootCoin(Bitcoin):
              "198.23.160.13",
              "192.99.223.96")
     port = 28388
+    message_start = b'\xc0\xc0\xc0\xc0'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 60,
+        'SCRIPT_ADDR': 75,
+        'SECRET_KEY': 188
+    }
 
 # no testnet

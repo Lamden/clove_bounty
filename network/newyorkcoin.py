@@ -11,5 +11,11 @@ class NewYorkCoin(Bitcoin):
     symbols = ('NYC', )
     seeds = ("seed.ds.newyorkco.in", "seed.newyorkco.in")
     port = 17020
+    message_start = b'\xc0\xc0\xc0\xc0'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 60,
+        'SCRIPT_ADDR': 22,
+        'SECRET_KEY': 188
+    }
 
 # no testnet

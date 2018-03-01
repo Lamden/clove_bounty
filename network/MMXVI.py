@@ -11,6 +11,12 @@ class mMXVI(Bitcoin):
     symbols = ('MMXVI', )
     seeds = ("5.196.67.100")
     port = 6503
+    message_start = b'\xc3\xff\xd2\xb4'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 50,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 178
+    }
 
 
 # Has no Testnet

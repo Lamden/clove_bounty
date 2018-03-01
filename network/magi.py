@@ -12,6 +12,12 @@ class Magi(Bitcoin):
     seeds = ('seed.m-core.org', 'seed.m-chain.info',
              'seed.magi.filoozom.com', 'seed.systms.org')
     port = 8233
+    message_start = b'\xf0\xb9\xb3\xd6'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 20,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 148
+    }
 
 
 class MagiTestNet(Magi):

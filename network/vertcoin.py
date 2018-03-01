@@ -19,6 +19,12 @@ class Vertcoin(Bitcoin):
         'vertcoin.mbl.cash',
     )
     port = 5889
+    message_start = b'\xfa\xbf\xb5\xda'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 71,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 128
+    }
 
 
 class VertcoinTestNet(Vertcoin):
@@ -35,3 +41,9 @@ class VertcoinTestNet(Vertcoin):
         'tvtc.vertcoin.org',
     )
     port = 15889
+    message_start = b''v''e''r''t''
+    base58_prefixes = {
+        'PUBKEY_ADDR': 74,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

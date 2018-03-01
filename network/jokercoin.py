@@ -11,5 +11,11 @@ class JokerCoin(Bitcoin):
     symbols = ('JOK', )
     seeds = ("45.55.83.96")
     port = 32880
+    message_start = b'\xe4\xe8\xbd\xfd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 90,
+        'SCRIPT_ADDR': 8,
+        'SECRET_KEY': 218
+    }
 
 # No testnet

@@ -14,5 +14,11 @@ class FameCoin(Bitcoin):
              "185.183.99.171",
              "185.183.99.19")
     port = 52758
+    message_start = b'\xe4\xe8\xbd\xfd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 90,
+        'SCRIPT_ADDR': 8,
+        'SECRET_KEY': 218
+    }
 
 # no testnet

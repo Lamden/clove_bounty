@@ -11,5 +11,11 @@ class ZetaMicron(Bitcoin):
     symbols = ('ZMC', )
     seeds = ('node.walletbuilders.com')
     port = 9077
+    message_start = b'\xa4\x50\xb2\x41'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 80,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 208
+    }
 
 # no testnet

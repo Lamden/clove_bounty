@@ -14,6 +14,12 @@ class LanaCoin(Bitcoin):
              'seed5.lanacoin.com', 'seed6.lanacoin.com', 'seed7.lanacoin.com', 'seed8.lanacoin.com',
              'seed9.lanacoin.com')
     port = 7506
+    message_start = b'\xa5\xf7\x90\xfd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 48,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 176
+    }
 
 
 class LanaCoinTestNet(LanaCoin):
@@ -25,3 +31,9 @@ class LanaCoinTestNet(LanaCoin):
     name = 'test-lanacoin'
     seeds = ('test1.lanacoin.com', 'test2.lanacoin.com')
     port = 17506
+    message_start = b'\xcc\xcb\xd2\x7f'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

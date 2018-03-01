@@ -11,5 +11,11 @@ class YamahaCoin(Bitcoin):
     symbols = ('YMC', )
     seeds = ("node.walletbuilders.com")
     port = 8003
+    message_start = b'\x1b\x6d\x06\x34'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 78,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 206
+    }
 
 # no testnet

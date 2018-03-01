@@ -13,6 +13,12 @@ class Giftcoin(Bitcoin):
              "node.giftcoin.info",
              "nodegift.poolnetwork.org")
     port = 8855
+    message_start = b'\xfb\xc0\xb6\xdb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 39,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 167
+    }
 
 
 class GiftcoinTestNet(Giftcoin):

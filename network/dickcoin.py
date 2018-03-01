@@ -16,5 +16,11 @@ class DickCoin(Bitcoin):
              "wallet.cryptolife.net",
              "explore.cryptolife.net")
     port = 41018
+    message_start = b'\xc4\xf8\xe7\xe8'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 31,
+        'SCRIPT_ADDR': 20,
+        'SECRET_KEY': 159
+    }
 
 # Has no testnet

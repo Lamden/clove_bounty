@@ -11,6 +11,12 @@ class SmartCoin(Bitcoin):
     symbols = ('SMC', )
     seeds = ("dnsseed.smartcoin.cc")
     port = 58585
+    message_start = b'\xde\xfa\xce\xd0'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 63,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 191
+    }
 
 
 class DiamondTestNet(SmartCoin):
@@ -25,3 +31,9 @@ class DiamondTestNet(SmartCoin):
              "testnet-seed.bluematt.me",
              "testnet-seed.bitcoin.schildbach.de")
     port = 18333
+    message_start = b'\x0b\x11\x09\x07'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

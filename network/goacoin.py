@@ -14,5 +14,11 @@ class Goacoin(Bitcoin):
              "seed3.goaco.in",
              "seed4.goaco.in")
     port = 1947
+    message_start = b'\xa2\xc4\xcb\x4a'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 38,
+        'SCRIPT_ADDR': 10,
+        'SECRET_KEY': 198
+    }
 
 # no testnet

@@ -11,5 +11,11 @@ class Indicoin(Bitcoin):
     symbols = ('INDI', )
     seeds = ("dnsseed.inditrades.org")
     port = 7366
+    message_start = b'\xe4\xe8\xe9\xe5'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 25,
+        'SCRIPT_ADDR': 20,
+        'SECRET_KEY': 153
+    }
 
 # no testnet

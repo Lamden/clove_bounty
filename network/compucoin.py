@@ -11,6 +11,12 @@ class CompuCoin(Bitcoin):
     symbols = ('CPN', )
     seeds = ("209.188.7.177")
     port = 45444
+    message_start = b'\xfb\xc0\xb6\xdb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 28,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 156
+    }
 
 
 class CompuCoinTestNet(CompuCoin):

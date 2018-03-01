@@ -11,6 +11,12 @@ class ArtByte(Bitcoin):
     symbols = ('ABY', )
     seeds = ('dnsseed1.artbyte.me', 'dnsseed2.artbyte.me')
     port = 8608
+    message_start = b'\xea\xaf\xa5\xca'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 23,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 151
+    }
 
 
 class ArtByteTestNet(ArtByte):
@@ -22,3 +28,9 @@ class ArtByteTestNet(ArtByte):
     name = 'test-artbyte'
     seeds = ('testnet-dnsseed1.artbyte.me', )
     port = 18608
+    message_start = b'\xeb\xb0\xa6\xcb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 65,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 193
+    }

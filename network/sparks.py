@@ -15,6 +15,12 @@ class Sparks(Bitcoin):
         'explorer.sparks.gold'
     )
     port = 8890
+    message_start = b'\x1a\xb2\xc3\xd4'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 38,
+        'SCRIPT_ADDR': 10,
+        'SECRET_KEY': 198
+    }
 
 
 class SparksTestNet(Sparks):
@@ -26,3 +32,9 @@ class SparksTestNet(Sparks):
     name = 'test-sparks'
     seeds = ()
     port = 8891
+    message_start = b'\xd1\x2b\xb3\x7a'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 112,
+        'SCRIPT_ADDR': 20,
+        'SECRET_KEY': 240
+    }

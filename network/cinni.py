@@ -11,5 +11,11 @@ class Cinni(Bitcoin):
     symbols = ('CINNI', )
     seeds = ("108.61.103.46")
     port = 31813
+    message_start = b'\xce\xfb\xfa\xdb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 43,
+        'SCRIPT_ADDR': 8,
+        'SECRET_KEY': 171
+    }
 
 # Has no testnet

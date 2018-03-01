@@ -12,6 +12,12 @@ class WomenCoin(Bitcoin):
     symbols = ('WOMEN', )
     seeds = ('104.200.67.104')
     port = 19207
+    message_start = b'\xf1\x13\x94\xee'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 73,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 201
+    }
 
 
 class WomenCoinTestNet(WomenCoin):

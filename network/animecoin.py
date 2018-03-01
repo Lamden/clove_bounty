@@ -16,6 +16,12 @@ class Animecoin(Bitcoin):
         '151.236.13.37', '115.29.49.156'
     )
     port = 1212
+    message_start = b'\x41\x4e\x49\x4d'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 23,
+        'SCRIPT_ADDR': 9,
+        'SECRET_KEY': 151
+    }
 
 
 class AnimecoinTestNet(Animecoin):

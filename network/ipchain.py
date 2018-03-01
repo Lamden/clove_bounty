@@ -12,6 +12,12 @@ class IPChain(Bitcoin):
     seeds = ("seed.ipchainglobal.com",
              "seed.qingdoutech.com")
     port = 15166
+    message_start = b'\xda\xd8\xd7\xdc'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 4,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }
 
 
 class IPChainTestNet(IPChain):
@@ -24,3 +30,9 @@ class IPChainTestNet(IPChain):
     seeds = ("seedt.ipchainglobal.com",
              "seedt.qingdoutech.com")
     port = 25166
+    message_start = b'\x2a\x28\x27\x2c'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 3,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

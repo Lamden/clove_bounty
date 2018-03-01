@@ -12,6 +12,12 @@ class Quark(Bitcoin):
     seeds = ('seed1.qrknet.info', 'seed2.qrknet.info', 'seed3.qrknet.info', 'seed4.qrknet.info',
              'seed5.qrknet.info', 'seed6.qrknet.info', 'seed7.qrknet.info', 'seed8.qrknet.info')
     port = 11973
+    message_start = b'\xfe\xa5\x03\xdd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 58,
+        'SCRIPT_ADDR': 9,
+        'SECRET_KEY': 186
+    }
 
 
 class QuarkTestNet(Quark):
@@ -23,3 +29,9 @@ class QuarkTestNet(Quark):
     name = 'test-quark'
     seeds = ('testseed1.qrknet.info', )
     port = 21973
+    message_start = b'\x01\x1a\x39\xf7'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 119,
+        'SCRIPT_ADDR': 199,
+        'SECRET_KEY': 247
+    }

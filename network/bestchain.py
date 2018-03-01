@@ -15,5 +15,11 @@ class BestChain(Bitcoin):
              "81.169.212.185",
              "185.16.41.61")
     port = 47949
+    message_start = b'\x31\x0e\x83\x36'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 25,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 153
+    }
 
 # Has no testnet

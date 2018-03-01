@@ -11,5 +11,11 @@ class Degas_Coin(Bitcoin):
     symbols = ('DEA', )
     seeds = ("node.45.32.222.247")
     port = 12699
+    message_start = b'\x6a\x9a\xf9\xbb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 30,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 158
+    }
 
 # no test net

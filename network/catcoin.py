@@ -12,6 +12,12 @@ class Catcoin(Bitcoin):
     symbols = ('CAT', )
     seeds = ('seed.catcoinwallets.com', 'cat.geekhash.org')
     port = 9933
+    message_start = b'\xfc\xc1\xb7\xdc'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 21,
+        'SCRIPT_ADDR': 88,
+        'SECRET_KEY': 149
+    }
 
 
 class CatcoinTestNet(Catcoin):

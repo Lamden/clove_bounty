@@ -11,6 +11,12 @@ class IrishCoin(Bitcoin):
     symbols = ('IRL', )
     seeds = ('node.irishcoin.org', 'dns.irishcoin.org')
     port = 12375
+    message_start = b'\xf7\xc1\xb6\xdb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 33,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 161
+    }
 
 
 class IrishCoinTestNet(IrishCoin):

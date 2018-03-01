@@ -11,6 +11,12 @@ class Ammo(Bitcoin):
     symbols = ('AMMO', )
     seeds = ('ammoreloaded.io')
     port = 21582
+    message_start = b'\xc3\xc5\xa2\xa3'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 14,
+        'SCRIPT_ADDR': 30,
+        'SECRET_KEY': 142
+    }
 
 
 class AmmoTestNet(Ammo):

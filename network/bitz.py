@@ -14,6 +14,12 @@ class Bitz(Bitcoin):
              'mojonode05.mojocoin.org', 'mojonode06.mojocoin.org', 'mojonode07.mojocoin.org', 'mojonode08.mojocoin.org',
              'mojonode09.mojocoin.org')
     port = 9495
+    message_start = b'\x71\x31\x21\x06'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 50,
+        'SCRIPT_ADDR': 28,
+        'SECRET_KEY': 153
+    }
 
 
 class BitzTestNet(Bitz):
@@ -25,3 +31,9 @@ class BitzTestNet(Bitz):
     name = 'test-bitz'
     seeds = ()
     port = 19495
+    message_start = b'\xce\xf1\xc6\xe3'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 97,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

@@ -11,6 +11,12 @@ class Antimatter(Bitcoin):
     symbols = ('ANTX', )
     seeds = ("seed.baconmakesyourfeaturessizzle.com")
     port = 9334
+    message_start = b'\xc0\xfb\xb6\xdb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 23,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 151
+    }
 
 
 class AntimatterTestNet(Antimatter):

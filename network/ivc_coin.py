@@ -15,5 +15,11 @@ class IVC_Coin(Bitcoin):
              "seed2.cryptolife.net",
              "45.77.7.67")
     port = 41184
+    message_start = b'\xde\xca\xa4\xeb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 102,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 117
+    }
 
 # no testnet

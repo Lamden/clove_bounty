@@ -13,3 +13,9 @@ class Techcoin(Bitcoin):
              "179.211.40.9",
              "50.188.14.165")
     port = 57697
+    message_start = b'\xa1\xa0\xa2\xa3'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 65,
+        'SCRIPT_ADDR': 28,
+        'SECRET_KEY': 193
+    }

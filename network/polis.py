@@ -13,5 +13,11 @@ class Polis(Bitcoin):
              "node2.polispay.org",
              "node3.polispay.org")
     port = 24126
+    message_start = b'\xbf\x0c\x6b\xbd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 55,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 60
+    }
 
 # no testnet

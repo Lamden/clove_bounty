@@ -11,6 +11,12 @@ class Ghostcoin(Bitcoin):
     symbols = ('GHOST', )
     seeds = ("54.39.20.116")
     port = 9334
+    message_start = b'\x63\x42\x21\x2c'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 15,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 143
+    }
 
 
 class GhostcoinTestNet(Ghostcoin):

@@ -11,5 +11,11 @@ class BitcoinFast(Bitcoin):
     symbols = ('BCF', )
     seeds = ("bitcoinfast.co")
     port = 25671
+    message_start = b'\xce\xfb\xfa\xdb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 25,
+        'SCRIPT_ADDR': 8,
+        'SECRET_KEY': 153
+    }
 
 # Has no Testnet

@@ -11,6 +11,12 @@ class Woodcoin(Bitcoin):
     symbols = ('LOG', )
     seeds = ('dnsseed.woodcoin.org', )
     port = 8338
+    message_start = b'\xfc\xd9\xb7\xdd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 73,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 201
+    }
 
 
 class WoodcoinTestNet(Woodcoin):
@@ -22,3 +28,9 @@ class WoodcoinTestNet(Woodcoin):
     name = 'test-woodcoin'
     seeds = ('dnsseed.woodcointools.com', )
     port = 18338
+    message_start = b'\xfc\xd9\xb7\xdd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 135,
+        'SCRIPT_ADDR': 8,
+        'SECRET_KEY': 199
+    }

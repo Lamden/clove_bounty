@@ -11,5 +11,11 @@ class CageCoin(Bitcoin):
     symbols = ('CAGE', )
     seeds = ("seed.cagecoin.com")
     port = 33112
+    message_start = b'\xc0\xc0\xc0\xc0'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 31,
+        'SCRIPT_ADDR': 22,
+        'SECRET_KEY': 159
+    }
 
 # no testnet

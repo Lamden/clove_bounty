@@ -14,6 +14,12 @@ class Kittehcoin(Bitcoin):
              "dnsseed.kittehcoinblockexplorer.com",
              "dnsseed.kittehcoinpool.com")
     port = 22566
+    message_start = b'\xc0\xc0\xc0\xc0'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 45,
+        'SCRIPT_ADDR': 22,
+        'SECRET_KEY': 173
+    }
 
 
 class KittehcoinTestNet(Kittehcoin):

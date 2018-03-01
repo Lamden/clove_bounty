@@ -23,6 +23,12 @@ class Protoshares(Bitcoin):
              "54.218.232.206",
              "54.212.175.33")
     port = 3888
+    message_start = b'\xf9\xbd\xb5\xd9'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 56,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 184
+    }
 
 
 class ProtosharesTestNet(Protoshares):

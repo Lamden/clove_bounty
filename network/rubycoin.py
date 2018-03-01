@@ -12,6 +12,12 @@ class Rubycoin(Bitcoin):
     symbols = ('RBY', )
     seeds = ('neptune.rubycoin.org', 'pluto.rubycoin.org')
     port = 5937
+    message_start = b'\x13\x12\x16\x11'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 60,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 188
+    }
 
 
 class RubycoinTestNet(Rubycoin):
@@ -23,3 +29,9 @@ class RubycoinTestNet(Rubycoin):
     name = 'test-rubycoin'
     seeds = ()
     port = 55937
+    message_start = b'\x17\x14\x11\x12'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

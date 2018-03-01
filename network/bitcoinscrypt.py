@@ -11,6 +11,12 @@ class BitcoinScrypt(Bitcoin):
     symbols = ('BTCS', )
     seeds = ('altcoinwarz.com', '104.131.186.185')
     port = 30201
+    message_start = b'\xfc\xd9\xb7\xdd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 0,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 128
+    }
 
 
 # Has no Testnet

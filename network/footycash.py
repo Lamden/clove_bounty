@@ -12,5 +12,11 @@ class FootyCash(Bitcoin):
     seeds = ('seedv2.footycash.com', 'xftseed1.dblocks.io', 'xftseed2.dblocks.io',
              'ns2.footycash.com', 'ns1.footycash.com')
     port = 17017
+    message_start = b'\x17\x24\x08\x32'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 35,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 153
+    }
 
 # no testnet

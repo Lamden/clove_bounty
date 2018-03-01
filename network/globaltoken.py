@@ -11,6 +11,12 @@ class GlobalToken(Bitcoin):
     symbols = ('GLT', )
     seeds = ('134.255.221.7', 'lameserver.de')
     port = 9319
+    message_start = b'\xc7\x08\xd3\x2d'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 38,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 166
+    }
 
 
 class GlobalTokenTestNet(GlobalToken):
@@ -22,3 +28,9 @@ class GlobalTokenTestNet(GlobalToken):
     name = 'test-globaltoken'
     seeds = ('134.255.221.7', )
     port = 19319
+    message_start = b'\x3a\x6f\x37\x5b'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

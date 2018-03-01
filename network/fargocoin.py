@@ -12,6 +12,12 @@ class Fargocoin(Bitcoin):
     seeds = ('138.201.174.79', 'n1.fargochain.org', 'n2.fargochain.org', 'n3.fargochain.org',
              'n4.fargochain.org', 'n5.fargochain.org')
     port = 14451
+    message_start = b'\xf9\xbe\xb4\xd9'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 35,
+        'SCRIPT_ADDR': 35,
+        'SECRET_KEY': 128
+    }
 
 
 class FargocoinTestNet(Fargocoin):
@@ -24,3 +30,9 @@ class FargocoinTestNet(Fargocoin):
     seeds = ('138.201.174.79', 'n1.fargochain.org', 'n2.fargochain.org', 'n3.fargochain.org',
              'n4.fargochain.org', 'n5.fargochain.org')
     port = 15451
+    message_start = b'\x0b\x11\x09\x07'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 35,
+        'SCRIPT_ADDR': 35,
+        'SECRET_KEY': 239
+    }

@@ -13,6 +13,12 @@ class Phore(Bitcoin):
     seeds = ('dns0.phore.io', 'dns1.phore.io', 'dns2.phore.io', 'dns3.phore.io', 'dns4.phore.io',
              'dns5.phore.io', 'dns6.phore.io', 'dns7.phore.io', 'dns8.phore.io', 'dns9.phore.io')
     port = 11771
+    message_start = b'\x91\xc4\xfd\xe9'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 55,
+        'SCRIPT_ADDR': 13,
+        'SECRET_KEY': 212
+    }
 
 
 class PhoreTestNet(Phore):
@@ -24,3 +30,9 @@ class PhoreTestNet(Phore):
     name = 'test-phore'
     seeds = ()
     port = 11773
+    message_start = b'\x47\x76\x65\xba'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 139,
+        'SCRIPT_ADDR': 19,
+        'SECRET_KEY': 239
+    }

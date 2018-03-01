@@ -11,5 +11,11 @@ class XCash(Bitcoin):
     symbols = ('XCASH', )
     seeds = ("seed.xcash.cc")
     port = 32524
+    message_start = b'\xfa\xf2\xef\xb4'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 75,
+        'SCRIPT_ADDR': 125,
+        'SECRET_KEY': 203
+    }
 
 # no testnet

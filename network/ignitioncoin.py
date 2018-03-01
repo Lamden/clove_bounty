@@ -12,5 +12,11 @@ class IgnitionCoin(Bitcoin):
     seeds = ('america.ignitioncoin.org', 'europ.ignitioncoin.org',
              'asia.ignitioncoin.org', 'explorer.ignitioncoin.org')
     port = 44144
+    message_start = b'\x5f\x79\x64\xc9'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 103,
+        'SCRIPT_ADDR': 39,
+        'SECRET_KEY': 138
+    }
 
 # no testnet

@@ -13,6 +13,12 @@ class Hshare(Bitcoin):
              "hshare-dns2.h.cash",
              "hshare-dns3.h.cash")
     port = 11616
+    message_start = b'\x71\x31\x21\x11'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 65,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 193
+    }
 
 
 class HshareTestNet(Hshare):
@@ -24,3 +30,9 @@ class HshareTestNet(Hshare):
     name = 'test-hshare'
     seeds = ("testnode1.hshareplatform.com")
     port = 26178
+    message_start = b'\x71\x31\x21\x11'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 65,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 193
+    }

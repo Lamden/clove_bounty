@@ -17,3 +17,9 @@ class conspiracycoin(Bitcoin):
              "seeder6.conspiracycoin.org",
              "seeder7.conspiracycoin.org")
     port = 33834
+    message_start = b'\xfb\xc0\xb6\xdb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 28,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 156
+    }

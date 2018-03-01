@@ -13,5 +13,11 @@ class BitStone(Bitcoin):
              "bst-seed2.granitecoin.com",
              "bst-seed3.granitecoin.com")
     port = 28392
+    message_start = b'\xa4\xd2\xf8\xa6'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 25,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 153
+    }
 
 # Has no testnet

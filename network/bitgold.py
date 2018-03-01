@@ -13,3 +13,9 @@ class bitGold(Bitcoin):
              "dnsseed.BitGold.ru",
              "dnsseed.novaco.in")
     port = 5772
+    message_start = b'\xe3\xd8\xf9\xc5'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 38,
+        'SCRIPT_ADDR': 20,
+        'SECRET_KEY': 166
+    }

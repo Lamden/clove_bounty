@@ -18,6 +18,12 @@ class FlorinCoin(Bitcoin):
         'sgp.entertheblockchain.com', 'ind.entertheblockchain.com', 'de.entertheblockchain.com'
     )
     port = 7312
+    message_start = b'\xfd\xc0\xa5\xf1'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 35,
+        'SCRIPT_ADDR': 8,
+        'SECRET_KEY': 176
+    }
 
 
 class FlorinCoinTestNet(FlorinCoin):
@@ -29,3 +35,9 @@ class FlorinCoinTestNet(FlorinCoin):
     name = 'test-florincoin'
     seeds = ('testseed.florincoin.org', )
     port = 17312
+    message_start = b'\xfd\xc0\x5a\xf2'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 115,
+        'SCRIPT_ADDR': 198,
+        'SECRET_KEY': 239
+    }

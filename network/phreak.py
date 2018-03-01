@@ -11,5 +11,11 @@ class Phreak(Bitcoin):
     symbols = ('PHR', )
     seeds = ("52.26.166.22")
     port = 4744
+    message_start = b'\x2d\x3f\xa2\xf5'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 24,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 152
+    }
 
 # no testnet

@@ -15,5 +15,11 @@ class Solecoin(Bitcoin):
              "66.228.43.38",
              "114.215.182.130")
     port = 20631
+    message_start = b'\x7e\x15\xd2\x05'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 63,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 191
+    }
 
 # no testnet

@@ -11,6 +11,12 @@ class Canada_eCoin(Bitcoin):
     symbols = ('CDN', )
     seeds = ("alberta.canadaecoin.net")
     port = 34331
+    message_start = b'\xfd\xc4\xb9\xde'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 28,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 156
+    }
 
 
 class Canada_eCoinTestNet(Canada_eCoin):

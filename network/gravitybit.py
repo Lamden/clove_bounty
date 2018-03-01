@@ -12,3 +12,9 @@ class GravityBit(Bitcoin):
     seeds = ("162.243.17.197",
              "159.203.126.200")
     port = 49011
+    message_start = b'\xa4\xd2\xf8\xa6'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 38,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 166
+    }

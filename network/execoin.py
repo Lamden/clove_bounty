@@ -11,6 +11,12 @@ class Execoin(Bitcoin):
     symbols = ('DMD', )
     seeds = ("dnsseed.execoin.net")
     port = 9989
+    message_start = b'\xfa\xbf\xb5\xda'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 33,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 161
+    }
 
 
 class ExecoinTestNet(Execoin):

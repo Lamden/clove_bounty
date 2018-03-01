@@ -11,5 +11,11 @@ class Impact(Bitcoin):
     symbols = ('IMX', )
     seeds = ("194.135.85.185")
     port = 17771
+    message_start = b'\xb1\xf5\xd3\xa9'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 76,
+        'SCRIPT_ADDR': 141,
+        'SECRET_KEY': 204
+    }
 
 # no testnet

@@ -13,5 +13,11 @@ class CaliphCoin(Bitcoin):
              "213.252.245.142",
              "electrum3.cryptolife.net")
     port = 29291
+    message_start = b'\xde\xc1\x9e\xe0'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 28,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 156
+    }
 
 # Has no testnet

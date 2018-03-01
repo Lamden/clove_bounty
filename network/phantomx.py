@@ -16,5 +16,11 @@ class Phantomx(Bitcoin):
              '80.211.206.236',
              '45.77.155.37')
     port = 31978
+    message_start = b'\xd6\x27\xd6\xe2'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 55,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 155
+    }
 
 # no testnet

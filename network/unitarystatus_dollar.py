@@ -11,5 +11,11 @@ class UnitaryStatus_Dollar(Bitcoin):
     symbols = ('USDE', )
     seeds = ("liteminers.com")
     port = 54449
+    message_start = b'\xd9\xd9\xf9\xbd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 38,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 166
+    }
 
 # no testnet

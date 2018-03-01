@@ -14,3 +14,9 @@ class Librexcoin(Bitcoin):
              "198.23.178.87",
              "23.94.38.173")
     port = 61778
+    message_start = b'\xa2\xa2\xa2\xa2'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 30,
+        'SCRIPT_ADDR': 28,
+        'SECRET_KEY': 158
+    }

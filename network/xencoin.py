@@ -11,5 +11,11 @@ class XenCoin(Bitcoin):
     symbols = ('XNC', )
     seeds = ("192.241.131.40")
     port = 4334
+    message_start = b'\xfb\xc0\xb6\xdb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 76,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 204
+    }
 
 # no testnet

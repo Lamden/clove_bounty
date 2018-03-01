@@ -11,5 +11,11 @@ class BlackShadowCoin(Bitcoin):
     symbols = ('BS', )
     seeds = ("198.199.90.93")
     port = 48221
+    message_start = b'\x94\xe8\xc3\xe5'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 9,
+        'SCRIPT_ADDR': 20,
+        'SECRET_KEY': 137
+    }
 
 # Has no testnet

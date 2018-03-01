@@ -11,5 +11,11 @@ class WarCoin(Bitcoin):
     symbols = ('WRC', )
     seeds = ("node.walletbuilders.com")
     port = 10395
+    message_start = b'\x2d\xa3\x00\xbc'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 73,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 201
+    }
 
 # no testnet

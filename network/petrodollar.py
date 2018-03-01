@@ -11,5 +11,11 @@ class PetroDollar(Bitcoin):
     symbols = ('p$', )
     seeds = ("162.243.147.115")
     port = 23932
+    message_start = b'\xad\xe2\xa1\x90'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 117,
+        'SCRIPT_ADDR': 30,
+        'SECRET_KEY': 224
+    }
 
 # no testnet

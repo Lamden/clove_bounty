@@ -13,5 +13,11 @@ class Gram_Coin(Bitcoin):
              "node.GramCoin.cf",
              "GramCoin.no-ip.org")
     port = 7567
+    message_start = b'\xc6\xb2\x63\xde'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 38,
+        'SCRIPT_ADDR': 9,
+        'SECRET_KEY': 224
+    }
 
 # no testnet

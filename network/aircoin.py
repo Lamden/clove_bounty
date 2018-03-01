@@ -15,6 +15,12 @@ class AIRcoin(Bitcoin):
              "dnsseed.koin-project.com",
              "dnsseed.weminemnc.com")
     port = 1631
+    message_start = b'\xfb\xc0\xb6\xdb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 23,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 151
+    }
 
 
 class AIRcoinTestNet(AIRcoin):

@@ -11,6 +11,12 @@ class Chesscoin(Bitcoin):
     symbols = ('CHESS', )
     seeds = ("node.walletbuilders.com")
     port = 7323
+    message_start = b'\xde\x3a\xae\x3c'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 28,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 156
+    }
 
 
 # Has no Testnet

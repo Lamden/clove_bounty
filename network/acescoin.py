@@ -11,6 +11,12 @@ class Aces(Bitcoin):
     symbols = ('ACES', )
     seeds = ('81.4.123.155')
     port = 21274
+    message_start = b'\x70\x35\x22\x05'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 23,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 151
+    }
 
 
 class AcesTestNet(Aces):

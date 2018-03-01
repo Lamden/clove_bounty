@@ -11,6 +11,12 @@ class Antilitecoin(Bitcoin):
     symbols = ('ALTC', )
     seeds = ('192.52.166.80')
     port = 8795
+    message_start = b'\xc1\xd1\xd2\xad'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 15,
+        'SCRIPT_ADDR': 9,
+        'SECRET_KEY': 143
+    }
 
 
 class AntilitecoinTestNet(Antilitecoin):

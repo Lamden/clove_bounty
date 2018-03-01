@@ -11,6 +11,12 @@ class BeaverCoin(Bitcoin):
     symbols = ('BVC', )
     seeds = ("dnsseed.beavercoin.org")
     port = 2333
+    message_start = b'\xfd\xc2\xb8\xdd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 25,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 176
+    }
 
 
 class BeaverCoinTestNet(BeaverCoin):
@@ -22,3 +28,9 @@ class BeaverCoinTestNet(BeaverCoin):
     name = 'test-beavervoin'
     seeds = ("testnet-seed.beavercoin.org")
     port = 12333
+    message_start = b'\xfc\xc1\xb7\xdc'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

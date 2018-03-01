@@ -12,5 +12,11 @@ class Mergecoin(Bitcoin):
     seeds = ('47.89.43.73', '43.241.232.45', '47.89.178.249', '120.55.82.131', '121.41.19.30', '120.26.231.61',
              '47.94.89.212', 'mergechain.com', 'mergecoin.com')
     port = 17700
+    message_start = b'\xc8\xe1\xd5\xec'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 50,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 178
+    }
 
 # no testnet

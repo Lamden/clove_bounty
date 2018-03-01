@@ -11,5 +11,11 @@ class Unfed(Bitcoin):
     symbols = ('UNF', )
     seeds = ("52.36.161.129")
     port = 12387
+    message_start = b'\xfd\xc1\xa5\xdb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 68,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 196
+    }
 
 # no testnet

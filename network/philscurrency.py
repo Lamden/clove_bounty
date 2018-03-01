@@ -14,5 +14,11 @@ class PhilsCurrency(Bitcoin):
              "dnsseed3.philscurrency.org",
              "explorer.philscurrency.org")
     port = 36003
+    message_start = b'\xc1\xf4\xa7\xd6'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 56,
+        'SCRIPT_ADDR': 118,
+        'SECRET_KEY': 117
+    }
 
 # no testnet

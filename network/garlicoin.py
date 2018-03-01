@@ -11,6 +11,12 @@ class Garlicoin(Bitcoin):
     symbols = ('GRLC', )
     seeds = ('dnsseed.brennanmcdonald.io', 'dnsseed.rshaw.space')
     port = 42069
+    message_start = b'\xd2\xc6\xb6\xdb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 38,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 176
+    }
 
 
 class GarlicoinTestNet(Garlicoin):
@@ -23,3 +29,9 @@ class GarlicoinTestNet(Garlicoin):
     seeds = ('dnsseed-testnet.brennanmcdonald.io',
              'dnsseed-testnet.rshaw.space')
     port = 42075
+    message_start = b'\xfd\xd2\xc8\xf2'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

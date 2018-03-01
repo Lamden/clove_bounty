@@ -11,5 +11,11 @@ class ChanCoin(Bitcoin):
     symbols = ('CHAN', )
     seeds = ("node.walletbuilders.com")
     port = 19117
+    message_start = b'\x0f\x91\x54\xf8'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 28,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 156
+    }
 
 # Has no testnet

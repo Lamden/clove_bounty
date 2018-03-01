@@ -11,6 +11,12 @@ class UniversalCurrency(Bitcoin):
     symbols = ('UNIT', )
     seeds = ('104.207.154.199', '103.22.181.2')
     port = 14158
+    message_start = b'\xa4\xd2\xf8\xa6'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 55,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 183
+    }
 
 
 class UniversalCurrencyTestNet(UniversalCurrency):

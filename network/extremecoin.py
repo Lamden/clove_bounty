@@ -11,5 +11,11 @@ class Extremecoin(Bitcoin):
     symbols = ('EXC', )
     seeds = ("212.48.67.126")
     port = 26667
+    message_start = b'\xfc\xd9\xb7\xdd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 55,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 183
+    }
 
 # No testnet

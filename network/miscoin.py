@@ -14,5 +14,11 @@ class MIScoin(Bitcoin):
         "seed2.miscoin.org"
     )
     port = 14552
+    message_start = b'\xa1\xa0\xa2\xa3'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 51,
+        'SCRIPT_ADDR': 28,
+        'SECRET_KEY': 179
+    }
 
 # no testnet

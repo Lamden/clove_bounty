@@ -12,6 +12,12 @@ class Digibyte(Bitcoin):
     seeds = ('seed.digibyte.io', 'digiexplorer.info',
              'digihash.co', 'seed.digibyteprojects.com')
     port = 12024
+    message_start = b'\xfa\xc3\xb6\xda'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 30,
+        'SCRIPT_ADDR': 63,
+        'SECRET_KEY': 128
+    }
 
 
 class DigibyteTestNet(Digibyte):
@@ -23,3 +29,9 @@ class DigibyteTestNet(Digibyte):
     name = 'test-digibyte'
     seeds = ('testnet-seed.digibyteprojects.com')
     port = 12025
+    message_start = b'\xfd\xc8\xbd\xdd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 126,
+        'SCRIPT_ADDR': 140,
+        'SECRET_KEY': 254
+    }

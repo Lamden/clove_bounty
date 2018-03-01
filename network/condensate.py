@@ -14,3 +14,9 @@ class Condensate(Bitcoin):
              "seed3.rain.trade",
              "seed4.rain.trade")
     port = 23373
+    message_start = b'\x47\x24\xa1\xb6'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 60,
+        'SCRIPT_ADDR': 50,
+        'SECRET_KEY': 188
+    }

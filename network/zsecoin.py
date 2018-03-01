@@ -13,3 +13,9 @@ class ZSEcoin(Bitcoin):
              "104.131.17.33",
              "138.68.17.203")
     port = 40919
+    message_start = b'\xb9\x98\xe2\xf5'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 80,
+        'SCRIPT_ADDR': 20,
+        'SECRET_KEY': 208
+    }

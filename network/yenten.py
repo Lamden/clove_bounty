@@ -11,6 +11,12 @@ class Yenten(Bitcoin):
     symbols = ('YTN', )
     seeds = ('seed.yenten.org')
     port = 9981
+    message_start = b'\xad\x5a\xeb\x9f'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 78,
+        'SCRIPT_ADDR': 10,
+        'SECRET_KEY': 123
+    }
 
 
 class YentenTestNet(Yenten):
@@ -23,3 +29,9 @@ class YentenTestNet(Yenten):
     symbols = ('YTN', )
     seeds = ()
     port = 19981
+    message_start = b'\x95\x54\xe4\x95'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 112,
+        'SCRIPT_ADDR': 197,
+        'SECRET_KEY': 240
+    }

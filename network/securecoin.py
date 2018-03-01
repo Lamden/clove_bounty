@@ -12,6 +12,12 @@ class SecureCoin(Bitcoin):
     symbols = ('SRC', )
     seeds = ('securecoin.org',)
     port = 12567
+    message_start = b'\xfc\xb4\xd9\xab'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 125,
+        'SCRIPT_ADDR': 9,
+        'SECRET_KEY': 253
+    }
 
 
 class SecureCoinTestNet(SecureCoin):

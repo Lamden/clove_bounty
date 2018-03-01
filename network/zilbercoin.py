@@ -11,5 +11,11 @@ class Zilbercoin(Bitcoin):
     symbols = ('ZBC', )
     seeds = ('node.walletbuilders.com', 'znode2.zilbercoin.space')
     port = 10393
+    message_start = b'\x02\xe1\x16\x38'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 30,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 158
+    }
 
 # no testnet

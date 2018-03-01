@@ -13,6 +13,12 @@ class KekCoin(Bitcoin):
              "209.250.246.178",
              "209.250.246.85")
     port = 13337
+    message_start = b'\x11\x22\x33\x44'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 45,
+        'SCRIPT_ADDR': 88,
+        'SECRET_KEY': 133
+    }
 
 
 class KekCoinTestNet(KekCoin):
@@ -24,3 +30,9 @@ class KekCoinTestNet(KekCoin):
     name = 'test-kekcoin'
     seeds = ("209.250.246.85")
     port = 13777
+    message_start = b'\x55\x66\x77\x88'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

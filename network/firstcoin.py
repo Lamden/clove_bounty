@@ -11,6 +11,12 @@ class FirstCoin(Bitcoin):
     symbols = ('FRST', )
     seeds = ("108.179.227.118")
     port = 10667
+    message_start = b'\xc3\xd2\xd1\xbd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 35,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 163
+    }
 
 
 class FirstCoinTestNet(FirstCoin):

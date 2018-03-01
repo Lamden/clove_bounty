@@ -11,5 +11,11 @@ class Radioactivecoin(Bitcoin):
     symbols = ('RAD', )
     seeds = ("162.250.125.26")
     port = 23555
+    message_start = b'\xd9\xf6\xe7\xd5'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 35,
+        'SCRIPT_ADDR': 6,
+        'SECRET_KEY': 163
+    }
 
 # no testnet

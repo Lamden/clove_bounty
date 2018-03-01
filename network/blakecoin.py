@@ -12,6 +12,12 @@ class Blakecoin(Bitcoin):
     seeds = ("blakecoin.org",
              "blakecoin.com")
     port = 8773
+    message_start = b'\xf9\xbe\xb4\xd2'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 26,
+        'SCRIPT_ADDR': 7,
+        'SECRET_KEY': 154
+    }
 
 
 class BlakecoinTestNet(Blakecoin):

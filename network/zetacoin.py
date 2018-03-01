@@ -15,6 +15,12 @@ class Zetacoin(Bitcoin):
         'zeta2.twilightparadox.com', 'zeta3.twilightparadox.com', 'zeta4.twilightparadox.com'
     )
     port = 17333
+    message_start = b'\xfa\xb5\x03\xdf'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 80,
+        'SCRIPT_ADDR': 9,
+        'SECRET_KEY': 224
+    }
 
 
 class ZetacoinTestNet(Zetacoin):
@@ -27,3 +33,9 @@ class ZetacoinTestNet(Zetacoin):
     seeds = ('test1.zetatestnet.pw',
              'test2.zetatestnet.pw', 'test3.zetatestnet.pw')
     port = 27333
+    message_start = b'\x05\xfe\xa9\x01'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 88,
+        'SCRIPT_ADDR': 188,
+        'SECRET_KEY': 239
+    }

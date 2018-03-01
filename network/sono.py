@@ -13,6 +13,12 @@ class SONO(Bitcoin):
     seeds = ('109.230.231.216', '109.230.231.221',
              '212.109.218.47', 'zPools.de')
     port = 29855
+    message_start = b'\x4a\x12\x22\x14'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 23,
+        'SCRIPT_ADDR': 125,
+        'SECRET_KEY': 191
+    }
 
 
 class SONOTestNet(SONO):
@@ -24,3 +30,9 @@ class SONOTestNet(SONO):
     name = 'test-sono'
     seeds = ('',)
     port = 29844
+    message_start = b'\x54\xac\xb3\xaa'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 65,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 193
+    }

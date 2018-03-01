@@ -13,6 +13,12 @@ class GoByte(Bitcoin):
     seeds = ('seed1.gobyte.network', 'seed2.gobyte.network',
              'seed3.gobyte.network', 'seed4.gobyte.network')
     port = 12455
+    message_start = b'\x1a\xb2\xc3\xd4'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 38,
+        'SCRIPT_ADDR': 10,
+        'SECRET_KEY': 198
+    }
 
 
 class GoByteTestNet(GoByte):
@@ -24,3 +30,9 @@ class GoByteTestNet(GoByte):
     name = 'test-gobyte'
     seeds = ('testnet-dns.gobyte.network', 'testnet2-dns.gobyte.network')
     port = 13455
+    message_start = b'\xd1\x2b\xb3\x7a'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 112,
+        'SCRIPT_ADDR': 20,
+        'SECRET_KEY': 240
+    }

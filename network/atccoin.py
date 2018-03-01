@@ -11,6 +11,12 @@ class ATCCoin(Bitcoin):
     symbols = ('ATCC', )
     seeds = ("166.62.123.137")
     port = 9333
+    message_start = b'\xc3\xd2\xd1\xbd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 23,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 151
+    }
 
 
 class ATCCoinTestNet(ATCCoin):

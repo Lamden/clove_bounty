@@ -21,5 +21,11 @@ class DarkGold(Bitcoin):
              "67.215.11.195",
              "192.95.29.153")
     port = 8855
+    message_start = b'\x70\x35\x22\x05'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 25,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 153
+    }
 
 # no testnet

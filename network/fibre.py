@@ -15,5 +15,11 @@ class Fibre(Bitcoin):
              "seed4.worldfibre.net",
              "seed5.worldfibre.net")
     port = 7223
+    message_start = b'\x70\x35\x22\x05'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 35,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 163
+    }
 
 # no testnet

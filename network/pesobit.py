@@ -11,5 +11,11 @@ class Pesobit(Bitcoin):
     symbols = ('PSB', )
     seeds = ("212.24.104.88")
     port = 7867
+    message_start = b'\xea\xaf\xe3\xc7'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 55,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 183
+    }
 
 # no testnet

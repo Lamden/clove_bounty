@@ -11,5 +11,11 @@ class GAIA(Bitcoin):
     symbols = ('GAIA', )
     seeds = ('37.59.0.211', '37.187.78.114', '192.99.32.187')
     port = 10101
+    message_start = b'\x70\x35\x22\x05'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 38,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 166
+    }
 
 # no testnet

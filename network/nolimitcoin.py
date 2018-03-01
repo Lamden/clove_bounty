@@ -13,5 +13,11 @@ class NoLimitCoin(Bitcoin):
              "seed2.nlc2.info",
              "seed3.nlc2.info")
     port = 6521
+    message_start = b'\xb1\xb6\xf8\xa6'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 53,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 181
+    }
 
 # no testnet

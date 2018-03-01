@@ -11,5 +11,11 @@ class SIGMAcoin(Bitcoin):
     symbols = ('SIGMA', )
     seeds = ("node.walletbuilders.com")
     port = 8211
+    message_start = b'\xdc\x05\xce\x26'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 63,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 191
+    }
 
 # no testnet

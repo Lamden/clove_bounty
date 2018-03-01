@@ -14,6 +14,12 @@ class Bellscoin(Bitcoin):
              "203.20.114.252",
              "31.31.202.138")
     port = 19919
+    message_start = b'\xc0\xc0\xc0\xc0'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 25,
+        'SCRIPT_ADDR': 30,
+        'SECRET_KEY': 153
+    }
 
 
 class BellscoinTestNet(Bellscoin):

@@ -12,6 +12,12 @@ class SHACoin(Bitcoin):
     symbols = ('SHA', )
     seeds = ('seed1.shacoin.us', 'seed2.shacoin.us', 'seed3.shacoin.us')
     port = 25555
+    message_start = b'\xa4\xd2\xf8\xa6'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 23,
+        'SCRIPT_ADDR': 50,
+        'SECRET_KEY': 151
+    }
 
 
 class SHACoinTestNet(SHACoin):

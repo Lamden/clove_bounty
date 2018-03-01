@@ -16,6 +16,12 @@ class BetaCoin(Bitcoin):
              "seed5.betacoin.org",
              "seed6.betacoin.org")
     port = 32333
+    message_start = b'\xa5\xc0\x79\x55'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 25,
+        'SCRIPT_ADDR': 11,
+        'SECRET_KEY': 143
+    }
 
 
 class BetaCoinTestNet(BetaCoin):
@@ -27,3 +33,9 @@ class BetaCoinTestNet(BetaCoin):
     name = 'test-betacoin'
     seeds = ("xjo-test1.twilightparadox.com")
     port = 26783
+    message_start = b'\x0a\xc0\x73\x12'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 83,
+        'SCRIPT_ADDR': 13,
+        'SECRET_KEY': 212
+    }

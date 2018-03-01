@@ -12,3 +12,9 @@ class Wisdomcoin(Bitcoin):
     seeds = ("35.163.177.45",
              "95.211.57.108")
     port = 17771
+    message_start = b'\xeb\x3d\x1c\xc4'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 73,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 201
+    }

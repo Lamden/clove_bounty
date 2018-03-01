@@ -12,5 +12,11 @@ class CryptoCircuits(Bitcoin):
     seeds = ("188.166.126.155",
              "46.101.29.142")
     port = 28112
+    message_start = b'\x28\x44\x15\x06'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 28,
+        'SCRIPT_ADDR': 132,
+        'SECRET_KEY': 171
+    }
 
 # Has no testnet

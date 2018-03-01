@@ -11,5 +11,11 @@ class BigCoin(Bitcoin):
     symbols = ('HUGE', )
     seeds = ("bigcoin.org")
     port = 55884
+    message_start = b'\xfc\xd9\xb7\xdd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 10,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 138
+    }
 
 # Has no testnet

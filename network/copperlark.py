@@ -14,6 +14,12 @@ class Copperlark(Bitcoin):
              "dnsseed.bitcoin.dashjr.org",
              "bitseed.xf2.org")
     port = 10333
+    message_start = b'\xf9\xbe\xb4\xd9'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 28,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 156
+    }
 
 
 class CopperlarkTestNet(Copperlark):

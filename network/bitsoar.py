@@ -11,5 +11,11 @@ class BitSoar(Bitcoin):
     symbols = ('BSR', )
     seeds = ('139.59.7.111', '138.197.156.193')
     port = 40119
+    message_start = b'\x53\x74\x69\x42'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 26,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 154
+    }
 
 # no testnet

@@ -12,6 +12,12 @@ class Innova(Bitcoin):
     symbols = ('INN', )
     seeds = ('dnss1.innovacoin.info', 'dnss2.innovacoin.info')
     port = 14520
+    message_start = b'\x3c\x2a\x3a\xb9'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 102,
+        'SCRIPT_ADDR': 20,
+        'SECRET_KEY': 195
+    }
 
 
 class InnovaTestNet(Innova):
@@ -23,3 +29,9 @@ class InnovaTestNet(Innova):
     name = 'test-innova'
     seeds = ()
     port = 15520
+    message_start = b'\xb1\xa4\xd5\x7c'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 112,
+        'SCRIPT_ADDR': 10,
+        'SECRET_KEY': 240
+    }

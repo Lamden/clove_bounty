@@ -13,6 +13,12 @@ class Wmcoin(Bitcoin):
         '120.27.114.125',
     )
     port = 32866
+    message_start = b'\xce\xfb\xfa\xdb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 135,
+        'SCRIPT_ADDR': 8,
+        'SECRET_KEY': 263
+    }
 
 
 class WmcoinTestNet(Wmcoin):

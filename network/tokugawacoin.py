@@ -13,5 +13,11 @@ class Tokugawa(Bitcoin):
              "138.197.150.224",
              "188.166.218.74")
     port = 21117
+    message_start = b'\x7e\xcd\x1c\x23'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 66,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 153
+    }
 
 # no testnet

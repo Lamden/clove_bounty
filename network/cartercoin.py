@@ -11,5 +11,11 @@ class CarterCoin(Bitcoin):
     symbols = ('CTC', )
     seeds = ("andarazoroflove.org")
     port = 55884
+    message_start = b'\xfc\xd9\xb7\xdd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 38,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 166
+    }
 
 # Has no testnet

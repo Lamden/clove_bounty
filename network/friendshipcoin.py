@@ -11,5 +11,11 @@ class FriendshipCoin2(Bitcoin):
     symbols = ('FSC2', )
     seeds = ("pool.friendshipcoins.com", "blocks.friendshipcoins.com")
     port = 37636
+    message_start = b'\xfb\xc0\xb6\xdb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 96,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 224
+    }
 
 # no testnet

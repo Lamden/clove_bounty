@@ -11,6 +11,12 @@ class RipoffCoin(Bitcoin):
     symbols = ('RIPO', )
     seeds = ("seed.ripoffcoin.com", )
     port = 54001
+    message_start = b'\xfb\xc0\xb6\xdb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 60,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 188
+    }
 
 
 class RipoffCoinTestNet(Bitcoin):

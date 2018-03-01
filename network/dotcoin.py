@@ -12,6 +12,12 @@ class DotCoin(Bitcoin):
     seeds = ("162.255.117.105", "nodes1.cryptopia.co.nz", "nodes2.cryptopia.co.nz",
              "pools1.cryptopia.co.nz", "pools2.cryptopia.co.nz")
     port = 19745
+    message_start = b'\x16\x6f\x4f\x5d'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 0,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 128
+    }
 
 
 # Has no Testnet

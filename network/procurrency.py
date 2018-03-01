@@ -25,5 +25,11 @@ class ProCurrency(Bitcoin):
              "66.222.148.57",
              "47.157.52.95")
     port = 35950
+    message_start = b'\x14\xe5\xa2\xd3'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 55,
+        'SCRIPT_ADDR': 119,
+        'SECRET_KEY': 205
+    }
 
 # no testnet

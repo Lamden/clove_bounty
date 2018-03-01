@@ -12,6 +12,12 @@ class SongCoin(Bitcoin):
     symbols = ('SONG', )
     seeds = ('seed.songcoin.org',)
     port = 8335
+    message_start = b'\x53\x4f\x4e\x47'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 63,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 191
+    }
 
 
 class SongCoinTestNet(SongCoin):

@@ -12,6 +12,12 @@ class EmeraldCrypto(Bitcoin):
     symbols = ('EMD', )
     seeds = ('emeraldcrypto.co',)
     port = 12127
+    message_start = b'\xfb\xc0\xb6\xdb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 34,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 162
+    }
 
 
 class EmeraldCryptoTestNet(EmeraldCrypto):

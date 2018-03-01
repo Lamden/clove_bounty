@@ -12,3 +12,9 @@ class Orbitcoin(Bitcoin):
     seeds = ("seed0.phoenixcoin.org",
              "seed1.phoenixcoin.org")
     port = 15298
+    message_start = b'\xe4\xef\xdb\xfd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 115,
+        'SCRIPT_ADDR': 8,
+        'SECRET_KEY': 243
+    }

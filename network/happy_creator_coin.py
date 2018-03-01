@@ -14,3 +14,9 @@ class Happy_Creator_Coin(Bitcoin):
              "seed3.cryptolife.net",
              "electrum1.cryptolife.net")
     port = 11176
+    message_start = b'\xfc\xcc\xba\xda'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 41,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 169
+    }

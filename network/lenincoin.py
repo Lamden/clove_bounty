@@ -11,5 +11,11 @@ class LeninCoin(Bitcoin):
     symbols = ('LENIN', )
     seeds = ("kicks.servep2p.com")
     port = 10157
+    message_start = b'\xe4\xe8\xbd\xfd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 90,
+        'SCRIPT_ADDR': 8,
+        'SECRET_KEY': 218
+    }
 
 # no testnet

@@ -11,5 +11,11 @@ class MoneyCoin(Bitcoin):
     symbols = ('MONEY', )
     seeds = ("seed.moneycoin.pw")
     port = 15554
+    message_start = b'\xa1\x2b\x1f\xb1'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 50,
+        'SCRIPT_ADDR': 125,
+        'SECRET_KEY': 191
+    }
 
 # no testnet

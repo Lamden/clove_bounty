@@ -13,6 +13,12 @@ class TransferCoin(Bitcoin):
     seeds = ('txdns.infernopool.com', 'txdns2.infernopool.com',
              'txdns3.infernopool.com')
     port = 17170
+    message_start = b'\xd1\x2e\x1e\xe6'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 66,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 153
+    }
 
 
 class TransferCoinTestNet(TransferCoin):
@@ -24,3 +30,9 @@ class TransferCoinTestNet(TransferCoin):
     name = 'test-transfercoin'
     seeds = ()
     port = 27170
+    message_start = b'\x2f\xca\x4d\x3e'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 97,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

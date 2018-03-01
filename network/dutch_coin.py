@@ -11,5 +11,11 @@ class DutchCoin(Bitcoin):
     symbols = ('DUTCH', )
     seeds = ('198.136.28.100')
     port = 20717
+    message_start = b'\x57\xbe\xfd\xa9'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 30,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 158
+    }
 
 # no testnet

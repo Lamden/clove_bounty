@@ -18,5 +18,11 @@ class Levocoin(Bitcoin):
              'wallet.cryptolife.net',
              'explore.cryptolife.net')
     port = 17655
+    message_start = b'\xb7\xe8\xe4\xcc'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 48,
+        'SCRIPT_ADDR': 20,
+        'SECRET_KEY': 176
+    }
 
 # no testnet

@@ -43,5 +43,11 @@ class DraftCoin(Bitcoin):
              "68.206.29.192",
              "209.195.104.6")
     port = 20302
+    message_start = b'\xa2\x7a\xc1\x7c'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 30,
+        'SCRIPT_ADDR': 91,
+        'SECRET_KEY': 117
+    }
 
 # no testnet

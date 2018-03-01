@@ -11,6 +11,12 @@ class CreativeCoin(Bitcoin):
     symbols = ('CREA', )
     seeds = ('dnsseed.creativecoin.net', 'creaseed.owldevelopers.site')
     port = 10946
+    message_start = b'\xcc\xcc\xcc\xcc'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 28,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 176
+    }
 
 
 class CreativeCoinTestNet(CreativeCoin):
@@ -22,3 +28,9 @@ class CreativeCoinTestNet(CreativeCoin):
     name = 'test-creativecoin'
     seeds = ('testnet-seed.creativecoin.net', 'tcreaseed.owldevelopers.site')
     port = 11946
+    message_start = b'\xca\xca\xca\xca'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 87,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

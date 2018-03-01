@@ -12,6 +12,12 @@ class PepeCoin(Bitcoin):
     symbols = ('MEME', )
     seeds = ('seed.kekdaq.com', 'seed.pepecoin.co')
     port = 29377
+    message_start = b'\x3a\xc4\x2c\x2f'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 55,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 153
+    }
 
 
 class PepeCoinTestNet(PepeCoin):
@@ -23,3 +29,9 @@ class PepeCoinTestNet(PepeCoin):
     name = 'test-pepecoin'
     seeds = ()
     port = 39377
+    message_start = b'\x2b\xca\x3c\x3f'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 55,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

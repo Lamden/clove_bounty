@@ -11,5 +11,11 @@ class GIZMOcoin(Bitcoin):
     symbols = ('GIZ', )
     seeds = ("45.55.134.78", "45.55.130.228")
     port = 18700
+    message_start = b'\xa1\xa0\xa2\xa3'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 38,
+        'SCRIPT_ADDR': 28,
+        'SECRET_KEY': 166
+    }
 
 # no testnet

@@ -12,6 +12,12 @@ class LiteBitcoin(Bitcoin):
     symbols = ('LBTC', )
     seeds = ('litebitcoins.thecryptochat.net',)
     port = 19037
+    message_start = b'\x5b\x6d\x2f\x54'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 3,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 131
+    }
 
 
 class LiteBitcoinTestNet(LiteBitcoin):
@@ -23,3 +29,9 @@ class LiteBitcoinTestNet(LiteBitcoin):
     name = 'test-litebitcoin'
     seeds = ()
     port = 19335
+    message_start = b'\xae\xc2\xb1\xf5'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

@@ -12,6 +12,12 @@ class Vault_Coin(Bitcoin):
     seeds = ("162.250.125.26",
              "120.145.149.109")
     port = 15050
+    message_start = b'\xeb\xd0\xc6\xeb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 71,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 199
+    }
 
 
 class Vault_CoinTestNet(Vault_Coin):

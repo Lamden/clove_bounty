@@ -20,5 +20,11 @@ class Pure(Bitcoin):
              "dns8.purealt.org",
              "dns9.purealt.org")
     port = 32745
+    message_start = b'\x11\xc3\xb1\xde'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 55,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 153
+    }
 
 # no testnet

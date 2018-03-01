@@ -14,6 +14,12 @@ class Skeincoin(Bitcoin):
              'seed-e.skeincoin.net', 'seed-f.skeincoin.net', 'seed-g.skeincoin.net', 'seed-h.skeincoin.net',
              'skein1.ignorelist.com', 'skein2.ignorelist.com', 'skein3.ignorelist.com')
     port = 11230
+    message_start = b'\xf7\x26\xa1\xbf'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 63,
+        'SCRIPT_ADDR': 12,
+        'SECRET_KEY': 226
+    }
 
 
 class SkeincoinTestNet(Skeincoin):
@@ -25,3 +31,9 @@ class SkeincoinTestNet(Skeincoin):
     name = 'test-skeincoin'
     seeds = ()
     port = 27711
+    message_start = b'\x07\xa0\x55\x03'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 56,
+        'SCRIPT_ADDR': 88,
+        'SECRET_KEY': 237
+    }

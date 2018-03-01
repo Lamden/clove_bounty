@@ -11,6 +11,12 @@ class EarthCoin(Bitcoin):
     symbols = ('EAC', )
     seeds = ("dnsseed.earthcointools.org")
     port = 15677
+    message_start = b'\xc0\xdb\xf1\xfd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 93,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 221
+    }
 
 
 class EarthCoinTestNet(EarthCoin):

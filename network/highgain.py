@@ -11,6 +11,12 @@ class HighGain(Bitcoin):
     symbols = ('HIGH', )
     seeds = ('34.214.230.207')
     port = 4664
+    message_start = b'\x2d\x3f\xa2\xf5'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 42,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 170
+    }
 
 
 # no testnet

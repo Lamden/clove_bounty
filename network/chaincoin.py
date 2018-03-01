@@ -24,6 +24,12 @@ class Chaincoin(Bitcoin):
         'chc4.ignorelist.com',
     )
     port = 11994
+    message_start = b'\xf9\xbe\xb4\xd9'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 0,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 128
+    }
 
 
 # Chaincoin does not have a TESTNET

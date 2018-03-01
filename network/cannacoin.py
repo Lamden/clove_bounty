@@ -16,6 +16,12 @@ class CannaCoin(Bitcoin):
              "seed4.cannacoin.cc",
              "seed5.cannacoin.cc")
     port = 7143
+    message_start = b'\xc7\xc0\xfc\xd5'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 28,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 156
+    }
 
 
 class CannaCoinTestNet(CannaCoin):

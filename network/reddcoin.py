@@ -13,6 +13,12 @@ class ReddCoin(Bitcoin):
     seeds = ('seed.reddcoin.com', 'dnsseed01.redd.ink',
              'dnsseed02.redd.ink', 'dnsseed03.redd.ink')
     port = 45444
+    message_start = b'\xfb\xc0\xb6\xdb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 61,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 189
+    }
 
 
 class ReddCoinTestNet(ReddCoin):
@@ -24,3 +30,9 @@ class ReddCoinTestNet(ReddCoin):
     name = 'test-reddcoin'
     seeds = ('testnet-seed.reddcoin.com', 'testnet-dnsseed.redd.ink')
     port = 55444
+    message_start = b'\xfe\xc3\xb9\xde'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

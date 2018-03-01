@@ -12,6 +12,12 @@ class Sexcoin(Bitcoin):
     symbols = ('SXC', )
     seeds = ('dnsseed.sexcoin.info', 'dnsseed.lavajumper.com')
     port = 9560
+    message_start = b'\xfa\xce\x69\x69'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 62,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 190
+    }
 
 
 class SexcoinTestNet(Sexcoin):
@@ -24,3 +30,9 @@ class SexcoinTestNet(Sexcoin):
     seeds = ('dnsseed.litecoinpool.org', 'testnet-seed.sexcoin.info',
              'testnet-seed.ltc.xurious.com', 'dnsseed.wemine-testnet.com')
     port = 19560
+    message_start = b'\xfa\xce\x96\x69'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 124,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

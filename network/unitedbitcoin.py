@@ -11,6 +11,12 @@ class UnitedBitcoin(Bitcoin):
     symbols = ('UBTC', )
     seeds = ('ip.ub.com', )
     port = 8333
+    message_start = b'\xf9\xbe\xb4\xd9'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 0,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 128
+    }
 
 
 class UnitedBitcoinTestNet(UnitedBitcoin):
@@ -23,3 +29,9 @@ class UnitedBitcoinTestNet(UnitedBitcoin):
     seeds = ('testnet-seed.bitcoin.jonasschnelli.ch',
              'seed.tbtc.petertodd.org', 'testnet-seed.bluematt.me')
     port = 18333
+    message_start = b'\x0b\x11\x09\x07'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

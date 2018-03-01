@@ -12,6 +12,12 @@ class Voyacoin(Bitcoin):
     symbols = ('VOYA', )
     seeds = ('104.43.195.20',)
     port = 12121
+    message_start = b'\xa3\xb1\x03\xc2'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 48,
+        'SCRIPT_ADDR': 43,
+        'SECRET_KEY': 128
+    }
 
 
 class VoyacoinTestNet(Voyacoin):
@@ -23,3 +29,9 @@ class VoyacoinTestNet(Voyacoin):
     name = 'test-voyacoin'
     seeds = ('104.43.195.20',)
     port = 22121
+    message_start = b'\x3a\x1a\x0c\xab'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

@@ -11,5 +11,11 @@ class OlympCoin(Bitcoin):
     symbols = ('OLYMP', )
     seeds = ("40.68.155.213")
     port = 3530
+    message_start = b'\xb2\xc4\xd1\xa3'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 115,
+        'SCRIPT_ADDR': 28,
+        'SECRET_KEY': 243
+    }
 
 # no testnet

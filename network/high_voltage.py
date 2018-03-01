@@ -11,6 +11,12 @@ class HighVoltage(Bitcoin):
     symbols = ('HVCO', )
     seeds = ("seeder1.highvoltagecoin.tech", "seeder2.highvoltagecoin.tech")
     port = 47824
+    message_start = b'\xb1\xb6\xf8\xa6'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 40,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 168
+    }
 
 
 # has no testnet

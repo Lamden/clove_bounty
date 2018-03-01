@@ -12,5 +12,11 @@ class Vidiocoin(Bitcoin):
     seeds = ("212.91.189.164",
              "195.34.100.2")
     port = 23682
+    message_start = b'\xfa\xf2\xef\xb4'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 70,
+        'SCRIPT_ADDR': 125,
+        'SECRET_KEY': 198
+    }
 
 # no testnet

@@ -11,6 +11,12 @@ class Abjcoin(Bitcoin):
     symbols = ('ABJ', )
     seeds = ('209.188.21.177', '199.188.207.212')
     port = 29303
+    message_start = b'\x22\x3d\x04\xa6'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 35,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 163
+    }
 
 
 class AbjcoinTestNet(Abjcoin):

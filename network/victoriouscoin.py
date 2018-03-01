@@ -11,5 +11,11 @@ class Victoriouscoin(Bitcoin):
     symbols = ('VTY', )
     seeds = ("node.walletbuilders.com")
     port = 7955
+    message_start = b'\xb2\x88\xa7\x6d'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 70,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 198
+    }
 
 # no testnet

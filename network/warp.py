@@ -12,6 +12,12 @@ class Warp(Bitcoin):
     symbols = ('WARP', )
     seeds = ('84.200.4.70')
     port = 31312
+    message_start = b'\x5a\xc3\x82\xd3'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 73,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 201
+    }
 
 
 class WarpTestNet(Warp):

@@ -20,6 +20,12 @@ class BoostCoin(Bitcoin):
              "node9.bost.link",
              "node10.bost.link")
     port = 9697
+    message_start = b'\x70\x35\x22\x05'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 25,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 153
+    }
 
 
 class BoostCoinTestNet(BoostCoin):

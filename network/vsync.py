@@ -12,6 +12,12 @@ class Vsync(Bitcoin):
     seeds = ('vsyncseed.vsync.pw', 'node.vsync.pw', 'node1.vsync.pw', 'node2.vsync.pw', 'node3.vsync.pw',
              'node4.vsync.pw', 'node5.vsync.pw', 'node6.vsync.pw')
     port = 65010
+    message_start = b'\x21\x55\x0a\x5a'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 70,
+        'SCRIPT_ADDR': 13,
+        'SECRET_KEY': 212
+    }
 
 
 class VsyncTestNet(Vsync):
@@ -24,3 +30,9 @@ class VsyncTestNet(Vsync):
     seeds = ('vsync-testnet.seed.fuzzbawls.pw',
              'vsync-testnet.seed2.fuzzbawls.pw', 's3v3nh4cks.ddns.net', '88.198.192.110')
     port = 51474
+    message_start = b'\x45\x76\x65\xba'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 139,
+        'SCRIPT_ADDR': 19,
+        'SECRET_KEY': 239
+    }

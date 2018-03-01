@@ -11,5 +11,11 @@ class GSMcoin(Bitcoin):
     symbols = ('GSM', )
     seeds = ("195.34.100.2")
     port = 18446
+    message_start = b'\xcc\xdd\x77\x17'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 38,
+        'SCRIPT_ADDR': 100,
+        'SECRET_KEY': 166
+    }
 
 # no testnet

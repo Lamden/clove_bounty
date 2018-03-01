@@ -13,5 +13,11 @@ class Cetuscoin(Bitcoin):
              "seed2.cetuscoin.cc",
              "seed3.cetuscoin.cc")
     port = 24772
+    message_start = b'\xce\xfb\xfa\xdb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 28,
+        'SCRIPT_ADDR': 8,
+        'SECRET_KEY': 156
+    }
 
 # no testnet

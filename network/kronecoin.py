@@ -15,3 +15,9 @@ class Kronecoin(Bitcoin):
              "35.176.166.149",
              "seed.kronecoin.org")
     port = 16765
+    message_start = b'\xd2\xca\xaf\xeb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 45,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 173
+    }

@@ -11,6 +11,12 @@ class Einsteinium(Bitcoin):
     symbols = ('EMC2', )
     seeds = ("dnsseed.einsteinium.org")
     port = 41878
+    message_start = b'\xe8\xf1\xc4\xac'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 33,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 161
+    }
 
 
 class EinsteiniumTestNet(Einsteinium):

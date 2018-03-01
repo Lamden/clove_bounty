@@ -15,6 +15,12 @@ class Vectorcoin(Bitcoin):
              "dnsseed.koin-project.com",
              "dnsseed.weminemnc.com")
     port = 55333
+    message_start = b'\xfb\xc0\xb6\xdb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 70,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 198
+    }
 
 
 class VectorcoinTestNet(Vectorcoin):

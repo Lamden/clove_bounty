@@ -12,6 +12,12 @@ class Xonecoin(Bitcoin):
     symbols = ('XOC', )
     seeds = ('52.42.45.57')
     port = 55448
+    message_start = b'\xf3\x2d\xa5\x71'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 45,
+        'SCRIPT_ADDR': 142,
+        'SECRET_KEY': 173
+    }
 
 
 class XonecoinTestNet(Xonecoin):

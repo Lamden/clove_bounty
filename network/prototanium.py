@@ -12,6 +12,12 @@ class Prototanium(Bitcoin):
     seeds = ("proto.uno",
              "23skidoo.info")
     port = 65525
+    message_start = b'\x01\x02\x03\x04'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 68,
+        'SCRIPT_ADDR': 30,
+        'SECRET_KEY': 239
+    }
 
 
 class PrototaniumTestNet(Prototanium):
@@ -24,3 +30,9 @@ class PrototaniumTestNet(Prototanium):
     seeds = ("23skidoo.info",
              "testnet.prototanium.info")
     port = 65525
+    message_start = b'\x01\x02\x03\x04'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 68,
+        'SCRIPT_ADDR': 30,
+        'SECRET_KEY': 239
+    }

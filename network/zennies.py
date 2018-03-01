@@ -13,6 +13,12 @@ class Zennies(Bitcoin):
     seeds = ('54.214.213.181', '54.186.147.219', '91.134.120.210',
              'east1.zeni.zone', 'west1.zeni.zone')
     port = 11011
+    message_start = b'\x2a\x7c\xcb\xab'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 80,
+        'SCRIPT_ADDR': 72,
+        'SECRET_KEY': 142
+    }
 
 
 class ZenniesTestNet(Zennies):
@@ -24,3 +30,9 @@ class ZenniesTestNet(Zennies):
     name = 'test-zennies'
     seeds = ()
     port = 11021
+    message_start = b'\xaa\xbb\xcc\xee'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 120,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

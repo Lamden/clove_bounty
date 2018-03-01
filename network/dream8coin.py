@@ -12,6 +12,12 @@ class Dream8Coin(Bitcoin):
     seeds = ("seed.ssaomi.com",
              "seed2.ssaomi.com")
     port = 7774
+    message_start = b'\xfb\xc0\xb6\xdb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 48,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 176
+    }
 
 
 class Dream8CoinTestNet(Dream8Coin):

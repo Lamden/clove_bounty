@@ -11,5 +11,11 @@ class United_Arab_Emirates_Coin(Bitcoin):
     symbols = ('UAEC', )
     seeds = ("107.155.87.16")
     port = 44887
+    message_start = b'\xaa\xa2\xb2\xc4'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 68,
+        'SCRIPT_ADDR': 16,
+        'SECRET_KEY': 196
+    }
 
 # Has no testnet

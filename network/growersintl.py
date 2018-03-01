@@ -11,5 +11,11 @@ class GrowersIntl(Bitcoin):
     symbols = ('GRWI', )
     seeds = ('45.55.4.192', '104.236.78.83', '104.236.120.44')
     port = 11667
+    message_start = b'\x28\x44\x15\x06'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 38,
+        'SCRIPT_ADDR': 132,
+        'SECRET_KEY': 171
+    }
 
 # no testnet

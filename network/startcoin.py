@@ -11,5 +11,11 @@ class Startcoin(Bitcoin):
     symbols = ('START', )
     seeds = ('node1.startcoin.org', 'node2.startcoin.org')
     port = 9247
+    message_start = b'\xff\xc4\xba\xdf'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 125,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 253
+    }
 
 # no testnet

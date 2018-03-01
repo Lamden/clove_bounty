@@ -11,6 +11,12 @@ class ZiftrCOIN(Bitcoin):
     symbols = ('ZRC', )
     seeds = ("seed.ziftrcoin.com")
     port = 10333
+    message_start = b'\x9e\xee\x83\x2b'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }
 
 
 class ZiftrCOINTestNet(ZiftrCOIN):

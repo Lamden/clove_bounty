@@ -16,6 +16,12 @@ class TajCoin(Bitcoin):
         'node9.tajcoin.tech'
     )
     port = 10712
+    message_start = b'\x7d\x4f\x8b\x4d'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 65,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 111
+    }
 
 
 class TajCoinTestNet(TajCoin):
@@ -27,3 +33,9 @@ class TajCoinTestNet(TajCoin):
     name = 'test-tajcoin'
     seeds = ('test1.tajcoin.tech', )
     port = 71210
+    message_start = b'\x42\x6f\xe8\x13'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

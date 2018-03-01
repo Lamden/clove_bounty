@@ -12,5 +12,11 @@ class REGAcoin(Bitcoin):
     seeds = ('seed3.cryptolife.net', 'electrum3.cryptolife.net',
              'seed4.cryptolife.net', '51.255.38.250')
     port = 28192
+    message_start = b'\xd4\xca\x3f\xec'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 61,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 189
+    }
 
 # no testnet

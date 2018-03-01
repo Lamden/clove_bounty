@@ -22,6 +22,12 @@ class Lemanum(Bitcoin):
              "5.228.232.59",
              "95.78.98.68")
     port = 55993
+    message_start = b'\xe2\x2f\xa7\x7d'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 25,
+        'SCRIPT_ADDR': 125,
+        'SECRET_KEY': 191
+    }
 
 
 class LemanumTestNet(Lemanum):
@@ -33,3 +39,9 @@ class LemanumTestNet(Lemanum):
     name = 'test-lemanum'
     seeds = ("107.22.138.243")
     port = 26178
+    message_start = b'\x71\x31\x21\x11'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 65,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 193
+    }

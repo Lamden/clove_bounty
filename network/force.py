@@ -11,5 +11,11 @@ class Force(Bitcoin):
     symbols = ('FOR', )
     seeds = ('94.130.107.201', '45.77.201.147')
     port = 37246
+    message_start = b'\xf1\xec\xa1\xc7'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 35,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 153
+    }
 
 # no testnet

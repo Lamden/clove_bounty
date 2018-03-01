@@ -15,6 +15,12 @@ class Feathercoin(Bitcoin):
              "block.ftc-c.com",
              "dnsseed-static.feathercoin.ch")
     port = 9336
+    message_start = b'\xfb\xc0\xb6\xdb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 14,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 142
+    }
 
 
 class FeathercoinTestNet(Feathercoin):
@@ -27,3 +33,9 @@ class FeathercoinTestNet(Feathercoin):
     seeds = ("testnet-explorer2.feathercoin.com",
              "testnet-dnsseed.feathercoin.com")
     port = 19336
+    message_start = b'\xda\xaf\xa5\xba'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

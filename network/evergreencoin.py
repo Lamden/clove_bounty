@@ -37,6 +37,12 @@ class EverGreenCoin(Bitcoin):
              "cwi-seed24.evergreencoin.org",
              "cwi-seed25.evergreencoin.org")
     port = 5757
+    message_start = b'\x21\x24\x62\x47'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 33,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 161
+    }
 
 
 # Has no Testnet

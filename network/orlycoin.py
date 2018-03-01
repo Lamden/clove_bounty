@@ -11,5 +11,11 @@ class Orlycoin(Bitcoin):
     symbols = ('ORLY', )
     seeds = ("158.69.159.45")
     port = 23452
+    message_start = b'\xa1\xa0\xa2\xa3'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 115,
+        'SCRIPT_ADDR': 28,
+        'SECRET_KEY': 243
+    }
 
 # no testnet

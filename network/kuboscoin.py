@@ -11,3 +11,9 @@ class KubosCoin(Bitcoin):
     symbols = ('KUBO', )
     seeds = ("node.walletbuilders.com")
     port = 7715
+    message_start = b'\xf2\x05\x42\x70'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 45,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 173
+    }

@@ -11,5 +11,11 @@ class MilkCoin(Bitcoin):
     symbols = ('MUU', )
     seeds = ("185.69.55.50")
     port = 35235
+    message_start = b'\xf1\xd5\xd1\xf2'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 50,
+        'SCRIPT_ADDR': 55,
+        'SECRET_KEY': 178
+    }
 
 # no testnet

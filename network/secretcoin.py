@@ -11,5 +11,11 @@ class SecretCoin(Bitcoin):
     symbols = ('SCRT', )
     seeds = ("23.227.190.110")
     port = 23152
+    message_start = b'\xa1\xa0\xa2\xa3'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 63,
+        'SCRIPT_ADDR': 28,
+        'SECRET_KEY': 191
+    }
 
 # no testnet

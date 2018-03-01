@@ -12,6 +12,12 @@ class Slothcoin(Bitcoin):
     seeds = ('80.112.144.8', '82.139.127.205', '80.112.172.234',
              '173.209.34.107', '198.23.161.59')
     port = 5107
+    message_start = b'\xf9\xbe\xbb\xd2'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 63,
+        'SCRIPT_ADDR': 125,
+        'SECRET_KEY': 191
+    }
 
 
 class SlothcoinTestNet(Slothcoin):

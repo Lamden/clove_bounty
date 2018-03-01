@@ -11,5 +11,11 @@ class Virtacoin(Bitcoin):
     symbols = ('VTA', )
     seeds = ('seed1.virtacoin.com', 'seed2.virtacoin.com')
     port = 22816
+    message_start = b'\xbe\xd0\xc8\xd1'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 0,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 128
+    }
 
 # no testnet

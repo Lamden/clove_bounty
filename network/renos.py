@@ -12,6 +12,12 @@ class Renos(Bitcoin):
     symbols = ('RNS', )
     seeds = ('seed.renoscoin.com', 'seed.renos.network')
     port = 57155
+    message_start = b'\xaa\xa3\xb2\xc4'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 60,
+        'SCRIPT_ADDR': 28,
+        'SECRET_KEY': 150
+    }
 
 
 class RenosTestNet(Renos):
@@ -23,3 +29,9 @@ class RenosTestNet(Renos):
     name = 'test-renos'
     seeds = ()
     port = 57255
+    message_start = b'\xa1\x79\xa4\xa2'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 229
+    }

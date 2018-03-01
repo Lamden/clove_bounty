@@ -12,6 +12,12 @@ class Rupee(Bitcoin):
     symbols = ('RUP', )
     seeds = ('165.227.51.103', '104.236.195.94', '138.197.133.4')
     port = 10459
+    message_start = b'\x3b\x69\xde\xd4'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 60,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 188
+    }
 
 
 class RupeeTestNet(Rupee):

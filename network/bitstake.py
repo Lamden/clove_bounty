@@ -23,5 +23,11 @@ class BitStake(Bitcoin):
         "104.236.29.189"
     )
     port = 38462
+    message_start = b'\xa1\xa0\xa2\xa3'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 25,
+        'SCRIPT_ADDR': 28,
+        'SECRET_KEY': 153
+    }
 
 # Has no testnet

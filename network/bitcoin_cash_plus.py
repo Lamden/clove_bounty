@@ -16,6 +16,12 @@ class BitcoinCashPlus(Bitcoin):
         'seed.bitcoincashplus.org',
     )
     port = 8337
+    message_start = b'\x44\x6d\x47\xe1'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 28,
+        'SCRIPT_ADDR': 23,
+        'SECRET_KEY': 128
+    }
 
 
 class BitcoinCashPlusTestNet(BitcoinCashPlus):
@@ -31,3 +37,9 @@ class BitcoinCashPlusTestNet(BitcoinCashPlus):
         'test-seed.bitcoincashplus.org',
     )
     port = 18337
+    message_start = b'\x45\x6d\x47\xe1'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

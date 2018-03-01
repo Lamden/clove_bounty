@@ -11,5 +11,11 @@ class PirateBlocks(Bitcoin):
     symbols = ('SKULL', )
     seeds = ('pblocks.servep2p.com')
     port = 27991
+    message_start = b'\xa1\xac\xcc\x71'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 55,
+        'SCRIPT_ADDR': 32,
+        'SECRET_KEY': 145
+    }
 
 # no testnet

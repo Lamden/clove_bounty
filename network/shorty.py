@@ -11,5 +11,11 @@ class Shorty(Bitcoin):
     symbols = ('SHORTY', )
     seeds = ("35.163.38.207")
     port = 28188
+    message_start = b'\xf3\x2d\xa5\x71'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 8,
+        'SCRIPT_ADDR': 142,
+        'SECRET_KEY': 136
+    }
 
 # no testnet

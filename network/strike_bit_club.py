@@ -11,6 +11,12 @@ class StrikeBitClub(Bitcoin):
     symbols = ('SBC', )
     seeds = ('sbc01.seednode.online', 'sbc02.seednode.online')
     port = 21575
+    message_start = b'\x55\x6a\x32\x99'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 13,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 141
+    }
 
 
 class StrikeBitClubTestNet(StrikeBitClub):

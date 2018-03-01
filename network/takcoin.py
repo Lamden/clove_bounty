@@ -11,5 +11,11 @@ class TakCoin(Bitcoin):
     symbols = ('TAK', )
     seeds = ("node.walletbuilders.com")
     port = 32965
+    message_start = b'\x6f\xc1\xd5\xb7'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 65,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 193
+    }
 
 # no testnet

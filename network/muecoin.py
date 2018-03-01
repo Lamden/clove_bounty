@@ -12,6 +12,12 @@ class MonetaryUnit(Bitcoin):
     seeds = ('nodes.muex.io', 'nodes.monetaryunit.org',
              'nodes.mymue.com', 'nodes.cryptophi.com')
     port = 19683
+    message_start = b'\xb5\xcc\xcd\xa7'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 16,
+        'SCRIPT_ADDR': 76,
+        'SECRET_KEY': 126
+    }
 
 
 class MonetaryUnitTestNet(MonetaryUnit):
@@ -24,3 +30,9 @@ class MonetaryUnitTestNet(MonetaryUnit):
     symbols = ('MUE', )
     seeds = ('tnodes.muex.io')
     port = 18683
+    message_start = b'\xbd\xa3\xc8\xb1'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 38,
+        'SCRIPT_ADDR': 19,
+        'SECRET_KEY': 64
+    }

@@ -12,6 +12,12 @@ class RideMyCar(Bitcoin):
     symbols = ('RIDE', )
     seeds = ('146.185.146.172',)
     port = 11517
+    message_start = b'\x22\x50\x70\x35'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 61,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 166
+    }
 
 
 class RideMyCarTestNet(RideMyCar):
@@ -23,3 +29,9 @@ class RideMyCarTestNet(RideMyCar):
     name = 'test-ride-my-car'
     seeds = ()
     port = 25713
+    message_start = b'\xfe\x0c\x2f\xdc'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 112,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 240
+    }

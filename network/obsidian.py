@@ -15,5 +15,11 @@ class Obsidian(Bitcoin):
              'seed1.obsidianplatform.com',
              'seed2.obsidianplatform.com')
     port = 56660
+    message_start = b'\x4f\x64\x6e\x31'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 75,
+        'SCRIPT_ADDR': 125,
+        'SECRET_KEY': 203
+    }
 
 # no testnet

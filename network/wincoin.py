@@ -26,6 +26,12 @@ class Wincoin(Bitcoin):
              '52.179.102.107'
              )
     port = 11610
+    message_start = b'\xf9\xbe\xb4\xd9'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 73,
+        'SCRIPT_ADDR': 83,
+        'SECRET_KEY': 201
+    }
 
 
 class WincoinTestNet(Wincoin):

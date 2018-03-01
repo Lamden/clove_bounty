@@ -11,5 +11,11 @@ class CludCoin(Bitcoin):
     symbols = ('CLUD', )
     seeds = ("node.walletbuilders.com")
     port = 6959
+    message_start = b'\xae\x20\x2d\xb0'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 28,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 156
+    }
 
 # Has no testnet

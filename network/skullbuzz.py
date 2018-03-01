@@ -14,5 +14,11 @@ class SkullBuzz(Bitcoin):
              "104.238.154.10",
              "107.191.62.71")
     port = 50550
+    message_start = b'\x50\x15\x15\x51'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 63,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 153
+    }
 
 # no testnet

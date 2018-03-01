@@ -11,6 +11,12 @@ class Digigems(Bitcoin):
     symbols = ('DGMS', )
     seeds = ("54.69.225.67")
     port = 5333
+    message_start = b'\xff\xc2\xb8\xde'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 30,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 158
+    }
 
 
 class DigigemsTestNet(Digigems):

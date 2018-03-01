@@ -15,6 +15,12 @@ class Bitcoin_Unlimited(Bitcoin):
              "seed.bitprim.org",
              "seed.deadalnix.me")
     port = 8333
+    message_start = b'\xf9\xbe\xb4\xd9'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 0,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 128
+    }
 
 
 class Bitcoin_UnlimitedTestNet(Bitcoin_Unlimited):
@@ -26,3 +32,9 @@ class Bitcoin_UnlimitedTestNet(Bitcoin_Unlimited):
     name = 'test-bitcoin_unlimited'
     seeds = ("nolnet-seed.bitcoinunlimited.info")
     port = 18333
+    message_start = b'\x0b\x11\x09\x07'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

@@ -11,6 +11,12 @@ class Moin(Bitcoin):
     symbols = ('MOIN', )
     seeds = ('seed.discovermoin.com', 'seed2.discovermoin.com')
     port = 7997
+    message_start = b'\x23\xfc\x25\x9c'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 51,
+        'SCRIPT_ADDR': 115,
+        'SECRET_KEY': 179
+    }
 
 
 class MoinTestNet(Moin):
@@ -22,3 +28,9 @@ class MoinTestNet(Moin):
     name = 'test-moin'
     seeds = ('testnet-seed.discovermoin.com', )
     port = 17997
+    message_start = b'\xfa\x10\x70\x2f'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 112,
+        'SCRIPT_ADDR': 177,
+        'SECRET_KEY': 250
+    }

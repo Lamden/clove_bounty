@@ -11,6 +11,12 @@ class Bitmxittz(Bitcoin):
     symbols = ('BMXT', )
     seeds = ("52.192.16.19")
     port = 14433
+    message_start = b'\xc2\xd1\xd3\xbd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 25,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 153
+    }
 
 
 class BitmxittzTestNet(Bitmxittz):

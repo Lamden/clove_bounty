@@ -11,6 +11,12 @@ class Coin007(Bitcoin):
     symbols = ('007', )
     seeds = ('46.101.7.165')
     port = 11007
+    message_start = b'\x2f\x24\x15\x05'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 15,
+        'SCRIPT_ADDR': 63,
+        'SECRET_KEY': 153
+    }
 
 
 class Coin007TestNet(Coin007):
@@ -23,3 +29,9 @@ class Coin007TestNet(Coin007):
     symbols = ('007', )
     seeds = ()
     port = 21007
+    message_start = b'\x3f\x17\x07\x25'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 127,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

@@ -12,6 +12,12 @@ class ReeCoin(Bitcoin):
     symbols = ('REE', )
     nodes = ('192.155.106.33',)
     port = 11300
+    message_start = b'\x70\x35\x22\x05'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 60,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 188
+    }
 
 
 class ReeCoinTestNet(ReeCoin):

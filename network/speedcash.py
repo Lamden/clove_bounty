@@ -11,5 +11,11 @@ class SpeedCash(Bitcoin):
     symbols = ('SCS', )
     seeds = ('node001.scash.ml', 'node002.scash.ml', 'node003.scash.ml')
     port = 35334
+    message_start = b'\x70\x35\x22\x05'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 63,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 191
+    }
 
 # no testnet

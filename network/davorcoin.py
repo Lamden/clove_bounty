@@ -11,5 +11,11 @@ class DavorCoin(Bitcoin):
     symbols = ('DAV', )
     seeds = ("52.77.118.10")
     port = 17511
+    message_start = b'\xa4\xd2\xf8\xa6'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 30,
+        'SCRIPT_ADDR': 50,
+        'SECRET_KEY': 158
+    }
 
 # No testnet

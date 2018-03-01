@@ -11,5 +11,11 @@ class WealthCoin(Bitcoin):
     symbols = ('WEALTH', )
     seeds = ("104.236.220.47")
     port = 15152
+    message_start = b'\xa4\xd2\xf8\xa6'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 73,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 201
+    }
 
 # no testnet

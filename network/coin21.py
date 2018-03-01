@@ -11,5 +11,11 @@ class Coin21(Bitcoin):
     symbols = ('C2', )
     seeds = ('107.181.166.143', '24.22.50.162')
     port = 22222
+    message_start = b'\xce\xfb\xfa\xdb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 28,
+        'SCRIPT_ADDR': 8,
+        'SECRET_KEY': 156
+    }
 
 # no testnet

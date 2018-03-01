@@ -12,6 +12,12 @@ class CBit(Bitcoin):
     symbols = ('XCT', )
     seeds = ('192.241.191.47',)
     port = 8289
+    message_start = b'\xde\xad\xfe\xd5'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 0,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 128
+    }
 
 
 class CBitTestNet(CBit):
@@ -23,3 +29,9 @@ class CBitTestNet(CBit):
     name = 'test-c-bit'
     seeds = ('159.203.31.151', '192.241.179.42')
     port = 18289
+    message_start = b'\x0b\x10\xd9\x07'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

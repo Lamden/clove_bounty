@@ -11,6 +11,12 @@ class CrevaCoin(Bitcoin):
     symbols = ('CREVA', )
     seeds = ("123.57.60.128")
     port = 22440
+    message_start = b'\xfe\xd2\xb1\xda'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 28,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 156
+    }
 
 
 class CrevaCoinTestNet(CrevaCoin):

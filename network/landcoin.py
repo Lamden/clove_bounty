@@ -11,6 +11,12 @@ class LandCoin(Bitcoin):
     symbols = ('LND', )
     seeds = ("seed.landcoin.net")
     port = 1911
+    message_start = b'\xf9\xbe\xb4\xd2'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 48,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 176
+    }
 
 
 class LandCoinTestNet(LandCoin):

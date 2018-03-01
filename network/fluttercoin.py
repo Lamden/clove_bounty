@@ -11,6 +11,12 @@ class FlutterCoin(Bitcoin):
     symbols = ('FLT', )
     seeds = ('dnsseed.fluttercoin.me')
     port = 7408
+    message_start = b'\xcf\xd1\xe8\xea'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 35,
+        'SCRIPT_ADDR': 20,
+        'SECRET_KEY': 163
+    }
 
 
 # Has no testnet

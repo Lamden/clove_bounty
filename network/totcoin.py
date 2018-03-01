@@ -11,6 +11,12 @@ class TotCoin(Bitcoin):
     symbols = ('TOT', )
     seeds = ("78.113.252.129")
     port = 42400
+    message_start = b'\xbf\x0c\x6b\xbd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 0,
+        'SCRIPT_ADDR': 16,
+        'SECRET_KEY': 204
+    }
 
 
 class TotCoinTestNet(TotCoin):
@@ -22,3 +28,9 @@ class TotCoinTestNet(TotCoin):
     name = 'test-totcoin'
     seeds = ("soscoindev.ddns.net")
     port = 19999
+    message_start = b'\xce\xe2\xca\xff'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 140,
+        'SCRIPT_ADDR': 19,
+        'SECRET_KEY': 239
+    }

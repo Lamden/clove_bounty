@@ -11,6 +11,12 @@ class TopazCoin(Bitcoin):
     symbols = ('TOPAZ', )
     seeds = ('91.134.120.210')
     port = 6909
+    message_start = b'\xea\x92\x66\xe4'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 65,
+        'SCRIPT_ADDR': 97,
+        'SECRET_KEY': 42
+    }
 
 
 class TopazCoinTestNet(TopazCoin):
@@ -23,3 +29,9 @@ class TopazCoinTestNet(TopazCoin):
     symbols = ('TOPAZ', )
     seeds = ()
     port = 6808
+    message_start = b'\x93\xe1\xaa\xb8'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 66,
+        'SCRIPT_ADDR': 41,
+        'SECRET_KEY': 33
+    }

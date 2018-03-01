@@ -22,6 +22,12 @@ class Capricoin(Bitcoin):
              "seed11.capricoin.org",
              "seed12.capricoin.org")
     port = 22714
+    message_start = b'\xa1\xa0\xa2\xa3'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 28,
+        'SCRIPT_ADDR': 35,
+        'SECRET_KEY': 156
+    }
 
 
 # Has no Testnet

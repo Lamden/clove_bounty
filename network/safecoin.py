@@ -14,6 +14,12 @@ class SafecCoin(Bitcoin):
              "dnsseed.bitcoin.dashjr.org",
              "bitseed.xf2.org")
     port = 8333
+    message_start = b'\xe4\xe8\xbd\xfd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 90,
+        'SCRIPT_ADDR': 8,
+        'SECRET_KEY': 218
+    }
 
 
 class SafecCoinTestNet(SafecCoin):
@@ -26,3 +32,9 @@ class SafecCoinTestNet(SafecCoin):
     seeds = ("testnet-seed.bitcoin.petertodd.org",
              "testnet-seed.bluematt.me")
     port = 18333
+    message_start = b'\x45\x76\x65\xba'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 139,
+        'SCRIPT_ADDR': 19,
+        'SECRET_KEY': 239
+    }

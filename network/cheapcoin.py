@@ -11,5 +11,11 @@ class Cheapcoin(Bitcoin):
     symbols = ('CHEAP', )
     seeds = ('54.70.9.148')
     port = 36648
+    message_start = b'\xf3\x2d\xa5\x71'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 45,
+        'SCRIPT_ADDR': 142,
+        'SECRET_KEY': 173
+    }
 
 # no testnet

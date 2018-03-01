@@ -15,6 +15,12 @@ class Interzone(Bitcoin):
              'seed4.interzone.space',
              'seed5.interzone.space')
     port = 55675
+    message_start = b'\x08\x02\x01\x17'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 0,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 156
+    }
 
 
 class InterzoneTestNet(Interzone):
@@ -26,3 +32,9 @@ class InterzoneTestNet(Interzone):
     name = 'test-interzone'
     seeds = ('seed1.interzone.space')
     port = 21817
+    message_start = b'\xfb\xc2\x11\x02'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 102,
+        'SCRIPT_ADDR': 44,
+        'SECRET_KEY': 216
+    }

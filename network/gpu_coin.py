@@ -12,6 +12,12 @@ class Gpucoin(Bitcoin):
     seeds = ('node1.gpucoin.market',
              'node2.gpucoin.market', 'node3.gpucoin.market')
     port = 6897
+    message_start = b'\x9f\x18\x0a\x16'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 38,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 166
+    }
 
 
 class GpucoinTestNet(Gpucoin):

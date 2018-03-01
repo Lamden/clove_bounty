@@ -13,3 +13,9 @@ class Energycoin(Bitcoin):
              "212.114.59.109",
              "162.243.248.229")
     port = 22706
+    message_start = b'\xfc\xd9\xb7\xdd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 92,
+        'SCRIPT_ADDR': 8,
+        'SECRET_KEY': 220
+    }

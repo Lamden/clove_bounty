@@ -11,5 +11,11 @@ class PirateCoin(Bitcoin):
     symbols = ('PIR', )
     seeds = ("dnsseed.piratecoin.co")
     port = 17771
+    message_start = b'\xdd\xb9\xb7\xef'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 23,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 151
+    }
 
 # no 11656

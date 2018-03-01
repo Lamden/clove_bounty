@@ -11,6 +11,12 @@ class Kilocoin(Bitcoin):
     symbols = ('KLC', )
     seeds = ('dnsseed.kilocoin.com', )
     port = 3112
+    message_start = b'\xfc\xc0\xb6\xdb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 47,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 175
+    }
 
 
 class KilocoinTestNet(Kilocoin):

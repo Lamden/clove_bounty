@@ -11,6 +11,12 @@ class ChampCoin(Bitcoin):
     symbols = ('TCC', )
     seeds = ("champcointools.com")
     port = 38173
+    message_start = b'\xc5\xd4\xd3\xbd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 28,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 156
+    }
 
 
 class ChampCoinTestNet(ChampCoin):

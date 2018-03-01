@@ -12,5 +12,11 @@ class EDRCoin(Bitcoin):
     seeds = ("seed1.cryptolife.net",
              "seed2.cryptolife.net")
     port = 33918
+    message_start = b'\xf3\xe4\xd2\xe3'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 93,
+        'SCRIPT_ADDR': 28,
+        'SECRET_KEY': 221
+    }
 
 # No testnet

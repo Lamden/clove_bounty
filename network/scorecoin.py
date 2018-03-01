@@ -11,5 +11,11 @@ class Scorecoin(Bitcoin):
     symbols = ('SCORE', )
     seeds = ("scorecoin.net")
     port = 17075
+    message_start = b'\xac\xcd\xdf\xdc'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 63,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 153
+    }
 
 # no testnet

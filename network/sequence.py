@@ -14,5 +14,11 @@ class Sequence(Bitcoin):
              "seq.dnsseeder.host",
              "seq.dnsseeder.net")
     port = 16662
+    message_start = b'\x01\x10\x02\x20'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 53,
+        'SCRIPT_ADDR': 50,
+        'SECRET_KEY': 204
+    }
 
 # no testnet

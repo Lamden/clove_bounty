@@ -12,5 +12,11 @@ class Eryllium(Bitcoin):
     seeds = ('138.197.23.193', 'seed1.cryptolife.net', 'seed2.cryptolife.net',
              'seed3.cryptolife.net', 'electrum1.cryptolife.net', 'explore.cryptolife.net')
     port = 34821
+    message_start = b'\xb8\xfe\xe2\xe5'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 33,
+        'SCRIPT_ADDR': 20,
+        'SECRET_KEY': 161
+    }
 
 # no testnet

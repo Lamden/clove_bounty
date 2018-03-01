@@ -11,6 +11,12 @@ class DigitalMoneyBits(Bitcoin):
     symbols = ('DMB', )
     seeds = ('195.74.52.227')
     port = 64008
+    message_start = b'\x3f\xf3\x4f\xf4'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 90,
+        'SCRIPT_ADDR': 89,
+        'SECRET_KEY': 218
+    }
 
 
 class DigitalMoneyBitsTestNet(DigitalMoneyBits):

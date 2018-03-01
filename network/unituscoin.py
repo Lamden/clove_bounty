@@ -16,6 +16,12 @@ class Unitus(Bitcoin):
         'nz.nutty.one',
     )
     port = 50603
+    message_start = b'\xc5\xab\xc6\x9d'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 68,
+        'SCRIPT_ADDR': 10,
+        'SECRET_KEY': 132
+    }
 
 
 class UnitusTestNet(Unitus):
@@ -30,3 +36,9 @@ class UnitusTestNet(Unitus):
         'testseed2.unitus.online',
     )
     port = 60603
+    message_start = b'\xc6\xab\xc7\x9d'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 130,
+        'SCRIPT_ADDR': 192,
+        'SECRET_KEY': 239
+    }

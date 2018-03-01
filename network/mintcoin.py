@@ -11,5 +11,11 @@ class Mintcoin(Bitcoin):
     symbols = ('MNT', )
     seeds = ("mintseed.keremhd.name.tr")
     port = 12788
+    message_start = b'\xce\xd5\xdb\xfa'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 51,
+        'SCRIPT_ADDR': 8,
+        'SECRET_KEY': 179
+    }
 
 # no testnet

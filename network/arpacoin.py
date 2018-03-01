@@ -11,6 +11,12 @@ class ArpaCoin(Bitcoin):
     symbols = ('ARPA', )
     seeds = ("109.237.25.123")
     port = 56631
+    message_start = b'\xbd\x6f\x1a\xd5'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 23,
+        'SCRIPT_ADDR': 83,
+        'SECRET_KEY': 111
+    }
 
 
 # Has no testnet

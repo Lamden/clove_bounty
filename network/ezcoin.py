@@ -14,6 +14,12 @@ class EZCoin(Bitcoin):
              "ezcoin.mooo.com",
              "ezcoin.strangled.net")
     port = 7955
+    message_start = b'\xfe\xc3\xa5\xdf'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 33,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 161
+    }
 
 
 class EZCoinTestNet(EZCoin):

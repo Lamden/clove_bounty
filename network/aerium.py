@@ -24,6 +24,12 @@ class Aerium(Bitcoin):
              "45.63.93.21",
              "173.233.72.98")
     port = 44444
+    message_start = b'\xef\xf2\xa7\x7d'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 23,
+        'SCRIPT_ADDR': 83,
+        'SECRET_KEY': 151
+    }
 
 
 class AeriumTestNet(Aerium):
@@ -35,3 +41,9 @@ class AeriumTestNet(Aerium):
     name = 'test-aerium'
     seeds = ("107.22.138.243")
     port = 26178
+    message_start = b'\x71\x31\x21\x11'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 65,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 193
+    }

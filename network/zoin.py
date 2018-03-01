@@ -13,6 +13,12 @@ class Zoin(Bitcoin):
     seeds = ('node11.zoinofficial.com', 'node1.zoinofficial.com',
              'node2.zoinofficial.com', 'node3.zoinofficial.com', 'node4.zoinofficial.com')
     port = 8255
+    message_start = b'\xf5\x03\xa9\x51'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 80,
+        'SCRIPT_ADDR': 7,
+        'SECRET_KEY': 208
+    }
 
 
 class ZoinTestNet(Zoin):
@@ -29,3 +35,9 @@ class ZoinTestNet(Zoin):
         'seed.tbtc.petertodd.org', 'testnet-seed.bluematt.me', 'testnet-seed.bitcoin.schildbach.de'
     )
     port = 28168
+    message_start = b'\xae\x5d\xbf\x09'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 65,
+        'SCRIPT_ADDR': 178,
+        'SECRET_KEY': 193
+    }

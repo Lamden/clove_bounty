@@ -11,6 +11,12 @@ class RSGPcoin(Bitcoin):
     symbols = ('RSGP', )
     seeds = ("node.walletbuilders.com")
     port = 19529
+    message_start = b'\x7c\x55\x0b\x18'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 60,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 188
+    }
 
 
 # Has no testnet

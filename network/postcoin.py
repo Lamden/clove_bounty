@@ -16,6 +16,12 @@ class PostCoin(Bitcoin):
              "node3.postcoin.pw",
              "node4.postcoin.pw")
     port = 9130
+    message_start = b'\x35\xc3\xd6\xa2'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 55,
+        'SCRIPT_ADDR': 28,
+        'SECRET_KEY': 183
+    }
 
 
 # Has no testnet

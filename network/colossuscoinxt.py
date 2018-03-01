@@ -11,5 +11,11 @@ class ColossusCoinXT(Bitcoin):
     symbols = ('COLX', )
     seeds = ('colxseed.presstab.pw')
     port = 51572
+    message_start = b'\x91\xc5\xfe\xea'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 30,
+        'SCRIPT_ADDR': 13,
+        'SECRET_KEY': 212
+    }
 
 # no testnet

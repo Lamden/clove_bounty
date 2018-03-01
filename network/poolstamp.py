@@ -11,5 +11,11 @@ class PoolStamp(Bitcoin):
     symbols = ('XSP', )
     seeds = ("104.236.120.8", "188.166.56.148")
     port = 24662
+    message_start = b'\xb1\xb0\xb2\xb3'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 55,
+        'SCRIPT_ADDR': 28,
+        'SECRET_KEY': 183
+    }
 
 # no testnet

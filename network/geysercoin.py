@@ -13,6 +13,12 @@ class GeyserCoin(Bitcoin):
     seeds = ('nodea.geysercoin.com',
              'nodeb.geysercoin.com', 'nodec.geysercoin.com')
     port = 10556
+    message_start = b'\x60\x34\x12\x08'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 38,
+        'SCRIPT_ADDR': 63,
+        'SECRET_KEY': 171
+    }
 
 
 class GeyserCoinTestNet(GeyserCoin):
@@ -24,3 +30,9 @@ class GeyserCoinTestNet(GeyserCoin):
     name = 'test-geysercoin'
     seeds = ()
     port = 20556
+    message_start = b'\xad\xf4\xd0\xac'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

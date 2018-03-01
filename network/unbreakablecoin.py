@@ -11,5 +11,11 @@ class UnbreakableCoin(Bitcoin):
     symbols = ('UNB', )
     seeds = ('seed.ispace.co.uk', 'seed.multipool.us', '198.24.142.136')
     port = 9336
+    message_start = b'\x83\x33\x07\xb1'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 0,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 128
+    }
 
 # no testnet

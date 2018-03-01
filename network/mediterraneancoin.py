@@ -11,6 +11,12 @@ class MediterraneanCoin(Bitcoin):
     symbols = ('MED', )
     seeds = ("dnsseed.mediterraneancoin.org")
     port = 9373
+    message_start = b'\xfb\xc0\xb6\xdb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 51,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 179
+    }
 
 
 class MediterraneanCoinTestNet(MediterraneanCoin):

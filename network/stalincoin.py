@@ -12,3 +12,9 @@ class StalinCoin(Bitcoin):
     seeds = ("seed1.stalincoin.info",
              "seed2.stalincoin.info")
     port = 5422
+    message_start = b'\xc2\xb3\xa4\xd1'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 63,
+        'SCRIPT_ADDR': 28,
+        'SECRET_KEY': 191
+    }

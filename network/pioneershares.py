@@ -11,5 +11,11 @@ class Pioneershares(Bitcoin):
     symbols = ('PIO', )
     seeds = ("seed.blockpioneers.info", "seed2.blockpioneers.info")
     port = 8572
+    message_start = b'\xc3\xc5\xa2\xa3'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 55,
+        'SCRIPT_ADDR': 30,
+        'SECRET_KEY': 183
+    }
 
 # no testnet

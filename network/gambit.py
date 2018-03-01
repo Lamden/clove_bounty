@@ -12,5 +12,11 @@ class Gambit(Bitcoin):
     seeds = ('node1.gambitcrypto.com',
              'node2.gambitcrypto.com', 'node3.gambitcrypto.com')
     port = 47077
+    message_start = b'\xf2\xf4\xf6\xf8'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 38,
+        'SCRIPT_ADDR': 97,
+        'SECRET_KEY': 166
+    }
 
 # no testnet

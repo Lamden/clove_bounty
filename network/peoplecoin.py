@@ -11,5 +11,11 @@ class PeopleCoin(Bitcoin):
     symbols = ('MEN', )
     seeds = ("seed.peoplecoin.pw")
     port = 7721
+    message_start = b'\x4D\x45\x4E\xb4'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 63,
+        'SCRIPT_ADDR': 125,
+        'SECRET_KEY': 191
+    }
 
 # no testnet

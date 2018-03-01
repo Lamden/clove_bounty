@@ -12,6 +12,12 @@ class UniformFiscalObject(Bitcoin):
     seeds = ('seed1.ufocoin.net', 'seed1.ufocoin.net', 'seed1.ufocoin.net', 'seed1.ufocoin.net',
              'dnsseed.lowecraft.it', 'dnsseed.ufocoinnode.com')
     port = 9887
+    message_start = b'\xfc\xd9\xb7\xdd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 27,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 155
+    }
 
 
 class UniformFiscalObjectTestNet(UniformFiscalObject):
@@ -23,3 +29,9 @@ class UniformFiscalObjectTestNet(UniformFiscalObject):
     name = 'test-uniformfiscalobject'
     seeds = ('testnet-seed.ufocoin.net', )
     port = 19887
+    message_start = b'\xfb\xc0\xb8\xdb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

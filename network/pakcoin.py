@@ -12,6 +12,12 @@ class Pakcoin(Bitcoin):
     symbols = ('PAK', )
     seeds = ('seed.pakcoin.org',)
     port = 7867
+    message_start = b'\x70\x61\x6b\x63'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 55,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 183
+    }
 
 
 class PakcoinTestNet(Pakcoin):

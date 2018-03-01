@@ -15,5 +15,11 @@ class Centurion(Bitcoin):
              "node2.centurionlab.org",
              "node3.centurionlab.org")
     port = 5556
+    message_start = b'\xff\xef\xeb\xf1'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 28,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 156
+    }
 
 # Has no testnet

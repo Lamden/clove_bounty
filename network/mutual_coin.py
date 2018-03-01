@@ -12,3 +12,9 @@ class Mutual_Coin(Bitcoin):
     seeds = ("mut1.mywire.org",
              "mut2.mywire.org")
     port = 25731
+    message_start = b'\x71\xae\x76\x64'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 38,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 166
+    }

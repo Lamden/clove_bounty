@@ -25,6 +25,12 @@ class Granite(Bitcoin):
         'grn-seed23.chainworksindustries.com', 'grn-seed24.chainworksindustries.com',
     )
     port = 21777
+    message_start = b'\xfe\xc3\xb9\xde'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 38,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 166
+    }
 
 
 class GraniteTestNet(Granite):

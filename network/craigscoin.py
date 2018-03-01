@@ -11,6 +11,12 @@ class CraigsCoin(Bitcoin):
     symbols = ('CRAIG', )
     seeds = ("54.88.218.165")
     port = 30365
+    message_start = b'\x88\xf0\xb1\xe9'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 28,
+        'SCRIPT_ADDR': 29,
+        'SECRET_KEY': 156
+    }
 
 
 class CraigsCoinTestNet(CraigsCoin):

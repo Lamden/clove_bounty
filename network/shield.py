@@ -17,5 +17,11 @@ class Shield(Bitcoin):
              "198.13.33.179",
              "electrum-1.shieldcurrency.com")
     port = 21103
+    message_start = b'\xa1\xb3\xc4\xee'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 63,
+        'SCRIPT_ADDR': 33,
+        'SECRET_KEY': 191
+    }
 
 # no testnet

@@ -11,5 +11,11 @@ class GEN(Bitcoin):
     symbols = ('G3N', )
     seeds = ('genseed.presstab.pw', 'gen.seed.fuzzbawls.pw', 'gen.netcraft.ch')
     port = 9341
+    message_start = b'\xf1\xf7\xf9\xfb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 38,
+        'SCRIPT_ADDR': 52,
+        'SECRET_KEY': 166
+    }
 
 # no testnet

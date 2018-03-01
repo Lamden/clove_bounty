@@ -11,6 +11,12 @@ class HiCoin(Bitcoin):
     symbols = ('XHI', )
     seeds = ('45.32.35.123')
     port = 35289
+    message_start = b'\xb4\xfc\xc8\xd2'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 40,
+        'SCRIPT_ADDR': 38,
+        'SECRET_KEY': 168
+    }
 
 
 # Has no Testnet

@@ -16,6 +16,12 @@ class Omni(Bitcoin):
              "seed.bitnodes.io",
              "bitseed.xf2.org")
     port = 8333
+    message_start = b'\xf9\xbe\xb4\xd9'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 0,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 128
+    }
 
 
 class OmniTestNet(Omni):
@@ -27,3 +33,9 @@ class OmniTestNet(Omni):
     name = 'test-omni'
     seeds = ("testnet-seed.bitcoin.petertodd.org", "testnet-seed.bluematt.me")
     port = 18333
+    message_start = b'\x0b\x11\x09\x07'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

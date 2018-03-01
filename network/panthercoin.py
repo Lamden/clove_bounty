@@ -11,5 +11,11 @@ class PantherCoin(Bitcoin):
     symbols = ('PINKX', )
     seeds = ("node.walletbuilders.com", )
     port = 6641
+    message_start = b'\x1e\x66\x4b\x2c'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 55,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 183
+    }
 
 # no testnet

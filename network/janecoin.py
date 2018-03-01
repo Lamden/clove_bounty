@@ -11,5 +11,11 @@ class JaneCoin(Bitcoin):
     symbols = ('JANE', )
     seeds = ('107.170.156.17', )
     port = 13413
+    message_start = b'\xb7\xf7\xe7\xee'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 43,
+        'SCRIPT_ADDR': 20,
+        'SECRET_KEY': 171
+    }
 
 # no testnet

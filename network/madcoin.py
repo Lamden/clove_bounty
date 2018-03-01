@@ -13,5 +13,11 @@ class Madcoin(Bitcoin):
              "node1.madcoin.life",
              "node2.madcoin.life")
     port = 10882
+    message_start = b'\x35\x2c\x46\x51'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 110,
+        'SCRIPT_ADDR': 44,
+        'SECRET_KEY': 142
+    }
 
 # no testnet

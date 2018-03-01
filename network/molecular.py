@@ -12,3 +12,9 @@ class Molecular(Bitcoin):
     seeds = ("seed.moleculecoin.com",
              "blocks.moleculecoin.com")
     port = 11879
+    message_start = b'\xfe\xa5\x03\xdd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 44,
+        'SCRIPT_ADDR': 9,
+        'SECRET_KEY': 172
+    }

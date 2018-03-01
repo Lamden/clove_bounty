@@ -15,6 +15,12 @@ class ImpulseCoin(Bitcoin):
              "node4.impulsecoin.io",
              "node5.impulsecoin.io")
     port = 23765
+    message_start = b'\x11\xc3\x82\xd2'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 0,
+        'SCRIPT_ADDR': 50,
+        'SECRET_KEY': 128
+    }
 
 
 # Has no testnet

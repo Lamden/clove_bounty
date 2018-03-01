@@ -15,6 +15,12 @@ class ProCoin(Bitcoin):
              "dnsseed.koin-project.com",
              "dnsseed.weminemnc.com")
     port = 4113
+    message_start = b'\xfb\xc0\xb6\xdb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 22,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 150
+    }
 
 
 class ProCoinTestNet(ProCoin):

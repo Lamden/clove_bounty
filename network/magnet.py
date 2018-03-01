@@ -13,5 +13,11 @@ class Magnet(Bitcoin):
              "magdns2.magnetwork.io",
              "magdns3.magnetwork.io")
     port = 17177
+    message_start = b'9162173204'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 51,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 83
+    }
 
 # no test net

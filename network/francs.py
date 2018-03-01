@@ -18,5 +18,11 @@ class Francs(Bitcoin):
              "108.61.10.90",
              "85.25.198.151")
     port = 12834
+    message_start = b'\xee\xea\xae\xef'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 35,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 163
+    }
 
 # No testnet

@@ -12,6 +12,12 @@ class YAYcoin(Bitcoin):
     seeds = ("yaycoin.sun.ddns.vc",
              "yaycoin.luna.ddns.vc")
     port = 7785
+    message_start = b'\xfb\xc0\xb6\xdb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 78,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 206
+    }
 
 
 class YAYcoinTestNet(YAYcoin):

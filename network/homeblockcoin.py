@@ -13,3 +13,9 @@ class HomeBlockCoin(Bitcoin):
              "91.92.128.161",
              "82.221.141.12")
     port = 45690
+    message_start = b'\xe4\xe8\xbd\xfd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 90,
+        'SCRIPT_ADDR': 8,
+        'SECRET_KEY': 218
+    }

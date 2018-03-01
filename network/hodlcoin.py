@@ -20,5 +20,11 @@ class HOdlcoin(Bitcoin):
              "54.201.171.55",
              "54.213.104.91")
     port = 1989
+    message_start = b'\xf9\xbc\xb5\xd9'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 40,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 168
+    }
 
 # no testnet

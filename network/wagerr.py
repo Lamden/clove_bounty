@@ -12,6 +12,12 @@ class Wagerr(Bitcoin):
     seeds = ('main.seederv1.wgr.host', 'main.seederv2.wgr.host',
              'main.devseeder1.wgr.host', 'main.devseeder2.wgr.host')
     port = 55002
+    message_start = b'\x84\x2d\x61\xfd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 73,
+        'SCRIPT_ADDR': 63,
+        'SECRET_KEY': 199
+    }
 
 
 class WagerrTestNet(Wagerr):
@@ -25,3 +31,9 @@ class WagerrTestNet(Wagerr):
     seeds = ('test.testseederv1.wgr.host', 'test.testseederv2.wgr.host',
              'test.devseeder1.wgr.host', 'test.devseeder2.wgr.host')
     port = 55004
+    message_start = b'\x87\x9e\xd1\x99'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 65,
+        'SCRIPT_ADDR': 125,
+        'SECRET_KEY': 177
+    }

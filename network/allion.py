@@ -24,6 +24,12 @@ class Allion(Bitcoin):
              "node9.allion.xyz",
              "node10.allion.xyz")
     port = 12916
+    message_start = b'\xa4\xa6\xfd\x05'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 26,
+        'SCRIPT_ADDR': 8,
+        'SECRET_KEY': 154
+    }
 
 
 # No Testnet

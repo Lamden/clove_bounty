@@ -11,6 +11,12 @@ class BlueCoin(Bitcoin):
     symbols = ('BLU', )
     seeds = ()
     port = 27104
+    message_start = b'\xf3\xf2\xae\xad'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 26,
+        'SCRIPT_ADDR': 28,
+        'SECRET_KEY': 176
+    }
 
 
 class BlueCoinTestNet(BlueCoin):
@@ -22,3 +28,9 @@ class BlueCoinTestNet(BlueCoin):
     name = 'test-bluecoin'
     seeds = ()
     port = 17104
+    message_start = b'\xfe\xf5\xab\xaa'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 36,
+        'SCRIPT_ADDR': 38,
+        'SECRET_KEY': 239
+    }

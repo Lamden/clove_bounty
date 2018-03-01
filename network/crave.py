@@ -12,5 +12,11 @@ class Crave(Bitcoin):
     seeds = ('dns0.mycrave.xyz', 'dns1.mycrave.xyz', 'dns2.mycrave.xyz', 'dns3.mycrave.xyz', 'dns4.mycrave.xyz',
              'dns5.mycrave.xyz', 'dns6.mycrave.xyz', 'dns7.mycrave.xyz', 'dns8.mycrave.xyz', 'dns9.mycrave.xyz')
     port = 30104
+    message_start = b'\x1f\x22\x05\x31'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 27,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 153
+    }
 
 # no testnet

@@ -12,5 +12,11 @@ class PioneerCoin(Bitcoin):
     seeds = ('seed5.cryptolife.net', 'seed2.cryptolife.net',
              'seed3.cryptolife.net', 'electrum3.cryptolife.net')
     port = 35514
+    message_start = b'\xfe\xc3\xb9\xde'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 55,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 183
+    }
 
 # no testnet

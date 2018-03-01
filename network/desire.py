@@ -24,5 +24,11 @@ class Desire(Bitcoin):
              "164.132.18.89",
              "194.67.213.243")
     port = 9919
+    message_start = b'\xbf\x0c\x6b\xbd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 30,
+        'SCRIPT_ADDR': 16,
+        'SECRET_KEY': 204
+    }
 
 # No testnet

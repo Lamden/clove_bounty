@@ -12,6 +12,12 @@ class TodayCoin(Bitcoin):
     symbols = ('TODAY', )
     seeds = ('node.104.238.185.61',)
     port = 7869
+    message_start = b'\xba\xad\x07\x9c'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 65,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 193
+    }
 
 
 class TodayCoinTestNet(TodayCoin):

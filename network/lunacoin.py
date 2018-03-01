@@ -11,5 +11,11 @@ class LunaCoin(Bitcoin):
     symbols = ('LUNA', )
     seeds = ('212.24.102.92')
     port = 38353
+    message_start = b'\xe4\xa8\xbb\xe5'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 48,
+        'SCRIPT_ADDR': 20,
+        'SECRET_KEY': 176
+    }
 
 # no testnet

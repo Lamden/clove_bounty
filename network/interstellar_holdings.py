@@ -12,6 +12,12 @@ class InterstellarHoldings(Bitcoin):
     symbols = ('HOLD', )
     seeds = ('seed1.interstellarcoin.com', 'seed2.interstellarcoin.com')
     port = 10130
+    message_start = b'\x90\x2f\x32\x15'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 40,
+        'SCRIPT_ADDR': 100,
+        'SECRET_KEY': 153
+    }
 
 
 class InterstellarHoldingsTestNet(InterstellarHoldings):
@@ -23,3 +29,9 @@ class InterstellarHoldingsTestNet(InterstellarHoldings):
     name = 'test-interstellar-holdings'
     seeds = ()
     port = 15130
+    message_start = b'\xbc\x45\xec\x12'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 40,
+        'SCRIPT_ADDR': 100,
+        'SECRET_KEY': 153
+    }
