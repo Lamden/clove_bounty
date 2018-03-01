@@ -28,3 +28,9 @@ class TheresamaycoinTestNet(Theresamaycoin):
     name = 'test-theresamaycoin'
     seeds = ()
     port = 25714
+    message_start = b'\xad\xf1\xc2\xaf'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

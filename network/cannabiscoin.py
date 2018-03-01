@@ -29,3 +29,9 @@ class CannabisCoinTestNet(CannabisCoin):
     name = 'test-cannabiscoin'
     seeds = ('testnet-seed.cannabiscoin.net',)
     port = 29347
+    message_start = b'\xfe\xc4\xba\xde'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

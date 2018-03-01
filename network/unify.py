@@ -30,3 +30,9 @@ class UnifyTestNet(Unify):
     name = 'test-unify'
     seeds = ()
     port = 28649
+    message_start = b'\xb5\xbb\xdd\x7b'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

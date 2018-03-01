@@ -30,3 +30,9 @@ class ShillingTestNet(Shilling):
     name = 'test-shilling'
     seeds = ()
     port = 33813
+    message_start = b'\xbc\xad\xaf\xc4'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

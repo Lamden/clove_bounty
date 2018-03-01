@@ -29,3 +29,9 @@ class EmeraldCryptoTestNet(EmeraldCrypto):
     name = 'test-emerald-crypto'
     seeds = ('testnet.emeraldcrypto.co',)
     port = 22127
+    message_start = b'\xfc\xc1\xb7\xdc'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

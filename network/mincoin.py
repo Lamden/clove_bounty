@@ -30,3 +30,9 @@ class MincoinTestNet(Mincoin):
     seeds = ("testnet-seed.mincointools.com",
              "testnet-seed.mincoinpool.org")
     port = 19334
+    message_start = b'\x63\xf2\xc0\x2c'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

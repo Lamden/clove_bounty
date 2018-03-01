@@ -13,6 +13,12 @@ class Qtum(Bitcoin):
         'qtum3.dynu.net',
     )
     port = 3888
+    message_start = b'\xf1\xcf\xa6\xd3'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 58,
+        'SCRIPT_ADDR': 50,
+        'SECRET_KEY': 128
+    }
 
 
 class QtumTestNet(Qtum):
@@ -26,3 +32,9 @@ class QtumTestNet(Qtum):
         'qtum4.dynu.net',
     )
     port = 13888
+    message_start = b'\x0d\x22\x15\x06'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 120,
+        'SCRIPT_ADDR': 110,
+        'SECRET_KEY': 239
+    }

@@ -29,3 +29,9 @@ class GpucoinTestNet(Gpucoin):
     name = 'test-gpucoin'
     seeds = ()
     port = 16897
+    message_start = b'\x46\x71\xf7\x5e'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

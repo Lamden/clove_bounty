@@ -43,3 +43,9 @@ class WincoinTestNet(Wincoin):
     name = 'test-wincoin'
     seeds = ()
     port = 11610
+    message_start = b'\xff\xe1\xd0\xef'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

@@ -29,3 +29,9 @@ class FreicoinTestNet(Freicoin):
     name = 'test-freicoin'
     seeds = ('seed.testnet.freicoin.pw', )
     port = 18639
+    message_start = b'\x5e\xd6\x7c\xf3'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

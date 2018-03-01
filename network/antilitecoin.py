@@ -29,3 +29,9 @@ class AntilitecoinTestNet(Antilitecoin):
     seeds = ('testnet-seed.antilitecointools.com',
              'testnet-seed.ltc.xurious.com', 'dnsseed.wemine-testnet.com')
     port = 18795
+    message_start = b'\xd2\xb1\xa1\xac'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 119,
+        'SCRIPT_ADDR': 199,
+        'SECRET_KEY': 247
+    }

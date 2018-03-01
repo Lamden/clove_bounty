@@ -31,3 +31,9 @@ class EZCoinTestNet(EZCoin):
     name = 'test-ezcoin'
     seeds = ("testseed1.ezcoin.org")
     port = 17955
+    message_start = b'\xf2\xc5\xa7\xde'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 44,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 172
+    }

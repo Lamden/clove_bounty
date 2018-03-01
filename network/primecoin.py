@@ -35,3 +35,9 @@ class PrimecoinTestNet(Primecoin):
         'tnseed.ppcoin.net', 'primeseedtn.muuttuja.org'
     )
     port = 9913
+    message_start = b'\xfb\xfe\xcb\xc3'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

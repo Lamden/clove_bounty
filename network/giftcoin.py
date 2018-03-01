@@ -31,3 +31,9 @@ class GiftcoinTestNet(Giftcoin):
     seeds = ("node.giftcoin.info",
              "nodegift.poolnetwork.org")
     port = 18855
+    message_start = b'\xfc\xc1\xb7\xdc'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

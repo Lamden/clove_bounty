@@ -30,3 +30,9 @@ class SlothcoinTestNet(Slothcoin):
     seeds = ('80.112.144.8', '82.139.127.205', '80.112.172.234',
              '173.209.34.107', '198.23.161.59')
     port = 15107
+    message_start = b'\x0b\x11\xbb\x07'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 127,
+        'SCRIPT_ADDR': 130,
+        'SECRET_KEY': 255
+    }

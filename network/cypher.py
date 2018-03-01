@@ -30,3 +30,9 @@ class CypherTestNet(Cypher):
     name = 'test-cypher'
     seeds = ()
     port = 28224
+    message_start = b'\x70\x35\x22\x05'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

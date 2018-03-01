@@ -29,3 +29,9 @@ class WarpTestNet(Warp):
     name = 'test-warp'
     seeds = ()
     port = 31313
+    message_start = b'\x70\x35\x22\x05'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

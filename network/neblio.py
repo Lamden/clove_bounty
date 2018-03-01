@@ -28,3 +28,9 @@ class NeblioTestNet(Neblio):
     name = 'test-neblio'
     seeds = ()
     port = 16325
+    message_start = b'\x1b\xba\x63\xc5'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 65,
+        'SCRIPT_ADDR': 127,
+        'SECRET_KEY': 193
+    }

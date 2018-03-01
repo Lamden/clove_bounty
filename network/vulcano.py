@@ -29,3 +29,9 @@ class VulcanoTestNet(Vulcano):
     name = 'test-vulcano'
     seeds = ()
     port = 31041
+    message_start = b'\x82\x54\x78\x25'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

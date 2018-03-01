@@ -28,3 +28,9 @@ class TattocoinSETestNet(TattocoinSE):
     name = 'test-tattocoinse'
     seeds = ('91.134.120.210')
     port = 19959
+    message_start = b'\xb8\xca\x56\x51'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

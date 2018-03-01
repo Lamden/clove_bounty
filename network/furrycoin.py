@@ -28,3 +28,9 @@ class FurrycoinTestNet(Furrycoin):
     name = 'test-furrycoin'
     seeds = ("test-seed1.furrycoin.net")
     port = 5744
+    message_start = b'\xfc\xc1\xb7\xdc'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

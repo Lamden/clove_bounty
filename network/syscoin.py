@@ -29,3 +29,9 @@ class SyscoinTestNet(Syscoin):
     name = 'test-syscoin'
     seeds = ('testnet-syscoinseed.tk', )
     port = 18369
+    message_start = b'\xac\xdc\xdc\xac'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 65,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 193
+    }

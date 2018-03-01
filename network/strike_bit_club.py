@@ -29,3 +29,9 @@ class StrikeBitClubTestNet(StrikeBitClub):
     symbols = ('SBC', )
     seeds = ()
     port = 31575
+    message_start = b'\xdd\xd7\xd4\x77'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

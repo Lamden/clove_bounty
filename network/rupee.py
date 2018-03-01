@@ -29,3 +29,9 @@ class RupeeTestNet(Rupee):
     name = 'test-rupee'
     seeds = ()
     port = 20459
+    message_start = b'\x06\xb9\xe2\xcd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

@@ -28,3 +28,9 @@ class KilocoinTestNet(Kilocoin):
     name = 'test-kilocoin'
     seeds = ('testnet-seed.kilocoin.com', )
     port = 63112
+    message_start = b'\xfd\xc1\xb7\xdc'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

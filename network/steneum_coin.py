@@ -28,3 +28,9 @@ class SteneumCoinTestNet(SteneumCoin):
     name = 'test-steneum-coin'
     seeds = ()
     port = 36965
+    message_start = b'\x37\xfa\x83\x3f'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

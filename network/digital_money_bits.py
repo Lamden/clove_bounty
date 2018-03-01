@@ -29,3 +29,9 @@ class DigitalMoneyBitsTestNet(DigitalMoneyBits):
     symbols = ('DMB', )
     seeds = ()
     port = 16408
+    message_start = b'\xea\x19\xaa\xc5'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 91,
+        'SCRIPT_ADDR': 92,
+        'SECRET_KEY': 219
+    }

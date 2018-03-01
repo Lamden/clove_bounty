@@ -36,3 +36,9 @@ class SambaCoinTestNet(SambaCoin):
              "seed2-testnet.sambacoin.info",
              "seed-testnet.sambacoin.info")
     port = 21255
+    message_start = b'\xec\xa1\x07\x2c'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

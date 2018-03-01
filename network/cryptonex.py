@@ -32,3 +32,9 @@ class CryptonexTestNet(Cryptonex):
     name = 'test-cryptonex'
     seeds = ()
     port = 30863
+    message_start = b'\x4c\x79\x51\xf0'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

@@ -29,3 +29,9 @@ class AgrolifeCoinTestNet(AgrolifeCoin):
     symbols = ('AGLC', )
     seeds = ()
     port = 22332
+    message_start = b'\xad\xf1\x22\xaf'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

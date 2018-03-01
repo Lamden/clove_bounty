@@ -29,3 +29,9 @@ class PandacoinTestNet(Pandacoin):
     name = 'test-pandacoin'
     seeds = ('pndstats.com',)
     port = 44656
+    message_start = b'\xfc\xc1\xb7\xdc'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 113,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 241
+    }

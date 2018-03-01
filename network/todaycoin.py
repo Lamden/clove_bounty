@@ -29,3 +29,9 @@ class TodayCoinTestNet(TodayCoin):
     name = 'test-todaycoin'
     seeds = ()
     port = 17869
+    message_start = b'\x06\xbc\xf9\x06'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

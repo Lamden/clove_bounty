@@ -30,3 +30,9 @@ class PhotonTestNet(Photon):
     name = 'test-photon'
     seeds = ('photon.info', 'server1.photon.org', 'photon.com')
     port = 18992
+    message_start = b'\x0b\x11\x09\x08'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 142,
+        'SCRIPT_ADDR': 170,
+        'SECRET_KEY': 270
+    }

@@ -29,3 +29,9 @@ class OsmiumCoinTestNet(OsmiumCoin):
     name = 'test-osmiumcoin'
     seeds = ()
     port = 14947
+    message_start = b'\x97\xd8\x4c\xdc'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

@@ -30,3 +30,9 @@ class KlondikeCoinTestNet(KlondikeCoin):
     seeds = ("testnet-seed.klondikecointools.com",
              "testnet-seed.weminemnc.com")
     port = 19333
+    message_start = b'\xcf\xcf\xcf\xcf'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 108,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 236
+    }

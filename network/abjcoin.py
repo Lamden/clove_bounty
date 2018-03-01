@@ -29,3 +29,9 @@ class AbjcoinTestNet(Abjcoin):
     symbols = ('ABJ', )
     seeds = ()
     port = 39303
+    message_start = b'\x2d\x27\x8e\xab'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

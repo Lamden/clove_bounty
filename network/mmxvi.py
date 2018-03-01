@@ -29,3 +29,9 @@ class MMXVITestNet(MMXVI):
     name = 'test-mmxvi'
     seeds = ('dnsseed.MMXVI.org',)
     port = 16503
+    message_start = b'\xa1\xbb\xd1\xf8'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 112,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 240
+    }

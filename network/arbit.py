@@ -29,3 +29,9 @@ class ArbitTestNet(Arbit):
     name = 'test-arbit'
     seeds = ()
     port = 31914
+    message_start = b'\xad\xf1\xc2\xaf'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

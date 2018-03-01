@@ -30,3 +30,9 @@ class WmcoinTestNet(Wmcoin):
     name = 'test-wmcoin'
     seeds = ()
     port = 30801
+    message_start = b'\xcd\xf1\xc0\xef'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

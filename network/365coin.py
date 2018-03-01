@@ -29,3 +29,9 @@ class Three65CoinTestNet(Three65Coin):
     symbols = ('365', )
     seeds = ()
     port = 17778
+    message_start = b'\xcd\xf2\xc0\xef'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

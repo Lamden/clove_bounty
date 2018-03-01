@@ -28,3 +28,9 @@ class PotcoinTestNet(Potcoin):
     name = 'test-potcoin'
     seeds = ('testnet-seed.potcoin.com', )
     port = 14200
+    message_start = b'\xfe\xc3\xb9\xde'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

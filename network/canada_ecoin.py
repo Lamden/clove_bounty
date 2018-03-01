@@ -28,3 +28,9 @@ class Canada_eCoinTestNet(Canada_eCoin):
     name = 'test-canada_ecoin'
     seeds = ("ontario.canadaecoin.net")
     port = 41331
+    message_start = b'\xfc\xc1\xb7\xdc'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 87,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 215
+    }

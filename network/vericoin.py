@@ -29,3 +29,9 @@ class VeriCoinTestNet(VeriCoin):
     name = 'test-vericoin'
     seeds = ()
     port = 48684
+    message_start = b'\xcd\xf2\xc0\xef'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

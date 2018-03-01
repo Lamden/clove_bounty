@@ -32,3 +32,9 @@ class BCT_CoinTestNet(BCT_Coin):
              "76.74.178.182",
              "69.90.132.171")
     port = 12455
+    message_start = b'\x0b\x11\xbb\x07'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 127,
+        'SCRIPT_ADDR': 130,
+        'SECRET_KEY': 255
+    }

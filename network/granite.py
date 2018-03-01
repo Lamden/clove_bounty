@@ -42,3 +42,9 @@ class GraniteTestNet(Granite):
     name = 'test-granite'
     seeds = ('grn-testseed01.chainworksindustries.com',)
     port = 22777
+    message_start = b'\xfe\xc4\xba\xde'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

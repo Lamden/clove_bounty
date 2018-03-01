@@ -29,3 +29,9 @@ class PeacecoinTestNet(Bitcoin):
     seeds = ("testnet-seed.peacecoin.petertodd.org",
              "testnet-seed.bluematt.me")
     port = 11945
+    message_start = b'\x0b\x11\x09\x07'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

@@ -28,3 +28,9 @@ class EinsteiniumTestNet(Einsteinium):
     name = 'test-einsteinium'
     seeds = ("testnet-seed.einsteiniumtools.com", "testnet-seed.weminemnc.com")
     port = 31878
+    message_start = b'\xfa\xa2\xf0\xc1'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

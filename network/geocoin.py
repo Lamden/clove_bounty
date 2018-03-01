@@ -28,3 +28,9 @@ class GeoCoinTestNet(GeoCoin):
     name = 'test-geocoin'
     seeds = ("104.236.52.122")
     port = 9748
+    message_start = b'\xbf\xc0\xd1\xe2'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

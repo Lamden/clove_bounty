@@ -28,3 +28,9 @@ class GhostcoinTestNet(Ghostcoin):
     name = 'test-ghostcoin'
     seeds = ("testnet-seed.ghostcoin.info")
     port = 19334
+    message_start = b'\x64\xf1\xc0\x2c'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

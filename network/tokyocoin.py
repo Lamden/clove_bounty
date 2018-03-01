@@ -30,3 +30,9 @@ class TokyocoinTestNet(Tokyocoin):
     name = 'test-tokyocoin'
     seeds = ()
     port = 33517
+    message_start = b'\x6a\x5b\x6d\xba'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

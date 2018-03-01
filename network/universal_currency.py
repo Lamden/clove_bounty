@@ -28,3 +28,9 @@ class UniversalCurrencyTestNet(UniversalCurrency):
     name = 'test-universalcurrency'
     seeds = ()
     port = 24158
+    message_start = b'\xad\xf1\xc2\xaf'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

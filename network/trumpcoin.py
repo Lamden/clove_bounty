@@ -28,3 +28,9 @@ class TrumpcoinTestNet(Trumpcoin):
     name = 'test-trumpcoin'
     seeds = ('173.44.41.235', )
     port = 18468
+    message_start = b'\x3c\x4a\x2c\x1c'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

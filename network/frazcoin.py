@@ -28,3 +28,9 @@ class FrazcoinTestNet(Frazcoin):
     name = 'test-frazcoin'
     seeds = ("frazcoin.eu")
     port = 3981
+    message_start = b'\x5A\x41\x52\x46'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 95,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 223
+    }

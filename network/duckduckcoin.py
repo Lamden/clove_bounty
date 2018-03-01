@@ -28,3 +28,9 @@ class DuckDuckCoinTestNet(DuckDuckCoin):
     name = 'test-duckduckcoin'
     seeds = ("testnode1.duckduckcoin.com")
     port = 51474
+    message_start = b'\x0b\x11\x09\x07'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

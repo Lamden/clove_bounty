@@ -30,3 +30,9 @@ class BitmxittzTestNet(Bitmxittz):
              "testnet-seed.ltc.xurious.com",
              "dnsseed.wemine-testnet.com")
     port = 15433
+    message_start = b'\xd9\xb6\xa3\xdc'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

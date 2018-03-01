@@ -33,3 +33,9 @@ class ReeCoinTestNet(ReeCoin):
         '159.203.9.117', '192.155.106.33'
     )
     port = 12385
+    message_start = b'\xcd\xf2\xc0\xef'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

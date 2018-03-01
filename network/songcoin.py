@@ -29,3 +29,9 @@ class SongCoinTestNet(SongCoin):
     name = 'test-songcoin'
     seeds = ('seed.songcoin.org',)
     port = 18335
+    message_start = b'\xfc\xc1\xb7\xdc'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

@@ -29,3 +29,9 @@ class SecureCoinTestNet(SecureCoin):
     name = 'test-securecoin'
     seeds = ()
     port = 22567
+    message_start = b'\x02\x1B\xC4\xF5'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 127,
+        'SCRIPT_ADDR': 199,
+        'SECRET_KEY': 255
+    }

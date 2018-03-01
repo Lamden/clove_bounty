@@ -28,3 +28,9 @@ class MediterraneanCoinTestNet(MediterraneanCoin):
     name = 'test-mediterraneancoin'
     seeds = ("testnet-seed.mediterraneancoin.org")
     port = 19373
+    message_start = b'\xfc\xc1\xb7\xdc'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

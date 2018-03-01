@@ -30,3 +30,9 @@ class MagiTestNet(Magi):
     seeds = ('test-seed.m-core.org', 'test-seed.m-chain.info',
              'test-seed.magi.filoozom.com', 'test-seed.systms.org')
     port = 18233
+    message_start = b'\xf0\xb9\xb3\xd7'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

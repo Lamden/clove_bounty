@@ -30,3 +30,9 @@ class ChampCoinTestNet(ChampCoin):
              "testnet-seed.champ.xurious.com",
              "dnsseed.wemine-testnet.com")
     port = 39173
+    message_start = b'\xd3\xb4\xa5\xde'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

@@ -29,3 +29,9 @@ class OpescoinTestNet(Opescoin):
     name = 'test-opescoin'
     seeds = ('dnsseed.OPES.org',)
     port = 26222
+    message_start = b'\xa1\xb2\xd1\xf8'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 112,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 240
+    }

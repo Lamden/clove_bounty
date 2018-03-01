@@ -28,3 +28,9 @@ class GBCGoldCoinTestNet(GBCGoldCoin):
     name = 'test-gbcgoldcoin'
     seeds = ("testnet-seed.qbc.io")
     port = 46790
+    message_start = b'\xd3\xed\xc9\xf1'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

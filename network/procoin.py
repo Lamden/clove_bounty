@@ -33,3 +33,9 @@ class ProCoinTestNet(ProCoin):
     seeds = ("testnet-seed.procointools.com",
              "testnet-seed.weminemnc.com")
     port = 51474
+    message_start = b'\xfc\xc1\xb7\xdc'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

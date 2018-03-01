@@ -30,3 +30,9 @@ class HamsterCoinTestNet(HamsterCoin):
     seeds = ("31.131.23.80",
              "31.131.23.80")
     port = 135895
+    message_start = b'\xcc\xf1\xb5\xdc'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

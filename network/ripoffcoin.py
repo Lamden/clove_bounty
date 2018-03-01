@@ -28,3 +28,9 @@ class RipoffCoinTestNet(Bitcoin):
     name = 'test-ripoffcoin'
     seeds = ("seedtest.ripoffcoin.com", )
     port = 54002
+    message_start = b'\xfc\xc1\xb7\xdc'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 122,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 250
+    }

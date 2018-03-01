@@ -28,3 +28,9 @@ class VirtualCoinTestNet(VirtualCoin):
     name = 'test-virtualcoin'
     seeds = ('testnet-seed.vcoin.ca', 'testnet-seed.virtualcoin.ca')
     port = 80
+    message_start = b'\xfc\xc1\xb7\xdc'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

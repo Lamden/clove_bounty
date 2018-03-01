@@ -29,3 +29,9 @@ class AdzcoinTestNet(Adzcoin):
     name = 'test-adzcoin'
     seeds = ()
     port = 143029
+    message_start = b'\xfe\xc4\xba\xde'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

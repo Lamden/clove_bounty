@@ -29,3 +29,9 @@ class Dream8CoinTestNet(Dream8Coin):
     name = 'test-diamond'
     seeds = ("tseed.ssaomi.com")
     port = 17774
+    message_start = b'\xfc\xc1\xb7\xdc'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

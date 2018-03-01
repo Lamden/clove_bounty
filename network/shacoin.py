@@ -29,3 +29,9 @@ class SHACoinTestNet(SHACoin):
     name = 'test-shacoin'
     seeds = ()
     port = 26555
+    message_start = b'\xad\xf1\xc2\xaf'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

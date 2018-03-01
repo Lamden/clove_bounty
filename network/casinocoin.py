@@ -39,3 +39,9 @@ class CasinoCoinTestNet(CasinoCoin):
     name = 'test-casinocoin'
     seeds = ("testnet-seed1.casinocoin.org")
     port = 17950
+    message_start = b'\xfc\xc1\xb7\xdc'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 87,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 215
+    }

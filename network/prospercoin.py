@@ -30,3 +30,9 @@ class ProsperCoinTestNet(ProsperCoin):
     seeds = ("seedtest.inmean.com",
              "seed2.khmer.biz")
     port = 19222
+    message_start = b'\xfc\xc1\xb7\xdc'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

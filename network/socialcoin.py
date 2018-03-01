@@ -29,3 +29,9 @@ class SocialCoinTestNet(SocialCoin):
     name = 'test-socialcoin'
     seeds = ()
     port = 28645
+    message_start = b'\x29\x36\x20\x93'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

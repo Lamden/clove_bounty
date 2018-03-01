@@ -28,3 +28,9 @@ class FirstCoinTestNet(FirstCoin):
     name = 'test-firstcoin'
     seeds = ("192.168.200.100")
     port = 10667
+    message_start = b'\xd1\xb2\xa4\xdc'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

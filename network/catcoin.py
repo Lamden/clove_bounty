@@ -29,3 +29,9 @@ class CatcoinTestNet(Catcoin):
     name = 'test-catcoin'
     seeds = ('seed.catcoinwallets.com',)
     port = 19933
+    message_start = b'\xfd\xcb\xb8\xdd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 23,
+        'SCRIPT_ADDR': 83,
+        'SECRET_KEY': 151
+    }

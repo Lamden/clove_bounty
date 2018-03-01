@@ -28,3 +28,9 @@ class SpotsTestNet(Spots):
     name = 'test-spots'
     seeds = ("dstest.theSPT.com")
     port = 15588
+    message_start = b'\xfd\xc2\xb8\xdd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 26,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 154
+    }

@@ -30,3 +30,9 @@ class BlakecoinTestNet(Blakecoin):
     seeds = ("blakecoin.org",
              "blakecoin.com")
     port = 18773
+    message_start = b'\x0b\x11\x09\x07'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 142,
+        'SCRIPT_ADDR': 170,
+        'SECRET_KEY': 270
+    }

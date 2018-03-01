@@ -33,3 +33,9 @@ class BellscoinTestNet(Bellscoin):
              "testnet-seed.BELLS.xurious.com",
              "dnsseed.wemine-testnet.com")
     port = 29919
+    message_start = b'\xfc\xc1\xb7\xdc'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 113,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 241
+    }

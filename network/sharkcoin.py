@@ -29,3 +29,9 @@ class SharkcoinTestNet(Sharkcoin):
     name = 'test-sharkcoin'
     seeds = ()
     port = 14011
+    message_start = b'\x01\x1A\x39\xF7'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 127,
+        'SCRIPT_ADDR': 199,
+        'SECRET_KEY': 255
+    }

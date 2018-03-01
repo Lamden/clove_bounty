@@ -30,3 +30,9 @@ class Vault_CoinTestNet(Vault_Coin):
     seeds = ("testnet-seed.vaultcointools.com",
              "testnet-seed.weminemnc.com")
     port = 25050
+    message_start = b'\xcc\xd1\xe7\xe1'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

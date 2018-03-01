@@ -30,3 +30,9 @@ class EliteTestNet(Elite):
     name = 'test-elite'
     seeds = ()
     port = 26714
+    message_start = b'\xcd\xf2\xc0\xef'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

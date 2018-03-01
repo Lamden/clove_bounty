@@ -28,3 +28,9 @@ class EarthCoinTestNet(EarthCoin):
     name = 'test-earthcoin'
     seeds = ("testnet-seed.earthcointools.org")
     port = 25677
+    message_start = b'\xfd\xc2\xb6\xf1'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

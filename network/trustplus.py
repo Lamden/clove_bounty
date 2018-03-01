@@ -29,3 +29,9 @@ class TrustPlusTestNet(TrustPlus):
     symbols = ('TRUST', )
     seeds = ()
     port = 37000
+    message_start = b'\xa1\xa0\xa2\xa3'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

@@ -29,3 +29,9 @@ class WomenCoinTestNet(WomenCoin):
     name = 'test-womencoin'
     seeds = ()
     port = 29207
+    message_start = b'\x00\x24\x7f\x1e'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

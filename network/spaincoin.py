@@ -29,3 +29,9 @@ class SpaincoinTestNet(Spaincoin):
     name = 'test-spaincoin'
     seeds = ("dnsseed.spaincoin.org")
     port = 21492
+    message_start = b'\xfd\xc2\xb8\xdd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

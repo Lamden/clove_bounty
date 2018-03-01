@@ -39,3 +39,9 @@ class LinxTestNet(Linx):
              "testnet5.mylinx.io",
              "testlinx.ffptech.com")
     port = 24915
+    message_start = b'\xdc\xd4\xb7\xdc'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }
