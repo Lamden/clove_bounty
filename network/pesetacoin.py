@@ -11,6 +11,12 @@ class Pesetacoin(Bitcoin):
     symbols = ('PTC', )
     seeds = ('dnsseed.pesetacoin.info', )
     port = 16639
+    message_start = b'\xc0\xc0\xc0\xc0'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 47,
+        'SCRIPT_ADDR': 22,
+        'SECRET_KEY': 175
+    }
 
 
 class TerracoinTestNet(Pesetacoin):
@@ -22,3 +28,9 @@ class TerracoinTestNet(Pesetacoin):
     name = 'test-pesetacoin'
     seeds = ('test-seed.pesetachain.info', )
     port = 26339
+    message_start = b'\xfc\xc1\xb7\xdc'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 113,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 241
+    }

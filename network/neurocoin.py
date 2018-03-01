@@ -13,3 +13,9 @@ class Neurocoin(Bitcoin):
              "188.226.150.84",
              "147.135.191.162")
     port = 17771
+    message_start = b'\xe6\xe8\xe9\xe5'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 53,
+        'SCRIPT_ADDR': 117,
+        'SECRET_KEY': 181
+    }

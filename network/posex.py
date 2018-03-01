@@ -31,5 +31,11 @@ class PosEx(Bitcoin):
              "94.241.232.129",
              "95.78.36.119")
     port = 9911
+    message_start = b'\xa4\xd2\xf8\xa6'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 10,
+        'SCRIPT_ADDR': 32,
+        'SECRET_KEY': 138
+    }
 
 # Has no testnet

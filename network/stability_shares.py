@@ -20,5 +20,11 @@ class Stability_Shares(Bitcoin):
              "88.127.170.75",
              "94.23.196.92")
     port = 7711
+    message_start = b'\x4d\xd2\xf5\xc6'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 76,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 204
+    }
 
 # no testnet

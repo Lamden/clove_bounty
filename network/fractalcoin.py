@@ -27,6 +27,12 @@ class Fractalcoin(Bitcoin):
              "seed8.fractalco.in",
              "earlz.net")
     port = 33112
+    message_start = b'\xc1\xc1\xc1\xc1'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 36,
+        'SCRIPT_ADDR': 20,
+        'SECRET_KEY': 125
+    }
 
 
 class FractalcoinTestNet(Fractalcoin):
@@ -55,3 +61,9 @@ class FractalcoinTestNet(Fractalcoin):
              "seed7.fractalco.in",
              "seed8.fractalco.in")
     port = 44112
+    message_start = b'\xfc\xc1\xb7\xfc'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 138,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 241
+    }

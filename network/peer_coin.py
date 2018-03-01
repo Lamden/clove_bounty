@@ -11,6 +11,12 @@ class Peercoin(Bitcoin):
     symbols = ('PPC', )
     seeds = ('seed.peercoin.net', 'seed.ppcoin.net')
     port = 9901
+    message_start = b'\xe6\xe8\xe9\xe5'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 55,
+        'SCRIPT_ADDR': 117,
+        'SECRET_KEY': 183
+    }
 
 
 class Peercoin(Peercoin):
@@ -22,3 +28,9 @@ class Peercoin(Peercoin):
     name = 'test-peercoin'
     seeds = ('tseed.peercoin.net')
     port = 9903
+    message_start = b'\xcb\xf2\xc0\xef'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

@@ -11,6 +11,12 @@ class Tomatocoin(Bitcoin):
     symbols = ('TMT', )
     seeds = ("23.23.186.131")
     port = 9888
+    message_start = b'\xbf\x0c\x6b\xbd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 66,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 194
+    }
 
 
 class TomatocoinTestNet(Tomatocoin):
@@ -22,3 +28,9 @@ class TomatocoinTestNet(Tomatocoin):
     name = 'test-tomatocoin'
     seeds = ("23.23.186.131")
     port = 19888
+    message_start = b'\xce\xe2\xca\xff'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

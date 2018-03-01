@@ -12,5 +12,11 @@ class BlitzCash(Bitcoin):
     seeds = ('blitz1.mooo.com', 'blitz2.mooo.com',
              'blitz3.mooo.com', 'blitz4.mooo.com', 'blitz5.mooo.com')
     port = 9627
+    message_start = b'\x70\x35\x22\x05'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 115,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 243
+    }
 
 # no testnet

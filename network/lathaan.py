@@ -11,5 +11,11 @@ class LAthaan(Bitcoin):
     symbols = ('LTH', )
     nodes = ("173.254.204.117", )
     port = 14987
+    message_start = b'\xb3\xa2\x48\x6f'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 33,
+        'SCRIPT_ADDR': 66,
+        'SECRET_KEY': 161
+    }
 
 # no testnet

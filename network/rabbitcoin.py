@@ -11,5 +11,11 @@ class RabbitCoin(Bitcoin):
     symbols = ('RBBT', )
     seeds = ('seed.rabbitco.in')
     port = 17020
+    message_start = b'\xc0\xc0\xc0\xc0'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 60,
+        'SCRIPT_ADDR': 22,
+        'SECRET_KEY': 188
+    }
 
 # no testnet

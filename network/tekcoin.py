@@ -15,6 +15,12 @@ class TEKcoin(Bitcoin):
              "node4.tekcoin.uk",
              "node5.tekcoin.uk")
     port = 8514
+    message_start = b'\xe4\xe8\xe9\xe5'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 26,
+        'SCRIPT_ADDR': 30,
+        'SECRET_KEY': 154
+    }
 
 
 # Has no testnet

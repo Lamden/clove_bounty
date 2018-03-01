@@ -11,5 +11,11 @@ class Coven(Bitcoin):
     symbols = ('COV', )
     seeds = ("104.238.182.76")
     port = 83350
+    message_start = b'\x3c\xc2\x12\xd1'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 28,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 153
+    }
 
 # Has no testnet

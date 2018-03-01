@@ -18,5 +18,11 @@ class Checkcoin(Bitcoin):
              "dnsseed7.checkcoin.cc",
              "dnsseed8.checkcoin.cc")
     port = 11070
+    message_start = b'\xbf\x0c\x6b\xbd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 28,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 156
+    }
 
 # Has no testnet

@@ -14,6 +14,12 @@ class DonationCoin(Bitcoin):
              "seed3.donationcoin.org",
              "seed4.donationcoin.org")
     port = 11060
+    message_start = b'\xfb\xc0\xb6\xdb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 48,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 176
+    }
 
 
 # No Testnet

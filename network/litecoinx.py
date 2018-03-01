@@ -11,5 +11,11 @@ class LiteCoinX(Bitcoin):
     symbols = ('LTCX', )
     seeds = ("108.61.196.125", "114.215.110.130")
     port = 12316
+    message_start = b'\xfb\xc0\xb6\xdb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 48,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 176
+    }
 
 # no testnet

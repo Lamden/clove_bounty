@@ -12,6 +12,12 @@ class VapersCoin(Bitcoin):
     symbols = ('VPRC', )
     seeds = ('37.187.125.97',)
     port = 4444
+    message_start = b'\xc0\xc0\xc0\xc0'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 70,
+        'SCRIPT_ADDR': 22,
+        'SECRET_KEY': 198
+    }
 
 
 class VapersCoinTestNet(VapersCoin):
@@ -24,3 +30,9 @@ class VapersCoinTestNet(VapersCoin):
     seeds = ('seed.mophides.com', 'seed.dglibrary.org', 'seed.epcchain.info',
              'testepc-seed.lionservers.de', 'testepc-seed-static.lionservers.de')
     port = 14444
+    message_start = b'\xfc\xc1\xb7\xdc'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 113,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 241
+    }

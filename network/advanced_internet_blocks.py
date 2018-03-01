@@ -12,3 +12,9 @@ class AdvancedInternetBlocks(Bitcoin):
     symbols = ('AIB', )
     seeds = ('seed.wtmint.com', 'seed.iobond.com', 'seed.aib.one',)
     port = 5223
+    message_start = b'\xa3\xb1\xc4\xd1'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 23,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 151
+    }

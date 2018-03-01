@@ -13,3 +13,9 @@ class HealthyWormCoin(Bitcoin):
              "164.132.189.192",
              "worm.healthyworm.com")
     port = 8064
+    message_start = b'\x1c\x1b\x1c\x1d'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 73,
+        'SCRIPT_ADDR': 117,
+        'SECRET_KEY': 201
+    }

@@ -14,6 +14,12 @@ class PayCoin(Bitcoin):
              "dnsseed.xpydev.org")
 
     port = 8998
+    message_start = b'\xaa\xaa\xaa\xaa'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 55,
+        'SCRIPT_ADDR': 117,
+        'SECRET_KEY': 183
+    }
 
 
 class PayCoinTestNet(Bitcoin):
@@ -26,3 +32,9 @@ class PayCoinTestNet(Bitcoin):
     seeds = ("tseed.paycoin.com",
              "testnet-seed.paycoin.mitchellcash.com")
     port = 9000
+    message_start = b'\xbb\xbb\xbb\xbb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

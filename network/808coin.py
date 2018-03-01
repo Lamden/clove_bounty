@@ -11,6 +11,12 @@ class Eight08Coin(Bitcoin):
     symbols = ('808', )
     seeds = ('dns.808bass.space')
     port = 8087
+    message_start = b'\xc6\xd5\xe3\xcb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 18,
+        'SCRIPT_ADDR': 25,
+        'SECRET_KEY': 146
+    }
 
 
 class Eight08CoinTestNet(Eight08Coin):
@@ -23,3 +29,9 @@ class Eight08CoinTestNet(Eight08Coin):
     symbols = ('808', )
     seeds = ()
     port = 6903
+    message_start = b'\xde\xc2\xd0\xde'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

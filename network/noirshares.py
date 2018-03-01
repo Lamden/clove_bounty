@@ -21,3 +21,9 @@ class NoirShares(Bitcoin):
              "54.244.236.250",
              "54.197.232.168")
     port = 8500
+    message_start = b'\xe4\xec\xe6\xe5'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 21,
+        'SCRIPT_ADDR': 30,
+        'SECRET_KEY': 149
+    }

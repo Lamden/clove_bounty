@@ -11,6 +11,12 @@ class VirtaUniqueCoin(Bitcoin):
     symbols = ('VUC', )
     seeds = ('50.63.163.129', )
     port = 15702
+    message_start = b'\xa1\xb3\xc7\xd1'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 70,
+        'SCRIPT_ADDR': 44,
+        'SECRET_KEY': 198
+    }
 
 
 class VirtaUniqueCoinTestNet(VirtaUniqueCoin):
@@ -22,3 +28,9 @@ class VirtaUniqueCoinTestNet(VirtaUniqueCoin):
     name = 'test-virta-unique-coin'
     seeds = ()
     port = 15703
+    message_start = b'\xe7\xe3\xe2\xe1'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 12,
+        'SCRIPT_ADDR': 51,
+        'SECRET_KEY': 140
+    }
