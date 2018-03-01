@@ -24,6 +24,12 @@ class Europecoin(Bitcoin):
              "86.219.30.13",
              "95.104.192.198")
     port = 8881
+    message_start = b'\x45\x55\x52\x4f'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 33,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 168
+    }
 
 
 class EuropecoinTestNet(Europecoin):
@@ -35,3 +41,9 @@ class EuropecoinTestNet(Europecoin):
     name = 'test-europecoin'
     seeds = ("85.214.68.75")
     port = 8989
+    message_start = b'\x45\x55\x52\x4f'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 33,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 168
+    }

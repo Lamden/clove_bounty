@@ -11,5 +11,11 @@ class NewZealandCoin(Bitcoin):
     symbols = ('NZC', )
     seeds = ("node.walletbuilders.com")
     port = 7769
+    message_start = b'\x69\x2a\xb5\x47'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 53,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 181
+    }
 
 # no testnet

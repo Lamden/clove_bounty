@@ -13,6 +13,12 @@ class Digitalcoin(Bitcoin):
     seeds = ('digitalcoin.co', 'game.digitalcoin.co',
              'dev.digitalcoin.co', '178.62.28.81')
     port = 7999
+    message_start = b'\xfb\xc0\xb6\xdb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 30,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 158
+    }
 
 
 class DigitalcoinTestNet(Digitalcoin):

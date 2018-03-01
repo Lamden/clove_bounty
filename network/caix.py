@@ -14,5 +14,11 @@ class CAIx(Bitcoin):
              "walrusbonzo.ddns.net",
              "alpho2k.ddns.net")
     port = 1511
+    message_start = b'\x70\x35\x22\x05'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 76,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 204
+    }
 
 # Has no testnet

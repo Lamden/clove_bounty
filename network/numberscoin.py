@@ -11,5 +11,11 @@ class NumbersCoin(Bitcoin):
     symbols = ('NUM', )
     seeds = ("node.walletbuilders.com")
     port = 6975
+    message_start = b'\x42\x22\xae\x3c'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 53,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 181
+    }
 
 # no testnet

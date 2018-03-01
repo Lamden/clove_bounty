@@ -11,5 +11,11 @@ class StarCashNetwork(Bitcoin):
     symbols = ('STARS', )
     seeds = ('45.32.226.114')
     port = 21698
+    message_start = b'\xf1\xca\xba\xdc'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 125,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 253
+    }
 
 # no testnet

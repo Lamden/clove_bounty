@@ -11,6 +11,12 @@ class PinkDog(Bitcoin):
     symbols = ('PDG', )
     seeds = ("pinkdog.party")
     port = 17771
+    message_start = b'\xc3\xf1\x8d\xd2'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 55,
+        'SCRIPT_ADDR': 30,
+        'SECRET_KEY': 28
+    }
 
 
 class PinkDogTestNet(PinkDog):
@@ -22,3 +28,9 @@ class PinkDogTestNet(PinkDog):
     name = 'test-pinkdog'
     seeds = ("mytestseed.org")
     port = 19777
+    message_start = b'\xba\xf8\xfb\x99'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 45,
+        'SCRIPT_ADDR': 48,
+        'SECRET_KEY': 50
+    }

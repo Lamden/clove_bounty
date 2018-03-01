@@ -11,6 +11,12 @@ class SpaceCoin(Bitcoin):
     symbols = ('SPACE', )
     seeds = ('seed1.spacecoin.info', 'seed2.spacecoin.info')
     port = 9172
+    message_start = b'\xf4\xf2\xf9\xfb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 63,
+        'SCRIPT_ADDR': 52,
+        'SECRET_KEY': 191
+    }
 
 
 # Has no testnet

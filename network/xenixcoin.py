@@ -11,5 +11,11 @@ class Xenixcoin(Bitcoin):
     symbols = ('XEN', )
     seeds = ("92.63.57.235", "92.63.57.104")
     port = 5556
+    message_start = b'\xff\xef\xeb\xf1'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 75,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 203
+    }
 
 # no testnet

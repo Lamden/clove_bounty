@@ -12,3 +12,9 @@ class Washingtoncoin(Bitcoin):
     seeds = ("45.42.140.30",
              "84.200.210.130")
     port = 15150
+    message_start = b'\xfc\xdb\xfb\xc3'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 73,
+        'SCRIPT_ADDR': 68,
+        'SECRET_KEY': 201
+    }

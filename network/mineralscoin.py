@@ -12,5 +12,11 @@ class Mineralscoin(Bitcoin):
     seeds = ("dnsseed1.minerals.pro",
              "dnsseed2.minerals.pro")
     port = 33442
+    message_start = b'\xa1\xa0\xa2\xa3'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 50,
+        'SCRIPT_ADDR': 28,
+        'SECRET_KEY': 178
+    }
 
 # no testnet

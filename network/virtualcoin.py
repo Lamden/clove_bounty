@@ -11,6 +11,12 @@ class VirtualCoin(Bitcoin):
     symbols = ('VC', )
     seeds = ('dnsseed.vcoin.ca', 'dnsseed.virtualcoin.ca')
     port = 443
+    message_start = b'\xfb\xc0\xb6\xdb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 70,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 198
+    }
 
 
 class VirtualCoinTestNet(VirtualCoin):
@@ -22,3 +28,9 @@ class VirtualCoinTestNet(VirtualCoin):
     name = 'test-virtualcoin'
     seeds = ('testnet-seed.vcoin.ca', 'testnet-seed.virtualcoin.ca')
     port = 80
+    message_start = b'\xfc\xc1\xb7\xdc'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

@@ -16,5 +16,11 @@ class VPNCoin(Bitcoin):
         's8.bitnet.cc', 's9.bitnet.cc'
     )
     port = 1920
+    message_start = b'\x70\x35\x22\x05'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 71,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 199
+    }
 
 # no testnet

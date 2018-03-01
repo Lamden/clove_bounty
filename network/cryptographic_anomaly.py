@@ -11,5 +11,11 @@ class Cryptographic_Anomaly(Bitcoin):
     symbols = ('CGA', )
     seeds = ("cga.dnsseed.crypto2.net")
     port = 3933
+    message_start = b'\x4d\x63\x61\x44'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 83,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 211
+    }
 
 # no testnet

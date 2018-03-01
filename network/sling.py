@@ -17,5 +17,11 @@ class Diamond(Bitcoin):
              "slingseed6.slingcoin.info",
              "slingseed7.slingcoin.info")
     port = 30137
+    message_start = b'\x13\x37\x17\x71'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 63,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 153
+    }
 
 # no testnet

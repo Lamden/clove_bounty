@@ -23,6 +23,12 @@ class Protoshares(Bitcoin):
              "54.218.232.206",
              "54.212.175.33")
     port = 3888
+    message_start = b'\xf9\xbd\xb5\xd9'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 56,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 184
+    }
 
 
 class ProtosharesTestNet(Protoshares):
@@ -35,3 +41,9 @@ class ProtosharesTestNet(Protoshares):
     seeds = ("testnet-seed.bitcoin.petertodd.org",
              "testnet-seed.bluematt.me")
     port = 13888
+    message_start = b'\x0b\x11\x09\x07'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

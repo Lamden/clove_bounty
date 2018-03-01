@@ -15,6 +15,12 @@ class STRAKS(Bitcoin):
              "sm004.alphaqub.com",
              "sm005.alphaqub.com")
     port = 7575
+    message_start = b'\xb0\xd5\xf0\x2c'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 63,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 204
+    }
 
 
 class STRAKSTestNet(STRAKS):
@@ -27,3 +33,9 @@ class STRAKSTestNet(STRAKS):
     seeds = ("st001.radixpi.com",
              "st002.radixpi.com")
     port = 7565
+    message_start = b'\x2a\x1e\xd5\xd1'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 127,
+        'SCRIPT_ADDR': 19,
+        'SECRET_KEY': 239
+    }

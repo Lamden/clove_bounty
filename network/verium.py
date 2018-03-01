@@ -11,5 +11,11 @@ class Verium(Bitcoin):
     symbols = ('VRM', )
     seeds = ('vrmdns.vericoin.info')
     port = 36988
+    message_start = b'\x70\x35\x22\x05'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 70,
+        'SCRIPT_ADDR': 132,
+        'SECRET_KEY': 198
+    }
 
 # no testnet

@@ -12,6 +12,12 @@ class Riecoin(Bitcoin):
     symbols = ('RIC', )
     seeds = ('seed.bitcoin.sipa.be',)
     port = 28333
+    message_start = b'\xfc\xbc\xb2\xdb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 60,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 128
+    }
 
 
 class RiecoinTestNet(Riecoin):
@@ -23,3 +29,9 @@ class RiecoinTestNet(Riecoin):
     name = 'test-riecoin'
     seeds = ()
     port = 38333
+    message_start = b'\x0d\x09\x11\x05'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 122,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

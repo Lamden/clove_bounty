@@ -11,3 +11,9 @@ class Lycancoin(Bitcoin):
     symbols = ('LYC', )
     seeds = ("69.172.229.161", "209.208.111.72")
     port = 58862
+    message_start = b'\xfc\xd9\xb7\xdd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 48,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 176
+    }

@@ -12,6 +12,12 @@ class Adzcoin(Bitcoin):
     symbols = ('ADZ', )
     seeds = ('seed1.cryptolife.net', 'seed2.cryptolife.net')
     port = 43029
+    message_start = b'\xfd\xc3\xb9\xde'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 20,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 148
+    }
 
 
 class AdzcoinTestNet(Adzcoin):
@@ -23,3 +29,9 @@ class AdzcoinTestNet(Adzcoin):
     name = 'test-adzcoin'
     seeds = ()
     port = 143029
+    message_start = b'\xfe\xc4\xba\xde'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

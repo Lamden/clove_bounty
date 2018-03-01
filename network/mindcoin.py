@@ -14,6 +14,12 @@ class MindCoin(Bitcoin):
              "node3.mindcoin.xyz",
              "mnd.blockpioneers.info")
     port = 34281
+    message_start = b'\xfb\xc0\xb6\xdb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 50,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 178
+    }
 
 
 # Has no testnet

@@ -11,5 +11,11 @@ class TerraNova(Bitcoin):
     symbols = ('TER', )
     seeds = ("194.87.96.140")
     port = 14542
+    message_start = b'\x32\x5e\x6f\x86'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 66,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 194
+    }
 
 # no testnet

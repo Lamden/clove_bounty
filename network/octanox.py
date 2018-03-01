@@ -11,5 +11,11 @@ class Octanox(Bitcoin):
     symbols = ('OTX', )
     seeds = ("185.69.54.33")
     port = 36212
+    message_start = b'\xa2\xc5\xf2\xc1'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 75,
+        'SCRIPT_ADDR': 12,
+        'SECRET_KEY': 203
+    }
 
 # no testnet

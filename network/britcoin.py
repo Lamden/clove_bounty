@@ -12,5 +12,11 @@ class BritCoin(Bitcoin):
     seeds = ("1.britcoin.io",
              "2.britcoin.io")
     port = 9197
+    message_start = b'\x70\x35\x22\x05'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 25,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 153
+    }
 
 # Has no testnet

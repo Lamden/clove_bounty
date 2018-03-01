@@ -12,6 +12,12 @@ class Happycoin(Bitcoin):
     seeds = ("159.203.165.4", "seed5.cryptolife.net", "seed3.cryptolife.net",
              "electrum5.cryptolife.net", "seed4.cryptolife.net", "explore.cryptolife.net")
     port = 12846
+    message_start = b'\xb4\xf3\xef\xcc'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 41,
+        'SCRIPT_ADDR': 20,
+        'SECRET_KEY': 169
+    }
 
 
 # Has no testnet

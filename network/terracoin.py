@@ -11,6 +11,12 @@ class Terracoin(Bitcoin):
     symbols = ('TRC', )
     seeds = ('seed.terracoin.io', 'dnsseed.southofheaven.ca')
     port = 13333
+    message_start = b'\x42\xba\xbe\x56'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 0,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 128
+    }
 
 
 class TerracoinTestNet(Terracoin):
@@ -22,3 +28,9 @@ class TerracoinTestNet(Terracoin):
     name = 'test-terracoin'
     seeds = ('testnetseed.terracoin.io')
     port = 18321
+    message_start = b'\x0b\x11\x09\x07'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

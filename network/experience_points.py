@@ -12,6 +12,12 @@ class ExperiencePoints(Bitcoin):
     seeds = ('seed1.xpcoin.io', 'seed2.xpcoin.io',
              'seed3.xpcoin.io', 'seed4.xpcoin.io')
     port = 28192
+    message_start = b'\xb4\xf8\xe2\xe5'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 75,
+        'SCRIPT_ADDR': 20,
+        'SECRET_KEY': 203
+    }
 
 
 class ExperiencePointsTestNet(ExperiencePoints):
@@ -23,3 +29,9 @@ class ExperiencePointsTestNet(ExperiencePoints):
     name = 'test-experiencepoints'
     seeds = ()
     port = 17778
+    message_start = b'\xcd\xf2\xc0\xef'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

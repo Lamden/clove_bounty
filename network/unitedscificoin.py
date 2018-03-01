@@ -12,3 +12,9 @@ class UnitedSciFiCoin(Bitcoin):
     seeds = ("dnsseed.unitedscifi.com",
              "pool.unitedscifi.com")
     port = 8454
+    message_start = b'\xc6\xe7\xef\xfd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 63,
+        'SCRIPT_ADDR': 15,
+        'SECRET_KEY': 191
+    }

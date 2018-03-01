@@ -11,6 +11,12 @@ class PupaCoin(Bitcoin):
     symbols = ('PUPA', )
     seeds = ("213.169.33.11")
     port = 6811
+    message_start = b'\xee\x17\xea\xcb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 55,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 183
+    }
 
 
 class PupaCoinTestNet(PupaCoin):
@@ -22,3 +28,9 @@ class PupaCoinTestNet(PupaCoin):
     name = 'test-pupacoin'
     seeds = ("test1.PupaCoin.pw")
     port = 16811
+    message_start = b'\xa7\x41\xae\x7c'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

@@ -11,6 +11,12 @@ class MonkeyProject(Bitcoin):
     symbols = ('MONK', )
     seeds = ('185.150.191.36', '185.150.191.23')
     port = 8710
+    message_start = b'\x42\xa4\xc5\x2b'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 51,
+        'SCRIPT_ADDR': 28,
+        'SECRET_KEY': 179
+    }
 
 
 # Has no testnet

@@ -11,6 +11,12 @@ class OmegaCoin(Bitcoin):
     symbols = ('OMA', )
     seeds = ("79.137.84.252", "158.69.207.254")
     port = 7777
+    message_start = b'\xbf\x0c\x6b\xbd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 115,
+        'SCRIPT_ADDR': 15,
+        'SECRET_KEY': 125
+    }
 
 
 class OmegaCoinTestNet(OmegaCoin):
@@ -23,3 +29,9 @@ class OmegaCoinTestNet(OmegaCoin):
     seeds = ("159.89.101.252",
              "207.154.249.8")
     port = 17777
+    message_start = b'\xce\xe2\xca\xff'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 140,
+        'SCRIPT_ADDR': 19,
+        'SECRET_KEY': 239
+    }

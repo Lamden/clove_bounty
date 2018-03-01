@@ -11,5 +11,11 @@ class SeedShares(Bitcoin):
     symbols = ('SEEDS', )
     seeds = ("107.170.238.71")
     port = 32231
+    message_start = b'\xfa\xf2\xef\xb4'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 63,
+        'SCRIPT_ADDR': 125,
+        'SECRET_KEY': 191
+    }
 
 # no testnet

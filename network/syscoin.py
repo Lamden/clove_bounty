@@ -12,6 +12,12 @@ class Syscoin(Bitcoin):
     seeds = ('syscoinseed.tk', 'seed.syscoin.tk',
              'seed1.syscoinseed.tk', 'seed2.syscoinseed.tk')
     port = 8369
+    message_start = b'\xdc\xec\xec\xdc'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 63,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 191
+    }
 
 
 class SyscoinTestNet(Syscoin):
@@ -23,3 +29,9 @@ class SyscoinTestNet(Syscoin):
     name = 'test-syscoin'
     seeds = ('testnet-syscoinseed.tk', )
     port = 18369
+    message_start = b'\xac\xdc\xdc\xac'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 65,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 193
+    }

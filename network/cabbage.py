@@ -16,5 +16,11 @@ class Cabbage(Bitcoin):
              "wallet.cryptolife.net",
              "explore.cryptolife.net")
     port = 40718
+    message_start = b'\xb4\xf3\xe4\xd5'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 28,
+        'SCRIPT_ADDR': 20,
+        'SECRET_KEY': 156
+    }
 
 # Has no testnet

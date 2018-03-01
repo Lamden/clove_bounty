@@ -12,6 +12,12 @@ class Quatloo(Bitcoin):
     seeds = ("seeder.quatloos.org", "dnsseed.quatloos.org",
              "dns-seed.quatloos.org")
     port = 17012
+    message_start = b'\xfa\xce\xbe\xda'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 58,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 186
+    }
 
 
 class QuatlooTestNet(Quatloo):
@@ -23,3 +29,9 @@ class QuatlooTestNet(Quatloo):
     name = 'test-quatloo'
     seeds = ("testnet-seed.quatloos.org")
     port = 17912
+    message_start = b'\xfb\xcd\xbf\xdb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 120,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 248
+    }

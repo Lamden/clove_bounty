@@ -12,6 +12,12 @@ class PIVX(Bitcoin):
     symbols = ('PIVX', )
     seeds = ('pivx.seed.fuzzbawls.pw',)
     port = 51472
+    message_start = b'\x90\xc4\xfd\xe9'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 30,
+        'SCRIPT_ADDR': 13,
+        'SECRET_KEY': 212
+    }
 
 
 class PIVXTestNet(PIVX):
@@ -27,3 +33,9 @@ class PIVXTestNet(PIVX):
         '88.198.192.110'
     )
     port = 51474
+    message_start = b'\x45\x76\x65\xba'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 139,
+        'SCRIPT_ADDR': 19,
+        'SECRET_KEY': 239
+    }

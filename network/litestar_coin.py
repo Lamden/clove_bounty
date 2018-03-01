@@ -11,5 +11,11 @@ class Litestar_Coin(Bitcoin):
     symbols = ('LTS', )
     seeds = ("52.10.106.228")
     port = 39230
+    message_start = b'\xf0\xfb\xdb\xfd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 73,
+        'SCRIPT_ADDR': 28,
+        'SECRET_KEY': 201
+    }
 
 # no testnet

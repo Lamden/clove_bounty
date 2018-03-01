@@ -11,5 +11,11 @@ class SweetStake(Bitcoin):
     symbols = ('SWEET', )
     seeds = ("sweetstake.endofinternet.net")
     port = 34613
+    message_start = b'\xaa\xa2\xb2\xc4'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 63,
+        'SCRIPT_ADDR': 28,
+        'SECRET_KEY': 191
+    }
 
 # no testnet

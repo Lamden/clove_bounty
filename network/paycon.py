@@ -33,6 +33,12 @@ class Paycon(Bitcoin):
         'j7dsfqsdt6pjedvq.onion',
     )
     port = 9455
+    message_start = b'\x4b\x3c\x3b\x2d'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 55,
+        'SCRIPT_ADDR': 8,
+        'SECRET_KEY': 183
+    }
 
 
 class PayconTestNet(Paycon):
@@ -44,3 +50,9 @@ class PayconTestNet(Paycon):
     name = 'test-paycon'
     seeds = ()
     port = 25072
+    message_start = b'\x70\x35\x22\x05'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

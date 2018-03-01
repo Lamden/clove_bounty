@@ -11,6 +11,12 @@ class Karmacoin(Bitcoin):
     symbols = ('KARMA', )
     seeds = ('karmaseeder.alltheco.in', )
     port = 9432
+    message_start = b'\xfb\xc0\xb6\xdb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 45,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 173
+    }
 
 
 class KarmacoinTestNet(Karmacoin):
@@ -22,3 +28,9 @@ class KarmacoinTestNet(Karmacoin):
     name = 'test-karmacoin'
     seeds = ('testnet-karmaseeder.alltheco.in', )
     port = 19432
+    message_start = b'\xfc\xc1\xb7\xdc'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

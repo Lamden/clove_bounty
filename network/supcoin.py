@@ -15,6 +15,12 @@ class Supcoin(Bitcoin):
              "sup1.supcoin.com",
              "sup2.supcoin.com")
     port = 4411
+    message_start = b'\xfc\xbf\xb1\xd0'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 48,
+        'SCRIPT_ADDR': 43,
+        'SECRET_KEY': 128
+    }
 
 
 class SupcoinTestNet(Supcoin):
@@ -26,3 +32,9 @@ class SupcoinTestNet(Supcoin):
     name = 'test-diamond'
     seeds = ("testnetsup.earlz.net")
     port = 14411
+    message_start = b'\x1b\x12\x19\x02'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

@@ -13,3 +13,9 @@ class Concoin(Bitcoin):
              "212.47.238.107",
              "94.176.235.111")
     port = 40100
+    message_start = b'\xc1\xc2\xc5\xb4'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 28,
+        'SCRIPT_ADDR': 23,
+        'SECRET_KEY': 156
+    }

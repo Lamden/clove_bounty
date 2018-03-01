@@ -11,6 +11,12 @@ class DuckDuckCoin(Bitcoin):
     symbols = ('DUCK', )
     seeds = ("node1.duckduckcoin.com")
     port = 17771
+    message_start = b'\x6c\x2d\x24\x24'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 90,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 218
+    }
 
 
 class DuckDuckCoinTestNet(DuckDuckCoin):
@@ -22,3 +28,9 @@ class DuckDuckCoinTestNet(DuckDuckCoin):
     name = 'test-duckduckcoin'
     seeds = ("testnode1.duckduckcoin.com")
     port = 51474
+    message_start = b'\x0b\x11\x09\x07'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

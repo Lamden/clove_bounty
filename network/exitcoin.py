@@ -11,5 +11,11 @@ class ExitCoin(Bitcoin):
     symbols = ('EXIT', )
     seeds = ("node.walletbuilders.com")
     port = 7381
+    message_start = b'\x1b\x98\x7e\xbd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 33,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 161
+    }
 
 # no testnet

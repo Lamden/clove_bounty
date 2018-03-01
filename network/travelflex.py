@@ -12,5 +12,11 @@ class TravelFlex(Bitcoin):
     seeds = ('seed.travelflex.mycryptocoins.net',
              'seednodes.travelflex.mycryptocoins.net')
     port = 54322
+    message_start = b'\xc1\xc1\xc1\xc1'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 65,
+        'SCRIPT_ADDR': 35,
+        'SECRET_KEY': 193
+    }
 
 # no testnet

@@ -11,5 +11,11 @@ class Neoscoin(Bitcoin):
     symbols = ('NEOS', )
     seeds = ('nodes.neoscoin.com')
     port = 29320
+    message_start = b'\xd3\x1a\x3d\xe4'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 53,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 177
+    }
 
 # no testnet

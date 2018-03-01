@@ -11,5 +11,11 @@ class SydPak(Bitcoin):
     symbols = ('SDP', )
     seeds = ("89.204.139.80")
     port = 54321
+    message_start = b'\x5a\xc3\x82\xd3'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 23,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 151
+    }
 
 # no testnet

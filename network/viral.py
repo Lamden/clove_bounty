@@ -11,5 +11,11 @@ class Viral(Bitcoin):
     symbols = ('VIRAL', )
     seeds = ("45.55.218.62")
     port = 28110
+    message_start = b'\x65\x44\x15\x06'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 70,
+        'SCRIPT_ADDR': 132,
+        'SECRET_KEY': 171
+    }
 
 # no testnet

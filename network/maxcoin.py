@@ -12,3 +12,9 @@ class MaxCoin(Bitcoin):
     seeds = ("a.seed.maxcoinproject.net",
              "b.seed.maxcoinproject.net")
     port = 8668
+    message_start = b'\xf9\xbe\xbb\xd2'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 110,
+        'SCRIPT_ADDR': 112,
+        'SECRET_KEY': 238
+    }

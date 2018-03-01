@@ -12,6 +12,12 @@ class InternetOfPeople(Bitcoin):
     seeds = ('mainnet.iop.cash', 'main1.iop.cash', 'main2.iop.cash', 'main3.iop.cash',
              'main4.iop.cash', 'main5.iop.cash', 'main6.iop.cash')
     port = 4877
+    message_start = b'\xfd\xb0\xbb\xd3'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 117,
+        'SCRIPT_ADDR': 174,
+        'SECRET_KEY': 49
+    }
 
 
 class InternetOfPeopleTestNet(InternetOfPeople):

@@ -15,6 +15,12 @@ class AeroMe(Bitcoin):
              "aerome4.publicvm.com",
              "aerome5.publicvm.com")
     port = 6221
+    message_start = b'\x2d\x3f\xa2\xf5'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 23,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 151
+    }
 
 
 # Has no testnet

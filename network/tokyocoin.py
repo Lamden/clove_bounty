@@ -13,6 +13,12 @@ class Tokyocoin(Bitcoin):
         'node.tokyocoin.info',
     )
     port = 23517
+    message_start = b'\x00\x5a\xab\x1e'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 65,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 193
+    }
 
 
 class TokyocoinTestNet(Tokyocoin):
@@ -24,3 +30,9 @@ class TokyocoinTestNet(Tokyocoin):
     name = 'test-tokyocoin'
     seeds = ()
     port = 33517
+    message_start = b'\x6a\x5b\x6d\xba'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

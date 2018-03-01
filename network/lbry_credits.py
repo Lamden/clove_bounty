@@ -11,6 +11,12 @@ class LBRYCredits(Bitcoin):
     symbols = ('LBC', )
     seeds = ('dnsseed1.lbry.io', 'dnsseed2.lbry.io', 'dnsseed3.lbry.io')
     port = 9246
+    message_start = b'\xfa\xe4\xaa\xf1'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 85,
+        'SCRIPT_ADDR': 122,
+        'SECRET_KEY': 28
+    }
 
 
 class LBRYCreditsTestNet(LBRYCredits):
@@ -23,3 +29,9 @@ class LBRYCreditsTestNet(LBRYCredits):
     symbols = ('LBC', )
     seeds = ('testdnsseed1.lbry.io', 'testdnsseed1.lbry.io')
     port = 19246
+    message_start = b'\xfa\xe4\xaa\xe1'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

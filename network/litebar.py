@@ -13,6 +13,12 @@ class Litebar(Bitcoin):
         'litebar.co',
     )
     port = 9065
+    message_start = b'\xfb\xc0\xb6\xdb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 48,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 176
+    }
 
 
 class LitebarTestNet(Litebar):
@@ -24,3 +30,9 @@ class LitebarTestNet(Litebar):
     name = 'test-litebar'
     seeds = ()
     port = 19065
+    message_start = b'\xfc\xc1\xb7\xdc'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

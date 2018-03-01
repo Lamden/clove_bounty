@@ -11,5 +11,11 @@ class Radicalcoin(Bitcoin):
     symbols = ('RADI', )
     seeds = ("5.196.10.57")
     port = 42522
+    message_start = b'\x70\x35\x22\x05'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 60,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 188
+    }
 
 # no testnet

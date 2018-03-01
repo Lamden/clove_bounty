@@ -11,6 +11,12 @@ class RonPaulCoin(Bitcoin):
     symbols = ('RPC', )
     seeds = ("dnsseed.ronpaulcoin.nl")
     port = 9027
+    message_start = b'\xfb\xc0\xb6\xdb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 60,
+        'SCRIPT_ADDR': 3,
+        'SECRET_KEY': 188
+    }
 
 
 class RonPaulCoinTestNet(RonPaulCoin):
@@ -22,3 +28,9 @@ class RonPaulCoinTestNet(RonPaulCoin):
     name = 'test-ronpaulcoin'
     seeds = ("testnet-seed.ronpaulcoin.nl")
     port = 19027
+    message_start = b'\xfc\xc1\xb7\xdc'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 122,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 250
+    }

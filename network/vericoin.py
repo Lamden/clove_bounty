@@ -12,6 +12,12 @@ class VeriCoin(Bitcoin):
     symbols = ('VRC', )
     seeds = ('dnsseed.vericoin.info')
     port = 58684
+    message_start = b'\x70\x35\x22\x05'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 70,
+        'SCRIPT_ADDR': 132,
+        'SECRET_KEY': 198
+    }
 
 
 class VeriCoinTestNet(VeriCoin):
@@ -23,3 +29,9 @@ class VeriCoinTestNet(VeriCoin):
     name = 'test-vericoin'
     seeds = ()
     port = 48684
+    message_start = b'\xcd\xf2\xc0\xef'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

@@ -11,5 +11,11 @@ class Slevin(Bitcoin):
     symbols = ('SLEVIN', )
     seeds = ('35.160.130.225')
     port = 47748
+    message_start = b'\xf3\x2d\xa5\x71'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 28,
+        'SCRIPT_ADDR': 142,
+        'SECRET_KEY': 156
+    }
 
 # no testnet

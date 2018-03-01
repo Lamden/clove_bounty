@@ -15,5 +15,11 @@ class Debitcoin(Bitcoin):
              "seed2.cryptolife.net",
              "seed3.cryptolife.net")
     port = 30112
+    message_start = b'\xd7\xc9\xad\xab'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 31,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 159
+    }
 
 # Has no testnet

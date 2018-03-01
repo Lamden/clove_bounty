@@ -11,5 +11,11 @@ class FistBump(Bitcoin):
     symbols = ('FIST', )
     seeds = ("104.219.53.59")
     port = 13337
+    message_start = b'\xe4\xe8\xbd\xfd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 90,
+        'SCRIPT_ADDR': 8,
+        'SECRET_KEY': 218
+    }
 
 # No testnet

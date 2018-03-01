@@ -14,5 +14,11 @@ class Bitswift(Bitcoin):
              "149.56.111.174",
              "144.217.15.225")
     port = 21138
+    message_start = b'\xa1\xa0\xa2\xa3'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 85,
+        'SCRIPT_ADDR': 28,
+        'SECRET_KEY': 213
+    }
 
 # Has no testnet

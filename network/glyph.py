@@ -11,5 +11,11 @@ class Glyph(Bitcoin):
     symbols = ('GLYPH', )
     seeds = ("node.glyphcoin.com")
     port = 47714
+    message_start = b'\xa1\xa0\xa2\xa3'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 15,
+        'SCRIPT_ADDR': 28,
+        'SECRET_KEY': 143
+    }
 
 # no testnet

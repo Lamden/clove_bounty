@@ -13,6 +13,12 @@ class SibCoin(Bitcoin):
     seeds = ('dnsseed.sibcoin.net', 'dnsseed.chervonec.info',
              'dnsseed1.darknode.ru', 'dnsseed2.darknode.ru', 'dnsseed3.darknode.ru')
     port = 1945
+    message_start = b'\xbf\x0c\x6b\xbd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 63,
+        'SCRIPT_ADDR': 40,
+        'SECRET_KEY': 128
+    }
 
 
 class SibCoinTestNet(SibCoin):
@@ -24,3 +30,9 @@ class SibCoinTestNet(SibCoin):
     name = 'test-coin'
     seeds = ('testnet-seed.dashdot.io', 'test.dnsseed.masternode.io')
     port = 11945
+    message_start = b'\xce\xe2\xca\xff'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 125,
+        'SCRIPT_ADDR': 100,
+        'SECRET_KEY': 239
+    }

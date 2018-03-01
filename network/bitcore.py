@@ -12,6 +12,12 @@ class Bitcore(Bitcoin):
     symbols = ('BTX', )
     seeds = ('188.68.52.172', '37.120.186.85', '37.120.190.76')
     port = 8555
+    message_start = b'\xf9\xbe\xb4\xd9'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 0,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 128
+    }
 
 
 class BitcoreTestNet(Bitcore):
@@ -24,3 +30,9 @@ class BitcoreTestNet(Bitcore):
     seeds = ('188.68.52.172', '37.120.186.85', '37.120.190.76',
              'dnsseed1.bitcore.org', 'dnsseed2.bitcore.org')
     port = 18333
+    message_start = b'\x0b\x11\x09\x07'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

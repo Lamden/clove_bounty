@@ -11,5 +11,11 @@ class Viorcoin(Bitcoin):
     symbols = ('VIOR', )
     seeds = ("178.62.244.59", "178.62.147.100")
     port = 51737
+    message_start = b'\xfa\xf2\xef\xb4'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 70,
+        'SCRIPT_ADDR': 125,
+        'SECRET_KEY': 198
+    }
 
 # no testnet

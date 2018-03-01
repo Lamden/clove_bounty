@@ -12,6 +12,12 @@ class RedCoin(Bitcoin):
     seeds = ('dnsseed.redcoinpool.org',
              'dnsseed.bytesized-vps.com', 'dnsseed.ltc.xurious.com')
     port = 11631
+    message_start = b'\x90\x4a\x92\x40'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 60,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 188
+    }
 
 
 # no testnet

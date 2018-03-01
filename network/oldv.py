@@ -11,5 +11,11 @@ class OldV(Bitcoin):
     symbols = ('OLV', )
     seeds = ("vsyncnode1.servep2p.com")
     port = 18154
+    message_start = b'\x50\x33\x24\x12'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 71,
+        'SCRIPT_ADDR': 132,
+        'SECRET_KEY': 153
+    }
 
 # no testnet

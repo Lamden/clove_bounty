@@ -12,6 +12,12 @@ class LeaCoin(Bitcoin):
     symbols = ('LEA', )
     seeds = ('dnsseed.leacoin.org',)
     port = 18123
+    message_start = b'\x12\x0c\x07\xdd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 48,
+        'SCRIPT_ADDR': 30,
+        'SECRET_KEY': 224
+    }
 
 
 class LeaCoinTestNet(LeaCoin):
@@ -23,3 +29,9 @@ class LeaCoinTestNet(LeaCoin):
     name = 'test-leacoin'
     seeds = ('test.leacoin.org',)
     port = 55534
+    message_start = b'\x01\xfe\xfe\x05'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 130,
+        'SCRIPT_ADDR': 30,
+        'SECRET_KEY': 239
+    }

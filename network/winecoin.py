@@ -11,5 +11,11 @@ class Winecoin(Bitcoin):
     symbols = ('WINE', )
     seeds = ("198.199.90.93")
     port = 18473
+    message_start = b'\xba\xf2\xe3\xf5'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 73,
+        'SCRIPT_ADDR': 20,
+        'SECRET_KEY': 201
+    }
 
 # no testnet

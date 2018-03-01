@@ -13,3 +13,9 @@ class Infinitecoin(Bitcoin):
              "dnsseed.bytesized-vps.com",
              "dnsseed.ltc.xurious.com")
     port = 9321
+    message_start = b'\xfb\xc0\xb6\xdb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 102,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 230
+    }

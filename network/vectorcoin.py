@@ -15,6 +15,12 @@ class Vectorcoin(Bitcoin):
              "dnsseed.koin-project.com",
              "dnsseed.weminemnc.com")
     port = 55333
+    message_start = b'\xfb\xc0\xb6\xdb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 70,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 198
+    }
 
 
 class VectorcoinTestNet(Vectorcoin):
@@ -28,3 +34,9 @@ class VectorcoinTestNet(Vectorcoin):
              "testnet-seed.ltc.xurious.com",
              "dnsseed.wemine-testnet.com")
     port = 55444
+    message_start = b'\xfc\xc1\xb7\xdc'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

@@ -13,5 +13,11 @@ class ToaCoin(Bitcoin):
              "212.24.111.8",
              "212.24.111.34")
     port = 9642
+    message_start = b'\xea\xaf\xe3\xc7'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 65,
+        'SCRIPT_ADDR': 23,
+        'SECRET_KEY': 193
+    }
 
 # no test net

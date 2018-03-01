@@ -12,6 +12,12 @@ class DeutscheeMark(Bitcoin):
     symbols = ('DEM', )
     seeds = ('seed.deutsche-emark.de',)
     port = 5556
+    message_start = b'\xe4\xe8\xe9\xe5'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 53,
+        'SCRIPT_ADDR': 30,
+        'SECRET_KEY': 181
+    }
 
 
 class DeutscheeMarkTestNet(DeutscheeMark):
@@ -23,3 +29,9 @@ class DeutscheeMarkTestNet(DeutscheeMark):
     name = 'test-deutsche-emark'
     seeds = ()
     port = 15556
+    message_start = b'\xfe\xc3\xb9\xde'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

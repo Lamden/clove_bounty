@@ -11,5 +11,11 @@ class Twistercoin(Bitcoin):
     symbols = ('TWIST', )
     seeds = ("52.10.32.200")
     port = 44258
+    message_start = b'\xf3\x2d\xa5\x71'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 65,
+        'SCRIPT_ADDR': 73,
+        'SECRET_KEY': 193
+    }
 
 # no testnet

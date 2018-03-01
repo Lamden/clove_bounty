@@ -11,5 +11,11 @@ class Honey(Bitcoin):
     symbols = ('HONEY', )
     seeds = ("honey.thecryptochat.net")
     port = 40638
+    message_start = b'\xce\xfb\x13\x4e'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 41,
+        'SCRIPT_ADDR': 63,
+        'SECRET_KEY': 100
+    }
 
 # no testnet

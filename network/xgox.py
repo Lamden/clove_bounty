@@ -11,6 +11,12 @@ class Xgox(Bitcoin):
     symbols = ('XGOX', )
     seeds = ("go1.dynu.net", "go2.dynu.net")
     port = 23185
+    message_start = b'\x71\xae\x76\x64'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 38,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 166
+    }
 
 
 # Has no Testnet

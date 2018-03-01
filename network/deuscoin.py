@@ -11,5 +11,11 @@ class DeusCoin(Bitcoin):
     symbols = ('DEUS', )
     seeds = ('54.169.70.29')
     port = 19697
+    message_start = b'\x9e\xe8\xbc\x5a'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 30,
+        'SCRIPT_ADDR': 35,
+        'SECRET_KEY': 128
+    }
 
 # no testnet

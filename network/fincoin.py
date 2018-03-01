@@ -12,5 +12,11 @@ class FinCoin(Bitcoin):
     seeds = ('seed5.cryptolife.net', 'seed2.cryptolife.net', 'seed3.cryptolife.net',
              'electrum1.cryptolife.net', 'wallet.cryptolife.net', 'explore.cryptolife.net')
     port = 20092
+    message_start = b'\xb4\xf8\xe2\xe5'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 35,
+        'SCRIPT_ADDR': 20,
+        'SECRET_KEY': 163
+    }
 
 # no testnet

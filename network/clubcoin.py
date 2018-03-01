@@ -13,6 +13,12 @@ class ClubCoin(Bitcoin):
     seeds = ('seed1.clubcoin.io', 'seed2.clubcoin.io',
              'seed3.clubcoin.io', 'seed4.clubcoin.io', 'seed5.clubcoin.io')
     port = 18114
+    message_start = b'\x70\x35\x42\x05'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 28,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 153
+    }
 
 
 class ClubCoinTestNet(ClubCoin):
@@ -24,3 +30,9 @@ class ClubCoinTestNet(ClubCoin):
     name = 'test-clubcoin'
     seeds = ()
     port = 28114
+    message_start = b'\xcd\xf2\x42\xef'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

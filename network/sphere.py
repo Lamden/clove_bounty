@@ -12,5 +12,11 @@ class Sphere(Bitcoin):
     seeds = ('162.243.247.203', '162.243.25.133',
              '104.236.163.165', 'gqunlgogqx7x42zy.onion')
     port = 37544
+    message_start = b'\xa8\xb8\x11\x30'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 25,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 153
+    }
 
 # no testnet

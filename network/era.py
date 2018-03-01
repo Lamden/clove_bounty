@@ -11,6 +11,12 @@ class Era(Bitcoin):
     symbols = ('ERA', )
     seeds = ('216.144.230.95')
     port = 14442
+    message_start = b'\xea\x11\x7a\xcc'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 26,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 154
+    }
 
 
 class EraTestNet(Era):
@@ -23,3 +29,9 @@ class EraTestNet(Era):
     symbols = ('ERA', )
     seeds = ('216.144.230.95')
     port = 24442
+    message_start = b'\xa7\x41\xae\x7c'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

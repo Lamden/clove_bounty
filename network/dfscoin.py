@@ -11,6 +11,12 @@ class DFSCoin(Bitcoin):
     symbols = ('DFS', )
     seeds = ('192.155.85.156')
     port = 20373
+    message_start = b'\xa1\xa0\xa2\xa3'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 25,
+        'SCRIPT_ADDR': 28,
+        'SECRET_KEY': 153
+    }
 
 
 # Has no testnet

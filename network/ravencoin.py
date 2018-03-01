@@ -14,6 +14,12 @@ class Ravencoin(Bitcoin):
         "seed-raven.bitactivate.com"
     )
     port = 8767
+    message_start = b'\x52\x41\x56\x4e'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 60,
+        'SCRIPT_ADDR': 122,
+        'SECRET_KEY': 128
+    }
 
 
 class RavencoinTestNet(Ravencoin):
@@ -28,3 +34,9 @@ class RavencoinTestNet(Ravencoin):
         "seed-testnet-raven.bitactivate.com"
     )
     port = 18767
+    message_start = b'\x52\x56\x4E\x54'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

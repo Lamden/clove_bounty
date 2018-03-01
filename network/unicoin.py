@@ -11,5 +11,11 @@ class UniCoin(Bitcoin):
     symbols = ('UNIC', )
     seeds = ("altminers.com", )
     port = 50667
+    message_start = b'\x75\x6e\x69\x63'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 68,
+        'SCRIPT_ADDR': 30,
+        'SECRET_KEY': 224
+    }
 
 # no testnet

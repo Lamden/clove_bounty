@@ -12,6 +12,12 @@ class X2(Bitcoin):
     seeds = ("5.146.140.4", "x2team2017.ddns.net", "185.61.151.109",
              "185.61.151.132", "stratumtest.ddns.net")
     port = 16384
+    message_start = b'\x5a\xc3\x82\xd3'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 38,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 166
+    }
 
 
 # Has no test

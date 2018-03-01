@@ -11,5 +11,11 @@ class Nyancoin(Bitcoin):
     symbols = ('NYAN', )
     seeds = ("nyanseed.com")
     port = 33701
+    message_start = b'\xfc\xd9\xb7\xdd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 45,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 173
+    }
 
 # no testnet

@@ -11,6 +11,12 @@ class AgrolifeCoin(Bitcoin):
     symbols = ('AGLC', )
     seeds = ('seed.agrolifecoin.org', 'seed2.agrolifecoin.org')
     port = 27330
+    message_start = b'\xa4\x22\xf8\xa6'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 23,
+        'SCRIPT_ADDR': 1,
+        'SECRET_KEY': 151
+    }
 
 
 class AgrolifeCoinTestNet(AgrolifeCoin):
@@ -23,3 +29,9 @@ class AgrolifeCoinTestNet(AgrolifeCoin):
     symbols = ('AGLC', )
     seeds = ()
     port = 22332
+    message_start = b'\xad\xf1\x22\xaf'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

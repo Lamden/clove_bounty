@@ -17,5 +17,11 @@ class BlackholeCoin(Bitcoin):
              "blackholecoin.com",
              "blackholecoin.org")
     port = 19100
+    message_start = b'\xee\xd9\xf3\xf1'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 25,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 153
+    }
 
 # Has no testnet

@@ -11,6 +11,12 @@ class HalloweenCoin(Bitcoin):
     symbols = ('HALLO', )
     seeds = ("91.134.120.210", "149.56.154.75")
     port = 35727
+    message_start = b'\x2c\xc3\x4a\xa3'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 40,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 168
+    }
 
 
 # Has no Testnet

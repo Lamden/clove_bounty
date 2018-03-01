@@ -11,6 +11,12 @@ class Quebecoin(Bitcoin):
     symbols = ('QBC', )
     seeds = ("dnsseed.qbc.io", "54.86.39.92")
     port = 56790
+    message_start = b'\xd3\xed\xc9\xf1'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 58,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 186
+    }
 
 
 class QuebecoinTestNet(Quebecoin):
@@ -22,3 +28,9 @@ class QuebecoinTestNet(Quebecoin):
     name = 'test-quebecoin'
     seeds = ("testnet-seed.qbc.io")
     port = 46790
+    message_start = b'\xd3\xed\xc9\xf1'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

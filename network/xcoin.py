@@ -11,3 +11,9 @@ class XCoin(Bitcoin):
     symbols = ('XCO', )
     seeds = ("198.105.125.193", "198.105.125.194", "198.105.122.152")
     port = 14641
+    message_start = b'\xa5\xd2\xd7\xa6'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 75,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 203
+    }

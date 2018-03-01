@@ -12,6 +12,12 @@ class Bata(Bitcoin):
     symbols = ('BTA', )
     seeds = ('list.batadnsseed.bata.io', 'batadnsseed.midnightminer.net')
     port = 5784
+    message_start = b'\x34\xc3\xaf\xeb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 25,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 188
+    }
 
 
 class BataTestNet(Bata):
@@ -24,3 +30,9 @@ class BataTestNet(Bata):
     seeds = ('testnet-seed.bata.io', 'testnet-bata.midnightminer.net',
              'dnsseed.wemine-testnet.com')
     port = 33813
+    message_start = b'\xba\xad\xaf\xc5'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

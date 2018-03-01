@@ -11,5 +11,11 @@ class LemonCoin(Bitcoin):
     symbols = ('LEMON', )
     seeds = ("45.32.180.199")
     port = 22331
+    message_start = b'\xa8\xf0\xc3\xc0'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 48,
+        'SCRIPT_ADDR': 33,
+        'SECRET_KEY': 176
+    }
 
 # no testnet

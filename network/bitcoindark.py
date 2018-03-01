@@ -49,5 +49,11 @@ class BitcoinDark(Bitcoin):
              '218.171.95.95',
              '186.21.239.99')
     port = 14631
+    message_start = b'\xa4\xa2\xd8\xe7'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 60,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 188
+    }
 
 # no testnet

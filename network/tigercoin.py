@@ -14,5 +14,11 @@ class Tigercoin(Bitcoin):
              "bitseed.xf2.org",
              "dnsseed.bitcoin.dashjr.org")
     port = 15660
+    message_start = b'\xfa\xb5\xdf\xdb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 127,
+        'SCRIPT_ADDR': 9,
+        'SECRET_KEY': 224
+    }
 
 # no testnet

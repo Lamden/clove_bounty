@@ -11,5 +11,11 @@ class HeelCoin(Bitcoin):
     symbols = ('HEEL', )
     seeds = ("52.10.89.163")
     port = 22077
+    message_start = b'\x2c\xc7\xbc\xba'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 40,
+        'SCRIPT_ADDR': 72,
+        'SECRET_KEY': 142
+    }
 
 # no testnet

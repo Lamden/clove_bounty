@@ -11,6 +11,12 @@ class Spec(Bitcoin):
     symbols = ('SPEC', )
     seeds = ('node.speccoin.com', 'node2.speccoin.com')
     port = 4319
+    message_start = b'\xc3\xd2\xd1\xbd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 10,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 138
+    }
 
 
 class SpecTestNet(Spec):
@@ -23,3 +29,9 @@ class SpecTestNet(Spec):
     symbols = ('SPEC', )
     seeds = ()
     port = 14319
+    message_start = b'\xd1\xb2\xa4\xdc'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

@@ -12,3 +12,9 @@ class BosonCoin(Bitcoin):
     seeds = ("45.42.189.74",
              "107.190.164.220")
     port = 12090
+    message_start = b'\xf1\xc1\xfa\xdb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 26,
+        'SCRIPT_ADDR': 17,
+        'SECRET_KEY': 154
+    }

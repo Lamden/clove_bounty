@@ -11,5 +11,11 @@ class ShrekCoin(Bitcoin):
     symbols = ('SHREK', )
     seeds = ("node.walletbuilders.com")
     port = 7443
+    message_start = b'\x96\xc7\xb2\x6f'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 63,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 191
+    }
 
 # no testnet

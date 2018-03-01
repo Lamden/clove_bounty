@@ -12,6 +12,12 @@ class BitcoinGold(Bitcoin):
     seeds = ('eu-dnsseed.bitcoingold-official.org',
              'dnsseed.bitcoingold.org', 'dnsseed.btcgpu.org')
     port = 8338
+    message_start = b'\xe1\x47\x6d\x44'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 38,
+        'SCRIPT_ADDR': 23,
+        'SECRET_KEY': 128
+    }
 
 
 class BitcoinGoldTestNet(BitcoinGold):
@@ -24,3 +30,9 @@ class BitcoinGoldTestNet(BitcoinGold):
     seeds = ('eu-test-dnsseed.bitcoingold-official.org', 'test-dnsseed.bitcoingold.org',
              'test-dnsseed.btcgpu.org', 'btg.dnsseed.minertopia.org')
     port = 18338
+    message_start = b'\xe1\x48\x6e\x45'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

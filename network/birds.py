@@ -11,6 +11,12 @@ class Birds(Bitcoin):
     symbols = ('BIRDS', )
     seeds = ('104.200.67.124')
     port = 20013
+    message_start = b'\x17\xf7\xfe\xdf'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 25,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 153
+    }
 
 
 class BirdsTestNet(Birds):
@@ -23,3 +29,9 @@ class BirdsTestNet(Birds):
     symbols = ('BIRDS', )
     seeds = ()
     port = 30013
+    message_start = b'\x13\x1f\x9a\xe3'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

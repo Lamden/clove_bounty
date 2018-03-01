@@ -30,6 +30,12 @@ class LuckChain(Bitcoin):
              "s8.bitnet.cc",
              "s9.bitnet.cc")
     port = 20168
+    message_start = b'\x70\x35\x22\x05'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 25,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 153
+    }
 
 
 # Has no testnet

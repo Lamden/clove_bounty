@@ -11,5 +11,11 @@ class Bottlecaps(Bitcoin):
     symbols = ('CAP', )
     seeds = ("seed.bottlecaps.org", "cap.nodes.btcrypt.net")
     port = 7685
+    message_start = b'\xe4\xe8\xe9\xe5'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 34,
+        'SCRIPT_ADDR': 8,
+        'SECRET_KEY': 162
+    }
 
 # Has no testnet

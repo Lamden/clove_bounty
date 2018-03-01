@@ -39,5 +39,11 @@ class Sterlingcoin(Bitcoin):
         'cwi-seed25.sterlingcoin.org'
     )
     port = 1141
+    message_start = b'\x70\x35\x22\x05'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 63,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 191
+    }
 
 # no testnet

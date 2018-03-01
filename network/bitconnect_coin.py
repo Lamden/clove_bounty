@@ -11,5 +11,11 @@ class Bitconnect_Coin(Bitcoin):
     symbols = ('BCCOIN', )
     seeds = ("198.211.115.116")
     port = 9239
+    message_start = b'\x32\x5e\x6f\x86'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 18,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 146
+    }
 
 # no testnet

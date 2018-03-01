@@ -11,6 +11,12 @@ class Swing(Bitcoin):
     symbols = ('SWING', )
     seeds = ("104.236.29.198", "swing.suprnova.cc")
     port = 16061
+    message_start = b'\xdd\x1e\xe2\xaf'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 63,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 191
+    }
 
 
 # Has no testnet

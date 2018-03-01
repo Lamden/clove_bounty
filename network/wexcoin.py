@@ -22,3 +22,9 @@ class Wexcoin(Bitcoin):
              "108.61.190.34",
              "45.63.43.96")
     port = 32714
+    message_start = b'\xd3\xa1\x3e\xe5'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 76,
+        'SCRIPT_ADDR': 35,
+        'SECRET_KEY': 204
+    }

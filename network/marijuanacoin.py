@@ -13,3 +13,9 @@ class Marijuanacoin(Bitcoin):
              "seed1.marijuanacoin.org",
              "seed2.marijuanacoin.org")
     port = 18829
+    message_start = b'\xe4\xe8\xbd\xfd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 90,
+        'SCRIPT_ADDR': 8,
+        'SECRET_KEY': 218
+    }

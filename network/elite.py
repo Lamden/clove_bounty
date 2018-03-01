@@ -13,6 +13,12 @@ class Elite(Bitcoin):
     seeds = ('node1.seednodes.xyz', 'node2.seednodes.xyz',
              'node3.seednodes.xyz', 'node4.seednodes.xyz',)
     port = 13373
+    message_start = b'\x5a\xc3\x82\xd3'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 48,
+        'SCRIPT_ADDR': 28,
+        'SECRET_KEY': 176
+    }
 
 
 class EliteTestNet(Elite):
@@ -24,3 +30,9 @@ class EliteTestNet(Elite):
     name = 'test-elite'
     seeds = ()
     port = 26714
+    message_start = b'\xcd\xf2\xc0\xef'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

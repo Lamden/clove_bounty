@@ -12,6 +12,12 @@ class Machinecoin(Bitcoin):
     symbols = ('MAC', )
     seeds = ('dnsseed1.machinecoin.org',)
     port = 40333
+    message_start = b'\xfb\xc0\xb6\xdb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 50,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 178
+    }
 
 
 class MachinecoinTestNet(Machinecoin):
@@ -24,3 +30,9 @@ class MachinecoinTestNet(Machinecoin):
     seeds = ('dnsseed2.machinecoin.org', 'testnetdnsseed1.machinecoin.org',
              'testnetdnsseed2.machinecoin.org')
     port = 50333
+    message_start = b'\xfb\xc0\xb6\xdb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 53,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 178
+    }

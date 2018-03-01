@@ -12,5 +12,11 @@ class GlobalTourCoin(Bitcoin):
     seeds = ('wallet.cryptolife.net', 'explore.cryptolife.net',
              'seed4.cryptolife.net', 'seed2.cryptolife.net')
     port = 28111
+    message_start = b'\xd4\xca\xaf\xeb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 11,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 139
+    }
 
 # no testnet

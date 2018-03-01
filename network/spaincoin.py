@@ -12,6 +12,12 @@ class Spaincoin(Bitcoin):
     seeds = ("dnsseed.ds.spaincoin.org",
              "dnsseed.spaincoin.org")
     port = 11492
+    message_start = b'\xfb\x14\x92\x00'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 63,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 191
+    }
 
 
 class SpaincoinTestNet(Spaincoin):
@@ -23,3 +29,9 @@ class SpaincoinTestNet(Spaincoin):
     name = 'test-spaincoin'
     seeds = ("dnsseed.spaincoin.org")
     port = 21492
+    message_start = b'\xfd\xc2\xb8\xdd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

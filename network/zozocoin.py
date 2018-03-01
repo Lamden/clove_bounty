@@ -15,5 +15,11 @@ class ZoZoCoin(Bitcoin):
         'seed_chainbytes5.chickenkiller.com'
     )
     port = 19995
+    message_start = b'\xbf\x0c\x6b\xbd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 76,
+        'SCRIPT_ADDR': 16,
+        'SECRET_KEY': 204
+    }
 
 # no testnet

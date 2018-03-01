@@ -13,3 +13,9 @@ class ZcCoin(Bitcoin):
              "seed2.zhaocaibi.com",
              "seed3.zhaocaibi.com")
     port = 10583
+    message_start = b'\x20\xe3\x35\xe0'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 80,
+        'SCRIPT_ADDR': 142,
+        'SECRET_KEY': 208
+    }

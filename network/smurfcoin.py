@@ -11,5 +11,11 @@ class SmurfCoin(Bitcoin):
     symbols = ('SMF', )
     seeds = ("45.55.83.96")
     port = 43221
+    message_start = b'\xb4\xf9\xe2\xe5'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 63,
+        'SCRIPT_ADDR': 20,
+        'SECRET_KEY': 191
+    }
 
 # no testnet

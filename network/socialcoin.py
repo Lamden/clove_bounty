@@ -12,6 +12,12 @@ class SocialCoin(Bitcoin):
     symbols = ('SOCC', )
     seeds = ('13.59.61.11',)
     port = 18645
+    message_start = b'\xee\x64\xe3\x1d'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 63,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 191
+    }
 
 
 class SocialCoinTestNet(SocialCoin):
@@ -23,3 +29,9 @@ class SocialCoinTestNet(SocialCoin):
     name = 'test-socialcoin'
     seeds = ()
     port = 28645
+    message_start = b'\x29\x36\x20\x93'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

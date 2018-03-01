@@ -16,3 +16,9 @@ class MediumProject(Bitcoin):
              "wallet.cryptolife.net",
              "explore.cryptolife.net")
     port = 42815
+    message_start = b'\xf4\x98\xe3\xb5'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 51,
+        'SCRIPT_ADDR': 20,
+        'SECRET_KEY': 179
+    }

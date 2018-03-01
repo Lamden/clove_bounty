@@ -12,6 +12,12 @@ class Navcoin(Bitcoin):
     nodes = ('95.183.51.56', '95.183.52.55', '95.183.52.28',
              '95.183.52.29', '95.183.53.184')
     port = 44440
+    message_start = b'\x80\x50\x34\x20'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 53,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 150
+    }
 
 
 class NavcoinTestNet(Navcoin):
@@ -23,3 +29,9 @@ class NavcoinTestNet(Navcoin):
     name = 'test-navcoin'
     seeds = ()
     port = 15556
+    message_start = b'\x3f\xa2\x52\x20'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 54,
+        'SCRIPT_ADDR': 86,
+        'SECRET_KEY': 52
+    }

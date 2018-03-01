@@ -16,6 +16,12 @@ class Primecoin(Bitcoin):
         'primeseed.muuttuja.org'
     )
     port = 9911
+    message_start = b'\xe4\xe7\xe5\xe7'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 23,
+        'SCRIPT_ADDR': 83,
+        'SECRET_KEY': 151
+    }
 
 
 class PrimecoinTestNet(Primecoin):
@@ -29,3 +35,9 @@ class PrimecoinTestNet(Primecoin):
         'tnseed.ppcoin.net', 'primeseedtn.muuttuja.org'
     )
     port = 9913
+    message_start = b'\xfb\xfe\xcb\xc3'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

@@ -12,5 +12,11 @@ class Dynamic(Bitcoin):
     seeds = ('dyn2.dnsseeder.io', 'dyn2.dnsseeder.com',
              'dyn2.dnsseeder.host', 'dyn2.dnsseeder.net')
     port = 33300
+    message_start = b'\x5e\x61\x74\x80'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 30,
+        'SCRIPT_ADDR': 10,
+        'SECRET_KEY': 140
+    }
 
 # no testnet

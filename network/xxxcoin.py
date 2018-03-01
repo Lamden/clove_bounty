@@ -11,5 +11,11 @@ class XxXcoin(Bitcoin):
     symbols = ('XXX', )
     seeds = ("85.214.147.99")
     port = 20133
+    message_start = b'\xce\xfb\xeb\xdb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 75,
+        'SCRIPT_ADDR': 8,
+        'SECRET_KEY': 203
+    }
 
 # no testnet

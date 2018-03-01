@@ -13,5 +13,11 @@ class Stakecoin(Bitcoin):
              "nodeb.stakecoin.co",
              "nodec.stakecoin.co")
     port = 16814
+    message_start = b'\x60\x34\x12\x08'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 43,
+        'SCRIPT_ADDR': 8,
+        'SECRET_KEY': 171
+    }
 
 # no testnet

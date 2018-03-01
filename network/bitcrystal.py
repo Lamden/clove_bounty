@@ -11,5 +11,11 @@ class BitCrystal(Bitcoin):
     symbols = ('BTCRY', )
     seeds = ("176.57.143.201")
     port = 9299
+    message_start = b'\xfe\xa5\x03\xda'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 0,
+        'SCRIPT_ADDR': 9,
+        'SECRET_KEY': 128
+    }
 
 # Has no testnet

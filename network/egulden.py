@@ -22,6 +22,12 @@ class EGulden(Bitcoin):
         'dnsseed10.egulden.org'
     )
     port = 11015
+    message_start = b'\x80\x83\x4c\x30'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 48,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 176
+    }
 
 
 class EGuldenTestNet(EGulden):
@@ -33,3 +39,9 @@ class EGuldenTestNet(EGulden):
     name = 'test-egulden'
     seeds = ('testnetseed1.egulden.org')
     port = 5744
+    message_start = b'\x80\x83\x4c\x31'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

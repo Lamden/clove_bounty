@@ -14,6 +14,12 @@ class Novacoin(Bitcoin):
              "testseed.novacoin.ru",
              "dnsseed.novaco.in")
     port = 7777
+    message_start = b'\xe4\xe8\xe9\xe5'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 8,
+        'SCRIPT_ADDR': 20,
+        'SECRET_KEY': 136
+    }
 
 
 # Has no testnet

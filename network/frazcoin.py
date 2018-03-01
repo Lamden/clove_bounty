@@ -11,6 +11,12 @@ class Frazcoin(Bitcoin):
     symbols = ('FRAZ', )
     seeds = ("frazcoin.eu")
     port = 3991
+    message_start = b'\x46\x52\x41\x5A'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 35,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 163
+    }
 
 
 class FrazcoinTestNet(Frazcoin):
@@ -22,3 +28,9 @@ class FrazcoinTestNet(Frazcoin):
     name = 'test-frazcoin'
     seeds = ("frazcoin.eu")
     port = 3981
+    message_start = b'\x5A\x41\x52\x46'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 95,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 223
+    }

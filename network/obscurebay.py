@@ -11,5 +11,11 @@ class Obscurebay(Bitcoin):
     symbols = ('OBS', )
     seeds = ("54.149.102.226")
     port = 47458
+    message_start = b'\xf3\x2d\xa5\x71'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 115,
+        'SCRIPT_ADDR': 142,
+        'SECRET_KEY': 243
+    }
 
 # no testnet

@@ -12,3 +12,9 @@ class EqualCoin(Bitcoin):
     seeds = ("216.31.12.38",
              "216.31.12.99")
     port = 13787
+    message_start = b'\xc3\xda\xf1\xfb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 33,
+        'SCRIPT_ADDR': 81,
+        'SECRET_KEY': 161
+    }

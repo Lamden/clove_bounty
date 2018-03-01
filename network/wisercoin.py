@@ -12,3 +12,9 @@ class WiserCoin(Bitcoin):
     seeds = ("sec1.wisercoin.com",
              "sec2.wisercoin.com")
     port = 21777
+    message_start = b'\x21\x13\x23\xe9'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 73,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 201
+    }

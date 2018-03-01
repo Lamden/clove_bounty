@@ -12,6 +12,12 @@ class Diamond(Bitcoin):
     seeds = ("dnsseed.bit.diamonds", "37.120.186.85",
              "185.194.140.60", "188.68.39.1", "188.68.52.172")
     port = 17771
+    message_start = b'\xe4\xe8\xbd\xfd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 90,
+        'SCRIPT_ADDR': 8,
+        'SECRET_KEY': 218
+    }
 
 
 class DiamondTestNet(Diamond):
@@ -23,3 +29,9 @@ class DiamondTestNet(Diamond):
     name = 'test-diamond'
     seeds = ("dnsseed.bit.diamonds")
     port = 51474
+    message_start = b'\x45\x76\x65\xba'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 139,
+        'SCRIPT_ADDR': 19,
+        'SECRET_KEY': 239
+    }

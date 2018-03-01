@@ -11,5 +11,11 @@ class MobileCash(Bitcoin):
     symbols = ('MBL', )
     seeds = ('dnsseed.mbl.cash')
     port = 14415
+    message_start = b'\xfa\xbd\xb5\xd8'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 50,
+        'SCRIPT_ADDR': 110,
+        'SECRET_KEY': 178
+    }
 
 # no testnet

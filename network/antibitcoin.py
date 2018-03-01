@@ -11,6 +11,12 @@ class Antibitcoin(Bitcoin):
     symbols = ('ANTI', )
     seeds = ('188.213.171.167', '108.61.165.75')
     port = 11650
+    message_start = b'\xa4\xd2\xf8\xa6'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 23,
+        'SCRIPT_ADDR': 50,
+        'SECRET_KEY': 151
+    }
 
 
 # Has no Testnet

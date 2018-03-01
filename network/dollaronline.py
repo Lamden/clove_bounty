@@ -21,6 +21,12 @@ class DollarOnline(Bitcoin):
              "s09.edollar.online",
              "s10.edollar.online")
     port = 22888
+    message_start = b'\xa1\xa0\xa2\xa3'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 30,
+        'SCRIPT_ADDR': 90,
+        'SECRET_KEY': 158
+    }
 
 
 # No Testnet

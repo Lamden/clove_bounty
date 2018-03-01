@@ -11,5 +11,11 @@ class CoffeeCoin(Bitcoin):
     symbols = ('CFC', )
     seeds = ("54.235.70.55", "54.235.244.167")
     port = 16789
+    message_start = b'\xc2\xe5\xb3\xc3'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 28,
+        'SCRIPT_ADDR': 8,
+        'SECRET_KEY': 156
+    }
 
 # Has no testnet

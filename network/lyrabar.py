@@ -11,5 +11,11 @@ class Lyrabar(Bitcoin):
     symbols = ('LYB', )
     seeds = ("lyrabar.duckdns.org", "lyrabarpool.duckdns.org")
     port = 4046
+    message_start = b'\x4d\x4d\x4d\x4d'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 48,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 176
+    }
 
 # no testnet

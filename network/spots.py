@@ -11,6 +11,12 @@ class Spots(Bitcoin):
     symbols = ('SPT', )
     seeds = ("spots.dnsseed.crypto2.net")
     port = 4588
+    message_start = b'\xfb\xc0\xb6\xdb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 50,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 178
+    }
 
 
 class SpotsTestNet(Spots):
@@ -22,3 +28,9 @@ class SpotsTestNet(Spots):
     name = 'test-spots'
     seeds = ("dstest.theSPT.com")
     port = 15588
+    message_start = b'\xfd\xc2\xb8\xdd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 26,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 154
+    }

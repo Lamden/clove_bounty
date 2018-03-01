@@ -11,5 +11,11 @@ class Graviton(Bitcoin):
     symbols = ('GRAV', )
     seeds = ("seed.graviton.ninja")
     port = 31321
+    message_start = b'\xcd\x1f\x3a\x2d'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 38,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 153
+    }
 
 # no testnet

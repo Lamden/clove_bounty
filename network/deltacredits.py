@@ -11,5 +11,11 @@ class DeltaCredits(Bitcoin):
     symbols = ('DCRE', )
     seeds = ("108.61.72.49")
     port = 31414
+    message_start = b'\xa1\xa0\xa2\xa3'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 30,
+        'SCRIPT_ADDR': 28,
+        'SECRET_KEY': 158
+    }
 
 # Has no testnet

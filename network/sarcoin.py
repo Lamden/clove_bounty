@@ -19,3 +19,9 @@ class Sarcoin(Bitcoin):
              "node7.sarcoin.info",
              "node8.sarcoin.info")
     port = 25902
+    message_start = b'\xfe\xa2\xa4\xea'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 63,
+        'SCRIPT_ADDR': 28,
+        'SECRET_KEY': 191
+    }

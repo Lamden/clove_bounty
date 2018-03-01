@@ -13,5 +13,11 @@ class Huncoin(Bitcoin):
              "seed2.cryptolife.net",
              "electrum1.cryptolife.net")
     port = 22093
+    message_start = b'\xaa\xcc\xb9\xda'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 41,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 169
+    }
 
 # no testnet

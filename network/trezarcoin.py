@@ -11,5 +11,11 @@ class Trezarcoin(Bitcoin):
     symbols = ('TZC', )
     seeds = ("seed0.trezarcoin.com", "seed1.trezarcoin.com")
     port = 17298
+    message_start = b'\xe4\xef\xdb\xfd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 66,
+        'SCRIPT_ADDR': 8,
+        'SECRET_KEY': 194
+    }
 
 # no testnet

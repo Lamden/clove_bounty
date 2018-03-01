@@ -11,5 +11,11 @@ class EmporiumCoin(Bitcoin):
     symbols = ('EMPC', )
     seeds = ("40.68.31.20")
     port = 8295
+    message_start = b'\xc2\xb4\xa3\xd1'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 33,
+        'SCRIPT_ADDR': 28,
+        'SECRET_KEY': 161
+    }
 
 # no testnet

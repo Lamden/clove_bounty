@@ -14,5 +14,11 @@ class JobsCoin(Bitcoin):
              "seed3.jobscoin.us",
              "seed4.jobscoin.us")
     port = 9999
+    message_start = b'\x1a\x2c\x1b\x3c'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 43,
+        'SCRIPT_ADDR': 44,
+        'SECRET_KEY': 171
+    }
 
 # No testnet

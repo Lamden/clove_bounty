@@ -11,5 +11,11 @@ class Jiyo(Bitcoin):
     symbols = ('JIYO', )
     seeds = ('node.jiyo.io', 'node2.jiyo.io')
     port = 22567
+    message_start = b'\x62\x37\xbf\x76'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 43,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 171
+    }
 
 # no testnet

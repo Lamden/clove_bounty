@@ -11,6 +11,12 @@ class DynamicCoin(Bitcoin):
     symbols = ('DMC', )
     seeds = ('main.seeds.dynamiccoin.net')
     port = 7333
+    message_start = b'\xf9\xbe\xb4\xe0'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 0,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 128
+    }
 
 
 class DynamicCoinTestNet(DynamicCoin):
@@ -22,3 +28,9 @@ class DynamicCoinTestNet(DynamicCoin):
     name = 'test-dynamiccoin'
     seeds = ('test.seeds.dynamiccoin.net')
     port = 17333
+    message_start = b'\x0b\x11\x09\x08'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

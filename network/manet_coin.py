@@ -11,5 +11,11 @@ class Manet_Coin(Bitcoin):
     symbols = ('MAT', )
     seeds = ("node.45.76.117.168")
     port = 17795
+    message_start = b'\x95\xde\x8a\x8d'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 50,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 178
+    }
 
 # no testnet

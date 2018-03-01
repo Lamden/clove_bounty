@@ -24,6 +24,12 @@ class Gaycoin(Bitcoin):
         '91.109.38.231',
     )
     port = 24241
+    message_start = b'\xf1\xe0\xa2\xd3'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 97,
+        'SCRIPT_ADDR': 38,
+        'SECRET_KEY': 225
+    }
 
 
 class GaycoinTestNet(Gaycoin):
@@ -35,3 +41,9 @@ class GaycoinTestNet(Gaycoin):
     name = 'test-gaycoin'
     seeds = ()
     port = 33542
+    message_start = b'\xae\xd0\xa2\xa3'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

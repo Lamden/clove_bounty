@@ -16,3 +16,9 @@ class Fazzcoin(Bitcoin):
              "wallet.cryptolife.net",
              "explore.cryptolife.net")
     port = 32263
+    message_start = b'\xbb\xf8\xec\xf3'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 31,
+        'SCRIPT_ADDR': 20,
+        'SECRET_KEY': 159
+    }

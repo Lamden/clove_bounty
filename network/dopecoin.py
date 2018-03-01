@@ -12,5 +12,11 @@ class Dopecoin(Bitcoin):
     seeds = ('dnsseed.dopecoin.com', '188.166.89.189',
              '37.120.190.76', '37.120.186.85', '188.68.52.172')
     port = 40420
+    message_start = b'\xdf\x1c\x13\xf8'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 30,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 158
+    }
 
 # no testnet

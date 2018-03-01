@@ -12,5 +12,11 @@ class Spectrecoin(Bitcoin):
     seeds = ('node1.spectreproject.io', 'node2.spectreproject.io',
              'node3.spectreproject.io', 'node4.spectreproject.io')
     port = 37347
+    message_start = b'\xb5\x22\x5c\xd3'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 63,
+        'SCRIPT_ADDR': 136,
+        'SECRET_KEY': 179
+    }
 
 # no testnet

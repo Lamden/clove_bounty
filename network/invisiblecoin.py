@@ -11,6 +11,12 @@ class InvisibleCoin(Bitcoin):
     symbols = ('IVZ', )
     seeds = ("node1.invisiblecoin.net", "node2.invisiblecoin.net")
     port = 28881
+    message_start = b'\xa4\xd2\xf8\xa6'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 102,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 230
+    }
 
 
 # Has no testnet

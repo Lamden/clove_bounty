@@ -12,6 +12,12 @@ class Bitcurrency(Bitcoin):
     symbols = ('BTCR', )
     seeds = ('dns0.BitCurrencyPro.org',)
     port = 16814
+    message_start = b'\x80\x42\x13\x09'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 25,
+        'SCRIPT_ADDR': 8,
+        'SECRET_KEY': 153
+    }
 
 
 class BitcurrencyTestNet(Bitcurrency):
@@ -27,3 +33,9 @@ class BitcurrencyTestNet(Bitcurrency):
         'dns9.BitCurrencyPro.org'
     )
     port = 26814
+    message_start = b'\xbc\xa4\xb0\xda'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

@@ -21,6 +21,12 @@ class Crown(Bitcoin):
         'crw.infernopool.com',
     )
     port = 9340
+    message_start = b'\xb8\xeb\xb3\xdf'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 0,
+        'SCRIPT_ADDR': 28,
+        'SECRET_KEY': 128
+    }
 
 
 class CrownTestNet(Crown):
@@ -41,3 +47,9 @@ class CrownTestNet(Crown):
         'crw-testnet.infernopool.com',
     )
     port = 19340
+    message_start = b'\x0f\x18\x0e\x06'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

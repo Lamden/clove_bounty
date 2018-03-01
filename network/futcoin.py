@@ -11,5 +11,11 @@ class FutCoin(Bitcoin):
     symbols = ('FUTC', )
     seeds = ("seed1.FutCoin.eu")
     port = 2345
+    message_start = b'\x70\x35\x22\x05'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 35,
+        'SCRIPT_ADDR': 95,
+        'SECRET_KEY': 163
+    }
 
 # No testnet

@@ -11,6 +11,12 @@ class Tychocoin(Bitcoin):
     symbols = ('TYCHO', )
     seeds = ("50.63.164.183")
     port = 9333
+    message_start = b'\xc3\xd2\xd1\xbd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 65,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 193
+    }
 
 
 class TychocoinTestNet(Tychocoin):
@@ -22,3 +28,9 @@ class TychocoinTestNet(Tychocoin):
     name = 'test-tychocoin'
     seeds = ("50.63.164.183")
     port = 19333
+    message_start = b'\xd2\xb3\xa4\xdc'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

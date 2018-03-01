@@ -11,6 +11,12 @@ class Triangles(Bitcoin):
     symbols = ('TRI', )
     seeds = ("dnsseed.bit.diamonds", )
     port = 17771
+    message_start = b'\x70\x35\x22\x05'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 65,
+        'SCRIPT_ADDR': 28,
+        'SECRET_KEY': 193
+    }
 
 
 class DiamondTestNet(Triangles):
@@ -22,3 +28,9 @@ class DiamondTestNet(Triangles):
     name = 'test-diamond'
     seeds = ("dnsseed.bit.diamonds", )
     port = 51474
+    message_start = b'\x45\x76\x65\xba'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 139,
+        'SCRIPT_ADDR': 19,
+        'SECRET_KEY': 239
+    }

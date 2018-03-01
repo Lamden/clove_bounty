@@ -11,5 +11,11 @@ class HollywoodCoin(Bitcoin):
     symbols = ('HWC', )
     seeds = ('seed.hollywoodcoin.biz')
     port = 10267
+    message_start = b'\x3b\x40\x9d\x4f'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 40,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 168
+    }
 
 # no testnet

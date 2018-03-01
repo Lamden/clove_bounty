@@ -11,5 +11,11 @@ class Zeta2Coin(Bitcoin):
     symbols = ('ZET2', )
     seeds = ("185.61.151.109")
     port = 25589
+    message_start = b'\xa5\xf0\xaa\x01'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 63,
+        'SCRIPT_ADDR': 81,
+        'SECRET_KEY': 191
+    }
 
 # no testnet

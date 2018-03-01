@@ -11,5 +11,11 @@ class Comet(Bitcoin):
     symbols = ('CMT', )
     seeds = ("node.cometcoin.com")
     port = 7045
+    message_start = b'\x79\xc0\x7c\x31'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 28,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 156
+    }
 
 # Has no testnet

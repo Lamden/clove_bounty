@@ -11,5 +11,11 @@ class Firecoin(Bitcoin):
     symbols = ('FIRE', )
     seeds = ("23.254.97.249")
     port = 49697
+    message_start = b'\xa1\xa0\xa2\xa3'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 35,
+        'SCRIPT_ADDR': 28,
+        'SECRET_KEY': 163
+    }
 
 # no testnet

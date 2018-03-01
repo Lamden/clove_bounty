@@ -16,5 +16,11 @@ class Golfcoin(Bitcoin):
              'electrum3.cryptolife.net',
              'explore.cryptolife.net')
     port = 38931
+    message_start = b'\xb4\xfb\xe1\xea'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 38,
+        'SCRIPT_ADDR': 20,
+        'SECRET_KEY': 166
+    }
 
 # no testnet

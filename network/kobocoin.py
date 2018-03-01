@@ -14,3 +14,9 @@ class Kobocoin(Bitcoin):
              "dns3.kobocoin.com",
              "dns4.kobocoin.com")
     port = 9011
+    message_start = b'\xa1\xa0\xa2\xa3'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 35,
+        'SCRIPT_ADDR': 28,
+        'SECRET_KEY': 163
+    }

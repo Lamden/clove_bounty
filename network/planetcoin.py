@@ -11,5 +11,11 @@ class PlanetCoin(Bitcoin):
     symbols = ('PLANET', )
     seeds = ("178.62.235.171")
     port = 10410
+    message_start = b'\xcb\xfb\xfa\xdb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 55,
+        'SCRIPT_ADDR': 6,
+        'SECRET_KEY': 183
+    }
 
 # no testnet

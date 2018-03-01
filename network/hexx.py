@@ -11,5 +11,11 @@ class Hexx(Bitcoin):
     symbols = ('HXX', )
     seeds = ("76.74.170.249")
     port = 29100
+    message_start = b''h''e''x''x''
+    base58_prefixes = {
+        'PUBKEY_ADDR': 40,
+        'SCRIPT_ADDR': 100,
+        'SECRET_KEY': 168
+    }
 
 # no testnet

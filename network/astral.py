@@ -11,5 +11,11 @@ class Astral(Bitcoin):
     symbols = ('AST', )
     seeds = ("2.62.25.198")
     port = 96755
+    message_start = b'\x70\x35\x22\x05'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 9,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 137
+    }
 
 # Has no testnet

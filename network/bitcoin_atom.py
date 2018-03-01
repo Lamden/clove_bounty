@@ -15,6 +15,12 @@ class BitcoinAtom(Bitcoin):
         'seed.bitcoinatom.net'
     )
     port = 7333
+    message_start = b'\x4f\xc1\x1d\xe8'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 23,
+        'SCRIPT_ADDR': 10,
+        'SECRET_KEY': 128
+    }
 
 
 class BitcoinAtomTestNet(BitcoinAtom):
@@ -27,3 +33,9 @@ class BitcoinAtomTestNet(BitcoinAtom):
     seeds = ('testnet-seed.bitcoin.jonasschnelli.ch', 'seed.tbtc.petertodd.org', 'testnet-seed.bluematt.me',
              'testnet-seed.bitcoinatom.io', 'testnet-seed.bitcoin-atom.org', 'testnet-seed.bitcoinatom.net')
     port = 17333
+    message_start = b'\xa6\x8e\x3f\xd6'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

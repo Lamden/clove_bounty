@@ -17,5 +17,11 @@ class YoviCoin(Bitcoin):
              "155.99.160.206",
              "2.179.149.174")
     port = 26372
+    message_start = b'\xe4\xe8\xbd\xfd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 90,
+        'SCRIPT_ADDR': 8,
+        'SECRET_KEY': 218
+    }
 
 # no testnet

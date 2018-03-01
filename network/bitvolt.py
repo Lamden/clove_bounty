@@ -12,6 +12,12 @@ class Bitvolt(Bitcoin):
     symbols = ('VOLT', )
     seeds = ('198.211.126.38',)
     port = 11516
+    message_start = b'\x12\x69\x51\x22'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 70,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 166
+    }
 
 
 class BitvoltTestNet(Bitvolt):
@@ -23,3 +29,9 @@ class BitvoltTestNet(Bitvolt):
     name = 'test-bitvolt'
     seeds = ()
     port = 25723
+    message_start = b'\x12\x0b\x1e\xbc'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 113,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 241
+    }

@@ -15,6 +15,12 @@ class LEOcoin(Bitcoin):
         'node9.leocoin.org', 'node10.leocoin.org'
     )
     port = 5840
+    message_start = b'\x64\x6e\x78\x82'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 18,
+        'SCRIPT_ADDR': 88,
+        'SECRET_KEY': 144
+    }
 
 
 class LEOcoinTestNet(LEOcoin):
@@ -26,3 +32,9 @@ class LEOcoinTestNet(LEOcoin):
     name = 'test-leocoin'
     seeds = ()
     port = 15840
+    message_start = b'\x8c\x96\xa0\xaa'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 66,
+        'SCRIPT_ADDR': 76,
+        'SECRET_KEY': 194
+    }

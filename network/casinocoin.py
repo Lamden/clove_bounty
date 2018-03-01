@@ -22,6 +22,12 @@ class CasinoCoin(Bitcoin):
              "seed3.casinocoin.org",
              "seed5.casinocoin.info")
     port = 47950
+    message_start = b'\xfa\xc3\xb6\xda'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 28,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 156
+    }
 
 
 class CasinoCoinTestNet(CasinoCoin):
@@ -33,3 +39,9 @@ class CasinoCoinTestNet(CasinoCoin):
     name = 'test-casinocoin'
     seeds = ("testnet-seed1.casinocoin.org")
     port = 17950
+    message_start = b'\xfc\xc1\xb7\xdc'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 87,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 215
+    }

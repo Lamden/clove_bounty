@@ -11,6 +11,12 @@ class SatoshiMadness(Bitcoin):
     symbols = ('MAD', )
     seeds = ("52.27.159.176")
     port = 5444
+    message_start = b'\x2d\x3f\xa2\xf5'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 52,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 180
+    }
 
 
 # Has no testnet

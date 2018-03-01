@@ -11,6 +11,12 @@ class Potcoin(Bitcoin):
     symbols = ('POT', )
     seeds = ('dnsseedz.potcoin.info', 'dns1.potcoin.info')
     port = 4200
+    message_start = b'\xfb\xc0\xb6\xdb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 55,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 183
+    }
 
 
 class PotcoinTestNet(Potcoin):
@@ -22,3 +28,9 @@ class PotcoinTestNet(Potcoin):
     name = 'test-potcoin'
     seeds = ('testnet-seed.potcoin.com', )
     port = 14200
+    message_start = b'\xfe\xc3\xb9\xde'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

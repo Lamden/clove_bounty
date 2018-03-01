@@ -11,5 +11,11 @@ class Milllionaire_Coin(Bitcoin):
     symbols = ('MIL', )
     seeds = ("108.61.198.32")
     port = 35552
+    message_start = b'\xa1\xa0\xa2\xa3'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 50,
+        'SCRIPT_ADDR': 28,
+        'SECRET_KEY': 178
+    }
 
 # no testnet

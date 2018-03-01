@@ -11,5 +11,11 @@ class PoisonIvyCoin(Bitcoin):
     symbols = ('XPS', )
     seeds = ("node.walletbuilders.com")
     port = 17783
+    message_start = b'\xd7\x86\xd9\xe4'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 75,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 203
+    }
 
 # no testnet

@@ -11,6 +11,12 @@ class MetalCoin(Bitcoin):
     symbols = ('METAL', )
     seeds = ('104.236.4.12')
     port = 22332
+    message_start = b'\xa1\xa0\xa2\xa3'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 50,
+        'SCRIPT_ADDR': 28,
+        'SECRET_KEY': 178
+    }
 
 
 # Has no testnet

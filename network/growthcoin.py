@@ -12,5 +12,11 @@ class GrowthCoin(Bitcoin):
     seeds = ("seed.grw.blockx.info",
              "seed1.grw.acidpool.com")
     port = 17177
+    message_start = b'\xa5\xef\xdb\xfd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 38,
+        'SCRIPT_ADDR': 8,
+        'SECRET_KEY': 166
+    }
 
 # no testnet

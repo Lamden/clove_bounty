@@ -11,5 +11,11 @@ class LOVEcoin(Bitcoin):
     symbols = ('LOVE', )
     seeds = ("dnsseed.btc5.net")
     port = 8863
+    message_start = b'\xfb\xc0\xb6\xdb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 15,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 143
+    }
 
 # no testnet

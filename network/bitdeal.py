@@ -11,5 +11,11 @@ class Bitdeal(Bitcoin):
     symbols = ('BDL', )
     seeds = ("dnsseed.bitdeal.co.in")
     port = 9333
+    message_start = b'\xfa\xc1\xb7\xdc'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 38,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 176
+    }
 
 # Has no testnet

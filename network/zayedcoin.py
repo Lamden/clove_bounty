@@ -13,6 +13,12 @@ class Zayedcoin(Bitcoin):
     seeds = ('node.zayedcoin.net', 'node1.zayedcoin.net',
              'node2.zayedcoin.net', 'node3.zayedcoin.net', 'node4.zayedcoin.net')
     port = 8371
+    message_start = b'\xd0\xce\xcf\x9c'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 81,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 209
+    }
 
 
 class ZayedcoinTestNet(Zayedcoin):
@@ -24,3 +30,9 @@ class ZayedcoinTestNet(Zayedcoin):
     name = 'test-zayedcoin'
     seeds = ()
     port = 33813
+    message_start = b'\xbc\xad\xaf\xc4'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

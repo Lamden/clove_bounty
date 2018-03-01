@@ -12,3 +12,9 @@ class Twelve(Bitcoin):
     seeds = ("46.101.21.51",
              "46.101.155.214")
     port = 29662
+    message_start = b'\x70\x35\x22\x05'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 65,
+        'SCRIPT_ADDR': 105,
+        'SECRET_KEY': 193
+    }

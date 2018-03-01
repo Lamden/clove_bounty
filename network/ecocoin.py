@@ -11,5 +11,11 @@ class EcoCoin(Bitcoin):
     symbols = ('ECO', )
     seeds = ('ecocoin.info')
     port = 11047
+    message_start = b'\x32\x5e\x6f\x86'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 13,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 141
+    }
 
 # no testnet

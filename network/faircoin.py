@@ -12,6 +12,12 @@ class FairCoin(Bitcoin):
     seeds = ("faircoin2-seed1.fair-coin.org",
              "faircoin2-seed2.fair-coin.org")
     port = 40404
+    message_start = b'\xfa\xbf\xb5\xda'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 95,
+        'SCRIPT_ADDR': 36,
+        'SECRET_KEY': 223
+    }
 
 
 class FairCoinTestNet(FairCoin):
@@ -23,3 +29,9 @@ class FairCoinTestNet(FairCoin):
     name = 'test-faircoin'
     seeds = ("faircoin2-testnet-seed1.fair-coin.org")
     port = 41404
+    message_start = b'\x0c\x12\x0a\x08'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

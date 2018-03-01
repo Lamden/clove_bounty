@@ -11,6 +11,12 @@ class Guncoin(Bitcoin):
     symbols = ('GUN', )
     seeds = ("seed.guncoin.info", "seed2.guncoin.info")
     port = 42954
+    message_start = b'\xaa\xc3\xc6\xab'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 39,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 167
+    }
 
 
 class GuncoinTestNet(Guncoin):
@@ -22,3 +28,9 @@ class GuncoinTestNet(Guncoin):
     name = 'test-guncoin'
     seeds = ("testnet-seed.guncoin.info", "testnet-seed2.guncoin.info")
     port = 52954
+    message_start = b'\xdd\xbb\xcc\xad'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

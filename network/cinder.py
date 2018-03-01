@@ -14,5 +14,11 @@ class Cinder(Bitcoin):
              "104.236.49.247",
              "128.199.57.33")
     port = 22555
+    message_start = b'\xa1\xa0\xa2\xa3'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 35,
+        'SCRIPT_ADDR': 28,
+        'SECRET_KEY': 163
+    }
 
 # Has no testnet

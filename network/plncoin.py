@@ -19,6 +19,12 @@ class PLNcoin(Bitcoin):
              "plncoin.org",
              "rav3n.dtdns.net")
     port = 9334
+    message_start = b'\xfb\xc0\xb6\xdb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 22,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 150
+    }
 
 
 class PLNcoinTestNet(PLNcoin):
@@ -34,3 +40,9 @@ class PLNcoinTestNet(PLNcoin):
              "testnet4.plncoin.org",
              "rav3n.dtdns.net")
     port = 19333
+    message_start = b'\xfc\xc1\xb7\xdc'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

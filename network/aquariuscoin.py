@@ -16,6 +16,12 @@ class AquariusCoin(Bitcoin):
         'node.bit-coin.pw'
     )
     port = 6205
+    message_start = b'\x93\x30\x64\xc7'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 23,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 151
+    }
 
 
 class AquariusCoinTestNet(AquariusCoin):
@@ -27,3 +33,9 @@ class AquariusCoinTestNet(AquariusCoin):
     name = 'test-aquariuscoin'
     seeds = ()
     port = 16205
+    message_start = b'\x6a\x1c\xd5\xe6'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

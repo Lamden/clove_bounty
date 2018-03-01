@@ -12,3 +12,9 @@ class Resumeo_Shares(Bitcoin):
     seeds = ("107.170.189.185",
              "79.135.200.66")
     port = 38891
+    message_start = b'\xa1\xa0\xa2\xa3'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 122,
+        'SCRIPT_ADDR': 28,
+        'SECRET_KEY': 250
+    }

@@ -14,6 +14,12 @@ class SocialSend(Bitcoin):
         'seeds.send.goldlineit.org',
     )
     port = 50050
+    message_start = b'\x81\xc4\xed\xe9'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 63,
+        'SCRIPT_ADDR': 13,
+        'SECRET_KEY': 212
+    }
 
 
 class SocialSendTestNet(SocialSend):
@@ -25,3 +31,9 @@ class SocialSendTestNet(SocialSend):
     name = 'test-socialsend'
     seeds = ()
     port = 51474
+    message_start = b'\x45\x76\x65\xba'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 139,
+        'SCRIPT_ADDR': 19,
+        'SECRET_KEY': 239
+    }

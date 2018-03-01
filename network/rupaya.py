@@ -16,6 +16,12 @@ class Rupaya(Bitcoin):
              "107.191.44.102",
              "144.202.0.206")
     port = 9020
+    message_start = b'\x63\x43\x49\x56'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 15,
+        'SCRIPT_ADDR': 8,
+        'SECRET_KEY': 212
+    }
 
 
 class RupayaTestNet(Rupaya):
@@ -29,3 +35,9 @@ class RupayaTestNet(Rupaya):
              "45.77.239.30",
              "45.76.226.204")
     port = 51434
+    message_start = b'\x43\x76\x65\xba'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 139,
+        'SCRIPT_ADDR': 19,
+        'SECRET_KEY': 239
+    }

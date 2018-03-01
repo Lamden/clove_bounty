@@ -12,6 +12,12 @@ class UltimateSecureCash(Bitcoin):
     symbols = ('USC', )
     seeds = ('45.55.52.85',)
     port = 51737
+    message_start = b'\xfa\xf2\xef\xb4'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 68,
+        'SCRIPT_ADDR': 125,
+        'SECRET_KEY': 191
+    }
 
 
 class UltimateSecureCashTestNet(UltimateSecureCash):
@@ -23,3 +29,9 @@ class UltimateSecureCashTestNet(UltimateSecureCash):
     name = 'test-ultimatesecurecash'
     seeds = ()
     port = 51997
+    message_start = b'\xfa\xf2\xef\xb4'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 127,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 255
+    }

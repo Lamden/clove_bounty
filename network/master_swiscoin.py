@@ -13,5 +13,11 @@ class Master_Swiscoin(Bitcoin):
              "swisexplorer.com",
              "dns.swisexplorer.com")
     port = 20774
+    message_start = b'\xb6\xfe\xe0\xc5'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 125,
+        'SCRIPT_ADDR': 20,
+        'SECRET_KEY': 253
+    }
 
 # no testnet

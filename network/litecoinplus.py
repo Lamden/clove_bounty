@@ -11,5 +11,11 @@ class LitecoinPlus(Bitcoin):
     symbols = ('LCP', )
     seeds = ("lcp.altcoinwarz.com")
     port = 44351
+    message_start = b'\xce\xfb\xfa\xdb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 75,
+        'SCRIPT_ADDR': 8,
+        'SECRET_KEY': 203
+    }
 
 # Has no Testnet

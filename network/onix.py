@@ -14,3 +14,9 @@ class Onix(Bitcoin):
              "seed3.cryptolife.net",
              "electrum6.cryptolife.net")
     port = 41016
+    message_start = b'\xf3\xc3\xb9\xde'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 75,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 203
+    }

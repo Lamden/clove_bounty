@@ -14,6 +14,12 @@ class Tittiecoin(Bitcoin):
         '178.62.32.202',
     )
     port = 8007
+    message_start = b'\xd9\xfa\xac\xb3'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 65,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 193
+    }
 
 
 class TittieTestNet(Tittiecoin):

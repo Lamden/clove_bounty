@@ -16,6 +16,12 @@ class BitcoinABC(Bitcoin):
              "seed.deadalnix.me",
              "seeder.criptolayer.net")
     port = 8333
+    message_start = b'\xe3\xe1\xf3\xe8'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 0,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 128
+    }
 
 
 class BitcoinABCTestNet(BitcoinABC):
@@ -31,3 +37,9 @@ class BitcoinABCTestNet(BitcoinABC):
              "testnet-seed.deadalnix.me",
              "testnet-seeder.criptolayer.net")
     port = 18333
+    message_start = b'\xf4\xe5\xf3\xf4'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

@@ -11,5 +11,11 @@ class Revenu(Bitcoin):
     symbols = ('REV', )
     seeds = ("node.walletbuilders.com")
     port = 6411
+    message_start = b'\xd3\xf8\x65\x10'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 60,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 188
+    }
 
 # no testnet

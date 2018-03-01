@@ -11,6 +11,12 @@ class Linda(Bitcoin):
     symbols = ('LINDA', )
     seeds = ()
     port = 33820
+    message_start = b'\x9c\xd3\x17\x01'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 48,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 153
+    }
 
 
 class LindaTestNet(Linda):
@@ -22,3 +28,9 @@ class LindaTestNet(Linda):
     name = 'test-linda'
     seeds = ()
     port = 28888
+    message_start = b'\xce\xf2\xc0\xef'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 23,
+        'SCRIPT_ADDR': 187,
+        'SECRET_KEY': 239
+    }

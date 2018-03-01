@@ -13,3 +13,9 @@ class Opal(Bitcoin):
              "seeder1.opal-coin.com",
              "seeder2.opal-coin.com")
     port = 50990
+    message_start = b'\xa1\xa0\xa2\xa3'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 115,
+        'SCRIPT_ADDR': 28,
+        'SECRET_KEY': 243
+    }

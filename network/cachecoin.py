@@ -11,6 +11,12 @@ class CacheCoin(Bitcoin):
     symbols = ('CACH', )
     seeds = ('seed.novacoin.su')
     port = 2225
+    message_start = b'\xd9\xe6\xe7\xe5'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 28,
+        'SCRIPT_ADDR': 87,
+        'SECRET_KEY': 156
+    }
 
 
 # Has no Testnet

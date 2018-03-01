@@ -11,6 +11,12 @@ class Selfiecoin(Bitcoin):
     symbols = ('SLFI', )
     seeds = ("192.3.196.25")
     port = 6070
+    message_start = b'\x69\xf0\x0f\x69'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 55,
+        'SCRIPT_ADDR': 28,
+        'SECRET_KEY': 183
+    }
 
 
 # Has no testnet

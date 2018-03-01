@@ -11,6 +11,12 @@ class Bitgem(Bitcoin):
     symbols = ('BTG', )
     seeds = ("bitgem.us", "seed.bitgem.us")
     port = 7692
+    message_start = b'\xe4\xe8\xe9\xe5'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 98,
+        'SCRIPT_ADDR': 8,
+        'SECRET_KEY': 226
+    }
 
 
 # Has no Testnet

@@ -11,6 +11,12 @@ class Theresamaycoin(Bitcoin):
     symbols = ('MAY', )
     seeds = ('86.53.121.36')
     port = 35010
+    message_start = b'\xa4\xd2\xf8\xa6'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 50,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 178
+    }
 
 
 class TheresamaycoinTestNet(Theresamaycoin):
@@ -22,3 +28,9 @@ class TheresamaycoinTestNet(Theresamaycoin):
     name = 'test-theresamaycoin'
     seeds = ()
     port = 25714
+    message_start = b'\xad\xf1\xc2\xaf'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

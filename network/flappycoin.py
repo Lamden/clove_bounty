@@ -11,6 +11,12 @@ class Flappycoin(Bitcoin):
     symbols = ('FLAP', )
     seeds = ('seed.terracoin.io', 'dnsseed.flap.so')
     port = 11556
+    message_start = b'\xc1\xc1\xc1\xc1'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 35,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 163
+    }
 
 
 class FlappycoinTestNet(Flappycoin):
@@ -22,3 +28,9 @@ class FlappycoinTestNet(Flappycoin):
     name = 'test-flappycoin'
     seeds = ('dnsseed.flap.so', )
     port = 33556
+    message_start = b'\xfc\xc1\xb7\xdc'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

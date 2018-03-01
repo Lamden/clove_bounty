@@ -13,5 +13,11 @@ class SpaceCash(Bitcoin):
              "94.177.229.242",
              "stratumtest.ddns.net")
     port = 55554
+    message_start = b'\x5a\xc3\x82\xd3'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 63,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 191
+    }
 
 # no testnet

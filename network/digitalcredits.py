@@ -11,5 +11,11 @@ class DigitalCredits(Bitcoin):
     symbols = ('DGCS', )
     seeds = ('seeder.digitalcredits.xyz', 'seeder2.digitalcredits.xyz')
     port = 7183
+    message_start = b'\xa2\xc6\xf8\xa6'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 30,
+        'SCRIPT_ADDR': 41,
+        'SECRET_KEY': 158
+    }
 
 # no testnet

@@ -12,6 +12,12 @@ class KlondikeCoin(Bitcoin):
     seeds = ("dnsseed.klondikecoin.com",
              "dnsseed2.klondikecoin.com")
     port = 56680
+    message_start = b'\xc0\xc0\xc0\xc0'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 45,
+        'SCRIPT_ADDR': 22,
+        'SECRET_KEY': 173
+    }
 
 
 class KlondikeCoinTestNet(KlondikeCoin):
@@ -24,3 +30,9 @@ class KlondikeCoinTestNet(KlondikeCoin):
     seeds = ("testnet-seed.klondikecointools.com",
              "testnet-seed.weminemnc.com")
     port = 19333
+    message_start = b'\xcf\xcf\xcf\xcf'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 108,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 236
+    }

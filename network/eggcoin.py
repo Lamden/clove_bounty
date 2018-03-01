@@ -11,6 +11,12 @@ class EggCoin(Bitcoin):
     symbols = ('EGG', )
     seeds = ()
     port = 31104
+    message_start = b'\x1a\x32\x03\x20'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 33,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 153
+    }
 
 
 class EggCoinTestNet(EggCoin):
@@ -22,3 +28,9 @@ class EggCoinTestNet(EggCoin):
     name = 'test-eggcoin'
     seeds = ()
     port = 20134
+    message_start = b'\x2a\x23\x06\x40'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 127,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

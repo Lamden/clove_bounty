@@ -11,5 +11,11 @@ class SelenCoin(Bitcoin):
     symbols = ('SEL', )
     seeds = ("88.99.47.154")
     port = 55552
+    message_start = b'\xa1\xa0\xa2\xa3'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 58,
+        'SCRIPT_ADDR': 28,
+        'SECRET_KEY': 186
+    }
 
 # no testnet

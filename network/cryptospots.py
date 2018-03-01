@@ -13,5 +13,11 @@ class CryptoSpots(Bitcoin):
              "104.236.84.239",
              "104.236.83.193")
     port = 17771
+    message_start = b'\x1d\xc2\x3d\x1a'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 28,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 156
+    }
 
 # Has no testnet

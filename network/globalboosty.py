@@ -12,6 +12,12 @@ class GlobalBoostY(Bitcoin):
     symbols = ('BSTY', )
     seeds = ('seeder.globalboost.info', 'seeder2.globalboost.info')
     port = 8226
+    message_start = b'\xa2\xb2\xe2\xf2'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 77,
+        'SCRIPT_ADDR': 139,
+        'SECRET_KEY': 205
+    }
 
 
 class GlobalBoostYTestNet(GlobalBoostY):

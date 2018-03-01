@@ -12,6 +12,12 @@ class Arbit(Bitcoin):
     symbols = ('ARB', )
     seeds = ('162.243.203.211', '178.62.56.172')
     port = 31930
+    message_start = b'\xe3\xa7\x7c\x0e'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 23,
+        'SCRIPT_ADDR': 28,
+        'SECRET_KEY': 151
+    }
 
 
 class ArbitTestNet(Arbit):
@@ -23,3 +29,9 @@ class ArbitTestNet(Arbit):
     name = 'test-arbit'
     seeds = ()
     port = 31914
+    message_start = b'\xad\xf1\xc2\xaf'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

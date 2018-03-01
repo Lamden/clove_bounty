@@ -11,3 +11,9 @@ class PutinCoin(Bitcoin):
     symbols = ('PUT', )
     seeds = ("45.76.1.121", "45.76.187.49")
     port = 20095
+    message_start = b'\xb7\xf0\xe2\xe5'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 55,
+        'SCRIPT_ADDR': 20,
+        'SECRET_KEY': 183
+    }

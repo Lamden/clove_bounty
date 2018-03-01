@@ -15,5 +15,11 @@ class PrimeXI(Bitcoin):
              '188.226.248.45',
              '128.199.165.180')
     port = 11110
+    message_start = b'\xa3\xd5\xc2\xf9'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 55,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 183
+    }
 
 # no testnet

@@ -11,5 +11,11 @@ class Abncoin(Bitcoin):
     symbols = ('ABN', )
     seeds = ("node.walletbuilders.com")
     port = 10267
+    message_start = b'\x3b\x40\x9d\x4f'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 25,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 153
+    }
 
 # no testnet

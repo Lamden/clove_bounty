@@ -13,5 +13,11 @@ class IOcoin(Bitcoin):
              "seed1.iocoin.io",
              "seed2.iocoin.io")
     port = 33764
+    message_start = b'\xfe\xc3\xba\xde'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 103,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 231
+    }
 
 # no testnet

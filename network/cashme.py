@@ -24,3 +24,9 @@ class Cashme(Bitcoin):
              "80.229.27.64",
              "cme.binpool.com")
     port = 13370
+    message_start = b'\x5a\xc3\x82\xd3'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 23,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 151
+    }

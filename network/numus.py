@@ -12,6 +12,12 @@ class Numus(Bitcoin):
     symbols = ('NMS', )
     seeds = ('141.255.161.78', '143.202.154.31')
     port = 28121
+    message_start = b'\xf1\xec\xa1\xc7'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 21,
+        'SCRIPT_ADDR': 20,
+        'SECRET_KEY': 25
+    }
 
 
 class NumusTestNet(Numus):
@@ -23,3 +29,9 @@ class NumusTestNet(Numus):
     name = 'test-numus'
     seeds = ()
     port = 27121
+    message_start = b'\x1f\x22\x05\x30'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 45,
+        'SCRIPT_ADDR': 44,
+        'SECRET_KEY': 50
+    }

@@ -11,5 +11,11 @@ class Arab_League_Coin(Bitcoin):
     symbols = ('ALC', )
     seeds = ("37.59.104.238")
     port = 33612
+    message_start = b'\x70\x35\x22\x05'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 23,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 151
+    }
 
 # no testnet

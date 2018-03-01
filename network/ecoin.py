@@ -12,6 +12,12 @@ class ECoin(Bitcoin):
     seeds = ('138.68.164.92', 'ecnblockchain.com',
              '72.52.156.4', '72.52.156.87')
     port = 18741
+    message_start = b'\xb4\xf8\xe2\xe5'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 92,
+        'SCRIPT_ADDR': 20,
+        'SECRET_KEY': 220
+    }
 
 
 # no testnet

@@ -16,6 +16,12 @@ class Pinkcoin(Bitcoin):
              "sydney.pinkarmy.ml",
              "tokyo.pinkarmy.ml")
     port = 9134
+    message_start = b'\xf2\xf4\xf9\xfb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 3,
+        'SCRIPT_ADDR': 28,
+        'SECRET_KEY': 131
+    }
 
 
 # Has no testnet

@@ -12,5 +12,11 @@ class BitcoinPlus(Bitcoin):
     seeds = ('seednode1.bitcoinplus.net', 'seednode2.bitcoinplus.net',
              'seednode3.bitcoinplus.net', 'seednode4.bitcoinplus.net', 'seednode5.bitcoinplus.net')
     port = 8884
+    message_start = b'\x2d\x3f\xa2\xf5'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 25,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 153
+    }
 
 # no testnet

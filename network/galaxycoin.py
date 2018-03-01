@@ -11,5 +11,11 @@ class GalaxyCoin(Bitcoin):
     symbols = ('GLX', )
     seeds = ("galaxycoin.no-ip.biz")
     port = 15521
+    message_start = b'\xfd\xc0\xe9\xdb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 98,
+        'SCRIPT_ADDR': 20,
+        'SECRET_KEY': 226
+    }
 
 # no testnet

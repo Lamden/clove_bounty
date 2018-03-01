@@ -11,6 +11,12 @@ class GeertCoin(Bitcoin):
     symbols = ('GEERT', )
     seeds = ('dnsseed.geertcoin.com')
     port = 64333
+    message_start = b'\xf8\xd2\xe3\xbc'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 38,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 166
+    }
 
 
 # Has no Testnet

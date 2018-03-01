@@ -12,5 +12,11 @@ class Clinton(Bitcoin):
     seeds = ("will.52.207.247.50",
              "bill.54.152.47.236")
     port = 6779
+    message_start = b'\x4f\x32\x96\xaa'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 40,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 168
+    }
 
 # no testnet

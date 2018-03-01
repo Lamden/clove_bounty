@@ -11,5 +11,11 @@ class TimesCoin(Bitcoin):
     symbols = ('TMC', )
     seeds = ("andarazoroflove.org")
     port = 55884
+    message_start = b'\xfc\xd9\xb7\xdd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 28,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 156
+    }
 
 # no testnet

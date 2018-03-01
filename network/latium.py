@@ -13,3 +13,9 @@ class Latium(Bitcoin):
              "seed2.latium.cc",
              "seed3.latium.cc")
     port = 12688
+    message_start = b'\xae\xdb\xfc\xb2'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 23,
+        'SCRIPT_ADDR': 83,
+        'SECRET_KEY': 151
+    }

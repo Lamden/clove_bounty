@@ -11,5 +11,11 @@ class GanjaCoin(Bitcoin):
     symbols = ('MRJA', )
     seeds = ("178.62.211.205", "178.62.202.107")
     port = 10995
+    message_start = b'\xa1\xa0\xa2\xa3'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 38,
+        'SCRIPT_ADDR': 28,
+        'SECRET_KEY': 166
+    }
 
 # no testnet

@@ -12,6 +12,12 @@ class Saffroncoin(Bitcoin):
     seeds = ("saffroncoin.com",
              "182.18.175.110")
     port = 19717
+    message_start = b'\xcf\x05\x67\xea'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 63,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 177
+    }
 
 
 class SaffroncoinTestNet(Saffroncoin):
@@ -23,3 +29,9 @@ class SaffroncoinTestNet(Saffroncoin):
     name = 'test-saffroncoin'
     seeds = ("testseed1.saffroncoin.org")
     port = 29717
+    message_start = b'\x01\xf5\x55\xa4'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 63,
+        'SCRIPT_ADDR': 188,
+        'SECRET_KEY': 239
+    }

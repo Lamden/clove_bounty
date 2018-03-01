@@ -14,6 +14,12 @@ class HTMLCOIN(Bitcoin):
              "seed3.htmlcoin.com",
              "seed4.htmlcoin.com")
     port = 4888
+    message_start = b'\x1f\x2e\x3d\x4c'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 41,
+        'SCRIPT_ADDR': 100,
+        'SECRET_KEY': 169
+    }
 
 
 class HTMLCOINTestNet(HTMLCOIN):
@@ -25,3 +31,9 @@ class HTMLCOINTestNet(HTMLCOIN):
     name = 'test-htmlcoin'
     seeds = ("testnet-seed1.htmlcoin.com", "testnet-seed2.htmlcoin.com")
     port = 14888
+    message_start = b'\x2f\x3e\x4d\x5c'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 100,
+        'SCRIPT_ADDR': 110,
+        'SECRET_KEY': 228
+    }

@@ -15,5 +15,11 @@ class Judgecoin(Bitcoin):
              "seed4.judgecoin.com",
              "seed5.judgecoin.com")
     port = 14788
+    message_start = b'\x70\x35\x22\x05'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 43,
+        'SCRIPT_ADDR': 83,
+        'SECRET_KEY': 171
+    }
 
 # no testnet

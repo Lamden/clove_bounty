@@ -11,6 +11,12 @@ class Blackstar(Bitcoin):
     symbols = ('BSTAR', )
     seeds = ()
     port = 16878
+    message_start = b'\x47\x51\x5a\xb7'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 25,
+        'SCRIPT_ADDR': 48,
+        'SECRET_KEY': 153
+    }
 
 
 class BlackstarTestNet(Blackstar):
@@ -22,3 +28,9 @@ class BlackstarTestNet(Blackstar):
     name = 'test-blackstar'
     seeds = ()
     port = 16879
+    message_start = b'\x77\x61\x79\x67'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 135,
+        'SCRIPT_ADDR': 208,
+        'SECRET_KEY': 249
+    }

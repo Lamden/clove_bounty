@@ -12,5 +12,11 @@ class CommunityCoin(Bitcoin):
     seeds = ("cocnode1.coolindark.com",
              "cocnode2.coolindark.com")
     port = 7643
+    message_start = b'\xc2\x0e\x19\xbd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 28,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 156
+    }
 
 # no testnet

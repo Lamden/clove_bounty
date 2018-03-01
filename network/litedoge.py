@@ -18,5 +18,11 @@ class LiteDoge(Bitcoin):
              "71.197.143.70",
              "188.153.14.20")
     port = 17014
+    message_start = b'\x65\x44\x15\x06'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 90,
+        'SCRIPT_ADDR': 8,
+        'SECRET_KEY': 171
+    }
 
 # no testnet

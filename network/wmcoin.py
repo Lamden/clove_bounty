@@ -13,6 +13,12 @@ class Wmcoin(Bitcoin):
         '120.27.114.125',
     )
     port = 32866
+    message_start = b'\xce\xfb\xfa\xdb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 135,
+        'SCRIPT_ADDR': 8,
+        'SECRET_KEY': 263
+    }
 
 
 class WmcoinTestNet(Wmcoin):
@@ -24,3 +30,9 @@ class WmcoinTestNet(Wmcoin):
     name = 'test-wmcoin'
     seeds = ()
     port = 30801
+    message_start = b'\xcd\xf1\xc0\xef'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

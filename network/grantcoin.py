@@ -14,5 +14,11 @@ class Grantcoin(Bitcoin):
              "dnsseed.bitcoin.dashjr.org",
              "bitseed.xf2.org")
     port = 8333
+    message_start = b'\xf9\xbe\xb4\xd9'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 0,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 128
+    }
 
 # no testnet

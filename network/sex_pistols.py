@@ -11,5 +11,11 @@ class Sex_Pistols(Bitcoin):
     symbols = ('SP', )
     seeds = ("node.walletbuilders.com")
     port = 7515
+    message_start = b'\x36\x06\x0c\xc3'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 63,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 191
+    }
 
 #  no testnet

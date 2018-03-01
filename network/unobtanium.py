@@ -13,6 +13,12 @@ class Unobtanium(Bitcoin):
     seeds = ('node1.unobtanium.uno', 'node2.unobtanium.uno',
              'unobtanium.cryptap.us')
     port = 65534
+    message_start = b'\x03\xd5\xb5\x03'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 130,
+        'SCRIPT_ADDR': 30,
+        'SECRET_KEY': 224
+    }
 
 
 class UnobtaniumTestNet(Unobtanium):
@@ -24,3 +30,9 @@ class UnobtaniumTestNet(Unobtanium):
     name = 'test-unobtanium'
     seeds = ('23skidoo.info', 'testnet.unobtanium.info')
     port = 65525
+    message_start = b'\x01\x02\x03\x04'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 68,
+        'SCRIPT_ADDR': 30,
+        'SECRET_KEY': 239
+    }

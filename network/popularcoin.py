@@ -17,6 +17,12 @@ class PopularCoin(Bitcoin):
         '167.88.15.89', '217.175.119.125', '188.134.72.213', '47.156.228.24', '108.170.1.134', '139.162.235.42'
     )
     port = 9426
+    message_start = b'\xfa\xc2\xb2\xda'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 58,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 186
+    }
 
 
 class PopularCoinTestNet(PopularCoin):
@@ -28,3 +34,9 @@ class PopularCoinTestNet(PopularCoin):
     name = 'test-popularcoin'
     seeds = ('seedtest.popularcoin.info/node', )
     port = 19222
+    message_start = b'\xfc\xc1\xb7\xdc'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

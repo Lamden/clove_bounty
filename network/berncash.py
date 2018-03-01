@@ -37,6 +37,12 @@ class BERNcash(Bitcoin):
              'cwi-seed24.bern.cash',
              'cwi-seed25.bern.cash')
     port = 32020
+    message_start = b'\x09\x11\x16\x20'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 25,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 153
+    }
 
 
 # Has no Testnet

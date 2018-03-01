@@ -11,6 +11,12 @@ class Antilitecoin(Bitcoin):
     symbols = ('ALTC', )
     seeds = ('192.52.166.80')
     port = 8795
+    message_start = b'\xc1\xd1\xd2\xad'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 15,
+        'SCRIPT_ADDR': 9,
+        'SECRET_KEY': 143
+    }
 
 
 class AntilitecoinTestNet(Antilitecoin):
@@ -23,3 +29,9 @@ class AntilitecoinTestNet(Antilitecoin):
     seeds = ('testnet-seed.antilitecointools.com',
              'testnet-seed.ltc.xurious.com', 'dnsseed.wemine-testnet.com')
     port = 18795
+    message_start = b'\xd2\xb1\xa1\xac'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 119,
+        'SCRIPT_ADDR': 199,
+        'SECRET_KEY': 247
+    }

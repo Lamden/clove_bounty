@@ -14,6 +14,12 @@ class Bellscoin(Bitcoin):
              "203.20.114.252",
              "31.31.202.138")
     port = 19919
+    message_start = b'\xc0\xc0\xc0\xc0'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 25,
+        'SCRIPT_ADDR': 30,
+        'SECRET_KEY': 153
+    }
 
 
 class BellscoinTestNet(Bellscoin):
@@ -27,3 +33,9 @@ class BellscoinTestNet(Bellscoin):
              "testnet-seed.BELLS.xurious.com",
              "dnsseed.wemine-testnet.com")
     port = 29919
+    message_start = b'\xfc\xc1\xb7\xdc'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 113,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 241
+    }

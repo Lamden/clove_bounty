@@ -12,6 +12,12 @@ class Californium(Bitcoin):
     symbols = ('CF', )
     seeds = ('54.149.30.199', '')
     port = 44252
+    message_start = b'\x0f\xdb\xbb\x07'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 88,
+        'SCRIPT_ADDR': 30,
+        'SECRET_KEY': 224
+    }
 
 
 class CaliforniumTestNet(Californium):
@@ -23,3 +29,9 @@ class CaliforniumTestNet(Californium):
     name = 'test-californium'
     seeds = ()
     port = 45530
+    message_start = b'\x0f\xdb\xbb\x07'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 68,
+        'SCRIPT_ADDR': 30,
+        'SECRET_KEY': 239
+    }

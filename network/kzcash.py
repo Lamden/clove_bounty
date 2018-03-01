@@ -11,6 +11,12 @@ class KZCash(Bitcoin):
     symbols = ('KZC', )
     seeds = ('dnsseed.kzcash.kz', )
     port = 8277
+    message_start = b'\xbd\x1b\x44\xba'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 46,
+        'SCRIPT_ADDR': 16,
+        'SECRET_KEY': 204
+    }
 
 
 class KZCashTestNet(KZCash):
@@ -22,3 +28,9 @@ class KZCashTestNet(KZCash):
     name = 'test-kzcash'
     seeds = ('testdnsseed.kzcash.kz', )
     port = 18277
+    message_start = b'\xcf\xe4\xcb\xca'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 140,
+        'SCRIPT_ADDR': 19,
+        'SECRET_KEY': 239
+    }

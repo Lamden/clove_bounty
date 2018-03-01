@@ -11,5 +11,11 @@ class FlavorCoin(Bitcoin):
     symbols = ('FLVR', )
     seeds = ("2flav.nodes.altcoinsteps.com")
     port = 17771
+    message_start = b'\xa4\xd2\xf8\xa6'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 3,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 131
+    }
 
 # No testnet

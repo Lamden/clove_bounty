@@ -11,5 +11,11 @@ class CloakCoin(Bitcoin):
     symbols = ('CLOAK', )
     seeds = ("cloakseed.getsuperconductor.com")
     port = 29662
+    message_start = b'\x70\x35\x22\x05'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 27,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 155
+    }
 
 # Has no testnet

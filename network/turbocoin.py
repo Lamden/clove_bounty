@@ -11,5 +11,11 @@ class TurboCoin(Bitcoin):
     symbols = ('TURBO', )
     seeds = ('195.181.245.38')
     port = 35282
+    message_start = b'\xa4\xb1\xf3\xc2'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 127,
+        'SCRIPT_ADDR': 24,
+        'SECRET_KEY': 255
+    }
 
 # no testnet

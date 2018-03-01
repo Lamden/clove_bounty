@@ -25,3 +25,9 @@ class Fuloos_Coin(Bitcoin):
              "52.62.108.155",
              "54.153.229.81")
     port = 11217
+    message_start = b'\x2a\xe7\x4c\x9d'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 35,
+        'SCRIPT_ADDR': 20,
+        'SECRET_KEY': 163
+    }

@@ -14,6 +14,12 @@ class Joincoin(Bitcoin):
              "seed3.joincoin.org",
              "seed4.joincoin.org")
     port = 17941
+    message_start = b'\xf1\xb4\xdc\x9e'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 43,
+        'SCRIPT_ADDR': 9,
+        'SECRET_KEY': 178
+    }
 
 
 class JoincoinTestNet(Joincoin):
@@ -25,3 +31,9 @@ class JoincoinTestNet(Joincoin):
     name = 'test-joincoin'
     seeds = ("testseed1.joincoin.org")
     port = 27941
+    message_start = b'\x5a\x7b\xff\xfa'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 88,
+        'SCRIPT_ADDR': 188,
+        'SECRET_KEY': 239
+    }

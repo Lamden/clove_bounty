@@ -17,6 +17,12 @@ class Solaris(Bitcoin):
         'node4.solariscoin.com', 'node5.solariscoin.com', 'node6.solariscoin.com'
     )
     port = 60020
+    message_start = b'\x02\x21\x01\xa1'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 63,
+        'SCRIPT_ADDR': 13,
+        'SECRET_KEY': 212
+    }
 
 
 class SolarisTestNet(Solaris):
@@ -29,3 +35,9 @@ class SolarisTestNet(Solaris):
     seeds = ('solaris-testnet.seed.fuzzbawls.pw',
              'solaris-testnet.seed2.fuzzbawls.pw', 's3v3nh4cks.ddns.net', '88.198.192.110')
     port = 51474
+    message_start = b'\x45\x76\x65\xba'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 139,
+        'SCRIPT_ADDR': 19,
+        'SECRET_KEY': 239
+    }

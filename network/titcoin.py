@@ -15,3 +15,9 @@ class Titcoin(Bitcoin):
              "seed.titcoins.info",
              "seed.titcoinpool.com")
     port = 8698
+    message_start = b'\x25\x17\x4c\x22'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 0,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 128
+    }

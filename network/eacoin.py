@@ -11,5 +11,11 @@ class EACoin(Bitcoin):
     symbols = ('EAG', )
     seeds = ('eaglive.co')
     port = 28635
+    message_start = b'\xc4\xb1\xc6\x4c'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 32,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 192
+    }
 
 # no testnet

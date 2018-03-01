@@ -14,6 +14,12 @@ class Piggycoin(Bitcoin):
              "piggynodes.blockpunk.com",
              "piggynodes.neurocis.me")
     port = 54481
+    message_start = b'\xa1\xa0\xa2\xa3'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 118,
+        'SCRIPT_ADDR': 28,
+        'SECRET_KEY': 246
+    }
 
 
 # Has no testnet

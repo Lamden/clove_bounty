@@ -13,6 +13,12 @@ class Tellurion(Bitcoin):
              "seed3.tellurion.co", "seed4.tellurion.co",
              "ok1.altcoinsfoundation.com")
     port = 9999
+    message_start = b'\x1a\x1c\x3a\x1b'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 65,
+        'SCRIPT_ADDR': 50,
+        'SECRET_KEY': 193
+    }
 
 
 # Has no testnet

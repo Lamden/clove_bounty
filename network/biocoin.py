@@ -15,5 +15,11 @@ class Biocoin(Bitcoin):
              "seed4.cryptolife.net",
              "seed5.cryptolife.net")
     port = 24885
+    message_start = b'\xb4\xf9\xe1\xa5'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 25,
+        'SCRIPT_ADDR': 20,
+        'SECRET_KEY': 153
+    }
 
 # Has no testnet

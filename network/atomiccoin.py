@@ -11,5 +11,11 @@ class AtomicCoin(Bitcoin):
     symbols = ('ATOM', )
     seeds = ("199.127.226.157")
     port = 8567
+    message_start = b'\x81\x99\x92\x18'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 23,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 151
+    }
 
 # Has no testnet

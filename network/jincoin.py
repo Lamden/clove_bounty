@@ -19,6 +19,12 @@ class Jincoin(Bitcoin):
         'seed3.jin-coin.com',
     )
     port = 23099
+    message_start = b'\xd7\xc4\xef\xeb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 43,
+        'SCRIPT_ADDR': 21,
+        'SECRET_KEY': 171
+    }
 
 
 class JincoinTestNet(Jincoin):
@@ -30,3 +36,9 @@ class JincoinTestNet(Jincoin):
     name = 'test-jincoin'
     seeds = ()
     port = 33099
+    message_start = b'\xbc\xad\xaf\xc4'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 128,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 52
+    }

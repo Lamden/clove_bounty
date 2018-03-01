@@ -11,5 +11,11 @@ class LimitedCoin(Bitcoin):
     symbols = ('LTD', )
     seeds = ("limitedcoin.dyndns.org")
     port = 39569
+    message_start = b'\xaa\xa2\xb2\xc4'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 48,
+        'SCRIPT_ADDR': 28,
+        'SECRET_KEY': 176
+    }
 
 # no testnet

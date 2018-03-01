@@ -11,5 +11,11 @@ class TargetCoin(Bitcoin):
     symbols = ('TAR', )
     seeds = ("192.168.145.1")
     port = 56680
+    message_start = b'\xfc\xd9\xb7\xdd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 26,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 154
+    }
 
 # no testnet

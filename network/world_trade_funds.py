@@ -12,3 +12,9 @@ class World_Trade_Funds(Bitcoin):
     seeds = ("107.170.189.185",
              "144.76.139.212")
     port = 42733
+    message_start = b'\xa1\xa0\xa2\xa3'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 98,
+        'SCRIPT_ADDR': 28,
+        'SECRET_KEY': 226
+    }

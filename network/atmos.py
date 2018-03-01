@@ -11,6 +11,12 @@ class Atmos(Bitcoin):
     symbols = ('ATMS', )
     seeds = ('212.129.37.112')
     port = 9834
+    message_start = b'\xc3\xa0\x08\x12'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 53,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 153
+    }
 
 
 class AtmosTestNet(Atmos):
@@ -23,3 +29,9 @@ class AtmosTestNet(Atmos):
     symbols = ('ATMS', )
     seeds = ()
     port = 9835
+    message_start = b'\xa3\xb0\x18\x22'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

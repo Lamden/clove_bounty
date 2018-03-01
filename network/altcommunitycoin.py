@@ -12,6 +12,12 @@ class Altcommunitycoin(Bitcoin):
     seeds = ('109.230.231.216', '109.230.231.221',
              '212.109.218.47', 'zPools.de')
     port = 29855
+    message_start = b'\x4a\x12\x22\x14'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 23,
+        'SCRIPT_ADDR': 125,
+        'SECRET_KEY': 191
+    }
 
 
 # Has no Testnet

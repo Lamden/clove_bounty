@@ -11,5 +11,11 @@ class Allsafe(Bitcoin):
     symbols = ('ASAFE2', )
     seeds = ("63.142.254.223")
     port = 30234
+    message_start = b'\x32\x5e\x6f\x86'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 23,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 151
+    }
 
 # Has no testnet

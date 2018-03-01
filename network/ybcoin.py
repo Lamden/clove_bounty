@@ -14,3 +14,9 @@ class YbCoin(Bitcoin):
              "seed2.ybcoin.org",
              "tnseeds.ybcoin.com")
     port = 7337
+    message_start = b'\xd4\xe7\xe8\xe5'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 78,
+        'SCRIPT_ADDR': 140,
+        'SECRET_KEY': 206
+    }

@@ -11,5 +11,11 @@ class EneCoin(Bitcoin):
     symbols = ('ENE', )
     seeds = ("52.37.214.176")
     port = 12124
+    message_start = b'\x72\x35\xa4\xbd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 12,
+        'SCRIPT_ADDR': 24,
+        'SECRET_KEY': 140
+    }
 
 # no testnet

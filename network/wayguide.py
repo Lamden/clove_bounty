@@ -12,6 +12,12 @@ class WayGuide(Bitcoin):
     symbols = ('WAY', )
     seeds = ()
     port = 21000
+    message_start = b'\x57\x41\x59\x47'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 73,
+        'SCRIPT_ADDR': 97,
+        'SECRET_KEY': 173
+    }
 
 
 class WayGuideTestNet(WayGuide):
@@ -23,3 +29,9 @@ class WayGuideTestNet(WayGuide):
     name = 'test-wayguide'
     seeds = ()
     port = 22000
+    message_start = b'\x77\x61\x79\x67'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 135,
+        'SCRIPT_ADDR': 208,
+        'SECRET_KEY': 249
+    }
