@@ -9,7 +9,7 @@ class LePen(Bitcoin):
     """
     name = 'lepen'
     symbols = ('LEPEN', )
-    seeds = ('192.169.7.83')
+    nodes = ('192.169.7.83', )
     port = 45010
     message_start = b'\xa1\xa0\xa2\xa3'
     base58_prefixes = {

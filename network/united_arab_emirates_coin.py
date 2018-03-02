@@ -1,7 +1,7 @@
 from clove.network.bitcoin import Bitcoin
 
 
-class United_Arab_Emirates_Coin(Bitcoin):
+class UnitedArabEmiratesCoin(Bitcoin):
     """
     Class with all the necessary United Arab Emirates Coin network information based on
     https://github.com/uaecoin/UAECOIN-United-Arab-Emirates-Coin/blob/master/src/net.cpp
@@ -9,7 +9,7 @@ class United_Arab_Emirates_Coin(Bitcoin):
     """
     name = 'united_arab_emirates_coin'
     symbols = ('UAEC', )
-    seeds = ("107.155.87.16")
+    nodes = ("107.155.87.16", )
     port = 44887
     message_start = b'\xaa\xa2\xb2\xc4'
     base58_prefixes = {

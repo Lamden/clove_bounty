@@ -27,7 +27,7 @@ class Dream8CoinTestNet(Dream8Coin):
     (date of access: 02/14/2018)
     """
     name = 'test-diamond'
-    seeds = ("tseed.ssaomi.com")
+    seeds = ("tseed.ssaomi.com", )
     port = 17774
     message_start = b'\xfc\xc1\xb7\xdc'
     base58_prefixes = {

@@ -28,7 +28,7 @@ class ViacoinTestNet(Viacoin):
     (date of access: 02/11/2018)
     """
     name = 'test-viacoin'
-    seeds = ('159.203.109.115', '104.131.34.150')
+    nodes = ('159.203.109.115', '104.131.34.150', )
     port = 25223
     message_start = b'\xa9\xc5\xef\x92'
     base58_prefixes = {

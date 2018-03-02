@@ -9,7 +9,7 @@ class Eight08Coin(Bitcoin):
     """
     name = '808coin'
     symbols = ('808', )
-    seeds = ('dns.808bass.space')
+    seeds = ('dns.808bass.space', )
     port = 8087
     message_start = b'\xc6\xd5\xe3\xcb'
     base58_prefixes = {

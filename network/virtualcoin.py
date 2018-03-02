@@ -9,7 +9,7 @@ class VirtualCoin(Bitcoin):
     """
     name = 'virtualcoin'
     symbols = ('VC', )
-    seeds = ('dnsseed.vcoin.ca', 'dnsseed.virtualcoin.ca')
+    seeds = ('dnsseed.vcoin.ca', 'dnsseed.virtualcoin.ca', )
     port = 443
     message_start = b'\xfb\xc0\xb6\xdb'
     base58_prefixes = {
@@ -26,7 +26,7 @@ class VirtualCoinTestNet(VirtualCoin):
     (date of access: 02/17/2018)
     """
     name = 'test-virtualcoin'
-    seeds = ('testnet-seed.vcoin.ca', 'testnet-seed.virtualcoin.ca')
+    seeds = ('testnet-seed.vcoin.ca', 'testnet-seed.virtualcoin.ca', )
     port = 80
     message_start = b'\xfc\xc1\xb7\xdc'
     base58_prefixes = {

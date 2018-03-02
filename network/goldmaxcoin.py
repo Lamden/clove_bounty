@@ -9,7 +9,7 @@ class GoldMaxCoin(Bitcoin):
     """
     name = 'goldmaxcoin'
     symbols = ('GMX', )
-    seeds = ('node.walletbuilders.com')
+    seeds = ('node.walletbuilders.com', )
     port = 6309
     message_start = b'\x42\x29\x0e\xb6'
     base58_prefixes = {

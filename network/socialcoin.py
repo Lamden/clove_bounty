@@ -10,7 +10,7 @@ class SocialCoin(Bitcoin):
     """
     name = 'socialcoin'
     symbols = ('SOCC', )
-    seeds = ('13.59.61.11',)
+    nodes = ('13.59.61.11', )
     port = 18645
     message_start = b'\xee\x64\xe3\x1d'
     base58_prefixes = {

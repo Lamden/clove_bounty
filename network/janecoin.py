@@ -9,7 +9,7 @@ class JaneCoin(Bitcoin):
     """
     name = 'janecoin'
     symbols = ('JANE', )
-    seeds = ('107.170.156.17', )
+    nodes = ('107.170.156.17', )
     port = 13413
     message_start = b'\xb7\xf7\xe7\xee'
     base58_prefixes = {

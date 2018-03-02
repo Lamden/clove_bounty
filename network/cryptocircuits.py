@@ -9,7 +9,7 @@ class CryptoCircuits(Bitcoin):
     """
     name = 'cryptocircuits'
     symbols = ('CIRC', )
-    seeds = ("188.166.126.155",
+    nodes = ("188.166.126.155",
              "46.101.29.142")
     port = 28112
     message_start = b'\x28\x44\x15\x06'

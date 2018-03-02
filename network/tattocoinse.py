@@ -9,7 +9,7 @@ class TattocoinSE(Bitcoin):
     """
     name = 'tattocoinse'
     symbols = ('TSE', )
-    seeds = ('195.74.52.227', '149.56.154.65')
+    nodes = ('195.74.52.227', '149.56.154.65', )
     port = 9959
     message_start = b'\x72\x7c\x80\x10'
     base58_prefixes = {
@@ -26,7 +26,7 @@ class TattocoinSETestNet(TattocoinSE):
     (date of access: 02/17/2018)
     """
     name = 'test-tattocoinse'
-    seeds = ('91.134.120.210')
+    nodes = ('91.134.120.210', )
     port = 19959
     message_start = b'\xb8\xca\x56\x51'
     base58_prefixes = {

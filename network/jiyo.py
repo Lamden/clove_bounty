@@ -9,7 +9,7 @@ class Jiyo(Bitcoin):
     """
     name = 'jiyo'
     symbols = ('JIYO', )
-    seeds = ('node.jiyo.io', 'node2.jiyo.io')
+    seeds = ('node.jiyo.io', 'node2.jiyo.io', )
     port = 22567
     message_start = b'\x62\x37\xbf\x76'
     base58_prefixes = {

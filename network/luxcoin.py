@@ -9,8 +9,7 @@ class LUXCoin(Bitcoin):
     """
     name = 'luxcoin'
     symbols = ('LUX', )
-    seeds = ('5.189.142.181', '5.77.44.147', '209.250.254.156', '45.76.114.209',
-             'luxseed1.luxcore.io', 'luxseed2.luxcore.io', 'luxseed3.luxcore.io', 'luxseed4.luxcore.io')
+    seeds = ('luxseed1.luxcore.io', 'luxseed2.luxcore.io', 'luxseed3.luxcore.io', 'luxseed4.luxcore.io')
     port = 26868
     message_start = b'\xf9\x73\xc9\xa7'
     base58_prefixes = {
@@ -27,7 +26,8 @@ class LUXCoinTestNet(LUXCoin):
     (date of access: 02/12/2018)
     """
     name = 'test-luxcoin'
-    seeds = ('88.198.192.110')
+    nodes = ('88.198.192.110', )
+    seeds = ()
     port = 28333
     message_start = b'\x54\x67\x56\xab'
     base58_prefixes = {

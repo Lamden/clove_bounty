@@ -9,7 +9,7 @@ class Aeon(Bitcoin):
     """
     name = 'aeon'
     symbols = ('AEON', )
-    seeds = ('74.91.23.186', '192.187.114.114')
+    nodes = ('74.91.23.186', '192.187.114.114', )
     port = 11180
 
 # no testnet

@@ -9,7 +9,7 @@ class Protoshares(Bitcoin):
     """
     name = 'protoshares'
     symbols = ('PTS*', )
-    seeds = ("162.243.45.158",
+    nodes = ("162.243.45.158",
              "192.241.150.158",
              "162.243.67.4",
              "162.243.54.126",

@@ -9,7 +9,7 @@ class MilkCoin(Bitcoin):
     """
     name = 'milkcoin'
     symbols = ('MUU', )
-    seeds = ("185.69.55.50")
+    nodes = ("185.69.55.50", )
     port = 35235
     message_start = b'\xf1\xd5\xd1\xf2'
     base58_prefixes = {

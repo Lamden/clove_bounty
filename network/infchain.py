@@ -9,7 +9,7 @@ class InfChain(Bitcoin):
     """
     name = 'infchain'
     symbols = ('INF', )
-    seeds = ('119.23.214.249',
+    nodes = ('119.23.214.249',
              '47.92.128.30',
              '116.62.150.78',
              '47.52.108.183',

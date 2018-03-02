@@ -9,7 +9,7 @@ class JokerCoin(Bitcoin):
     """
     name = 'jokercoin'
     symbols = ('JOK', )
-    seeds = ("45.55.83.96")
+    nodes = ("45.55.83.96", )
     port = 32880
     message_start = b'\xe4\xe8\xbd\xfd'
     base58_prefixes = {

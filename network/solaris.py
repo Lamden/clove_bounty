@@ -33,7 +33,7 @@ class SolarisTestNet(Solaris):
     """
     name = 'test-solaris'
     seeds = ('solaris-testnet.seed.fuzzbawls.pw',
-             'solaris-testnet.seed2.fuzzbawls.pw', 's3v3nh4cks.ddns.net', '88.198.192.110')
+             'solaris-testnet.seed2.fuzzbawls.pw', 's3v3nh4cks.ddns.net')
     port = 51474
     message_start = b'\x45\x76\x65\xba'
     base58_prefixes = {

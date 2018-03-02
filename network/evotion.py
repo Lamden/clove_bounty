@@ -9,7 +9,7 @@ class Evotion(Bitcoin):
     """
     name = 'evotion'
     symbols = ('EVO', )
-    seeds = ('52.33.170.107')
+    nodes = ('52.33.170.107', )
     port = 9393
     message_start = b'\xa4\xd2\xf8\xa6'
     base58_prefixes = {

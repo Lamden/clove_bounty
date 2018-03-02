@@ -9,7 +9,7 @@ class Abjcoin(Bitcoin):
     """
     name = 'abjcoin'
     symbols = ('ABJ', )
-    seeds = ('209.188.21.177', '199.188.207.212')
+    nodes = ('209.188.21.177', '199.188.207.212', )
     port = 29303
     message_start = b'\x22\x3d\x04\xa6'
     base58_prefixes = {
@@ -26,8 +26,7 @@ class AbjcoinTestNet(Abjcoin):
     (date of access: 02/17/2018)
     """
     name = 'test-abjcoin'
-    symbols = ('ABJ', )
-    seeds = ()
+    nodes = ()
     port = 39303
     message_start = b'\x2d\x27\x8e\xab'
     base58_prefixes = {

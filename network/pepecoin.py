@@ -10,7 +10,7 @@ class PepeCoin(Bitcoin):
     """
     name = 'pepecoin'
     symbols = ('MEME', )
-    seeds = ('seed.kekdaq.com', 'seed.pepecoin.co')
+    seeds = ('seed.kekdaq.com', 'seed.pepecoin.co', )
     port = 29377
     message_start = b'\x3a\xc4\x2c\x2f'
     base58_prefixes = {

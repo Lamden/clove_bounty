@@ -9,7 +9,7 @@ class SkullBuzz(Bitcoin):
     """
     name = 'skullbuzz'
     symbols = ('SKB', )
-    seeds = ("104.238.156.128",
+    nodes = ("104.238.156.128",
              "104.238.152.172",
              "104.238.154.10",
              "107.191.62.71")

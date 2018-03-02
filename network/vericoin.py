@@ -10,7 +10,7 @@ class VeriCoin(Bitcoin):
     """
     name = 'vericoin'
     symbols = ('VRC', )
-    seeds = ('dnsseed.vericoin.info')
+    seeds = ('dnsseed.vericoin.info', )
     port = 58684
     message_start = b'\x70\x35\x22\x05'
     base58_prefixes = {

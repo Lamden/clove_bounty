@@ -9,7 +9,7 @@ class ATCCoin(Bitcoin):
     """
     name = 'atccoin'
     symbols = ('ATCC', )
-    seeds = ("166.62.123.137")
+    nodes = ("166.62.123.137", )
     port = 9333
     message_start = b'\xc3\xd2\xd1\xbd'
     base58_prefixes = {
@@ -26,7 +26,7 @@ class ATCCoinTestNet(ATCCoin):
     (date of access: 02/13/2018)
     """
     name = 'test-atccoin'
-    seeds = ("166.62.123.137")
+    nodes = ("166.62.123.137", )
     port = 19333
     message_start = b'\xd2\xb3\xa4\xdc'
     base58_prefixes = {

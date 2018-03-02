@@ -10,7 +10,7 @@ class CBit(Bitcoin):
     """
     name = 'c-bit'
     symbols = ('XCT', )
-    seeds = ('192.241.191.47',)
+    nodes = ('192.241.191.47', )
     port = 8289
     message_start = b'\xde\xad\xfe\xd5'
     base58_prefixes = {
@@ -27,7 +27,7 @@ class CBitTestNet(CBit):
     (date of access: 02/11/2018)
     """
     name = 'test-c-bit'
-    seeds = ('159.203.31.151', '192.241.179.42')
+    nodes = ('159.203.31.151', '192.241.179.42', )
     port = 18289
     message_start = b'\x0b\x10\xd9\x07'
     base58_prefixes = {

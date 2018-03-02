@@ -9,7 +9,7 @@ class WealthCoin(Bitcoin):
     """
     name = 'wealthcoin'
     symbols = ('WEALTH', )
-    seeds = ("104.236.220.47")
+    nodes = ("104.236.220.47", )
     port = 15152
     message_start = b'\xa4\xd2\xf8\xa6'
     base58_prefixes = {

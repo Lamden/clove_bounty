@@ -10,7 +10,7 @@ class Californium(Bitcoin):
     """
     name = 'californium'
     symbols = ('CF', )
-    seeds = ('54.149.30.199', '')
+    nodes = ('54.149.30.199', )
     port = 44252
     message_start = b'\x0f\xdb\xbb\x07'
     base58_prefixes = {

@@ -9,7 +9,7 @@ class NewZealandCoin(Bitcoin):
     """
     name = 'newzealandcoin'
     symbols = ('NZC', )
-    seeds = ("node.walletbuilders.com")
+    seeds = ("node.walletbuilders.com", )
     port = 7769
     message_start = b'\x69\x2a\xb5\x47'
     base58_prefixes = {

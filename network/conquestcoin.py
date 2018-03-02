@@ -9,7 +9,7 @@ class Conquestcoin(Bitcoin):
     """
     name = 'conquestcoin'
     symbols = ('CQST', )
-    seeds = ("216.31.12.30")
+    nodes = ("216.31.12.30", )
     port = 7837
     message_start = b'\xf0\xc1\xdb\xfa'
     base58_prefixes = {

@@ -10,7 +10,7 @@ class Riecoin(Bitcoin):
     """
     name = 'riecoin'
     symbols = ('RIC', )
-    seeds = ('seed.bitcoin.sipa.be',)
+    seeds = ('seed.bitcoin.sipa.be', )
     port = 28333
     message_start = b'\xfc\xbc\xb2\xdb'
     base58_prefixes = {

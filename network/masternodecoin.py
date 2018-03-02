@@ -10,7 +10,7 @@ class Masternodecoin(Bitcoin):
     """
     name = 'masternodecoin'
     symbols = ('MTNC', )
-    seeds = ('47.52.46.158', '23.247.2.51')
+    nodes = ('47.52.46.158', '23.247.2.51', )
     port = 10086
     message_start = b'\xd5\xce\x8c\x5e'
     base58_prefixes = {

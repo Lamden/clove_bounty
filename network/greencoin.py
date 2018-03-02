@@ -10,7 +10,7 @@ class Greencoin(Bitcoin):
     """
     name = 'greencoin'
     symbols = ('GRE', )
-    seeds = ('149.202.137.169', '81.83.209.224',
+    nodes = ('149.202.137.169', '81.83.209.224',
              '67.161.120.48', '73.12.235.88', '174.31.114.98')
     port = 11517
     message_start = b'\x05\x22\x53\x07'

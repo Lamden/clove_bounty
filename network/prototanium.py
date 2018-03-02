@@ -27,7 +27,7 @@ class PrototaniumTestNet(Prototanium):
     (date of access: 02/19/2018)
     """
     name = 'test-prototanium'
-    seeds = ("23skidoo.info",
+    nodes = ("23skidoo.info",
              "testnet.prototanium.info")
     port = 65525
     message_start = b'\x01\x02\x03\x04'

@@ -9,7 +9,7 @@ class NodeCoin(Bitcoin):
     """
     name = 'nodecoin'
     symbols = ('NODC', )
-    seeds = ('212.8.251.4')
+    nodes = ('212.8.251.4', )
     port = 9219
     message_start = b'\x0c\x06\x7b\x67'
     base58_prefixes = {

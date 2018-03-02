@@ -9,9 +9,7 @@ class CaliphCoin(Bitcoin):
     """
     name = 'caliphcoin'
     symbols = ('CALC', )
-    seeds = ("213.252.245.164",
-             "213.252.245.142",
-             "electrum3.cryptolife.net")
+    seeds = ("electrum3.cryptolife.net", )
     port = 29291
     message_start = b'\xde\xc1\x9e\xe0'
     base58_prefixes = {

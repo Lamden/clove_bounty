@@ -9,7 +9,7 @@ class LiviaCoin(Bitcoin):
     """
     name = 'liviacoin'
     symbols = ('LIV', )
-    seeds = ("162.243.239.239")
+    nodes = ("162.243.239.239", )
     port = 42623
     message_start = b'\xb4\xc8\xe4\xe5'
     base58_prefixes = {

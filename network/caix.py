@@ -9,9 +9,7 @@ class CAIx(Bitcoin):
     """
     name = 'CAIx'
     symbols = ('CAIx', )
-    seeds = ("82.196.2.163",
-             "37.187.78.114",
-             "walrusbonzo.ddns.net",
+    seeds = ("walrusbonzo.ddns.net",
              "alpho2k.ddns.net")
     port = 1511
     message_start = b'\x70\x35\x22\x05'

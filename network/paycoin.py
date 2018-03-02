@@ -22,7 +22,7 @@ class PayCoin(Bitcoin):
     }
 
 
-class PayCoinTestNet(Bitcoin):
+class PayCoinTestNet(PayCoin):
     """
     Class with all the necessary PayCoin testing network information based on
     https://github.com/PaycoinFoundation/paycoin/blob/master/src/net.cpp

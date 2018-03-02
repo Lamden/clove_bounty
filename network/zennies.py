@@ -10,8 +10,7 @@ class Zennies(Bitcoin):
     """
     name = 'zennies'
     symbols = ('ZENI', )
-    seeds = ('54.214.213.181', '54.186.147.219', '91.134.120.210',
-             'east1.zeni.zone', 'west1.zeni.zone')
+    nodes = ('54.214.213.181', '54.186.147.219', '91.134.120.210')
     port = 11011
     message_start = b'\x2a\x7c\xcb\xab'
     base58_prefixes = {

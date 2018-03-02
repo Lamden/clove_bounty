@@ -9,7 +9,7 @@ class Startcoin(Bitcoin):
     """
     name = 'startcoin'
     symbols = ('START', )
-    seeds = ('node1.startcoin.org', 'node2.startcoin.org')
+    seeds = ('node1.startcoin.org', 'node2.startcoin.org', )
     port = 9247
     message_start = b'\xff\xc4\xba\xdf'
     base58_prefixes = {

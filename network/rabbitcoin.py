@@ -9,7 +9,7 @@ class RabbitCoin(Bitcoin):
     """
     name = 'rabbitcoin'
     symbols = ('RBBT', )
-    seeds = ('seed.rabbitco.in')
+    seeds = ('seed.rabbitco.in', )
     port = 17020
     message_start = b'\xc0\xc0\xc0\xc0'
     base58_prefixes = {

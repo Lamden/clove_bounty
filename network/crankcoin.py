@@ -9,7 +9,7 @@ class CrankCoin(Bitcoin):
     """
     name = 'crankcoin'
     symbols = ('CRNK', )
-    seeds = ("192.99.32.58")
+    nodes = ("192.99.32.58", )
     port = 17771
     message_start = b'\xaa\xa2\xb2\xc4'
     base58_prefixes = {

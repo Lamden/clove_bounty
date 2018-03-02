@@ -9,7 +9,7 @@ class Europecoin(Bitcoin):
     """
     name = 'europecoin'
     symbols = ('ERC', )
-    seeds = ("85.214.68.75",
+    nodes = ("85.214.68.75",
              "37.120.190.76",
              "46.105.114.185",
              "144.76.238.2",
@@ -39,7 +39,7 @@ class EuropecoinTestNet(Europecoin):
     (date of access: 02/14/2018)
     """
     name = 'test-europecoin'
-    seeds = ("85.214.68.75")
+    nodes = ("85.214.68.75", )
     port = 8989
     message_start = b'\x45\x55\x52\x4f'
     base58_prefixes = {

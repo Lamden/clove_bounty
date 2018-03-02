@@ -9,7 +9,7 @@ class BitFID(Bitcoin):
     """
     name = 'bitfid'
     symbols = ('FID', )
-    seeds = ('120.55.61.133', '47.92.98.238',
+    nodes = ('120.55.61.133', '47.92.98.238',
              '39.108.173.85', '39.108.154.111')
     port = 19771
     message_start = b'\xf8\xe9\xe1\xef'

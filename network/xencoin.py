@@ -9,7 +9,7 @@ class XenCoin(Bitcoin):
     """
     name = 'xencoin'
     symbols = ('XNC', )
-    seeds = ("192.241.131.40")
+    nodes = ("192.241.131.40", )
     port = 4334
     message_start = b'\xfb\xc0\xb6\xdb'
     base58_prefixes = {

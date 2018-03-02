@@ -9,7 +9,7 @@ class FCKBanksCoin(Bitcoin):
     """
     name = 'fckbankscoin'
     symbols = ('FCV', )
-    seeds = ("seed.fckbanks.org")
+    seeds = ("seed.fckbanks.org", )
     port = 21779
     message_start = b'\xfc\xd9\xb7\xdd'
     base58_prefixes = {

@@ -9,7 +9,7 @@ class PenCoin(Bitcoin):
     """
     name = 'pencoin'
     symbols = ('PEN', )
-    seeds = ("108.61.103.46")
+    nodes = ("108.61.103.46", )
     port = 31810
     message_start = b'\xe4\xe8\xbd\xfd'
     base58_prefixes = {

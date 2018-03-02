@@ -9,7 +9,7 @@ class Potcoin(Bitcoin):
     """
     name = 'potcoin'
     symbols = ('POT', )
-    seeds = ('dnsseedz.potcoin.info', 'dns1.potcoin.info')
+    seeds = ('dnsseedz.potcoin.info', 'dns1.potcoin.info', )
     port = 4200
     message_start = b'\xfb\xc0\xb6\xdb'
     base58_prefixes = {

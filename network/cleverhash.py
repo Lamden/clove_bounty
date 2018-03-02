@@ -9,7 +9,7 @@ class CleverHash(Bitcoin):
     """
     name = 'cleverhash'
     symbols = ('CHASH', )
-    seeds = ("104.131.197.190", "104.236.15.167")
+    nodes = ("104.131.197.190", "104.236.15.167", )
     port = 28194
     message_start = b'\xa1\xa0\xa2\xa3'
     base58_prefixes = {

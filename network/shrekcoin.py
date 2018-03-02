@@ -9,7 +9,7 @@ class ShrekCoin(Bitcoin):
     """
     name = 'shrekcoin'
     symbols = ('SHREK', )
-    seeds = ("node.walletbuilders.com")
+    seeds = ("node.walletbuilders.com", )
     port = 7443
     message_start = b'\x96\xc7\xb2\x6f'
     base58_prefixes = {

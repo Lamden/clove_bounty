@@ -29,7 +29,7 @@ class MonetaryUnitTestNet(MonetaryUnit):
     (date of access: 02/17/2018)
     """
     name = 'test-monetaryunit'
-    seeds = ("tnodes.muex.io")
+    seeds = ("tnodes.muex.io", )
     port = 18683
     message_start = b'\xbd\xa3\xc8\xb1'
     base58_prefixes = {

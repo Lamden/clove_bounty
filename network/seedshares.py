@@ -9,7 +9,7 @@ class SeedShares(Bitcoin):
     """
     name = 'seedshares'
     symbols = ('SEEDS', )
-    seeds = ("107.170.238.71")
+    nodes = ("107.170.238.71", )
     port = 32231
     message_start = b'\xfa\xf2\xef\xb4'
     base58_prefixes = {

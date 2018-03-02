@@ -31,7 +31,7 @@ class CannaCoinTestNet(CannaCoin):
     (date of access: 02/14/2018)
     """
     name = 'test-cannacoin'
-    seeds = ("testnet.cannacoin.cc")
+    seeds = ("testnet.cannacoin.cc", )
     port = 17143
     message_start = b'\xfc\xc1\xb7\xdc'
     base58_prefixes = {

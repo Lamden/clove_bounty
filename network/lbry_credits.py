@@ -9,7 +9,7 @@ class LBRYCredits(Bitcoin):
     """
     name = 'lbry_credits'
     symbols = ('LBC', )
-    seeds = ('dnsseed1.lbry.io', 'dnsseed2.lbry.io', 'dnsseed3.lbry.io')
+    seeds = ('dnsseed1.lbry.io', 'dnsseed2.lbry.io', 'dnsseed3.lbry.io', )
     port = 9246
     message_start = b'\xfa\xe4\xaa\xf1'
     base58_prefixes = {
@@ -27,7 +27,7 @@ class LBRYCreditsTestNet(LBRYCredits):
     """
     name = 'test-lbry_credits'
     symbols = ('LBC', )
-    seeds = ('testdnsseed1.lbry.io', 'testdnsseed1.lbry.io')
+    seeds = ('testdnsseed1.lbry.io', 'testdnsseed1.lbry.io', )
     port = 19246
     message_start = b'\xfa\xe4\xaa\xe1'
     base58_prefixes = {

@@ -9,7 +9,7 @@ class BitcoinX(Bitcoin):
     """
     name = 'bitcoinx'
     symbols = ('BCX', )
-    seeds = ('seed.bcx.org', 'seed.bcx.info')
+    seeds = ('seed.bcx.org', 'seed.bcx.info', )
     port = 9003
     message_start = b'\x11\x05\xbc\xF9'
     base58_prefixes = {
@@ -26,7 +26,7 @@ class BitcoinXTestNet(BitcoinX):
     (date of access: 02/17/2018)
     """
     name = 'test-bitcoinx'
-    seeds = ('testnet-seed.bcx.org', 'testnet-seed.bcx.info')
+    seeds = ('testnet-seed.bcx.org', 'testnet-seed.bcx.info', )
     port = 19003
     message_start = b'\x19\x9F\xF3\x18'
     base58_prefixes = {

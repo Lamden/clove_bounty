@@ -9,7 +9,7 @@ class SpreadCoin(Bitcoin):
     """
     name = 'spreadcoin'
     symbols = ('SPR', )
-    seeds = ("dnsseed.spreadcoin.net")
+    seeds = ("dnsseed.spreadcoin.net", )
     port = 41678
     message_start = b'\x4f\x3c\x5c\xbb'
     base58_prefixes = {
@@ -26,7 +26,7 @@ class SpreadCoinTestNet(SpreadCoin):
     (date of access: 02/12/2018)
     """
     name = 'test-spreadcoin'
-    seeds = ("testnet-seed.darkcoin.io", "testnet-seed.darkcoin.qa")
+    seeds = ("testnet-seed.darkcoin.io", "testnet-seed.darkcoin.qa", )
     port = 51678
     message_start = b'\xc2\xe3\xcb\xfa'
     base58_prefixes = {

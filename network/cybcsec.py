@@ -9,7 +9,7 @@ class CybCSec(Bitcoin):
     """
     name = 'cybcsec'
     symbols = ('XCS', )
-    seeds = ("45.32.174.216",
+    nodes = ("45.32.174.216",
              "45.76.87.39")
     port = 6601
     message_start = b'\xfb\xf2\xeb\xb4'

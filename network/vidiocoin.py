@@ -9,7 +9,7 @@ class Vidiocoin(Bitcoin):
     """
     name = 'vidiocoin'
     symbols = ('VDO', )
-    seeds = ("212.91.189.164",
+    nodes = ("212.91.189.164",
              "195.34.100.2")
     port = 23682
     message_start = b'\xfa\xf2\xef\xb4'

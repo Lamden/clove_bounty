@@ -9,7 +9,7 @@ class InflationCoin(Bitcoin):
     """
     name = 'inflationcoin'
     symbols = ('IFLT', )
-    seeds = ("45.42.189.71", "45.42.189.111")
+    nodes = ("45.42.189.71", "45.42.189.111", )
     port = 11370
     message_start = b'\xdb\xc4\xf1\xfa'
     base58_prefixes = {

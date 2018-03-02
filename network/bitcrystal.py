@@ -9,7 +9,7 @@ class BitCrystal(Bitcoin):
     """
     name = 'bitcrystal'
     symbols = ('BTCRY', )
-    seeds = ("176.57.143.201")
+    nodes = ("176.57.143.201", )
     port = 9299
     message_start = b'\xfe\xa5\x03\xda'
     base58_prefixes = {

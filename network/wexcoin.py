@@ -9,7 +9,7 @@ class Wexcoin(Bitcoin):
     """
     name = 'wexcoin'
     symbols = ('WEX', )
-    seeds = ("162.243.116.31",
+    nodes = ("162.243.116.31",
              "192.241.251.204",
              "95.85.9.245",
              "95.85.14.64",

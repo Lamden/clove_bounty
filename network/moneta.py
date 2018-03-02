@@ -9,7 +9,7 @@ class Moneta(Bitcoin):
     """
     name = 'moneta'
     symbols = ('MONETA', )
-    seeds = ('95.85.55.13', '188.166.45.174', '178.62.195.161',
+    nodes = ('95.85.55.13', '188.166.45.174', '178.62.195.161',
              '188.166.92.128', '128.199.38.11')
     port = 10333
     message_start = b'\xc3\xd2\xd1\xbd'
@@ -27,7 +27,7 @@ class MonetaTestNet(Moneta):
     (date of access: 02/16/2018)
     """
     name = 'test-moneta'
-    seeds = ('testnet-seed.ltc.xurious.com', 'dnsseed.wemine-testnet.com')
+    seeds = ('testnet-seed.ltc.xurious.com', 'dnsseed.wemine-testnet.com', )
     port = 11333
     message_start = b'\xd1\xb2\xa4\xdc'
     base58_prefixes = {

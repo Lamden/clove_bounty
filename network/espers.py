@@ -10,7 +10,7 @@ class Espers(Bitcoin):
     """
     name = 'espers'
     symbols = ('ESP', )
-    seeds = ('esp.cryptocoderz.com',)
+    seeds = ('esp.cryptocoderz.com', )
     port = 22448
     message_start = b'\x4e\xaa\x32\x1c'
     base58_prefixes = {

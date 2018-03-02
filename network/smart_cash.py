@@ -27,7 +27,7 @@ class SmartCashTestNet(SmartCash):
     (date of access: 02/12/2018)
     """
     name = 'test-smartcash'
-    seeds = ('testnet.smartcash.cc"', 'testnet.smrt.cash')
+    seeds = ('testnet.smartcash.cc"', 'testnet.smrt.cash', )
     port = 19678
     message_start = b'\xcf\xfc\xbe\xea'
     base58_prefixes = {

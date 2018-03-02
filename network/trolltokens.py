@@ -9,7 +9,7 @@ class TrollTokens(Bitcoin):
     """
     name = 'trolltokens'
     symbols = ('TKN', )
-    seeds = ("68.117.4.111")
+    nodes = ("68.117.4.111", )
     port = 16385
     message_start = b'\xa4\xd2\xf8\xa4'
     base58_prefixes = {

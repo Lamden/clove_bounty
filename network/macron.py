@@ -9,7 +9,7 @@ class MACRON(Bitcoin):
     """
     name = 'macron'
     symbols = ('MCRN', )
-    seeds = ('192.52.167.209')
+    nodes = ('192.52.167.209', )
     port = 55553
     message_start = b'\xa4\xd2\xf8\xa6'
     base58_prefixes = {

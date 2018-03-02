@@ -9,7 +9,7 @@ class ChampCoin(Bitcoin):
     """
     name = 'champcoin'
     symbols = ('TCC', )
-    seeds = ("champcointools.com")
+    seeds = ("champcointools.com", )
     port = 38173
     message_start = b'\xc5\xd4\xd3\xbd'
     base58_prefixes = {

@@ -9,7 +9,7 @@ class BitcoinFast(Bitcoin):
     """
     name = 'bitcoinfast'
     symbols = ('BCF', )
-    seeds = ("bitcoinfast.co")
+    seeds = ("bitcoinfast.co", )
     port = 25671
     message_start = b'\xce\xfb\xfa\xdb'
     base58_prefixes = {

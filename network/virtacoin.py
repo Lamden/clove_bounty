@@ -9,7 +9,7 @@ class Virtacoin(Bitcoin):
     """
     name = 'virtacoin'
     symbols = ('VTA', )
-    seeds = ('seed1.virtacoin.com', 'seed2.virtacoin.com')
+    seeds = ('seed1.virtacoin.com', 'seed2.virtacoin.com', )
     port = 22816
     message_start = b'\xbe\xd0\xc8\xd1'
     base58_prefixes = {

@@ -9,7 +9,7 @@ class Execoin(Bitcoin):
     """
     name = 'execoin'
     symbols = ('DMD', )
-    seeds = ("dnsseed.execoin.net")
+    seeds = ("dnsseed.execoin.net", )
     port = 9989
     message_start = b'\xfa\xbf\xb5\xda'
     base58_prefixes = {
@@ -26,7 +26,7 @@ class ExecoinTestNet(Execoin):
     (date of access: 02/14/2018)
     """
     name = 'test-execoin'
-    seeds = ("testnet-seed.execoin.net")
+    seeds = ("testnet-seed.execoin.net", )
     port = 19989
     message_start = b'exec'
     base58_prefixes = {

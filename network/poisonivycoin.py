@@ -9,7 +9,7 @@ class PoisonIvyCoin(Bitcoin):
     """
     name = 'poisonivycoin'
     symbols = ('XPS', )
-    seeds = ("node.walletbuilders.com")
+    seeds = ("node.walletbuilders.com", )
     port = 17783
     message_start = b'\xd7\x86\xd9\xe4'
     base58_prefixes = {

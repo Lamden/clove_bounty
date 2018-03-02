@@ -9,7 +9,7 @@ class BlackCoin(Bitcoin):
     """
     name = 'BlackCoin'
     symbols = ('BLK', )
-    seeds = ("dnsseed.vasin.nl")
+    seeds = ("dnsseed.vasin.nl", )
     port = 15714
     message_start = b'\x70\x35\x22\x05'
     base58_prefixes = {

@@ -9,7 +9,7 @@ class ChanCoin(Bitcoin):
     """
     name = 'chancoin'
     symbols = ('CHAN', )
-    seeds = ("node.walletbuilders.com")
+    seeds = ("node.walletbuilders.com", )
     port = 19117
     message_start = b'\x0f\x91\x54\xf8'
     base58_prefixes = {

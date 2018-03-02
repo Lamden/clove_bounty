@@ -9,7 +9,7 @@ class Tittiecoin(Bitcoin):
     """
     name = 'tittiecoin'
     symbols = ('TTC', )
-    seeds = (
+    nodes = (
         '178.62.32.188',
         '178.62.32.202',
     )
@@ -22,7 +22,7 @@ class Tittiecoin(Bitcoin):
     }
 
 
-class TittieTestNet(Tittiecoin):
+class TittiecoinTestNet(Tittiecoin):
     """
     Class with all the necessary TTC testing network information based on
     https://github.com/tittiecoin/tittiecoin/blob/master/src/protocol.h

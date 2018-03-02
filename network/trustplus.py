@@ -9,7 +9,7 @@ class TrustPlus(Bitcoin):
     """
     name = 'trustplus'
     symbols = ('TRUST', )
-    seeds = ('104.197.97.72', '23.251.149.70')
+    nodes = ('104.197.97.72', '23.251.149.70', )
     port = 36999
     message_start = b'\xa1\xa0\xa2\xa3'
     base58_prefixes = {

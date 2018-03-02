@@ -9,7 +9,7 @@ class PrismChain(Bitcoin):
     """
     name = 'prismchain'
     symbols = ('PRM', )
-    seeds = ("146.185.169.104")
+    nodes = ("146.185.169.104", )
     port = 21995
     message_start = b'\xa2\xdc\xb1\xf7'
     base58_prefixes = {

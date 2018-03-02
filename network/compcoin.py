@@ -9,7 +9,7 @@ class Compcoin(Bitcoin):
     """
     name = 'compcoin'
     symbols = ('CMP', )
-    seeds = ("52.24.217.223")
+    nodes = ("52.24.217.223", )
     port = 2668
     message_start = b'\xb1\xb6\xf8\xa6'
     base58_prefixes = {

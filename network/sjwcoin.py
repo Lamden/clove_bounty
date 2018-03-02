@@ -9,7 +9,7 @@ class SJWCoin(Bitcoin):
     """
     name = 'sjwcoin'
     symbols = ('SJW', )
-    seeds = ("seed.sjwcoin.com")
+    seeds = ("seed.sjwcoin.com", )
     port = 19966
     message_start = b'\xfb\xc0\xb6\xdb'
     base58_prefixes = {

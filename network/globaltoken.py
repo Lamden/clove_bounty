@@ -9,7 +9,7 @@ class GlobalToken(Bitcoin):
     """
     name = 'globaltoken'
     symbols = ('GLT', )
-    seeds = ('134.255.221.7', 'lameserver.de')
+    seeds = ('lameserver.de', )
     port = 9319
     message_start = b'\xc7\x08\xd3\x2d'
     base58_prefixes = {
@@ -26,7 +26,8 @@ class GlobalTokenTestNet(GlobalToken):
     (date of access: 02/17/2018)
     """
     name = 'test-globaltoken'
-    seeds = ('134.255.221.7', )
+    seeds = ()
+    nodes = ('134.255.221.7', )
     port = 19319
     message_start = b'\x3a\x6f\x37\x5b'
     base58_prefixes = {

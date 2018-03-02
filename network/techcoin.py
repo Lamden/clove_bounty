@@ -9,7 +9,7 @@ class Techcoin(Bitcoin):
     """
     name = 'techcoin'
     symbols = ('TECH', )
-    seeds = ("24.85.126.229",
+    nodes = ("24.85.126.229",
              "179.211.40.9",
              "50.188.14.165")
     port = 57697

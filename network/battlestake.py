@@ -9,7 +9,7 @@ class BattleStake(Bitcoin):
     """
     name = 'BattleStake'
     symbols = ('BSTK', )
-    seeds = ("seed.battlestake.xyz")
+    seeds = ("seed.battlestake.xyz", )
     port = 9542
     message_start = b'\xfb\xc2\xba\xde'
     base58_prefixes = {

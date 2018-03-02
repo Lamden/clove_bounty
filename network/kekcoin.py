@@ -9,7 +9,7 @@ class KekCoin(Bitcoin):
     """
     name = 'kekcoin'
     symbols = ('KEK', )
-    seeds = ("107.191.48.186",
+    nodes = ("107.191.48.186",
              "209.250.246.178",
              "209.250.246.85")
     port = 13337
@@ -28,7 +28,7 @@ class KekCoinTestNet(KekCoin):
     (date of access: 02/16/2018)
     """
     name = 'test-kekcoin'
-    seeds = ("209.250.246.85")
+    nodes = ("209.250.246.85", )
     port = 13777
     message_start = b'\x55\x66\x77\x88'
     base58_prefixes = {

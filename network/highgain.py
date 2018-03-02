@@ -9,7 +9,7 @@ class HighGain(Bitcoin):
     """
     name = 'highgain'
     symbols = ('HIGH', )
-    seeds = ('34.214.230.207')
+    nodes = ('34.214.230.207', )
     port = 4664
     message_start = b'\x2d\x3f\xa2\xf5'
     base58_prefixes = {

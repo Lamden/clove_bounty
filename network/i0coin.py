@@ -10,7 +10,7 @@ class i0coin(Bitcoin):
     """
     name = 'i0coin'
     symbols = ('I0C', )
-    seeds = ('seed.i0coin.domob.eu',)
+    seeds = ('seed.i0coin.domob.eu', )
     port = 7333
     message_start = b'\xf1\xb2\xb3\xd4'
     base58_prefixes = {

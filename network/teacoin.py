@@ -9,7 +9,7 @@ class Teacoin(Bitcoin):
     """
     name = 'teacoin'
     symbols = ('TEA', )
-    seeds = ("66.85.164.76")
+    nodes = ("66.85.164.76", )
     port = 7921
     message_start = b'\x1a\x2b\x3c\x4e'
     base58_prefixes = {

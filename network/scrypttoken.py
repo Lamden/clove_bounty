@@ -9,7 +9,7 @@ class ScryptToken(Bitcoin):
     """
     name = 'scrypttoken'
     symbols = ('SCT', )
-    seeds = ("5.135.29.200",
+    nodes = ("5.135.29.200",
              "172.245.62.6")
     port = 7921
     message_start = b'\x10\xb1\xc5\xc2'

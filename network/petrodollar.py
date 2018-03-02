@@ -9,7 +9,7 @@ class PetroDollar(Bitcoin):
     """
     name = 'petrodollar'
     symbols = ('p$', )
-    seeds = ("162.243.147.115")
+    nodes = ("162.243.147.115", )
     port = 23932
     message_start = b'\xad\xe2\xa1\x90'
     base58_prefixes = {

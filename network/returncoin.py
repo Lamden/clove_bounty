@@ -9,7 +9,7 @@ class ReturnCoin(Bitcoin):
     """
     name = 'returncoin'
     symbols = ('RNC', )
-    seeds = ("37.97.135.16")
+    nodes = ("37.97.135.16", )
     port = 60144
     message_start = b'\xaa\xa2\xb2\xc4'
     base58_prefixes = {

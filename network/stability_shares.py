@@ -1,7 +1,7 @@
 from clove.network.bitcoin import Bitcoin
 
 
-class Stability_Shares(Bitcoin):
+class StabilityShares(Bitcoin):
     """
     Class with all the necessary Stability Shares network information based on
     https://bitcointalk.org/index.php?topic=490529.0
@@ -9,7 +9,7 @@ class Stability_Shares(Bitcoin):
     """
     name = 'stability_shares'
     symbols = ('XSS', )
-    seeds = ("80.112.144.84",
+    nodes = ("80.112.144.84",
              "82.139.127.205",
              "23.253.82.83",
              "27.33.1.58",

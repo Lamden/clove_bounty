@@ -9,7 +9,7 @@ class Goldcoin(Bitcoin):
     """
     name = 'goldcoin'
     symbols = ('GLD', )
-    seeds = ("seed.gldcoin.com", "vps.gldcoin.com")
+    seeds = ("seed.gldcoin.com", "vps.gldcoin.com", )
     port = 8121
     message_start = b'\xe4\xe8\xbd\xfd'
     base58_prefixes = {

@@ -9,7 +9,7 @@ class GeoCoin(Bitcoin):
     """
     name = 'geocoin'
     symbols = ('GEO', )
-    seeds = ("104.236.52.122")
+    nodes = ("104.236.52.122", )
     port = 9748
     message_start = b'\xae\xbf\xc0\xd1'
     base58_prefixes = {
@@ -26,7 +26,7 @@ class GeoCoinTestNet(GeoCoin):
     (date of access: 02/21/2018)
     """
     name = 'test-geocoin'
-    seeds = ("104.236.52.122")
+    nodes = ("104.236.52.122", )
     port = 9748
     message_start = b'\xbf\xc0\xd1\xe2'
     base58_prefixes = {

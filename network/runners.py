@@ -9,7 +9,7 @@ class Runners(Bitcoin):
     """
     name = 'runners'
     symbols = ('RUNNERS', )
-    seeds = ('104.200.67.104')
+    nodes = ('104.200.67.104', )
     port = 20649
     message_start = b'\x45\x98\x4c\x4f'
     base58_prefixes = {

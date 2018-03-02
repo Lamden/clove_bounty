@@ -1,7 +1,7 @@
 from clove.network.bitcoin import Bitcoin
 
 
-class Mutual_Coin(Bitcoin):
+class MutualCoin(Bitcoin):
     """
     Class with all the necessary Mutual_Coin network information based on
     https://github.com/MutualCoin/MutualCoin/blob/master/src/net.cpp

@@ -9,7 +9,7 @@ class Bumbacoin(Bitcoin):
     """
     name = 'Bumbacoin'
     symbols = ('BUMBA', )
-    seeds = ("82.211.31.215", "84.200.210.130")
+    nodes = ("82.211.31.215", "84.200.210.130", )
     port = 20222
     message_start = b'\xb1\xc0\xd2\xe3'
     base58_prefixes = {

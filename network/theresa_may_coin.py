@@ -9,7 +9,7 @@ class Theresamaycoin(Bitcoin):
     """
     name = 'theresamaycoin'
     symbols = ('MAY', )
-    seeds = ('86.53.121.36')
+    nodes = ('86.53.121.36', )
     port = 35010
     message_start = b'\xa4\xd2\xf8\xa6'
     base58_prefixes = {

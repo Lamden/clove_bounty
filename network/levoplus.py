@@ -9,7 +9,7 @@ class LevoPlus(Bitcoin):
     """
     name = 'levoplus'
     symbols = ('LVPS', )
-    seeds = ('104.131.114.154', '45.55.63.49', 'electrum4.cryptolife.net')
+    seeds = ('electrum4.cryptolife.net', )
     port = 25593
 
 # no testnet

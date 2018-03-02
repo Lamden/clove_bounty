@@ -9,7 +9,7 @@ class VTorrent(Bitcoin):
     """
     name = 'vtorrent'
     symbols = ('VTR', )
-    seeds = ('vtrseed.mooo.com', 'vtrseed1.mooo.com', 'vtrseed.ignorelist.com')
+    seeds = ('vtrseed.mooo.com', 'vtrseed1.mooo.com', 'vtrseed.ignorelist.com', )
     port = 22524
     message_start = b'\x22\x05\x35\x70'
     base58_prefixes = {

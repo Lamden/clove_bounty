@@ -9,7 +9,7 @@ class DotCoin(Bitcoin):
     """
     name = 'dotcoin'
     symbols = ('DOT', )
-    seeds = ("162.255.117.105", "nodes1.cryptopia.co.nz", "nodes2.cryptopia.co.nz",
+    seeds = ("nodes1.cryptopia.co.nz", "nodes2.cryptopia.co.nz",
              "pools1.cryptopia.co.nz", "pools2.cryptopia.co.nz")
     port = 19745
     message_start = b'\x16\x6f\x4f\x5d'

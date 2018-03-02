@@ -9,8 +9,7 @@ class ECoin(Bitcoin):
     """
     name = 'ecoin'
     symbols = ('ECN', )
-    seeds = ('138.68.164.92', 'ecnblockchain.com',
-             '72.52.156.4', '72.52.156.87')
+    nodes = ('138.68.164.92', '72.52.156.4', '72.52.156.87')
     port = 18741
     message_start = b'\xb4\xf8\xe2\xe5'
     base58_prefixes = {

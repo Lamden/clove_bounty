@@ -9,7 +9,7 @@ class OmegaCoin(Bitcoin):
     """
     name = 'omegacoin'
     symbols = ('OMA', )
-    seeds = ("79.137.84.252", "158.69.207.254")
+    nodes = ("79.137.84.252", "158.69.207.254", )
     port = 7777
     message_start = b'\xbf\x0c\x6b\xbd'
     base58_prefixes = {
@@ -26,7 +26,7 @@ class OmegaCoinTestNet(OmegaCoin):
     (date of access: 02/17/2018)
     """
     name = 'test-omegacoin'
-    seeds = ("159.89.101.252",
+    nodes = ("159.89.101.252",
              "207.154.249.8")
     port = 17777
     message_start = b'\xce\xe2\xca\xff'

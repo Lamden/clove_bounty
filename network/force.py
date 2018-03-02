@@ -9,7 +9,7 @@ class Force(Bitcoin):
     """
     name = 'force'
     symbols = ('FOR', )
-    seeds = ('94.130.107.201', '45.77.201.147')
+    nodes = ('94.130.107.201', '45.77.201.147', )
     port = 37246
     message_start = b'\xf1\xec\xa1\xc7'
     base58_prefixes = {

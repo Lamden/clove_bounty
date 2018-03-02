@@ -9,7 +9,7 @@ class Universe(Bitcoin):
     """
     name = 'universe'
     symbols = ('UNI', )
-    seeds = ('seed.unicoin.pw', 'seed2.unicoin.pw')
+    seeds = ('seed.unicoin.pw', 'seed2.unicoin.pw', )
     port = 11029
     message_start = b'\x57\x46\xf2\x84'
     base58_prefixes = {

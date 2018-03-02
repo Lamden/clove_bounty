@@ -9,8 +9,7 @@ class X2(Bitcoin):
     """
     name = 'x2'
     symbols = ('X2', )
-    seeds = ("5.146.140.4", "x2team2017.ddns.net", "185.61.151.109",
-             "185.61.151.132", "stratumtest.ddns.net")
+    seeds = ("x2team2017.ddns.net", "stratumtest.ddns.net")
     port = 16384
     message_start = b'\x5a\xc3\x82\xd3'
     base58_prefixes = {

@@ -9,7 +9,7 @@ class Bankcoin(Bitcoin):
     """
     name = 'bankcoin'
     symbols = ('B@', )
-    seeds = ("172.104.187.169", "172.104.173.190")
+    nodes = ("172.104.187.169", "172.104.173.190", )
     port = 32886
     message_start = b'\xa1\xa0\xa2\xa3'
     base58_prefixes = {

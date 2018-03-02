@@ -9,7 +9,7 @@ class PlayerCoin(Bitcoin):
     """
     name = 'playercoin'
     symbols = ('PLACO', )
-    seeds = ('playercoin1.dyndns.org')
+    seeds = ('playercoin1.dyndns.org', )
     port = 16666
     message_start = b'\xeb\x3d\x1c\xc4'
     base58_prefixes = {

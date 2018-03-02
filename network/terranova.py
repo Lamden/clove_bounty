@@ -9,7 +9,7 @@ class TerraNova(Bitcoin):
     """
     name = 'terranova'
     symbols = ('TER', )
-    seeds = ("194.87.96.140")
+    nodes = ("194.87.96.140", )
     port = 14542
     message_start = b'\x32\x5e\x6f\x86'
     base58_prefixes = {

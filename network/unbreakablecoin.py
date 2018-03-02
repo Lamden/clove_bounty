@@ -9,7 +9,7 @@ class UnbreakableCoin(Bitcoin):
     """
     name = 'unbreakablecoin'
     symbols = ('UNB', )
-    seeds = ('seed.ispace.co.uk', 'seed.multipool.us', '198.24.142.136')
+    seeds = ('seed.ispace.co.uk', 'seed.multipool.us')
     port = 9336
     message_start = b'\x83\x33\x07\xb1'
     base58_prefixes = {

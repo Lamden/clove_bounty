@@ -9,7 +9,7 @@ class Swapcoin(Bitcoin):
     """
     name = 'swapcoin'
     symbols = ('SWP', )
-    seeds = ("207.12.89.115")
+    nodes = ("207.12.89.115", )
     port = 19988
     message_start = b'\xbf\x0c\x6b\xbd'
     base58_prefixes = {

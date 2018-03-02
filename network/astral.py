@@ -9,7 +9,7 @@ class Astral(Bitcoin):
     """
     name = 'astral'
     symbols = ('AST', )
-    seeds = ("2.62.25.198")
+    nodes = ("2.62.25.198", )
     port = 96755
     message_start = b'\x70\x35\x22\x05'
     base58_prefixes = {

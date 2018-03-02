@@ -9,7 +9,7 @@ class LiteCoinX(Bitcoin):
     """
     name = 'litecoinx'
     symbols = ('LTCX', )
-    seeds = ("108.61.196.125", "114.215.110.130")
+    nodes = ("108.61.196.125", "114.215.110.130", )
     port = 12316
     message_start = b'\xfb\xc0\xb6\xdb'
     base58_prefixes = {

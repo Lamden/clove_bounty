@@ -9,7 +9,7 @@ class Franko(Bitcoin):
     """
     name = 'franko'
     symbols = ('FRK', )
-    seeds = ('seed.bitcoin.sipa.be',)
+    seeds = ('seed.bitcoin.sipa.be', )
     port = 8333
     message_start = b'\xf9\xbe\xb4\xd9'
     base58_prefixes = {

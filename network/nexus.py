@@ -9,7 +9,7 @@ class Nexus(Bitcoin):
     """
     name = 'nexus'
     symbols = ('NXS', )
-    seeds = ('204.27.62.234')
+    nodes = ('204.27.62.234', )
     port = 9323
     message_start = b'\xe9\x59\x0d\x05'
     base58_prefixes = {

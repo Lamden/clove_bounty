@@ -10,7 +10,7 @@ class Bitvolt(Bitcoin):
     """
     name = 'bitvolt'
     symbols = ('VOLT', )
-    seeds = ('198.211.126.38',)
+    nodes = ('198.211.126.38', )
     port = 11516
     message_start = b'\x12\x69\x51\x22'
     base58_prefixes = {

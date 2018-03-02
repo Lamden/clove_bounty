@@ -10,7 +10,7 @@ class Bata(Bitcoin):
     """
     name = 'bata'
     symbols = ('BTA', )
-    seeds = ('list.batadnsseed.bata.io', 'batadnsseed.midnightminer.net')
+    seeds = ('list.batadnsseed.bata.io', 'batadnsseed.midnightminer.net', )
     port = 5784
     message_start = b'\x34\xc3\xaf\xeb'
     base58_prefixes = {

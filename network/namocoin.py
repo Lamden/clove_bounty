@@ -9,7 +9,7 @@ class NamoCoin(Bitcoin):
     """
     name = 'namocoin'
     symbols = ('NAMO', )
-    seeds = ('namo.ddns.me')
+    seeds = ('namo.ddns.me', )
     port = 16305
     message_start = b'\xa1\xb3\xc7\xd1'
     base58_prefixes = {

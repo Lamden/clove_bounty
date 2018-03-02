@@ -9,7 +9,7 @@ class Tychocoin(Bitcoin):
     """
     name = 'tychocoin'
     symbols = ('TYCHO', )
-    seeds = ("50.63.164.183")
+    nodes = ("50.63.164.183", )
     port = 9333
     message_start = b'\xc3\xd2\xd1\xbd'
     base58_prefixes = {
@@ -26,7 +26,7 @@ class TychocoinTestNet(Tychocoin):
     (date of access: 02/19/2018)
     """
     name = 'test-tychocoin'
-    seeds = ("50.63.164.183")
+    nodes = ("50.63.164.183", )
     port = 19333
     message_start = b'\xd2\xb3\xa4\xdc'
     base58_prefixes = {

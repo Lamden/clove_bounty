@@ -10,7 +10,7 @@ class Sexcoin(Bitcoin):
     """
     name = 'sexcoin'
     symbols = ('SXC', )
-    seeds = ('dnsseed.sexcoin.info', 'dnsseed.lavajumper.com')
+    seeds = ('dnsseed.sexcoin.info', 'dnsseed.lavajumper.com', )
     port = 9560
     message_start = b'\xfa\xce\x69\x69'
     base58_prefixes = {

@@ -9,7 +9,7 @@ class SOSCoin(Bitcoin):
     """
     name = 'soscoin'
     symbols = ('SOS', )
-    seeds = ("node.walletbuilders.com")
+    seeds = ("node.walletbuilders.com", )
     port = 7599
     message_start = b'\x20\xab\x81\x22'
     base58_prefixes = {

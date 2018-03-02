@@ -1,7 +1,7 @@
 from clove.network.bitcoin import Bitcoin
 
 
-class Degas_Coin(Bitcoin):
+class DegasCoin(Bitcoin):
     """
     Class with all the necessary Degas Coin network information based on
     https://github.com/Deacoin/dea-coin-source/blob/master/src/net.cpp
@@ -9,7 +9,7 @@ class Degas_Coin(Bitcoin):
     """
     name = 'degas_coin'
     symbols = ('DEA', )
-    seeds = ("node.45.32.222.247")
+    seeds = ("node.45.32.222.247", )
     port = 12699
     message_start = b'\x6a\x9a\xf9\xbb'
     base58_prefixes = {

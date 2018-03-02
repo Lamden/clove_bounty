@@ -9,7 +9,7 @@ class ColossusCoinXT(Bitcoin):
     """
     name = 'colossuscoinxt'
     symbols = ('COLX', )
-    seeds = ('colxseed.presstab.pw')
+    seeds = ('colxseed.presstab.pw', )
     port = 51572
     message_start = b'\x91\xc5\xfe\xea'
     base58_prefixes = {

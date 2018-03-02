@@ -9,7 +9,7 @@ class NetCoin(Bitcoin):
     """
     name = 'netcoin'
     symbols = ('NET', )
-    seeds = ("netseed.presstab.pw")
+    seeds = ("netseed.presstab.pw", )
     port = 11310
     message_start = b'\xfd\xb6\xa5\xdb'
     base58_prefixes = {

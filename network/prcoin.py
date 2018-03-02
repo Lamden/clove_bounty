@@ -9,10 +9,7 @@ class PRCoin(Bitcoin):
     """
     name = 'prcoin'
     symbols = ('PRC', )
-    seeds = ("73.78.96.65:52698",
-             "218.144.45.133:50090",
-             "218.144.45.133:51045",
-             "218.144.45.133:61276")
+    nodes = ("73.78.96.65", "218.144.45.133")
     port = 8535
     message_start = b'\xef\xc1\x40\xba'
     base58_prefixes = {

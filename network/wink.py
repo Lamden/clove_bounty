@@ -10,7 +10,7 @@ class Wink(Bitcoin):
     """
     name = 'wink'
     symbols = ('WINK', )
-    seeds = ('52.42.186.46')
+    nodes = ('52.42.186.46', )
     port = 37748
     message_start = b'\xf3\x2d\xa5\x71'
     base58_prefixes = {

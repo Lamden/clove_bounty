@@ -28,7 +28,7 @@ class EurocoinTestNet(Eurocoin):
     (date of access: 02/11/2018)
     """
     name = 'test-eurocoin'
-    seeds = ('seed.viapool.tk',)
+    seeds = ('seed.viapool.tk', )
     port = 11775
     message_start = b'\x0b\x11\x09\x07'
     base58_prefixes = {

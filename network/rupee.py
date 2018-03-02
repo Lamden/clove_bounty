@@ -10,7 +10,7 @@ class Rupee(Bitcoin):
     """
     name = 'rupee'
     symbols = ('RUP', )
-    seeds = ('165.227.51.103', '104.236.195.94', '138.197.133.4')
+    nodes = ('165.227.51.103', '104.236.195.94', '138.197.133.4', )
     port = 10459
     message_start = b'\x3b\x69\xde\xd4'
     base58_prefixes = {

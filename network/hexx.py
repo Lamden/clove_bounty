@@ -9,7 +9,7 @@ class Hexx(Bitcoin):
     """
     name = 'hexx'
     symbols = ('HXX', )
-    seeds = ("76.74.170.249")
+    nodes = ("76.74.170.249", )
     port = 29100
     message_start = b'hexx'
     base58_prefixes = {

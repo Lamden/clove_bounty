@@ -9,7 +9,7 @@ class Yenten(Bitcoin):
     """
     name = 'yenten'
     symbols = ('YTN', )
-    seeds = ('seed.yenten.org')
+    seeds = ('seed.yenten.org', )
     port = 9981
     message_start = b'\xad\x5a\xeb\x9f'
     base58_prefixes = {

@@ -9,7 +9,7 @@ class Roofs(Bitcoin):
     """
     name = 'roofs'
     symbols = ('ROOFS', )
-    seeds = ('192.161.48.19')
+    nodes = ('192.161.48.19', )
     port = 20019
     message_start = b'\x90\x4a\x92\x40'
     base58_prefixes = {

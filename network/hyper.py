@@ -10,7 +10,7 @@ class Hyper(Bitcoin):
     """
     name = 'hyper'
     symbols = ('HYPER', )
-    seeds = ('195.74.52.227', 'NULL')
+    nodes = ('195.74.52.227', )
     port = 11194
     message_start = b'\xce\xfb\xfa\xdb'
     base58_prefixes = {

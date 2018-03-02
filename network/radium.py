@@ -10,7 +10,7 @@ class Radium(Bitcoin):
     """
     name = 'radium'
     symbols = ('RADS', )
-    seeds = ('52.23.134.122',)
+    nodes = ('52.23.134.122', )
     port = 27913
     message_start = b'\x2a\x7c\xcb\xab'
     base58_prefixes = {
@@ -27,7 +27,7 @@ class RadiumTestNet(Radium):
     (date of access: 02/11/2018)
     """
     name = 'test-radium'
-    seeds = ('35.153.123.156', '34.207.38.233')
+    nodes = ('35.153.123.156', '34.207.38.233', )
     port = 47963
     message_start = b'\xc3\x77\xcc\x77'
     base58_prefixes = {

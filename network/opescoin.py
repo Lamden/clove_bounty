@@ -10,7 +10,7 @@ class Opescoin(Bitcoin):
     """
     name = 'opescoin'
     symbols = ('OPES', )
-    seeds = ('104.218.50.15',)
+    nodes = ('104.218.50.15', )
     port = 6222
     message_start = b'\xf3\xf1\xd2\xb5'
     base58_prefixes = {
@@ -27,7 +27,7 @@ class OpescoinTestNet(Opescoin):
     (date of access: 02/12/2018)
     """
     name = 'test-opescoin'
-    seeds = ('dnsseed.OPES.org',)
+    seeds = ('dnsseed.OPES.org', )
     port = 26222
     message_start = b'\xa1\xb2\xd1\xf8'
     base58_prefixes = {

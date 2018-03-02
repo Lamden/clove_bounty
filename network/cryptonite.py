@@ -9,7 +9,7 @@ class Cryptonite(Bitcoin):
     """
     name = 'cryptonite'
     symbols = ('XCN', )
-    seeds = ("gpile.it")
+    seeds = ("gpile.it", )
     port = 8253
     message_start = b'\xf9\xbe\xb4\xd9'
     base58_prefixes = {
@@ -26,7 +26,7 @@ class CryptoniteTestNet(Cryptonite):
     (date of access: 02/14/2018)
     """
     name = 'test-cryptonite'
-    seeds = ("seed.cryptonite.info")
+    seeds = ("seed.cryptonite.info", )
     port = 18253
     message_start = b'\x0c\x12\x09\x07'
     base58_prefixes = {

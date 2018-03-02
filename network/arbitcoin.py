@@ -9,7 +9,7 @@ class ARbit(Bitcoin):
     """
     name = 'ARbit'
     symbols = ('ARB', )
-    seeds = ('162.243.203.211', '178.62.56.172')
+    nodes = ('162.243.203.211', '178.62.56.172', )
     port = 31930
     message_start = b'\xe3\xa7\x7c\x0e'
     base58_prefixes = {

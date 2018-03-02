@@ -9,7 +9,7 @@ class MapCoin(Bitcoin):
     """
     name = 'mapcoin'
     symbols = ('MAPC', )
-    seeds = ("104.236.105.49",
+    nodes = ("104.236.105.49",
              "178.62.126.32",
              "95.85.39.251")
     port = 25214

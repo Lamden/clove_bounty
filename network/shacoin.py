@@ -10,7 +10,7 @@ class SHACoin(Bitcoin):
     """
     name = 'shacoin'
     symbols = ('SHA', )
-    seeds = ('seed1.shacoin.us', 'seed2.shacoin.us', 'seed3.shacoin.us')
+    seeds = ('seed1.shacoin.us', 'seed2.shacoin.us', 'seed3.shacoin.us', )
     port = 25555
     message_start = b'\xa4\xd2\xf8\xa6'
     base58_prefixes = {

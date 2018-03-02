@@ -9,7 +9,7 @@ class Cinni(Bitcoin):
     """
     name = 'cinni'
     symbols = ('CINNI', )
-    seeds = ("108.61.103.46")
+    nodes = ("108.61.103.46", )
     port = 31813
     message_start = b'\xce\xfb\xfa\xdb'
     base58_prefixes = {

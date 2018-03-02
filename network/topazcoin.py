@@ -9,7 +9,7 @@ class TopazCoin(Bitcoin):
     """
     name = 'topazcoin'
     symbols = ('TOPAZ', )
-    seeds = ('91.134.120.210')
+    nodes = ('91.134.120.210', )
     port = 6909
     message_start = b'\xea\x92\x66\xe4'
     base58_prefixes = {

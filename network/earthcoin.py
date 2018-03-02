@@ -9,7 +9,7 @@ class EarthCoin(Bitcoin):
     """
     name = 'earthcoin'
     symbols = ('EAC', )
-    seeds = ("dnsseed.earthcointools.org")
+    seeds = ("dnsseed.earthcointools.org", )
     port = 15677
     message_start = b'\xc0\xdb\xf1\xfd'
     base58_prefixes = {
@@ -26,7 +26,7 @@ class EarthCoinTestNet(EarthCoin):
     (date of access: 02/14/2018)
     """
     name = 'test-earthcoin'
-    seeds = ("testnet-seed.earthcointools.org")
+    seeds = ("testnet-seed.earthcointools.org", )
     port = 25677
     message_start = b'\xfd\xc2\xb6\xf1'
     base58_prefixes = {

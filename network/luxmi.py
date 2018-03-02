@@ -9,7 +9,7 @@ class Luxmi(Bitcoin):
     """
     name = 'luxmi'
     symbols = ('LXM', )
-    seeds = ("luxmi.point2this.com", "46.101.75.37")
+    seeds = ("luxmi.point2this.com", )
     port = 42192
     message_start = b'\xe3\xa7\x7c\x0e'
     base58_prefixes = {

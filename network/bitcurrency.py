@@ -10,7 +10,7 @@ class Bitcurrency(Bitcoin):
     """
     name = 'bitcurrency'
     symbols = ('BTCR', )
-    seeds = ('dns0.BitCurrencyPro.org',)
+    seeds = ('dns0.BitCurrencyPro.org', )
     port = 16814
     message_start = b'\x80\x42\x13\x09'
     base58_prefixes = {

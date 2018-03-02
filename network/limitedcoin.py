@@ -9,7 +9,7 @@ class LimitedCoin(Bitcoin):
     """
     name = 'limitedcoin'
     symbols = ('LTD', )
-    seeds = ("limitedcoin.dyndns.org")
+    seeds = ("limitedcoin.dyndns.org", )
     port = 39569
     message_start = b'\xaa\xa2\xb2\xc4'
     base58_prefixes = {

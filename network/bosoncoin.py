@@ -9,7 +9,7 @@ class BosonCoin(Bitcoin):
     """
     name = 'bosoncoin'
     symbols = ('BOSON', )
-    seeds = ("45.42.189.74",
+    nodes = ("45.42.189.74",
              "107.190.164.220")
     port = 12090
     message_start = b'\xf1\xc1\xfa\xdb'

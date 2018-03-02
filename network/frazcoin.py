@@ -9,7 +9,7 @@ class Frazcoin(Bitcoin):
     """
     name = 'frazcoin'
     symbols = ('FRAZ', )
-    seeds = ("frazcoin.eu")
+    seeds = ("frazcoin.eu", )
     port = 3991
     message_start = b'\x46\x52\x41\x5A'
     base58_prefixes = {
@@ -26,7 +26,7 @@ class FrazcoinTestNet(Frazcoin):
     (date of access: 02/15/2018)
     """
     name = 'test-frazcoin'
-    seeds = ("frazcoin.eu")
+    seeds = ("frazcoin.eu", )
     port = 3981
     message_start = b'\x5A\x41\x52\x46'
     base58_prefixes = {

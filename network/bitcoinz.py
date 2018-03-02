@@ -26,5 +26,5 @@ class BitcoinZTestNet(BitcoinZ):
     (date of access: 02/14/2018)
     """
     name = 'test-BitcoinZ'
-    seeds = ("test-dnsseed.rotorproject.org")
+    seeds = ("test-dnsseed.rotorproject.org", )
     port = 11989

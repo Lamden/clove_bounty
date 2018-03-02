@@ -9,7 +9,7 @@ class RSGPcoin(Bitcoin):
     """
     name = 'rsgpcoin'
     symbols = ('RSGP', )
-    seeds = ("node.walletbuilders.com")
+    seeds = ("node.walletbuilders.com", )
     port = 19529
     message_start = b'\x7c\x55\x0b\x18'
     base58_prefixes = {

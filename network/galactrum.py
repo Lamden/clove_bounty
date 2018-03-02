@@ -30,7 +30,7 @@ class GalactrumTestNet(Galactrum):
     (date of access: 02/15/2018)
     """
     name = 'test-galactrum'
-    seeds = ("seed1.testnet.galactrum.network")
+    seeds = ("seed1.testnet.galactrum.network", )
     port = 16270
     message_start = b'\xb1\xde\xd0\xab'
     base58_prefixes = {

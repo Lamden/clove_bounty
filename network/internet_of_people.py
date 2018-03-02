@@ -27,5 +27,5 @@ class InternetOfPeopleTestNet(InternetOfPeople):
     (date of access: 02/17/2018)
     """
     name = 'test-internetofpeople'
-    seeds = ('testnet.iop.cash', 'test1.iop.cash', 'test2.iop.cash')
+    seeds = ('testnet.iop.cash', 'test1.iop.cash', 'test2.iop.cash', )
     port = 7475

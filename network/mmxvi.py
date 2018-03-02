@@ -10,7 +10,7 @@ class MMXVI(Bitcoin):
     """
     name = 'mmxvi'
     symbols = ('MMXVI', )
-    seeds = ('5.196.67.100',)
+    nodes = ('5.196.67.100', )
     port = 6503
     message_start = b'\xc3\xff\xd2\xb4'
     base58_prefixes = {
@@ -27,7 +27,7 @@ class MMXVITestNet(MMXVI):
     (date of access: 02/12/2018)
     """
     name = 'test-mmxvi'
-    seeds = ('dnsseed.MMXVI.org',)
+    seeds = ('dnsseed.MMXVI.org', )
     port = 16503
     message_start = b'\xa1\xbb\xd1\xf8'
     base58_prefixes = {

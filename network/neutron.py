@@ -9,7 +9,7 @@ class Neutron(Bitcoin):
     """
     name = 'neutron'
     symbols = ('NTRN', )
-    seeds = ('ntrnseed.presstab.pw', 'ntrn.seed.fuzzbawls.pw')
+    seeds = ('ntrnseed.presstab.pw', 'ntrn.seed.fuzzbawls.pw', )
     port = 32001
     message_start = b'\xb2\xd1\xf4\xa3'
     base58_prefixes = {

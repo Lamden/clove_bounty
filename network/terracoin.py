@@ -9,7 +9,7 @@ class Terracoin(Bitcoin):
     """
     name = 'terracoin'
     symbols = ('TRC', )
-    seeds = ('seed.terracoin.io', 'dnsseed.southofheaven.ca')
+    seeds = ('seed.terracoin.io', 'dnsseed.southofheaven.ca', )
     port = 13333
     message_start = b'\x42\xba\xbe\x56'
     base58_prefixes = {
@@ -26,7 +26,7 @@ class TerracoinTestNet(Terracoin):
     (date of access: 02/16/2018)
     """
     name = 'test-terracoin'
-    seeds = ('testnetseed.terracoin.io')
+    seeds = ('testnetseed.terracoin.io', )
     port = 18321
     message_start = b'\x0b\x11\x09\x07'
     base58_prefixes = {

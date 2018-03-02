@@ -1,7 +1,7 @@
 from clove.network.bitcoin import Bitcoin
 
 
-class IVC_Coin(Bitcoin):
+class IVCCoin(Bitcoin):
     """
     Class with all the necessary IVC_Coin network information based on
     https://github.com/invictus2082/invictus/blob/master/src/chainparams.cpp
@@ -12,8 +12,7 @@ class IVC_Coin(Bitcoin):
     seeds = ("wallet.cryptolife.net",
              "explore.cryptolife.net",
              "seed1.cryptolife.net",
-             "seed2.cryptolife.net",
-             "45.77.7.67")
+             "seed2.cryptolife.net")
     port = 41184
     message_start = b'\xde\xca\xa4\xeb'
     base58_prefixes = {

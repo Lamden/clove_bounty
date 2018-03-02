@@ -9,8 +9,7 @@ class Shekel(Bitcoin):
     """
     name = 'shekel'
     symbols = ('JEW', )
-    seeds = ('nodes.shekel.pw', 'shekel.nodes.gyservers.com', '209.250.241.176', '209.250.243.131', '45.77.239.108',
-             '107.191.44.102', '199.247.6.191', '45.77.9.77', '45.77.62.126', '108.61.96.146')
+    seeds = ('nodes.shekel.pw', 'shekel.nodes.gyservers.com')
     port = 5500
     message_start = b'\x63\x43\x49\x56'
     base58_prefixes = {
@@ -27,7 +26,8 @@ class ShekelTestNet(Shekel):
     (date of access: 02/17/2018)
     """
     name = 'test-shekel'
-    seeds = ('207.148.0.129', '45.77.239.30', '45.76.226.204')
+    seeds = ()
+    nodes = ('207.148.0.129', '45.77.239.30', '45.76.226.204', )
     port = 51434
     message_start = b'\x43\x76\x65\xba'
     base58_prefixes = {

@@ -9,8 +9,7 @@ class Bipcoin(Bitcoin):
     """
     name = 'bipcoin'
     symbols = ('BIP', )
-    seeds = ('bipcoin.freedomfeens.com', 'bipcoin.alienseed.com',
-             'werdwerd.us', '172.245.191.237', '5.189.135.137')
+    seeds = ('bipcoin.freedomfeens.com', 'bipcoin.alienseed.com')
     port = 18870
 
 # no testnet

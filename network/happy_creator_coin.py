@@ -1,7 +1,7 @@
 from clove.network.bitcoin import Bitcoin
 
 
-class Happy_Creator_Coin(Bitcoin):
+class HappyCreatorCoin(Bitcoin):
     """
     Class with all the necessary Happy Creator Coin network information based on
     https://github.com/creath/hcc/blob/master/src/net.cpp

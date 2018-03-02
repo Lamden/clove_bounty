@@ -34,7 +34,7 @@ class BitmarkTestNet(Bitmark):
     (date of access: 02/14/2018)
     """
     name = 'test-bitmark'
-    seeds = ("test.bitmark.co")
+    seeds = ("test.bitmark.co", )
     port = 19265
     message_start = b'\x0b\x11\x09\x07'
     base58_prefixes = {

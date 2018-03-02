@@ -9,7 +9,7 @@ class Vipercoin(Bitcoin):
     """
     name = 'vipercoin'
     symbols = ('VIPER', )
-    seeds = ("165.227.96.129",
+    nodes = ("165.227.96.129",
              "71.150.156.246")
     port = 9333
     message_start = b'\xf9\xbe\xb4\xd2'

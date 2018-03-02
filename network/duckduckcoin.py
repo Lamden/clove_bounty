@@ -9,7 +9,7 @@ class DuckDuckCoin(Bitcoin):
     """
     name = 'duckduckcoin'
     symbols = ('DUCK', )
-    seeds = ("node1.duckduckcoin.com")
+    seeds = ("node1.duckduckcoin.com", )
     port = 17771
     message_start = b'\x6c\x2d\x24\x24'
     base58_prefixes = {
@@ -26,7 +26,7 @@ class DuckDuckCoinTestNet(DuckDuckCoin):
     (date of access: 02/14/2018)
     """
     name = 'test-duckduckcoin'
-    seeds = ("testnode1.duckduckcoin.com")
+    seeds = ("testnode1.duckduckcoin.com", )
     port = 51474
     message_start = b'\x0b\x11\x09\x07'
     base58_prefixes = {

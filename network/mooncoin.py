@@ -9,7 +9,7 @@ class Mooncoin(Bitcoin):
     """
     name = 'mooncoin'
     symbols = ('MOON', )
-    seeds = ('node0.bazco.in', 'node1.bazco.in')
+    seeds = ('node0.bazco.in', 'node1.bazco.in', )
     port = 44664
     message_start = b'\xf9\xf7\xc0\xe8'
     base58_prefixes = {

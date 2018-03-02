@@ -10,7 +10,7 @@ class REGAcoin(Bitcoin):
     name = 'regacoin'
     symbols = ('REGA', )
     seeds = ('seed3.cryptolife.net', 'electrum3.cryptolife.net',
-             'seed4.cryptolife.net', '51.255.38.250')
+             'seed4.cryptolife.net')
     port = 28192
     message_start = b'\xd4\xca\x3f\xec'
     base58_prefixes = {

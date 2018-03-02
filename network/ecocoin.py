@@ -9,7 +9,7 @@ class EcoCoin(Bitcoin):
     """
     name = 'ecocoin'
     symbols = ('ECO', )
-    seeds = ('ecocoin.info')
+    seeds = ('ecocoin.info', )
     port = 11047
     message_start = b'\x32\x5e\x6f\x86'
     base58_prefixes = {

@@ -9,7 +9,7 @@ class Antilitecoin(Bitcoin):
     """
     name = 'antilitecoin'
     symbols = ('ALTC', )
-    seeds = ('192.52.166.80')
+    nodes = ('192.52.166.80', )
     port = 8795
     message_start = b'\xc1\xd1\xd2\xad'
     base58_prefixes = {

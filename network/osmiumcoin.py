@@ -10,7 +10,7 @@ class OsmiumCoin(Bitcoin):
     """
     name = 'osmiumcoin'
     symbols = ('OS76', )
-    seeds = ('195.34.100.2',)
+    nodes = ('195.34.100.2', )
     port = 4947
     message_start = b'\xef\x07\x67\xff'
     base58_prefixes = {

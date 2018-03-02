@@ -9,7 +9,7 @@ class GlobalCoin(Bitcoin):
     """
     name = 'globalcoin'
     symbols = ('GLC', )
-    seeds = ("ip 54.252.196.5", "ip 52.24.129.149")
+    seeds = ("ip 54.252.196.5", "ip 52.24.129.149", )
     port = 55789
     message_start = b'\xe4\xe8\xe9\xe5'
     base58_prefixes = {

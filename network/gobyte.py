@@ -28,7 +28,7 @@ class GoByteTestNet(GoByte):
     (date of access: 02/11/2018)
     """
     name = 'test-gobyte'
-    seeds = ('testnet-dns.gobyte.network', 'testnet2-dns.gobyte.network')
+    seeds = ('testnet-dns.gobyte.network', 'testnet2-dns.gobyte.network', )
     port = 13455
     message_start = b'\xd1\x2b\xb3\x7a'
     base58_prefixes = {

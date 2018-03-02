@@ -9,7 +9,7 @@ class StarCashNetwork(Bitcoin):
     """
     name = 'starcashnetwork'
     symbols = ('STARS', )
-    seeds = ('45.32.226.114')
+    nodes = ('45.32.226.114', )
     port = 21698
     message_start = b'\xf1\xca\xba\xdc'
     base58_prefixes = {

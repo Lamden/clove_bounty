@@ -9,7 +9,7 @@ class PoSWallet(Bitcoin):
     """
     name = 'poswallet'
     symbols = ('POSW', )
-    seeds = ("198.74.56.141",
+    nodes = ("198.74.56.141",
              "69.164.214.211")
     port = 9175
     message_start = b'\xe4\xe8\xbd\xfd'

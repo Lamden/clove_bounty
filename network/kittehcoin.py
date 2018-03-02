@@ -29,7 +29,7 @@ class KittehcoinTestNet(Kittehcoin):
     (date of access: 02/16/2018)
     """
     name = 'test-kittehcoin'
-    seeds = ("dnsseed.kittehcoinblockexplorer.com")
+    seeds = ("dnsseed.kittehcoinblockexplorer.com", )
     port = 44566
     message_start = b'\xcf\xcf\xcf\xcf'
     base58_prefixes = {

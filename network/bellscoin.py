@@ -10,9 +10,7 @@ class Bellscoin(Bitcoin):
     name = 'bellscoin'
     symbols = ('BEL', )
     seeds = ("node0.bellscoin.com",
-             "dnsseed.Bellspool.org",
-             "203.20.114.252",
-             "31.31.202.138")
+             "dnsseed.Bellspool.org")
     port = 19919
     message_start = b'\xc0\xc0\xc0\xc0'
     base58_prefixes = {

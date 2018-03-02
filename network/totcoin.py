@@ -9,7 +9,7 @@ class TotCoin(Bitcoin):
     """
     name = 'totcoin'
     symbols = ('TOT', )
-    seeds = ("78.113.252.129")
+    nodes = ("78.113.252.129", )
     port = 42400
     message_start = b'\xbf\x0c\x6b\xbd'
     base58_prefixes = {
@@ -26,7 +26,7 @@ class TotCoinTestNet(TotCoin):
     (date of access: 02/18/2018)
     """
     name = 'test-totcoin'
-    seeds = ("soscoindev.ddns.net")
+    seeds = ("soscoindev.ddns.net", )
     port = 19999
     message_start = b'\xce\xe2\xca\xff'
     base58_prefixes = {

@@ -9,7 +9,7 @@ class Mintcoin(Bitcoin):
     """
     name = 'mintcoin'
     symbols = ('MNT', )
-    seeds = ("mintseed.keremhd.name.tr")
+    seeds = ("mintseed.keremhd.name.tr", )
     port = 12788
     message_start = b'\xce\xd5\xdb\xfa'
     base58_prefixes = {

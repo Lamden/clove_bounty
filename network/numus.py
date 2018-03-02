@@ -10,7 +10,7 @@ class Numus(Bitcoin):
     """
     name = 'numus'
     symbols = ('NMS', )
-    seeds = ('141.255.161.78', '143.202.154.31')
+    nodes = ('141.255.161.78', '143.202.154.31', )
     port = 28121
     message_start = b'\xf1\xec\xa1\xc7'
     base58_prefixes = {

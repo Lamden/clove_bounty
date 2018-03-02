@@ -9,7 +9,7 @@ class Networkcoin(Bitcoin):
     """
     name = 'networkcoin'
     symbols = ('NETC', )
-    seeds = ("45.63.5.183")
+    nodes = ("45.63.5.183", )
     port = 19172
     message_start = b'\x70\x35\x22\x05'
     base58_prefixes = {

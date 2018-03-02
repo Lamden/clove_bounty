@@ -9,7 +9,7 @@ class GlobalBoost(Bitcoin):
     """
     name = 'globalboost'
     symbols = ('BSTY', )
-    seeds = ("seeder.globalboost.info", "seeder2.globalboost.info")
+    seeds = ("seeder.globalboost.info", "seeder2.globalboost.info", )
     port = 8226
     message_start = b'\xa2\xb2\xe2\xf2'
     base58_prefixes = {
@@ -26,7 +26,7 @@ class GlobalBoostTestNet(GlobalBoost):
     (date of access: 02/15/2018)
     """
     name = 'test-globalboost'
-    seeds = ("testnet-seeder.globalboost.info")
+    seeds = ("testnet-seeder.globalboost.info", )
     port = 18226
     message_start = b'bsty'
     base58_prefixes = {

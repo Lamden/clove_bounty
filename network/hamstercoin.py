@@ -9,7 +9,7 @@ class HamsterCoin(Bitcoin):
     """
     name = 'hamstercoin'
     symbols = ('HAMS', )
-    seeds = ("31.131.23.80",
+    nodes = ("31.131.23.80",
              "31.131.23.80")
     port = 35895
     message_start = b'\xfb\xc0\xb6\xdb'
@@ -27,7 +27,7 @@ class HamsterCoinTestNet(HamsterCoin):
     (date of access: 02/15/2018)
     """
     name = 'test-hamstercoin'
-    seeds = ("31.131.23.80",
+    nodes = ("31.131.23.80",
              "31.131.23.80")
     port = 135895
     message_start = b'\xcc\xf1\xb5\xdc'

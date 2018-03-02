@@ -9,7 +9,7 @@ class ZiftrCOIN(Bitcoin):
     """
     name = 'ziftrcoin'
     symbols = ('ZRC', )
-    seeds = ("seed.ziftrcoin.com")
+    seeds = ("seed.ziftrcoin.com", )
     port = 10333
     message_start = b'\x9e\xee\x83\x2b'
     base58_prefixes = {
@@ -26,5 +26,5 @@ class ZiftrCOINTestNet(ZiftrCOIN):
     (date of access: 02/18/2018)
     """
     name = 'test-ziftrcoin'
-    seeds = ("testnet-seed1.ziftrcoin.com")
+    seeds = ("testnet-seed1.ziftrcoin.com", )
     port = 11333

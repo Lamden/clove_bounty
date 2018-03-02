@@ -9,7 +9,7 @@ class Neoscoin(Bitcoin):
     """
     name = 'neoscoin'
     symbols = ('NEOS', )
-    seeds = ('nodes.neoscoin.com')
+    seeds = ('nodes.neoscoin.com', )
     port = 29320
     message_start = b'\xd3\x1a\x3d\xe4'
     base58_prefixes = {

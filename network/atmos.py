@@ -9,7 +9,7 @@ class Atmos(Bitcoin):
     """
     name = 'atmos'
     symbols = ('ATMS', )
-    seeds = ('212.129.37.112')
+    nodes = ('212.129.37.112', )
     port = 9834
     message_start = b'\xc3\xa0\x08\x12'
     base58_prefixes = {

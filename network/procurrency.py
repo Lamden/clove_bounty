@@ -9,7 +9,7 @@ class ProCurrency(Bitcoin):
     """
     name = 'procurrency'
     symbols = ('PROC', )
-    seeds = ("194.135.80.127",
+    nodes = ("194.135.80.127",
              "185.5.53.201",
              "185.5.54.65",
              "185.69.53.90",

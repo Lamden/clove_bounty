@@ -9,7 +9,7 @@ class Tomatocoin(Bitcoin):
     """
     name = 'tomatocoin'
     symbols = ('TMT', )
-    seeds = ("23.23.186.131")
+    nodes = ("23.23.186.131", )
     port = 9888
     message_start = b'\xbf\x0c\x6b\xbd'
     base58_prefixes = {
@@ -26,7 +26,7 @@ class TomatocoinTestNet(Tomatocoin):
     (date of access: 02/21/2018)
     """
     name = 'test-tomatocoin'
-    seeds = ("23.23.186.131")
+    nodes = ("23.23.186.131", )
     port = 19888
     message_start = b'\xce\xe2\xca\xff'
     base58_prefixes = {

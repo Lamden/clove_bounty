@@ -9,7 +9,7 @@ class BannerCoin(Bitcoin):
     """
     name = 'diamond'
     symbols = ('BCOIN', )
-    seeds = ("node.walletbuilders.com")
+    seeds = ("node.walletbuilders.com", )
     port = 21265
     message_start = b'\xa9\x17\xdb\x97'
     base58_prefixes = {

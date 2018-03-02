@@ -9,7 +9,7 @@ class Flappycoin(Bitcoin):
     """
     name = 'flappycoin'
     symbols = ('FLAP', )
-    seeds = ('seed.terracoin.io', 'dnsseed.flap.so')
+    seeds = ('seed.terracoin.io', 'dnsseed.flap.so', )
     port = 11556
     message_start = b'\xc1\xc1\xc1\xc1'
     base58_prefixes = {

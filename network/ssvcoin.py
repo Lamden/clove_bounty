@@ -9,7 +9,7 @@ class SSVCoin(Bitcoin):
     """
     name = 'ssvcoin'
     symbols = ('SSV', )
-    seeds = ("91.246.70.114")
+    nodes = ("91.246.70.114", )
     port = 9235
     message_start = b'\x70\x35\x22\x05'
     base58_prefixes = {

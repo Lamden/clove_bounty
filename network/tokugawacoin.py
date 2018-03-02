@@ -9,7 +9,7 @@ class Tokugawa(Bitcoin):
     """
     name = 'Tokugawa'
     symbols = ('TOK', )
-    seeds = ("174.138.60.186",
+    nodes = ("174.138.60.186",
              "138.197.150.224",
              "188.166.218.74")
     port = 21117

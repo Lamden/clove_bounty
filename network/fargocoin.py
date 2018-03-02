@@ -9,7 +9,7 @@ class Fargocoin(Bitcoin):
     """
     name = 'fargocoin'
     symbols = ('FRGC', )
-    seeds = ('138.201.174.79', 'n1.fargochain.org', 'n2.fargochain.org', 'n3.fargochain.org',
+    seeds = ('n1.fargochain.org', 'n2.fargochain.org', 'n3.fargochain.org',
              'n4.fargochain.org', 'n5.fargochain.org')
     port = 14451
     message_start = b'\xf9\xbe\xb4\xd9'
@@ -27,7 +27,7 @@ class FargocoinTestNet(Fargocoin):
     (date of access: 02/17/2018)
     """
     name = 'test-fargocoin'
-    seeds = ('138.201.174.79', 'n1.fargochain.org', 'n2.fargochain.org', 'n3.fargochain.org',
+    seeds = ('n1.fargochain.org', 'n2.fargochain.org', 'n3.fargochain.org',
              'n4.fargochain.org', 'n5.fargochain.org')
     port = 15451
     message_start = b'\x0b\x11\x09\x07'

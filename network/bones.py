@@ -9,8 +9,7 @@ class Bones(Bitcoin):
     """
     name = 'Bones'
     symbols = ('BONES', )
-    seeds = ("seed.Bones.com",
-             "209.208.111.233")
+    seeds = ("seed.Bones.com", )
     port = 55355
     message_start = b'\xc0\xc0\xc0\xc0'
     base58_prefixes = {

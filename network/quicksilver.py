@@ -9,7 +9,7 @@ class Quicksilver(Bitcoin):
     """
     name = 'quicksilver'
     symbols = ('QSLV', )
-    seeds = ("104.207.149.190",
+    nodes = ("104.207.149.190",
              "45.32.246.198",
              "45.63.12.231")
     port = 21333

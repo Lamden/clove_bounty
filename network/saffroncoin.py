@@ -9,8 +9,7 @@ class Saffroncoin(Bitcoin):
     """
     name = 'saffroncoin'
     symbols = ('SFR', )
-    seeds = ("saffroncoin.com",
-             "182.18.175.110")
+    seeds = ("saffroncoin.com", )
     port = 19717
     message_start = b'\xcf\x05\x67\xea'
     base58_prefixes = {
@@ -27,7 +26,7 @@ class SaffroncoinTestNet(Saffroncoin):
     (date of access: 02/17/2018)
     """
     name = 'test-saffroncoin'
-    seeds = ("testseed1.saffroncoin.org")
+    seeds = ("testseed1.saffroncoin.org", )
     port = 29717
     message_start = b'\x01\xf5\x55\xa4'
     base58_prefixes = {

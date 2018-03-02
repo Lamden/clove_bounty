@@ -9,7 +9,7 @@ class Bela(Bitcoin):
     """
     name = 'bela'
     symbols = ('BELA', )
-    seeds = ("seed.belacoin.org")
+    seeds = ("seed.belacoin.org", )
     port = 10554
     message_start = b'\xf7\xc7\xb1\xd6'
     base58_prefixes = {

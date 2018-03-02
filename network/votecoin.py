@@ -9,7 +9,7 @@ class Votecoin(Bitcoin):
     """
     name = 'votecoin'
     symbols = ('VOT', )
-    seeds = ('dnsseed.votecoin.site')
+    seeds = ('dnsseed.votecoin.site', )
     port = 8144
 
 
@@ -20,5 +20,5 @@ class VotecoinTestNet(Votecoin):
     (date of access: 02/17/2018)
     """
     name = 'test-votecoin'
-    seeds = ('dnsseed.testnet.z.cash')
+    seeds = ('dnsseed.testnet.z.cash', )
     port = 18233

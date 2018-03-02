@@ -9,7 +9,7 @@ class DigitalCredits(Bitcoin):
     """
     name = 'digitalcredits'
     symbols = ('DGCS', )
-    seeds = ('seeder.digitalcredits.xyz', 'seeder2.digitalcredits.xyz')
+    seeds = ('seeder.digitalcredits.xyz', 'seeder2.digitalcredits.xyz', )
     port = 7183
     message_start = b'\xa2\xc6\xf8\xa6'
     base58_prefixes = {

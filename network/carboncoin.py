@@ -10,7 +10,7 @@ class Carboncoin(Bitcoin):
     """
     name = 'carboncoin'
     symbols = ('CARBON', )
-    seeds = ('dnsseed.sequestrationcoin.com', 'dnsmain.sequestrationcoin.com')
+    seeds = ('dnsseed.sequestrationcoin.com', 'dnsmain.sequestrationcoin.com', )
     port = 9350
     message_start = b'\xab\xcc\xbb\xdf'
     base58_prefixes = {
@@ -27,7 +27,7 @@ class CarboncoinTestNet(Carboncoin):
     (date of access: 02/11/2018)
     """
     name = 'test-carboncoin'
-    seeds = ('dnsseed.sequestrationcoin.com', 'dnstest.sequestrationcoin.com')
+    seeds = ('dnsseed.sequestrationcoin.com', 'dnstest.sequestrationcoin.com', )
     port = 19350
     message_start = b'\xfc\xc1\xb7\xdc'
     base58_prefixes = {

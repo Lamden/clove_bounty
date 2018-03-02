@@ -9,7 +9,7 @@ class Silkcoin(Bitcoin):
     """
     name = 'silkcoin'
     symbols = ('SILK', )
-    seeds = ("107.170.61.197", "107.170.73.238")
+    nodes = ("107.170.61.197", "107.170.73.238", )
     port = 16666
     message_start = b'\x70\x35\x22\x05'
     base58_prefixes = {

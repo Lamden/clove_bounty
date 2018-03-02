@@ -9,7 +9,7 @@ class Garlicoin(Bitcoin):
     """
     name = 'garlicoin'
     symbols = ('GRLC', )
-    seeds = ('dnsseed.brennanmcdonald.io', 'dnsseed.rshaw.space')
+    seeds = ('dnsseed.brennanmcdonald.io', 'dnsseed.rshaw.space', )
     port = 42069
     message_start = b'\xd2\xc6\xb6\xdb'
     base58_prefixes = {

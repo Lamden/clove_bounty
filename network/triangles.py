@@ -19,7 +19,7 @@ class Triangles(Bitcoin):
     }
 
 
-class DiamondTestNet(Triangles):
+class TrianglesTestNet(Triangles):
     """
     Class with all the necessary Diamond testing network information based on
     https://github.com/dmdcoin/diamond/blob/master/src/chainparams.cpp

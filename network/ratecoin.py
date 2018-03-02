@@ -11,9 +11,7 @@ class Ratecoin(Bitcoin):
     symbols = ('XRA', )
     seeds = ("xraseed1.presstab.pw",
              "xraseed2.presstab.pw",
-             "xraseed3.presstab.pw",
-             "104.238.137.2",
-             "185.92.222.152")
+             "xraseed3.presstab.pw")
     port = 35851
     message_start = b'\xa1\xa0\xa2\xa3'
     base58_prefixes = {

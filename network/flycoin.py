@@ -9,9 +9,7 @@ class Flycoin(Bitcoin):
     """
     name = 'flycoin'
     symbols = ('FLY', )
-    seeds = ("fly.dnsalias.com",
-             "167.114.224.79",
+    nodes = ("167.114.224.79",
              "167.114.224.82",
-             "www.walletbootstraps.com",
              "4.6.147.2")
     port = 41568

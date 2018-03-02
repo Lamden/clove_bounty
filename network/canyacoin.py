@@ -9,7 +9,7 @@ class CanYaCoin(Bitcoin):
     """
     name = 'canyacoin'
     symbols = ('CAN', )
-    seeds = ("dnsseed.canya.io")
+    seeds = ("dnsseed.canya.io", )
     port = 9033
 
 
@@ -20,5 +20,5 @@ class CanYaCoinTestNet(CanYaCoin):
     (date of access: 02/14/2018)
     """
     name = 'test-canyacoin'
-    seeds = ("dnsseed.testnet.canya.io")
+    seeds = ("dnsseed.testnet.canya.io", )
     port = 19133

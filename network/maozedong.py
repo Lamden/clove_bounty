@@ -9,8 +9,7 @@ class MaoZedong(Bitcoin):
     """
     name = 'maozedong'
     symbols = ('MAO', )
-    seeds = ("45.76.47.47",
-             "explorer.mao-zedong.net",
+    seeds = ("explorer.mao-zedong.net",
              "node1.mao-zedong.net",
              "node2.mao-zedong.net",
              "node3.mao-zedong.net",

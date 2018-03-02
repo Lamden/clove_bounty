@@ -9,7 +9,7 @@ class HitCoin(Bitcoin):
     """
     name = 'hitcoin'
     symbols = ('HTC', )
-    seeds = ("107.170.204.131",
+    nodes = ("107.170.204.131",
              "107.170.126.142")
     port = 42030
     message_start = b'\x48\x69\x74\x43'

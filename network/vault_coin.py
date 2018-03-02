@@ -1,7 +1,7 @@
 from clove.network.bitcoin import Bitcoin
 
 
-class Vault_Coin(Bitcoin):
+class VaultCoin(Bitcoin):
     """
     Class with all the necessary Vault_Coin network information based on
     https://github.com/Vaultcoins/Vaultcoins/blob/master-0.8/src/net.cpp
@@ -9,7 +9,7 @@ class Vault_Coin(Bitcoin):
     """
     name = 'vault_coin'
     symbols = ('VLTC', )
-    seeds = ("162.250.125.26",
+    nodes = ("162.250.125.26",
              "120.145.149.109")
     port = 15050
     message_start = b'\xeb\xd0\xc6\xeb'
@@ -20,7 +20,7 @@ class Vault_Coin(Bitcoin):
     }
 
 
-class Vault_CoinTestNet(Vault_Coin):
+class VaultCoinTestNet(VaultCoin):
     """
     Class with all the necessary Vault_Coin testing network information based on
     https://github.com/Vaultcoins/Vaultcoins/blob/master-0.8/src/net.cpp

@@ -9,7 +9,7 @@ class Sojourn(Bitcoin):
     """
     name = 'sojourn'
     symbols = ('SOJ', )
-    seeds = ("35.165.166.142")
+    nodes = ("35.165.166.142", )
     port = 19951
     message_start = b'\x70\x30\x7a\xd1'
     base58_prefixes = {

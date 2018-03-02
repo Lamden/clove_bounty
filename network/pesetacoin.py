@@ -19,7 +19,7 @@ class Pesetacoin(Bitcoin):
     }
 
 
-class TerracoinTestNet(Pesetacoin):
+class PesetacoinTestNet(Pesetacoin):
     """
     Class with all the necessary Pesetacoin (PTC) testing network information based on
     https://github.com/FundacionPesetacoin/Pesetacoin-0.9.1-Oficial/blob/master/src/chainparams.cpp

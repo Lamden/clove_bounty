@@ -10,7 +10,7 @@ class TodayCoin(Bitcoin):
     """
     name = 'todaycoin'
     symbols = ('TODAY', )
-    seeds = ('node.104.238.185.61',)
+    seeds = ('node.104.238.185.61', )
     port = 7869
     message_start = b'\xba\xad\x07\x9c'
     base58_prefixes = {

@@ -9,7 +9,7 @@ class Ghostcoin(Bitcoin):
     """
     name = 'ghostcoin'
     symbols = ('GHOST', )
-    seeds = ("54.39.20.116")
+    nodes = ("54.39.20.116", )
     port = 9334
     message_start = b'\x63\x42\x21\x2c'
     base58_prefixes = {
@@ -26,7 +26,7 @@ class GhostcoinTestNet(Ghostcoin):
     (date of access: 02/18/2018)
     """
     name = 'test-ghostcoin'
-    seeds = ("testnet-seed.ghostcoin.info")
+    seeds = ("testnet-seed.ghostcoin.info", )
     port = 19334
     message_start = b'\x64\xf1\xc0\x2c'
     base58_prefixes = {

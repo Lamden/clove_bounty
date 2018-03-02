@@ -9,7 +9,7 @@ class Viral(Bitcoin):
     """
     name = 'viral'
     symbols = ('VIRAL', )
-    seeds = ("45.55.218.62")
+    nodes = ("45.55.218.62", )
     port = 28110
     message_start = b'\x65\x44\x15\x06'
     base58_prefixes = {

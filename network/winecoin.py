@@ -9,7 +9,7 @@ class Winecoin(Bitcoin):
     """
     name = 'winecoin'
     symbols = ('WINE', )
-    seeds = ("198.199.90.93")
+    nodes = ("198.199.90.93", )
     port = 18473
     message_start = b'\xba\xf2\xe3\xf5'
     base58_prefixes = {

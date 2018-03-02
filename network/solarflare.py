@@ -9,7 +9,7 @@ class Solarflarecoin(Bitcoin):
     """
     name = 'Solarflarecoin'
     symbols = ('SFC', )
-    seeds = ("54.152.17.29")
+    nodes = ("54.152.17.29", )
     port = 12387
 
 

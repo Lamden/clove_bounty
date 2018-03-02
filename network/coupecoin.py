@@ -9,8 +9,7 @@ class Coupecoin(Bitcoin):
     """
     name = 'coupecoin'
     symbols = ('COUPE', )
-    seeds = ("45.79.66.198",
-             "electrum5.cryptolife.net")
+    seeds = ("electrum5.cryptolife.net", )
     port = 17739
     message_start = b'\xb9\xf6\xa2\xe5'
     base58_prefixes = {

@@ -9,7 +9,7 @@ class Twelve(Bitcoin):
     """
     name = 'twelve'
     symbols = ('TWLV', )
-    seeds = ("46.101.21.51",
+    nodes = ("46.101.21.51",
              "46.101.155.214")
     port = 29662
     message_start = b'\x70\x35\x22\x05'

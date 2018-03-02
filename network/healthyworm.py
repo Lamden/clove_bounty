@@ -9,9 +9,7 @@ class HealthyWormCoin(Bitcoin):
     """
     name = 'healthywormcoin'
     symbols = ('WORM', )
-    seeds = ("98.144.161.18",
-             "164.132.189.192",
-             "worm.healthyworm.com")
+    seeds = ("worm.healthyworm.com", )
     port = 8064
     message_start = b'\x1c\x1b\x1c\x1d'
     base58_prefixes = {

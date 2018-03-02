@@ -9,7 +9,7 @@ class PinkDog(Bitcoin):
     """
     name = 'pinkdog'
     symbols = ('PDG', )
-    seeds = ("pinkdog.party")
+    seeds = ("pinkdog.party", )
     port = 17771
     message_start = b'\xc3\xf1\x8d\xd2'
     base58_prefixes = {
@@ -26,7 +26,7 @@ class PinkDogTestNet(PinkDog):
     (date of access: 02/19/2018)
     """
     name = 'test-pinkdog'
-    seeds = ("mytestseed.org")
+    seeds = ("mytestseed.org", )
     port = 19777
     message_start = b'\xba\xf8\xfb\x99'
     base58_prefixes = {

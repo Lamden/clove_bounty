@@ -9,7 +9,7 @@ class GoldReserve(Bitcoin):
     """
     name = 'goldreserve'
     symbols = ('XGR', )
-    seeds = ('108.61.103.33', '5.250.177.24')
+    nodes = ('108.61.103.33', '5.250.177.24', )
     port = 21192
     message_start = b'\xa1\xa0\xa2\xa3'
     base58_prefixes = {

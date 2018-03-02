@@ -9,7 +9,7 @@ class ARCHcoin(Bitcoin):
     """
     name = 'archcoin'
     symbols = ('ARCH', )
-    seeds = ("supernode.archcoin.co")
+    seeds = ("supernode.archcoin.co", )
     port = 8998
     message_start = b'\x70\x35\x22\x05'
     base58_prefixes = {

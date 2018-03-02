@@ -9,7 +9,7 @@ class DigitalMoneyBits(Bitcoin):
     """
     name = 'digital_money_bits'
     symbols = ('DMB', )
-    seeds = ('195.74.52.227')
+    nodes = ('195.74.52.227', )
     port = 64008
     message_start = b'\x3f\xf3\x4f\xf4'
     base58_prefixes = {

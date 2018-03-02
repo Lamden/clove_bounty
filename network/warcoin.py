@@ -9,7 +9,7 @@ class WarCoin(Bitcoin):
     """
     name = 'warcoin'
     symbols = ('WRC', )
-    seeds = ("node.walletbuilders.com")
+    seeds = ("node.walletbuilders.com", )
     port = 10395
     message_start = b'\x2d\xa3\x00\xbc'
     base58_prefixes = {

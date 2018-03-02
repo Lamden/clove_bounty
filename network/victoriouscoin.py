@@ -9,7 +9,7 @@ class Victoriouscoin(Bitcoin):
     """
     name = 'victoriouscoin'
     symbols = ('VTY', )
-    seeds = ("node.walletbuilders.com")
+    seeds = ("node.walletbuilders.com", )
     port = 7955
     message_start = b'\xb2\x88\xa7\x6d'
     base58_prefixes = {

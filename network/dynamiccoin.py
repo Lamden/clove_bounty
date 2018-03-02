@@ -9,7 +9,7 @@ class DynamicCoin(Bitcoin):
     """
     name = 'dynamiccoin'
     symbols = ('DMC', )
-    seeds = ('main.seeds.dynamiccoin.net')
+    seeds = ('main.seeds.dynamiccoin.net', )
     port = 7333
     message_start = b'\xf9\xbe\xb4\xe0'
     base58_prefixes = {
@@ -26,7 +26,7 @@ class DynamicCoinTestNet(DynamicCoin):
     (date of access: 02/18/2018)
     """
     name = 'test-dynamiccoin'
-    seeds = ('test.seeds.dynamiccoin.net')
+    seeds = ('test.seeds.dynamiccoin.net', )
     port = 17333
     message_start = b'\x0b\x11\x09\x08'
     base58_prefixes = {

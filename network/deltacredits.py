@@ -9,7 +9,7 @@ class DeltaCredits(Bitcoin):
     """
     name = 'deltacredits'
     symbols = ('DCRE', )
-    seeds = ("108.61.72.49")
+    nodes = ("108.61.72.49", )
     port = 31414
     message_start = b'\xa1\xa0\xa2\xa3'
     base58_prefixes = {

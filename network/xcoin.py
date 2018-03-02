@@ -9,7 +9,7 @@ class XCoin(Bitcoin):
     """
     name = 'x-coin'
     symbols = ('XCO', )
-    seeds = ("198.105.125.193", "198.105.125.194", "198.105.122.152")
+    nodes = ("198.105.125.193", "198.105.125.194", "198.105.122.152", )
     port = 14641
     message_start = b'\xa5\xd2\xd7\xa6'
     base58_prefixes = {

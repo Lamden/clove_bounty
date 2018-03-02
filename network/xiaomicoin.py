@@ -9,7 +9,7 @@ class Xiaomicoin(Bitcoin):
     """
     name = 'xiaomicoin'
     symbols = ('MI', )
-    seeds = ("120.25.158.22",
+    nodes = ("120.25.158.22",
              "121.42.12.176")
     port = 27896
     message_start = b'\xce\xfb\xfa\xdb'

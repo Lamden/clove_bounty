@@ -9,7 +9,7 @@ class YoviCoin(Bitcoin):
     """
     name = 'yovicoin'
     symbols = ('YOVI', )
-    seeds = ("37.1.193.77",
+    nodes = ("37.1.193.77",
              "62.162.181.2",
              "192.52.166.80",
              "70.92.184.203",

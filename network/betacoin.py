@@ -31,7 +31,7 @@ class BetaCoinTestNet(BetaCoin):
     (date of access: 02/14/2018)
     """
     name = 'test-betacoin'
-    seeds = ("xjo-test1.twilightparadox.com")
+    seeds = ("xjo-test1.twilightparadox.com", )
     port = 26783
     message_start = b'\x0a\xc0\x73\x12'
     base58_prefixes = {

@@ -78,7 +78,7 @@ class Influxcoin(Bitcoin):
              "infx-seed67.chainworksindustries.com",
              "infx-seed68.chainworksindustries.com",
              "infx-seed69.chainworksindustries.com",
-             "infx-seed70.chainworksindustries.com",)
+             "infx-seed70.chainworksindustries.com", )
     port = 9238
     message_start = b'\xf1\xe0\xa2\xd3'
     base58_prefixes = {

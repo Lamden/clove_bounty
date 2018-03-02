@@ -9,7 +9,7 @@ class OlympCoin(Bitcoin):
     """
     name = 'olympcoin'
     symbols = ('OLYMP', )
-    seeds = ("40.68.155.213")
+    nodes = ("40.68.155.213", )
     port = 3530
     message_start = b'\xb2\xc4\xd1\xa3'
     base58_prefixes = {

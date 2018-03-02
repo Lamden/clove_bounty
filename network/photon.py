@@ -10,7 +10,7 @@ class Photon(Bitcoin):
     """
     name = 'photon'
     symbols = ('PHO', )
-    seeds = ('165.227.200.255', '72.23.74.166', '107.170.219.99', '62.219.234.143', '78.26.209.208',
+    nodes = ('165.227.200.255', '72.23.74.166', '107.170.219.99', '62.219.234.143', '78.26.209.208',
              '77.121.61.203', '107.170.123.55', '162.243.166.74', '67.205.187.161', '107.170.78.146', '178.62.221.227')
     port = 35556
     message_start = b'\xf9\xbc\xb4\xd2'
@@ -28,7 +28,7 @@ class PhotonTestNet(Photon):
     (date of access: 02/12/2018)
     """
     name = 'test-photon'
-    seeds = ('photon.info', 'server1.photon.org', 'photon.com')
+    seeds = ('photon.info', 'server1.photon.org', 'photon.com', )
     port = 18992
     message_start = b'\x0b\x11\x09\x08'
     base58_prefixes = {

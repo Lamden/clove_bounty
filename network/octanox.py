@@ -9,7 +9,7 @@ class Octanox(Bitcoin):
     """
     name = 'octanox'
     symbols = ('OTX', )
-    seeds = ("185.69.54.33")
+    nodes = ("185.69.54.33", )
     port = 36212
     message_start = b'\xa2\xc5\xf2\xc1'
     base58_prefixes = {

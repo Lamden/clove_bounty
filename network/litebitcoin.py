@@ -10,7 +10,7 @@ class LiteBitcoin(Bitcoin):
     """
     name = 'litebitcoin'
     symbols = ('LBTC', )
-    seeds = ('litebitcoins.thecryptochat.net',)
+    seeds = ('litebitcoins.thecryptochat.net', )
     port = 19037
     message_start = b'\x5b\x6d\x2f\x54'
     base58_prefixes = {

@@ -9,7 +9,7 @@ class SteneumCoin(Bitcoin):
     """
     name = 'steneum-coin'
     symbols = ('STN', )
-    seeds = ('64.20.57.229',)
+    nodes = ('64.20.57.229', )
     port = 26965
     message_start = b'\xe6\x26\x17\x0d'
     base58_prefixes = {

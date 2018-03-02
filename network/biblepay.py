@@ -28,7 +28,7 @@ class BiblePayTestNet(BiblePay):
     """
     name = 'test-biblepay'
     symbols = ('BBP', )
-    seeds = ('testnet-seed.biblepaydot.io', 'test.dnsseed.masternode.io')
+    seeds = ('testnet-seed.biblepaydot.io', 'test.dnsseed.masternode.io', )
     port = 40001
     message_start = b'\xce\xe2\xca\xff'
     base58_prefixes = {

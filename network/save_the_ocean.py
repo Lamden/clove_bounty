@@ -1,7 +1,7 @@
 from clove.network.bitcoin import Bitcoin
 
 
-class Save_The_Ocean(Bitcoin):
+class SaveTheOcean(Bitcoin):
     """
     Class with all the necessary Save The Ocean network information based on
     https://github.com/SaveTheOceanMovement/SaveTheOceanCoin/blob/master/src/net.cpp
@@ -9,7 +9,7 @@ class Save_The_Ocean(Bitcoin):
     """
     name = 'save_the_ocean'
     symbols = ('STO', )
-    seeds = ("52.169.14.55")
+    nodes = ("52.169.14.55", )
     port = 4555
     message_start = b'\xd1\xa3\xb4\xc2'
     base58_prefixes = {

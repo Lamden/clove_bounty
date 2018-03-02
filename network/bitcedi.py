@@ -9,7 +9,7 @@ class Bitcedi(Bitcoin):
     """
     name = 'bitcedi'
     symbols = ('BXC', )
-    seeds = ('seed0.bitcedi.org', 'seed1.bitcedi.org', 'seed2.bitcedi.org')
+    seeds = ('seed0.bitcedi.org', 'seed1.bitcedi.org', 'seed2.bitcedi.org', )
     port = 55008
 
 # no testnet

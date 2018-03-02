@@ -19,7 +19,7 @@ class RipoffCoin(Bitcoin):
     }
 
 
-class RipoffCoinTestNet(Bitcoin):
+class RipoffCoinTestNet(RipoffCoin):
     """
     Class with all the necessary RipoffCoin testing network information based on
     https://github.com/RipoffCoin/RipoffCoin/blob/master/src/net.cpp

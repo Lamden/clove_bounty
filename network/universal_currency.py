@@ -9,7 +9,7 @@ class UniversalCurrency(Bitcoin):
     """
     name = 'universalcurrency'
     symbols = ('UNIT', )
-    seeds = ('104.207.154.199', '103.22.181.2')
+    nodes = ('104.207.154.199', '103.22.181.2', )
     port = 14158
     message_start = b'\xa4\xd2\xf8\xa6'
     base58_prefixes = {

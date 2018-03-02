@@ -9,7 +9,7 @@ class Swing(Bitcoin):
     """
     name = 'swing'
     symbols = ('SWING', )
-    seeds = ("104.236.29.198", "swing.suprnova.cc")
+    seeds = ("swing.suprnova.cc", )
     port = 16061
     message_start = b'\xdd\x1e\xe2\xaf'
     base58_prefixes = {

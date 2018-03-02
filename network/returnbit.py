@@ -9,7 +9,7 @@ class ReturnBit(Bitcoin):
     """
     name = 'returnbit'
     symbols = ('RBIT', )
-    seeds = ("159.203.109.115",
+    nodes = ("159.203.109.115",
              "45.55.167.126",
              "159.203.106.65")
     port = 9313
@@ -28,7 +28,7 @@ class ReturnBitTestNet(ReturnBit):
     (date of access: 02/17/2018)
     """
     name = 'test-diamond'
-    seeds = ("107.170.12.152",
+    nodes = ("107.170.12.152",
              "159.203.109.115",
              "37.59.24.15",
              "216.106.225.215")

@@ -10,7 +10,7 @@ class CannabisCoin(Bitcoin):
     """
     name = 'cannabiscoin'
     symbols = ('CANN', )
-    seeds = ('seed.cannabiscoin.net', 'seed2.cannabiscoin.net')
+    seeds = ('seed.cannabiscoin.net', 'seed2.cannabiscoin.net', )
     port = 39348
     message_start = b'\xfe\xc3\xb9\xde'
     base58_prefixes = {
@@ -27,7 +27,7 @@ class CannabisCoinTestNet(CannabisCoin):
     (date of access: 02/12/2018)
     """
     name = 'test-cannabiscoin'
-    seeds = ('testnet-seed.cannabiscoin.net',)
+    seeds = ('testnet-seed.cannabiscoin.net', )
     port = 29347
     message_start = b'\xfe\xc4\xba\xde'
     base58_prefixes = {

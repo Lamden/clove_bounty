@@ -9,7 +9,7 @@ class Mineum(Bitcoin):
     """
     name = 'Mineum'
     symbols = ('MNM', )
-    seeds = ('24.37.43.158:31316', '45.45.88.18:31319', 'nodes.muex.io')
+    seeds = ('nodes.muex.io', )
     port = 31316
     message_start = b'\x5a\xc3\x82\xd3'
     base58_prefixes = {

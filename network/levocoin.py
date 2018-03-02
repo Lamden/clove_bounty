@@ -9,9 +9,7 @@ class Levocoin(Bitcoin):
     """
     name = 'levocoin'
     symbols = ('LEVO', )
-    seeds = ('162.243.28.171',
-             '162.243.113.23',
-             'seed1.cryptolife.net',
+    seeds = ('seed1.cryptolife.net',
              'seed2.cryptolife.net',
              'seed3.cryptolife.net',
              'electrum3.cryptolife.net',

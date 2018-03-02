@@ -1,7 +1,7 @@
 from clove.network.bitcoin import Bitcoin
 
 
-class DayTrader_Coin(Bitcoin):
+class DayTraderCoin(Bitcoin):
     """
     Class with all the necessary DayTrader_Coin network information based on
     https://github.com/DayTraderCoin/DayTraderCoin/blob/master/src/net.cpp
@@ -9,7 +9,7 @@ class DayTrader_Coin(Bitcoin):
     """
     name = 'daytrader_coin'
     symbols = ('DTC', )
-    seeds = ("54.94.154.243",
+    nodes = ("54.94.154.243",
              "54.207.102.95")
     port = 39110
     message_start = b'\x3e\x2f\xb4\xd5'

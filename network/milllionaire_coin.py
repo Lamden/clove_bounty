@@ -1,7 +1,7 @@
 from clove.network.bitcoin import Bitcoin
 
 
-class Milllionaire_Coin(Bitcoin):
+class MilllionaireCoin(Bitcoin):
     """
     Class with all the necessary Milllionaire Coin network information based on
     https://github.com/MILcoindev/Milliionaire-Coin/blob/master/src/net.cpp
@@ -9,7 +9,7 @@ class Milllionaire_Coin(Bitcoin):
     """
     name = 'milllionaire_coin'
     symbols = ('MIL', )
-    seeds = ("108.61.198.32")
+    nodes = ("108.61.198.32", )
     port = 35552
     message_start = b'\xa1\xa0\xa2\xa3'
     base58_prefixes = {

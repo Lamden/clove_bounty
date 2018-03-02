@@ -9,7 +9,7 @@ class Iconic(Bitcoin):
     """
     name = 'iconic'
     symbols = ('ICON', )
-    seeds = ('node.iconicproject.com', 'iconicproject.com')
+    seeds = ('node.iconicproject.com', 'iconicproject.com', )
     port = 47426
     message_start = b'\xa3\xa5\xf8\xa6'
     base58_prefixes = {

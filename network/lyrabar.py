@@ -9,7 +9,7 @@ class Lyrabar(Bitcoin):
     """
     name = 'lyrabar'
     symbols = ('LYB', )
-    seeds = ("lyrabar.duckdns.org", "lyrabarpool.duckdns.org")
+    seeds = ("lyrabar.duckdns.org", "lyrabarpool.duckdns.org", )
     port = 4046
     message_start = b'\x4d\x4d\x4d\x4d'
     base58_prefixes = {

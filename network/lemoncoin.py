@@ -9,7 +9,7 @@ class LemonCoin(Bitcoin):
     """
     name = 'lemoncoin'
     symbols = ('LEMON', )
-    seeds = ("45.32.180.199")
+    nodes = ("45.32.180.199", )
     port = 22331
     message_start = b'\xa8\xf0\xc3\xc0'
     base58_prefixes = {

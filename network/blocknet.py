@@ -9,7 +9,7 @@ class Blocknet(Bitcoin):
     """
     name = 'blocknet'
     symbols = ('BLOCK', )
-    seeds = ('178.62.90.213', '138.197.73.214', '34.235.49.248')
+    nodes = ('178.62.90.213', '138.197.73.214', '34.235.49.248', )
     port = 41412
     message_start = b'\xa1\xa0\xa2\xa3'
     base58_prefixes = {
@@ -26,7 +26,7 @@ class BlocknetTestNet(Blocknet):
     (date of access: 02/12/2018)
     """
     name = 'test-blocknet'
-    seeds = ('178.62.90.213', '138.197.73.214', '34.235.49.248')
+    nodes = ('178.62.90.213', '138.197.73.214', '34.235.49.248', )
     port = 41474
     message_start = b'\x45\x76\x65\xba'
     base58_prefixes = {

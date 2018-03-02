@@ -9,7 +9,7 @@ class Washingtoncoin(Bitcoin):
     """
     name = 'washingtoncoin'
     symbols = ('WASH', )
-    seeds = ("45.42.140.30",
+    nodes = ("45.42.140.30",
              "84.200.210.130")
     port = 15150
     message_start = b'\xfc\xdb\xfb\xc3'

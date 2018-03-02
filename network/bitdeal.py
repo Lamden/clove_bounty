@@ -9,7 +9,7 @@ class Bitdeal(Bitcoin):
     """
     name = 'bitdeal'
     symbols = ('BDL', )
-    seeds = ("dnsseed.bitdeal.co.in")
+    seeds = ("dnsseed.bitdeal.co.in", )
     port = 9333
     message_start = b'\xfa\xc1\xb7\xdc'
     base58_prefixes = {

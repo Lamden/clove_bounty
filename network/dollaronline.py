@@ -9,17 +9,7 @@ class DollarOnline(Bitcoin):
     """
     name = 'dollaronline'
     symbols = ('DOLLAR', )
-    seeds = ("91.109.38.231",
-             "s01.edollar.online",
-             "s02.edollar.online",
-             "s03.edollar.online",
-             "s04.edollar.online",
-             "s05.edollar.online",
-             "s06.edollar.online",
-             "s07.edollar.online",
-             "s08.edollar.online",
-             "s09.edollar.online",
-             "s10.edollar.online")
+    nodes = ("91.109.38.231", )
     port = 22888
     message_start = b'\xa1\xa0\xa2\xa3'
     base58_prefixes = {

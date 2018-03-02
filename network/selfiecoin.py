@@ -9,7 +9,7 @@ class Selfiecoin(Bitcoin):
     """
     name = 'Selfiecoin'
     symbols = ('SLFI', )
-    seeds = ("192.3.196.25")
+    nodes = ("192.3.196.25", )
     port = 6070
     message_start = b'\x69\xf0\x0f\x69'
     base58_prefixes = {

@@ -9,7 +9,7 @@ class SweetStake(Bitcoin):
     """
     name = 'sweetstake'
     symbols = ('SWEET', )
-    seeds = ("sweetstake.endofinternet.net")
+    seeds = ("sweetstake.endofinternet.net", )
     port = 34613
     message_start = b'\xaa\xa2\xb2\xc4'
     base58_prefixes = {

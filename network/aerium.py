@@ -9,7 +9,7 @@ class Aerium(Bitcoin):
     """
     name = 'aerium'
     symbols = ('AERM', )
-    seeds = ("18.216.79.110",
+    nodes = ("18.216.79.110",
              "185.223.31.170",
              "45.76.103.65",
              "45.63.48.241",
@@ -39,7 +39,7 @@ class AeriumTestNet(Aerium):
     (date of access: 02/13/2018)
     """
     name = 'test-aerium'
-    seeds = ("107.22.138.243")
+    nodes = ("107.22.138.243", )
     port = 26178
     message_start = b'\x71\x31\x21\x11'
     base58_prefixes = {

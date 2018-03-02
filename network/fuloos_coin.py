@@ -1,7 +1,7 @@
 from clove.network.bitcoin import Bitcoin
 
 
-class Fuloos_Coin(Bitcoin):
+class FuloosCoin(Bitcoin):
     """
     Class with all the necessary Fuloos Coin network information based on
     https://github.com/fuloos/Fuloos/blob/master/src/net.cpp
@@ -9,7 +9,7 @@ class Fuloos_Coin(Bitcoin):
     """
     name = 'fuloos_coin'
     symbols = ('FLS', )
-    seeds = ("13.126.185.194",
+    nodes = ("13.126.185.194",
              "13.127.56.191",
              "13.127.51.168",
              "138.68.236.172",

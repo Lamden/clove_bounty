@@ -9,7 +9,7 @@ class LeninCoin(Bitcoin):
     """
     name = 'lenincoin'
     symbols = ('LENIN', )
-    seeds = ("kicks.servep2p.com")
+    seeds = ("kicks.servep2p.com", )
     port = 10157
     message_start = b'\xe4\xe8\xbd\xfd'
     base58_prefixes = {

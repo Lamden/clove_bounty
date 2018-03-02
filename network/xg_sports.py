@@ -1,7 +1,7 @@
 from clove.network.bitcoin import Bitcoin
 
 
-class XG_Sports(Bitcoin):
+class XGSports(Bitcoin):
     """
     Class with all the necessary xg_sports network information based on
     https://github.com/XGCoin/XG/blob/master/src/net.cpp
@@ -9,7 +9,7 @@ class XG_Sports(Bitcoin):
     """
     name = 'xg_sports'
     symbols = ('XG', )
-    seeds = ("107.170.189.185")
+    nodes = ("107.170.189.185", )
     port = 52733
     message_start = b'\xa1\xa0\xa2\xa3'
     base58_prefixes = {

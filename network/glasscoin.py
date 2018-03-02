@@ -9,7 +9,7 @@ class GlassCoin(Bitcoin):
     """
     name = 'glasscoin'
     symbols = ('GLS', )
-    seeds = ('45.63.34.145', '104.238.159.50')
+    nodes = ('45.63.34.145', '104.238.159.50', )
     port = 23835
     message_start = b'\x01\x65\x52\xbd'
     base58_prefixes = {

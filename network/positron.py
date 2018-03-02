@@ -9,7 +9,7 @@ class Positron(Bitcoin):
     """
     name = 'positron'
     symbols = ('TRON', )
-    seeds = ("seed.positron.ninja")
+    seeds = ("seed.positron.ninja", )
     port = 21454
     message_start = b'\xa4\xd2\xf8\xa6'
     base58_prefixes = {

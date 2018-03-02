@@ -9,7 +9,7 @@ class ExclusiveCoin(Bitcoin):
     """
     name = 'exclusivecoin'
     symbols = ('EXCL', )
-    seeds = ('nodes.exclusivecoin.pw')
+    seeds = ('nodes.exclusivecoin.pw', )
     port = 23230
     message_start = b'\xa2\x3d\x2f\xf3'
     base58_prefixes = {

@@ -9,7 +9,7 @@ class TCoin(Bitcoin):
     """
     name = 't-coin'
     symbols = ('TCOIN', )
-    seeds = ("175.124.227.229",
+    nodes = ("175.124.227.229",
              "175.124.227.230")
     port = 25286
     message_start = b'\xb4\xfc\xc8\xd2'

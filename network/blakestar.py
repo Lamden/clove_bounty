@@ -9,7 +9,7 @@ class BlakeStar(Bitcoin):
     """
     name = 'blakestar'
     symbols = ('BLAS', )
-    seeds = ("213.169.33.11")
+    nodes = ("213.169.33.11", )
     port = 14442
     message_start = b'\xea\x11\x7a\xcc'
     base58_prefixes = {
@@ -26,7 +26,7 @@ class BlakeStarTestNet(BlakeStar):
     (date of access: 02/14/2018)
     """
     name = 'test-blakestar'
-    seeds = ("test1.BlakeStar.pw")
+    seeds = ("test1.BlakeStar.pw", )
     port = 24442
     message_start = b'\xa7\x41\xae\x7c'
     base58_prefixes = {

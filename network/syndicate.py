@@ -9,7 +9,7 @@ class Syndicate(Bitcoin):
     """
     name = 'syndicate'
     symbols = ('SYNX', )
-    seeds = ('seed.synx.online')
+    seeds = ('seed.synx.online', )
     port = 9999
     message_start = b'\xd2\x2d\x1c\xe5'
     base58_prefixes = {
@@ -27,7 +27,7 @@ class SyndicateTestNet(Syndicate):
     """
     name = 'test-syndicate'
     symbols = ('SYNX', )
-    seeds = ('')
+    seeds = ('', )
     port = 27170
     message_start = b'\x2f\xca\x4d\x3e'
     base58_prefixes = {

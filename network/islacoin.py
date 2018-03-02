@@ -9,7 +9,7 @@ class IslaCoin(Bitcoin):
     """
     name = 'islacoin'
     symbols = ('ISL', )
-    seeds = ("seed1.islacoin.net", "seed2.islacoin.net", "seed3.islacoin.net")
+    seeds = ("seed1.islacoin.net", "seed2.islacoin.net", "seed3.islacoin.net", )
     port = 9731
     message_start = b'\xa1\xa0\xa2\xa3'
     base58_prefixes = {

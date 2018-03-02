@@ -9,7 +9,7 @@ class Guncoin(Bitcoin):
     """
     name = 'guncoin'
     symbols = ('GUN', )
-    seeds = ("seed.guncoin.info", "seed2.guncoin.info")
+    seeds = ("seed.guncoin.info", "seed2.guncoin.info", )
     port = 42954
     message_start = b'\xaa\xc3\xc6\xab'
     base58_prefixes = {
@@ -26,7 +26,7 @@ class GuncoinTestNet(Guncoin):
     (date of access: 02/15/2018)
     """
     name = 'test-guncoin'
-    seeds = ("testnet-seed.guncoin.info", "testnet-seed2.guncoin.info")
+    seeds = ("testnet-seed.guncoin.info", "testnet-seed2.guncoin.info", )
     port = 52954
     message_start = b'\xdd\xbb\xcc\xad'
     base58_prefixes = {

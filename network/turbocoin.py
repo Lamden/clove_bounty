@@ -9,7 +9,7 @@ class TurboCoin(Bitcoin):
     """
     name = 'turbocoin'
     symbols = ('TURBO', )
-    seeds = ('195.181.245.38')
+    nodes = ('195.181.245.38', )
     port = 35282
     message_start = b'\xa4\xb1\xf3\xc2'
     base58_prefixes = {

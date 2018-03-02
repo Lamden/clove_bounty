@@ -10,7 +10,7 @@ class Sharkcoin(Bitcoin):
     """
     name = 'sharkcoin'
     symbols = ('SAK', )
-    seeds = ('seed1.sak.cc', 'seed2.sak.cc')
+    seeds = ('seed1.sak.cc', 'seed2.sak.cc', )
     port = 4011
     message_start = b'\xfe\xa5\x03\xdb'
     base58_prefixes = {

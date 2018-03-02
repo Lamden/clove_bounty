@@ -9,7 +9,7 @@ class DavorCoin(Bitcoin):
     """
     name = 'davorcoin'
     symbols = ('DAV', )
-    seeds = ("52.77.118.10")
+    nodes = ("52.77.118.10", )
     port = 17511
     message_start = b'\xa4\xd2\xf8\xa6'
     base58_prefixes = {

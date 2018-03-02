@@ -9,7 +9,7 @@ class Antimatter(Bitcoin):
     """
     name = 'antimatter'
     symbols = ('ANTX', )
-    seeds = ("seed.baconmakesyourfeaturessizzle.com")
+    seeds = ("seed.baconmakesyourfeaturessizzle.com", )
     port = 9334
     message_start = b'\xc0\xfb\xb6\xdb'
     base58_prefixes = {
@@ -26,7 +26,7 @@ class AntimatterTestNet(Antimatter):
     (date of access: 02/19/2018)
     """
     name = 'test-antimatter'
-    seeds = ("testnet-seed.baconmakesyourfeaturessizzle.com")
+    seeds = ("testnet-seed.baconmakesyourfeaturessizzle.com", )
     port = 19334
     message_start = b'\xfc\xc1\xb7\xdc'
     base58_prefixes = {

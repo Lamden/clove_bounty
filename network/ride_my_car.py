@@ -10,7 +10,7 @@ class RideMyCar(Bitcoin):
     """
     name = 'ride-my-car'
     symbols = ('RIDE', )
-    seeds = ('146.185.146.172',)
+    nodes = ('146.185.146.172', )
     port = 11517
     message_start = b'\x22\x50\x70\x35'
     base58_prefixes = {

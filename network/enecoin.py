@@ -9,7 +9,7 @@ class EneCoin(Bitcoin):
     """
     name = 'enecoin'
     symbols = ('ENE', )
-    seeds = ("52.37.214.176")
+    nodes = ("52.37.214.176", )
     port = 12124
     message_start = b'\x72\x35\xa4\xbd'
     base58_prefixes = {

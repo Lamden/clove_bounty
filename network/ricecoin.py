@@ -9,7 +9,7 @@ class RiceCoin(Bitcoin):
     """
     name = 'ricecoin'
     symbols = ('RICE', )
-    seeds = ("130.193.81.218")
+    nodes = ("130.193.81.218", )
     port = 41981
     message_start = b'\x72\x37\x24\x07'
     base58_prefixes = {

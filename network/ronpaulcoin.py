@@ -9,7 +9,7 @@ class RonPaulCoin(Bitcoin):
     """
     name = 'ronpaulcoin'
     symbols = ('RPC', )
-    seeds = ("dnsseed.ronpaulcoin.nl")
+    seeds = ("dnsseed.ronpaulcoin.nl", )
     port = 9027
     message_start = b'\xfb\xc0\xb6\xdb'
     base58_prefixes = {
@@ -26,7 +26,7 @@ class RonPaulCoinTestNet(RonPaulCoin):
     (date of access: 02/17/2018)
     """
     name = 'test-ronpaulcoin'
-    seeds = ("testnet-seed.ronpaulcoin.nl")
+    seeds = ("testnet-seed.ronpaulcoin.nl", )
     port = 19027
     message_start = b'\xfc\xc1\xb7\xdc'
     base58_prefixes = {

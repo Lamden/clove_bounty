@@ -9,7 +9,7 @@ class Digigems(Bitcoin):
     """
     name = 'digigems'
     symbols = ('DGMS', )
-    seeds = ("54.69.225.67")
+    nodes = ("54.69.225.67", )
     port = 5333
     message_start = b'\xff\xc2\xb8\xde'
     base58_prefixes = {
@@ -26,7 +26,7 @@ class DigigemsTestNet(Digigems):
     (date of access: 02/14/2018)
     """
     name = 'test-digigems'
-    seeds = ("88.196.13.22")
+    nodes = ("88.196.13.22", )
     port = 15333
     message_start = b'\xac\xb1\xc7\xdc'
     base58_prefixes = {

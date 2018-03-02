@@ -9,7 +9,7 @@ class ToaCoin(Bitcoin):
     """
     name = 'toacoin'
     symbols = ('TOA', )
-    seeds = ("212.24.111.232",
+    nodes = ("212.24.111.232",
              "212.24.111.8",
              "212.24.111.34")
     port = 9642

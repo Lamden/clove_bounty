@@ -9,7 +9,7 @@ class Verge(Bitcoin):
     """
     name = 'verge'
     symbols = ('XVG', )
-    seeds = ('5n4gl3kvntyanp63.onion',
+    nodes = ('5n4gl3kvntyanp63.onion',
              '5onui2lfl3iwdhrf.onion',
              '7sfrhwc6l4oohb5h.onion',
              'plxs66tqlzbnh3ua.onion',

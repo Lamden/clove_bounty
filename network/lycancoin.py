@@ -9,7 +9,7 @@ class Lycancoin(Bitcoin):
     """
     name = 'lycancoin'
     symbols = ('LYC', )
-    seeds = ("69.172.229.161", "209.208.111.72")
+    nodes = ("69.172.229.161", "209.208.111.72", )
     port = 58862
     message_start = b'\xfc\xd9\xb7\xdd'
     base58_prefixes = {

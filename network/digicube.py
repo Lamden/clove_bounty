@@ -9,7 +9,7 @@ class DigiCube(Bitcoin):
     """
     name = 'digicube'
     symbols = ('CUBE', )
-    seeds = ("digicubeseeds.freestaking.com")
+    seeds = ("digicubeseeds.freestaking.com", )
     port = 8888
     message_start = b'\xba\xcb\xdc\xad'
     base58_prefixes = {

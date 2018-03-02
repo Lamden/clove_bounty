@@ -9,7 +9,7 @@ class Firecoin(Bitcoin):
     """
     name = 'firecoin'
     symbols = ('FIRE', )
-    seeds = ("23.254.97.249")
+    nodes = ("23.254.97.249", )
     port = 49697
     message_start = b'\xa1\xa0\xa2\xa3'
     base58_prefixes = {

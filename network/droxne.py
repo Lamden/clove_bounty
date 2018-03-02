@@ -9,7 +9,7 @@ class DROXNE(Bitcoin):
     """
     name = 'droxne'
     symbols = ('DRXNE', )
-    seeds = ("198.199.90.93", "45.55.89.248")
+    nodes = ("198.199.90.93", "45.55.89.248", )
     port = 41241
     message_start = b'\xb4\xfe\xe4\xe5'
     base58_prefixes = {

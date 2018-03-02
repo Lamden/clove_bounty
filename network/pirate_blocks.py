@@ -9,7 +9,7 @@ class PirateBlocks(Bitcoin):
     """
     name = 'pirateblocks'
     symbols = ('SKULL', )
-    seeds = ('pblocks.servep2p.com')
+    seeds = ('pblocks.servep2p.com', )
     port = 27991
     message_start = b'\xa1\xac\xcc\x71'
     base58_prefixes = {

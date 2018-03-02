@@ -9,7 +9,7 @@ class EbolaShare(Bitcoin):
     """
     name = 'ebolashare'
     symbols = ('EBS', )
-    seeds = ("37.25.41.54")
+    nodes = ("37.25.41.54", )
     port = 9333
     message_start = b'\xe2\xe1\xe2\xe1'
     base58_prefixes = {

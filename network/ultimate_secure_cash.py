@@ -10,7 +10,7 @@ class UltimateSecureCash(Bitcoin):
     """
     name = 'ultimatesecurecash'
     symbols = ('USC', )
-    seeds = ('45.55.52.85',)
+    nodes = ('45.55.52.85', )
     port = 51737
     message_start = b'\xfa\xf2\xef\xb4'
     base58_prefixes = {

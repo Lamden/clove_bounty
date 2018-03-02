@@ -9,9 +9,13 @@ class ProjectX(Bitcoin):
     """
     name = 'projectx'
     symbols = ('NANOX', )
-    seeds = ('dnsseed111.ddns.net', 'p-x.ddns.net', 'stratumtest.ddns.net', 'dns-seed.ddns.net', 'node4.version2.org',
-             '185.45.193.24', '185.45.193.21', '185.82.202.164', '185.82.202.159', '185.82.202.160', '185.82.202.142',
-             '185.82.202.143', '185.106.121.130', '185.117.73.207', '185.117.73.210')
+    seeds = (
+        'dnsseed111.ddns.net',
+        'p-x.ddns.net',
+        'stratumtest.ddns.net',
+        'dns-seed.ddns.net',
+        'node4.version2.org',
+    )
     port = 42123
     message_start = b'\x5a\xc3\x82\xd3'
     base58_prefixes = {

@@ -9,7 +9,7 @@ class Grimcoin(Bitcoin):
     """
     name = 'grimcoin'
     symbols = ('GRIM', )
-    seeds = ('reaper.rocks', 'thec0de.com')
+    seeds = ('reaper.rocks', 'thec0de.com', )
     port = 24861
     message_start = b'\xe7\x42\x06\x52'
     base58_prefixes = {

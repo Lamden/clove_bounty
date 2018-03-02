@@ -9,7 +9,7 @@ class MasterCar(Bitcoin):
     """
     name = 'mastercar'
     symbols = ('MCAR', )
-    seeds = ("52.28.35.168")
+    nodes = ("52.28.35.168", )
     port = 10333
     message_start = b'\xfb\xc0\xb6\xdb'
     base58_prefixes = {

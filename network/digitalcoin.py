@@ -11,7 +11,7 @@ class Digitalcoin(Bitcoin):
     name = 'digitalcoin'
     symbols = ('DGC', )
     seeds = ('digitalcoin.co', 'game.digitalcoin.co',
-             'dev.digitalcoin.co', '178.62.28.81')
+             'dev.digitalcoin.co')
     port = 7999
     message_start = b'\xfb\xc0\xb6\xdb'
     base58_prefixes = {

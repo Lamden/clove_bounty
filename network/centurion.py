@@ -9,8 +9,7 @@ class Centurion(Bitcoin):
     """
     name = 'centurion'
     symbols = ('CNT', )
-    seeds = ("138.68.154.87",
-             "node1.centurion.org",
+    seeds = ("node1.centurion.org",
              "node1.centurionlab.org",
              "node2.centurionlab.org",
              "node3.centurionlab.org")

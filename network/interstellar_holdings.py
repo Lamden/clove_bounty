@@ -10,7 +10,7 @@ class InterstellarHoldings(Bitcoin):
     """
     name = 'interstellar-holdings'
     symbols = ('HOLD', )
-    seeds = ('seed1.interstellarcoin.com', 'seed2.interstellarcoin.com')
+    seeds = ('seed1.interstellarcoin.com', 'seed2.interstellarcoin.com', )
     port = 10130
     message_start = b'\x90\x2f\x32\x15'
     base58_prefixes = {

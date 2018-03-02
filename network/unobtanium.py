@@ -28,7 +28,7 @@ class UnobtaniumTestNet(Unobtanium):
     (date of access: 02/11/2018)
     """
     name = 'test-unobtanium'
-    seeds = ('23skidoo.info', 'testnet.unobtanium.info')
+    nodes = ('23skidoo.info', 'testnet.unobtanium.info', )
     port = 65525
     message_start = b'\x01\x02\x03\x04'
     base58_prefixes = {

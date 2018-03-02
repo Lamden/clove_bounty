@@ -9,7 +9,7 @@ class Xgox(Bitcoin):
     """
     name = 'Xgox'
     symbols = ('XGOX', )
-    seeds = ("go1.dynu.net", "go2.dynu.net")
+    seeds = ("go1.dynu.net", "go2.dynu.net", )
     port = 23185
     message_start = b'\x71\xae\x76\x64'
     base58_prefixes = {

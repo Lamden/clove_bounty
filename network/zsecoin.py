@@ -9,9 +9,7 @@ class ZSEcoin(Bitcoin):
     """
     name = 'zsecoin'
     symbols = ('ZSE', )
-    seeds = ("electrum2.cryptolife.net",
-             "104.131.17.33",
-             "138.68.17.203")
+    seeds = ("electrum2.cryptolife.net", )
     port = 40919
     message_start = b'\xb9\x98\xe2\xf5'
     base58_prefixes = {

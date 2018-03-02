@@ -9,7 +9,7 @@ class Bitmiles(Bitcoin):
     """
     name = 'bitmiles'
     symbols = ('BTMI', )
-    seeds = ("95.85.60.246")
+    nodes = ("95.85.60.246", )
     port = 29156
     message_start = b'\xfc\xd9\xb7\xdd'
     base58_prefixes = {

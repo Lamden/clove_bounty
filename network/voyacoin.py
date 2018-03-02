@@ -10,7 +10,7 @@ class Voyacoin(Bitcoin):
     """
     name = 'voyacoin'
     symbols = ('VOYA', )
-    seeds = ('104.43.195.20',)
+    nodes = ('104.43.195.20', )
     port = 12121
     message_start = b'\xa3\xb1\x03\xc2'
     base58_prefixes = {
@@ -27,7 +27,7 @@ class VoyacoinTestNet(Voyacoin):
     (date of access: 02/11/2018)
     """
     name = 'test-voyacoin'
-    seeds = ('104.43.195.20',)
+    nodes = ('104.43.195.20', )
     port = 22121
     message_start = b'\x3a\x1a\x0c\xab'
     base58_prefixes = {

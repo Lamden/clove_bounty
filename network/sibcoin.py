@@ -28,7 +28,7 @@ class SibCoinTestNet(SibCoin):
     (date of access: 02/11/2018)
     """
     name = 'test-coin'
-    seeds = ('testnet-seed.dashdot.io', 'test.dnsseed.masternode.io')
+    seeds = ('testnet-seed.dashdot.io', 'test.dnsseed.masternode.io', )
     port = 11945
     message_start = b'\xce\xe2\xca\xff'
     base58_prefixes = {

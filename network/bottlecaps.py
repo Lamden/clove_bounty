@@ -9,7 +9,7 @@ class Bottlecaps(Bitcoin):
     """
     name = 'bottlecaps'
     symbols = ('CAP', )
-    seeds = ("seed.bottlecaps.org", "cap.nodes.btcrypt.net")
+    seeds = ("seed.bottlecaps.org", "cap.nodes.btcrypt.net", )
     port = 7685
     message_start = b'\xe4\xe8\xe9\xe5'
     base58_prefixes = {
