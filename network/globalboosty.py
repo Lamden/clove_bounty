@@ -29,3 +29,9 @@ class GlobalBoostYTestNet(GlobalBoostY):
     name = 'test-globalboost-y'
     seeds = ('testnet-seeder.globalboost.info',)
     port = 18226
+    message_start = b'bsty'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

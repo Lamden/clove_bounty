@@ -11,6 +11,12 @@ class NamoCoin(Bitcoin):
     symbols = ('NAMO', )
     seeds = ('namo.ddns.me')
     port = 16305
+    message_start = b'\xa1\xb3\xc7\xd1'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 52,
+        'SCRIPT_ADDR': 44,
+        'SECRET_KEY': 180
+    }
 
 
 # Has no testnet

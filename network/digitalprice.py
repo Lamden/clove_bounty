@@ -20,3 +20,9 @@ class DigitalPrice(Bitcoin):
              "dns8.digitalprice.org",
              "dns9.digitalprice.org")
     port = 42742
+    message_start = b'\xfb\xc0\xb6\xde'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 68,
+        'SCRIPT_ADDR': 85,
+        'SECRET_KEY': 153
+    }

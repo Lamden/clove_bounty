@@ -28,7 +28,7 @@ class ExecoinTestNet(Execoin):
     name = 'test-execoin'
     seeds = ("testnet-seed.execoin.net")
     port = 19989
-    message_start = b''e''x''e''c''
+    message_start = b'exec'
     base58_prefixes = {
         'PUBKEY_ADDR': 111,
         'SCRIPT_ADDR': 196,

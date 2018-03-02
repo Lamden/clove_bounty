@@ -41,7 +41,7 @@ class VertcoinTestNet(Vertcoin):
         'tvtc.vertcoin.org',
     )
     port = 15889
-    message_start = b''v''e''r''t''
+    message_start = b'vert'
     base58_prefixes = {
         'PUBKEY_ADDR': 74,
         'SCRIPT_ADDR': 196,

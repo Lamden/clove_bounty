@@ -14,5 +14,11 @@ class PRCoin(Bitcoin):
              "218.144.45.133:51045",
              "218.144.45.133:61276")
     port = 8535
+    message_start = b'\xef\xc1\x40\xba'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 55,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 183
+    }
 
 # no testnet

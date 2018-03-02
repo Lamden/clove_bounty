@@ -13,3 +13,9 @@ class Slimcoin(Bitcoin):
              "dnsseed.furiousnomad.com",
              "dnsseed.shitcoinrapist.club")
     port = 41682
+    message_start = b'\x6e\x8b\x92\xa5'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 63,
+        'SCRIPT_ADDR': 125,
+        'SECRET_KEY': 191
+    }

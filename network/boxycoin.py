@@ -15,6 +15,12 @@ class BoxyCoin(Bitcoin):
              "boxycoin.ddns.net", "138.68.174.82",
              "electrum.boxy.online", "211.28.42.157")
     port = 21524
+    message_start = b'\xf1\xc3\xa4\xdc'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 75,
+        'SCRIPT_ADDR': 18,
+        'SECRET_KEY': 203
+    }
 
 
 class BoxyCoinTestNet(BoxyCoin):
@@ -27,3 +33,9 @@ class BoxyCoinTestNet(BoxyCoin):
     seeds = ("testnet-seed.boxy.online",
              "testnet-seed.boxycoin.org")
     port = 121524
+    message_start = b'\xd4\xc3\x18\x5e'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 75,
+        'SCRIPT_ADDR': 18,
+        'SECRET_KEY': 203
+    }

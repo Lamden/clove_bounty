@@ -11,6 +11,12 @@ class FuzzBalls(Bitcoin):
     symbols = ('FUZZ', )
     nodes = ('167.114.13.141', )
     port = 62126
+    message_start = b'\xfb\xc0\xb6\xdb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 35,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 163
+    }
 
 
 class FuzzBallsTestNet(FuzzBalls):
@@ -22,3 +28,9 @@ class FuzzBallsTestNet(FuzzBalls):
     name = 'test-fuzzballs'
     nodes = ('167.114.13.141', )
     port = 72126
+    message_start = b'\xfc\xc1\xb7\xdc'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

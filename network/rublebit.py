@@ -11,6 +11,12 @@ class RubleBit(Bitcoin):
     symbols = ('RUBIT', )
     seeds = ("128.199.38.11")
     port = 11333
+    message_start = b'\xc3\xd2\xd1\xbd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 60,
+        'SCRIPT_ADDR': 22,
+        'SECRET_KEY': 188
+    }
 
 
 class RubleBitTestNet(RubleBit):
@@ -23,3 +29,9 @@ class RubleBitTestNet(RubleBit):
     seeds = ("testnet-seed.ltc.xurious.com",
              "dnsseed.wemine-testnet.com")
     port = 11333
+    message_start = b'\xd1\xb2\xa4\xdc'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 113,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 241
+    }

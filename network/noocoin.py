@@ -14,6 +14,12 @@ class NooCoin(Bitcoin):
              "j.iico.in")
 
     port = 41800
+    message_start = b'\xe6\xe8\xe9\xe5'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 114,
+        'SCRIPT_ADDR': 53,
+        'SECRET_KEY': 142
+    }
 
 
 class NooCoinTestNet(NooCoin):
@@ -27,3 +33,9 @@ class NooCoinTestNet(NooCoin):
              "home.bown.net",
              "j.iico.in")
     port = 41810
+    message_start = b'\xcb\xf2\xc0\xef'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

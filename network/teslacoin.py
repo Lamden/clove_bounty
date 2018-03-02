@@ -24,6 +24,12 @@ class TeslaCoin(Bitcoin):
              "81.245.187.75",
              "94.177.203.132")
     port = 1856
+    message_start = b'\xe5\xd7\xe6\xf3'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 11,
+        'SCRIPT_ADDR': 8,
+        'SECRET_KEY': 139
+    }
 
 
 # has no testnet

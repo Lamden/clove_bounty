@@ -20,3 +20,9 @@ class RotoCoin(Bitcoin):
              "79.136.49.122",
              "2.138.254.61")
     port = 17771
+    message_start = b'\xfa\xbf\xb5\xda'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 61,
+        'SCRIPT_ADDR': 123,
+        'SECRET_KEY': 189
+    }

@@ -11,5 +11,11 @@ class Diem(Bitcoin):
     symbols = ('DIEM', )
     seeds = ("dnsseed.carpediemexplorer.com")
     port = 9449
+    message_start = b'\xe4\xe8\xe9\xe5'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 30,
+        'SCRIPT_ADDR': 75,
+        'SECRET_KEY': 158
+    }
 
 # Has no testnet

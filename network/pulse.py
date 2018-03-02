@@ -11,6 +11,12 @@ class Pulse(Bitcoin):
     symbols = ('PULSE', )
     seeds = ("52.34.51.188")
     port = 57152
+    message_start = b'\xfc\xf9\xb9\xf3'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 51,
+        'SCRIPT_ADDR': 26,
+        'SECRET_KEY': 179
+    }
 
 
 # No Testnet

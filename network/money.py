@@ -11,6 +11,12 @@ class Money(Bitcoin):
     symbols = ('$$$', )
     seeds = ('dns.yourmoneyknowledge.com', 'moneydns.info.tm')
     port = 11082
+    message_start = b'\xfb\xc0\xb6\xdb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 110,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 238
+    }
 
 
 class MoneyTestNet(Money):
@@ -22,3 +28,9 @@ class MoneyTestNet(Money):
     name = 'test-money'
     seeds = ('dns.yourmoneyknowledge.com', )
     port = 21082
+    message_start = b'\xed\xb2\xa8\xcd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 127,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 255
+    }

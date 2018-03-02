@@ -13,5 +13,11 @@ class Memorycoin(Bitcoin):
              "104.223.6.205",
              "192.187.113.218")
     port = 1968
+    message_start = b'\xf9\xbb\xb6\xd9'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 50,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 178
+    }
 
 # no testnet

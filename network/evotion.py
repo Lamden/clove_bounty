@@ -11,5 +11,11 @@ class Evotion(Bitcoin):
     symbols = ('EVO', )
     seeds = ('52.33.170.107')
     port = 9393
+    message_start = b'\xa4\xd2\xf8\xa6'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 22,
+        'SCRIPT_ADDR': 51,
+        'SECRET_KEY': 150
+    }
 
 # no testnet

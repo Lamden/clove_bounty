@@ -23,7 +23,7 @@ class Devcoin(Bitcoin):
              "node02.dvcnode.com",
              "node03.dvcnode.com")
     port = 52333
-    message_start = b''D''E''V'':''
+    message_start = b'dev-'
     base58_prefixes = {
         'PUBKEY_ADDR': 0,
         'SCRIPT_ADDR': 5,

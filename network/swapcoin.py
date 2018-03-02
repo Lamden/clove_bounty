@@ -11,5 +11,11 @@ class Swapcoin(Bitcoin):
     symbols = ('SWP', )
     seeds = ("207.12.89.115")
     port = 19988
+    message_start = b'\xbf\x0c\x6b\xbd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 63,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 191
+    }
 
 # no testnet

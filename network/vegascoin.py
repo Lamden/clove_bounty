@@ -18,5 +18,11 @@ class VegasCoin(Bitcoin):
              "asia.nodes.vegascoin.co",
              "oceania.nodes.vegascoin.co")
     port = 52400
+    message_start = b'\xfc\xd9\xb7\xdd'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 58,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 186
+    }
 
 # no testnet

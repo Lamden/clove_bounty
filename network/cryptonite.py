@@ -11,6 +11,12 @@ class Cryptonite(Bitcoin):
     symbols = ('XCN', )
     seeds = ("gpile.it")
     port = 8253
+    message_start = b'\xf9\xbe\xb4\xd9'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 28,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 128
+    }
 
 
 class CryptoniteTestNet(Cryptonite):
@@ -22,3 +28,9 @@ class CryptoniteTestNet(Cryptonite):
     name = 'test-cryptonite'
     seeds = ("seed.cryptonite.info")
     port = 18253
+    message_start = b'\x0c\x12\x09\x07'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 87,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

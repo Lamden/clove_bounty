@@ -13,6 +13,12 @@ class Marscoin(Bitcoin):
              "dnsseed.marscoin.org",
              "dnsseed.marsbiotech.com")
     port = 8338
+    message_start = b'\xfb\xc0\xb6\xdb'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 50,
+        'SCRIPT_ADDR': 5,
+        'SECRET_KEY': 178
+    }
 
 
 class MarscoinTestNet(Marscoin):
@@ -25,3 +31,9 @@ class MarscoinTestNet(Marscoin):
     seeds = ("dnsseed.marscoin.ru",
              "testnet-seed.marscointools.com")
     port = 18338
+    message_start = b'\xfc\xc1\xb7\xdc'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 111,
+        'SCRIPT_ADDR': 196,
+        'SECRET_KEY': 239
+    }

@@ -37,5 +37,11 @@ class Pura(Bitcoin):
              '45.77.68.186',
              '45.32.136.107')
     port = 44444
+    message_start = b'\xb8\x97\xc5\x43'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 55,
+        'SCRIPT_ADDR': 16,
+        'SECRET_KEY': 150
+    }
 
 # no testnet

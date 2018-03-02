@@ -11,5 +11,11 @@ class LoMoCoin(Bitcoin):
     symbols = ('LMC', )
     seeds = ("seed.lomocoin.com")
     port = 6801
+    message_start = b'\xa6\xb8\xc9\xd5'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 48,
+        'SCRIPT_ADDR': 125,
+        'SECRET_KEY': 176
+    }
 
 # no testnet

@@ -14,5 +14,11 @@ class IcebergCoin(Bitcoin):
              "31.220.50.78",
              "embi.zapto.org")
     port = 20703
+    message_start = b'\xa1\xa0\xa2\xa3'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 103,
+        'SCRIPT_ADDR': 43,
+        'SECRET_KEY': 231
+    }
 
 # No testnet

@@ -11,5 +11,11 @@ class DigiCube(Bitcoin):
     symbols = ('CUBE', )
     seeds = ("digicubeseeds.freestaking.com")
     port = 8888
+    message_start = b'\xba\xcb\xdc\xad'
+    base58_prefixes = {
+        'PUBKEY_ADDR': 28,
+        'SCRIPT_ADDR': 117,
+        'SECRET_KEY': 156
+    }
 
 # no testnet
