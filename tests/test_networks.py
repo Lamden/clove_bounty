@@ -11,6 +11,7 @@ sys.path.append(os.getcwd())  # noqa
 from clove.network.bitcoin import Bitcoin
 
 networks = sorted([file for file in os.listdir('network') if file not in ('__init__.py', '__pycache__')])
+symbols = {}
 
 
 def test_filename():
@@ -78,3 +79,9 @@ def test_network_definition(filename):
                 assert ipaddress.ip_address(node)
         assert isinstance(network.port, int)
         assert isinstance(network.blacklist_nodes, dict)
+        if not network.__name__.endswith('TestNet'):
+            for symbol in network.symbols:
+                symbol_lower = symbol.lower()
+                assert symbol.lower() not in symbols, \
+                    f'{network.__name__}: symbol {symbol.upper()} was already defined in class {symbols[symbol_lower]}'
+                symbols[symbol_lower] = network.__name__

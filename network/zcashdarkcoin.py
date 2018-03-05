@@ -8,7 +8,7 @@ class ZCashDarkCoin(Bitcoin):
     (date of access: 02/18/2018)
     """
     name = 'zcashdarkcoin'
-    symbols = ('ZEC', )
+    symbols = ('ZECD', )
     nodes = ("162.243.1.45", )
     port = 7785
     message_start = b'\xb4\xa6\xfa\x09'

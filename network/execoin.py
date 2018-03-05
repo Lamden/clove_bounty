@@ -8,7 +8,7 @@ class Execoin(Bitcoin):
     (date of access: 02/14/2018)
     """
     name = 'execoin'
-    symbols = ('DMD', )
+    symbols = ('EXE', )
     seeds = ("dnsseed.execoin.net", )
     port = 9989
     message_start = b'\xfa\xbf\xb5\xda'
