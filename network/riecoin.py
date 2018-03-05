@@ -18,20 +18,3 @@ class Riecoin(Bitcoin):
         'SCRIPT_ADDR': 5,
         'SECRET_KEY': 128
     }
-
-
-class RiecoinTestNet(Riecoin):
-    """
-    Class with all the necessary RIC testing network information based on
-    http://www.github.com/riecoin/riecoin/blob/master/src/chainparams.cpp
-    (date of access: 02/11/2018)
-    """
-    name = 'test-riecoin'
-    seeds = ()
-    port = 38333
-    message_start = b'\x0d\x09\x11\x05'
-    base58_prefixes = {
-        'PUBKEY_ADDR': 122,
-        'SCRIPT_ADDR': 196,
-        'SECRET_KEY': 239
-    }

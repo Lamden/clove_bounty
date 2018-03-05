@@ -18,20 +18,3 @@ class Zennies(Bitcoin):
         'SCRIPT_ADDR': 72,
         'SECRET_KEY': 142
     }
-
-
-class ZenniesTestNet(Zennies):
-    """
-    Class with all the necessary ZENI testing network information based on
-    http://www.github.com/zennies/zennies/blob/master/src/chainparams.cpp
-    (date of access: 02/11/2018)
-    """
-    name = 'test-zennies'
-    seeds = ()
-    port = 11021
-    message_start = b'\xaa\xbb\xcc\xee'
-    base58_prefixes = {
-        'PUBKEY_ADDR': 120,
-        'SCRIPT_ADDR': 196,
-        'SECRET_KEY': 239
-    }

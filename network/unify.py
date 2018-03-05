@@ -19,20 +19,3 @@ class Unify(Bitcoin):
         'SCRIPT_ADDR': 5,
         'SECRET_KEY': 196
     }
-
-
-class UnifyTestNet(Unify):
-    """
-    Class with all the necessary UNIFY testing network information based on
-    http://www.github.com/SBDomains/unify-source/blob/master/src/net.cpp
-    (date of access: 02/12/2018)
-    """
-    name = 'test-unify'
-    seeds = ()
-    port = 28649
-    message_start = b'\xb5\xbb\xdd\x7b'
-    base58_prefixes = {
-        'PUBKEY_ADDR': 111,
-        'SCRIPT_ADDR': 196,
-        'SECRET_KEY': 239
-    }

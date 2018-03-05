@@ -8,7 +8,7 @@ class MIScoin(Bitcoin):
     (date of access: 02/16/2018)
     """
     name = 'miscoin'
-    symbols = ('DMD', )
+    symbols = ('MIS', )
     seeds = (
         "seed1.miscoin.org",
         "seed2.miscoin.org"

@@ -18,21 +18,3 @@ class Acoin(Bitcoin):
         'SCRIPT_ADDR': 10,
         'SECRET_KEY': 230
     }
-
-
-class AcoinTestNet(Acoin):
-    """
-    Class with all the necessary  Acoin (ACOIN) network information based on
-    https://github.com/acoin-project/acoin/blob/master/src/chainparams.cpp
-    (date of access: 02/19/2018)
-    """
-    name = 'test-acoin'
-    symbols = ('ACOIN', )
-    seeds = ()
-    port = 27883
-    message_start = b'\x1a\xee\xa5\x0d'
-    base58_prefixes = {
-        'PUBKEY_ADDR': 87,
-        'SCRIPT_ADDR': 187,
-        'SECRET_KEY': 238
-    }

@@ -10,7 +10,10 @@ class SolarCoin(Bitcoin):
     """
     name = 'solarcoin'
     symbols = ('SLR', )
-    seeds = ()
+    seeds = (
+        'dnsseed.solarcoin.org',
+        'download.solarcoin.org',
+    )
     port = 18188
     message_start = b'\x04\xf1\x04\xfd'
     base58_prefixes = {
@@ -27,7 +30,11 @@ class SolarCoinTestNet(SolarCoin):
     (date of access: 02/11/2018)
     """
     name = 'test-solarcoin'
-    seeds = ()
+    seeds = (
+        'testnet-seed.solarcointools.com',
+        'seed-b.solarcoin.loshan.co.uk',
+        'dnsseed-testnet.thrasher.io',
+    )
     port = 19335
     message_start = b'\xfd\xd2\xc8\xf1'
     base58_prefixes = {

@@ -19,20 +19,3 @@ class PhilosopherStones(Bitcoin):
         'SCRIPT_ADDR': 8,
         'SECRET_KEY': 149
     }
-
-
-class PhilosopherStonesTestNet(PhilosopherStones):
-    """
-    Class with all the necessary PHS testing network information based on
-    https://github.com/vladk75/philosopherstone/blob/master/src/net.cpp
-    (date of access: 02/12/2018)
-    """
-    name = 'test-philosopherstones'
-    seeds = ()
-    port = 26281
-    message_start = b'\xcd\xf2\xc0\xef'
-    base58_prefixes = {
-        'PUBKEY_ADDR': 111,
-        'SCRIPT_ADDR': 196,
-        'SECRET_KEY': 239
-    }

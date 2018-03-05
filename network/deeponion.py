@@ -26,20 +26,3 @@ class DeepOnion(Bitcoin):
         'SCRIPT_ADDR': 78,
         'SECRET_KEY': 159
     }
-
-
-class DeepOnionTestNet(DeepOnion):
-    """
-    Class with all the necessary ONION testing network information based on
-    https://github.com/deeponion/deeponion/blob/master/src/net.cpp
-    (date of access: 02/12/2018)
-    """
-    name = 'test-deeponion'
-    seeds = ()
-    port = 26550
-    message_start = b'\xa1\xa0\xa2\xa3'
-    base58_prefixes = {
-        'PUBKEY_ADDR': 111,
-        'SCRIPT_ADDR': 196,
-        'SECRET_KEY': 239
-    }

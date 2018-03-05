@@ -17,20 +17,3 @@ class Neblio(Bitcoin):
         'SCRIPT_ADDR': 112,
         'SECRET_KEY': 181
     }
-
-
-class NeblioTestNet(Neblio):
-    """
-    Class with all the necessary Neblio (NEBL) testing network information based on
-    https://github.com/NeblioTeam/neblio/blob/master/src/net.cpp
-    (date of access: 02/12/2018)
-    """
-    name = 'test-neblio'
-    seeds = ()
-    port = 16325
-    message_start = b'\x1b\xba\x63\xc5'
-    base58_prefixes = {
-        'PUBKEY_ADDR': 65,
-        'SCRIPT_ADDR': 127,
-        'SECRET_KEY': 193
-    }

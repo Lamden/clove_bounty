@@ -19,20 +19,3 @@ class Shilling(Bitcoin):
         'SCRIPT_ADDR': 5,
         'SECRET_KEY': 191
     }
-
-
-class ShillingTestNet(Shilling):
-    """
-    Class with all the necessary SH testing network information based on
-    http://www.github.com/yavwa/Shilling/blob/master/src/net.cpp
-    (date of access: 02/12/2018)
-    """
-    name = 'test-shilling'
-    seeds = ()
-    port = 33813
-    message_start = b'\xbc\xad\xaf\xc4'
-    base58_prefixes = {
-        'PUBKEY_ADDR': 111,
-        'SCRIPT_ADDR': 196,
-        'SECRET_KEY': 239
-    }

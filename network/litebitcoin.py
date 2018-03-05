@@ -18,20 +18,3 @@ class LiteBitcoin(Bitcoin):
         'SCRIPT_ADDR': 5,
         'SECRET_KEY': 131
     }
-
-
-class LiteBitcoinTestNet(LiteBitcoin):
-    """
-    Class with all the necessary LBTC testing network information based on
-    http://www.github.com/litebitcoins/litebitcoin/blob/master/src/chainparams.cpp
-    (date of access: 02/11/2018)
-    """
-    name = 'test-litebitcoin'
-    seeds = ()
-    port = 19335
-    message_start = b'\xae\xc2\xb1\xf5'
-    base58_prefixes = {
-        'PUBKEY_ADDR': 111,
-        'SCRIPT_ADDR': 196,
-        'SECRET_KEY': 239
-    }

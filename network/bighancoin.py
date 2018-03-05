@@ -8,7 +8,7 @@ class BighanCoin(Bitcoin):
     (date of access: 02/14/2018)
     """
     name = 'bighancoin'
-    symbols = ('BHC', )
+    symbols = ('BHC*', )  # same as on coinranking.com
     nodes = (
         "47.90.14.128", "139.196.140.101"
     )

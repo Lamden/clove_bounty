@@ -1,5 +1,7 @@
 class Bitcoin(object):
 
+    seeds = ()
+    nodes = ()
     blacklist_nodes = {}
 
     @property

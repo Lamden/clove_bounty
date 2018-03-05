@@ -19,20 +19,3 @@ class Phore(Bitcoin):
         'SCRIPT_ADDR': 13,
         'SECRET_KEY': 212
     }
-
-
-class PhoreTestNet(Phore):
-    """
-    Class with all the necessary PHR testing network information based on
-    http://www.github.com/phoreproject/Phore/blob/master/src/chainparams.cpp
-    (date of access: 02/11/2018)
-    """
-    name = 'test-phore'
-    seeds = ()
-    port = 11773
-    message_start = b'\x47\x76\x65\xba'
-    base58_prefixes = {
-        'PUBKEY_ADDR': 139,
-        'SCRIPT_ADDR': 19,
-        'SECRET_KEY': 239
-    }

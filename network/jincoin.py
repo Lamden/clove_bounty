@@ -25,20 +25,3 @@ class Jincoin(Bitcoin):
         'SCRIPT_ADDR': 21,
         'SECRET_KEY': 171
     }
-
-
-class JincoinTestNet(Jincoin):
-    """
-    Class with all the necessary JIN testing network information based on
-    https://github.com/JinCoin/Jincoin-Core/blob/master/src/chainparams.cpp
-    (date of access: 02/12/2018)
-    """
-    name = 'test-jincoin'
-    seeds = ()
-    port = 33099
-    message_start = b'\xbc\xad\xaf\xc4'
-    base58_prefixes = {
-        'PUBKEY_ADDR': 128,
-        'SCRIPT_ADDR': 196,
-        'SECRET_KEY': 52
-    }

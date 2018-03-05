@@ -18,20 +18,3 @@ class SHACoin(Bitcoin):
         'SCRIPT_ADDR': 50,
         'SECRET_KEY': 151
     }
-
-
-class SHACoinTestNet(SHACoin):
-    """
-    Class with all the necessary SHA testing network information based on
-    https://github.com/antibitcoin/antibitcoin-source/blob/master/src/net.cpp
-    (date of access: 02/12/2018)
-    """
-    name = 'test-shacoin'
-    seeds = ()
-    port = 26555
-    message_start = b'\xad\xf1\xc2\xaf'
-    base58_prefixes = {
-        'PUBKEY_ADDR': 111,
-        'SCRIPT_ADDR': 196,
-        'SECRET_KEY': 239
-    }

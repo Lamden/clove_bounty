@@ -39,20 +39,3 @@ class Paycon(Bitcoin):
         'SCRIPT_ADDR': 8,
         'SECRET_KEY': 183
     }
-
-
-class PayconTestNet(Paycon):
-    """
-    Class with all the necessary CON testing network information based on
-    https://github.com/cryptotech/paycon/blob/master/src/net.cpp
-    (date of access: 01/18/2018)
-    """
-    name = 'test-paycon'
-    seeds = ()
-    port = 25072
-    message_start = b'\x70\x35\x22\x05'
-    base58_prefixes = {
-        'PUBKEY_ADDR': 111,
-        'SCRIPT_ADDR': 196,
-        'SECRET_KEY': 239
-    }

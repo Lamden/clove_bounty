@@ -17,20 +17,3 @@ class GeoCoin(Bitcoin):
         'SCRIPT_ADDR': 5,
         'SECRET_KEY': 166
     }
-
-
-class GeoCoinTestNet(GeoCoin):
-    """
-    Class with all the necessary GeoCoin testing network information based on
-    https://github.com/onetimer/onetimer/blob/master/src/net.cpp
-    (date of access: 02/21/2018)
-    """
-    name = 'test-geocoin'
-    nodes = ("104.236.52.122", )
-    port = 9748
-    message_start = b'\xbf\xc0\xd1\xe2'
-    base58_prefixes = {
-        'PUBKEY_ADDR': 111,
-        'SCRIPT_ADDR': 196,
-        'SECRET_KEY': 239
-    }

@@ -18,20 +18,3 @@ class ExperiencePoints(Bitcoin):
         'SCRIPT_ADDR': 20,
         'SECRET_KEY': 203
     }
-
-
-class ExperiencePointsTestNet(ExperiencePoints):
-    """
-    Class with all the necessary Experience Points XP testing network information based on
-    https://github.com/eXperiencePoints/XPCoin/blob/master/src/net.cpp
-    (date of access: 02/12/2018)
-    """
-    name = 'test-experiencepoints'
-    seeds = ()
-    port = 17778
-    message_start = b'\xcd\xf2\xc0\xef'
-    base58_prefixes = {
-        'PUBKEY_ADDR': 111,
-        'SCRIPT_ADDR': 196,
-        'SECRET_KEY': 239
-    }

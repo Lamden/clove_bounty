@@ -32,20 +32,3 @@ class Wincoin(Bitcoin):
         'SCRIPT_ADDR': 83,
         'SECRET_KEY': 201
     }
-
-
-class WincoinTestNet(Wincoin):
-    """
-    Class with all the necessary WC testing network information based on
-    https://github.com/wincoinofficial/wincoin/blob/master/src/net.cpp
-    (date of access: 02/12/2018)
-    """
-    name = 'test-wincoin'
-    seeds = ()
-    port = 11610
-    message_start = b'\xff\xe1\xd0\xef'
-    base58_prefixes = {
-        'PUBKEY_ADDR': 111,
-        'SCRIPT_ADDR': 196,
-        'SECRET_KEY': 239
-    }

@@ -22,20 +22,3 @@ class AquariusCoin(Bitcoin):
         'SCRIPT_ADDR': 5,
         'SECRET_KEY': 151
     }
-
-
-class AquariusCoinTestNet(AquariusCoin):
-    """
-    Class with all the necessary ARCO testing network information based on
-    http://www.github.com/AquariusNetwork/ARCO/blob/master/src/chainparams.cpp
-    (date of access: 02/11/2018)
-    """
-    name = 'test-aquariuscoin'
-    seeds = ()
-    port = 16205
-    message_start = b'\x6a\x1c\xd5\xe6'
-    base58_prefixes = {
-        'PUBKEY_ADDR': 111,
-        'SCRIPT_ADDR': 196,
-        'SECRET_KEY': 239
-    }

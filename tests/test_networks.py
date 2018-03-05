@@ -11,6 +11,7 @@ sys.path.append(os.getcwd())  # noqa
 from clove.network.bitcoin import Bitcoin
 
 networks = sorted([file for file in os.listdir('network') if file not in ('__init__.py', '__pycache__')])
+symbols = {}
 
 
 def test_filename():
@@ -43,6 +44,14 @@ def test_network_definition(filename):
     if len(classes) == 2:
         names = sorted([cls.__name__ for cls in classes])
         assert f'{names[0]}TestNet' == names[1]
+
+        # checking the same port and seeds/nodes
+        if classes[0].port == classes[1].port:
+            assert classes[0].seeds + classes[0].nodes != classes[1].seeds + classes[1].nodes, \
+                f'[{filename}] mainet and testnet cannot use the same seeds/nodes and ports.'
+
+        if classes[0].seeds + classes[0].nodes == classes[1].seeds + classes[1].nodes:
+            assert classes[0].port != classes[1].port
     else:
         assert not classes[0].__name__.endswith('TestNet')
 
@@ -52,7 +61,7 @@ def test_network_definition(filename):
         assert isinstance(network.name, str)
         assert isinstance(network.symbols, tuple)
         assert isinstance(network().default_symbol, str)
-        assert hasattr(network, 'seeds') or hasattr(network, 'nodes')
+        assert getattr(network, 'seeds') or getattr(network, 'nodes'), f'[{network.__name__}] no seeds and nodes'
         if hasattr(network, 'seeds'):
             assert isinstance(network.seeds, tuple)
             for seed in network.seeds:
@@ -70,3 +79,9 @@ def test_network_definition(filename):
                 assert ipaddress.ip_address(node)
         assert isinstance(network.port, int)
         assert isinstance(network.blacklist_nodes, dict)
+        if not network.__name__.endswith('TestNet'):
+            for symbol in network.symbols:
+                symbol_lower = symbol.lower()
+                assert symbol.lower() not in symbols, \
+                    f'{network.__name__}: symbol {symbol.upper()} was already defined in class {symbols[symbol_lower]}'
+                symbols[symbol_lower] = network.__name__

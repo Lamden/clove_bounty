@@ -19,20 +19,3 @@ class Elite(Bitcoin):
         'SCRIPT_ADDR': 28,
         'SECRET_KEY': 176
     }
-
-
-class EliteTestNet(Elite):
-    """
-    Class with all the necessary 1337 testing network information based on
-    https://github.com/xenonflux/1337/blob/master/src/net.cpp
-    (date of access: 02/12/2018)
-    """
-    name = 'test-elite'
-    seeds = ()
-    port = 26714
-    message_start = b'\xcd\xf2\xc0\xef'
-    base58_prefixes = {
-        'PUBKEY_ADDR': 111,
-        'SCRIPT_ADDR': 196,
-        'SECRET_KEY': 239
-    }

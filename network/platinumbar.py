@@ -19,20 +19,3 @@ class PlatinumBAR(Bitcoin):
         'SCRIPT_ADDR': 117,
         'SECRET_KEY': 214
     }
-
-
-class PlatinumBARTestNet(PlatinumBAR):
-    """
-    Class with all the necessary XPTX testing network information based on
-    http://www.github.com/xptx/PlatinumBar/blob/master/src/chainparams.cpp
-    (date of access: 02/11/2018)
-    """
-    name = 'test-platinumbar'
-    seeds = ()
-    port = 15001
-    message_start = b'\x01\x02\x03\x04'
-    base58_prefixes = {
-        'PUBKEY_ADDR': 117,
-        'SCRIPT_ADDR': 55,
-        'SECRET_KEY': 246
-    }
