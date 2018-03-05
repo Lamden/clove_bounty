@@ -18,20 +18,3 @@ class Copico(Bitcoin):
         'SCRIPT_ADDR': 43,
         'SECRET_KEY': 144
     }
-
-
-class CopicoTestNet(Copico):
-    """
-    Class with all the necessary XCPO testing network information based on
-    http://www.github.com/copicogithub1/copico/blob/master/src/chainparams.cpp
-    (date of access: 02/11/2018)
-    """
-    name = 'test-copico'
-    seeds = ()
-    port = 17357
-    message_start = b'\x21\x7c\xb4\xba'
-    base58_prefixes = {
-        'PUBKEY_ADDR': 28,
-        'SCRIPT_ADDR': 43,
-        'SECRET_KEY': 229
-    }

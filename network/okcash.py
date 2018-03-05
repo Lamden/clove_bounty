@@ -19,20 +19,3 @@ class OKCash(Bitcoin):
         'SCRIPT_ADDR': 28,
         'SECRET_KEY': 183
     }
-
-
-class OKCashTestNet(OKCash):
-    """
-    Class with all the necessary OK testing network information based on
-    http://www.github.com/okcashpro/okcash/blob/master/src/chainparams.cpp
-    (date of access: 02/11/2018)
-    """
-    name = 'test-okcash'
-    seeds = ()
-    port = 7980
-    message_start = b'\x00\x09\x7a\x0f'
-    base58_prefixes = {
-        'PUBKEY_ADDR': 68,
-        'SCRIPT_ADDR': 73,
-        'SECRET_KEY': 196
-    }

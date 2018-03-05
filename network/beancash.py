@@ -19,20 +19,3 @@ class BeanCash(Bitcoin):
         'SCRIPT_ADDR': 85,
         'SECRET_KEY': 131
     }
-
-
-class BeanCashTestNet(BeanCash):
-    """
-    Class with all the necessary BITB testing network information based on
-    http://www.github.com/TeamBitBean/bitbean-core/blob/master/src/chainparams.cpp
-    (date of access: 02/11/2018)
-    """
-    name = 'test-beancash'
-    seeds = ()
-    port = 25714
-    message_start = b'\xad\xf1\xc2\xaf'
-    base58_prefixes = {
-        'PUBKEY_ADDR': 111,
-        'SCRIPT_ADDR': 196,
-        'SECRET_KEY': 239
-    }

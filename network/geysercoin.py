@@ -19,20 +19,3 @@ class GeyserCoin(Bitcoin):
         'SCRIPT_ADDR': 63,
         'SECRET_KEY': 171
     }
-
-
-class GeyserCoinTestNet(GeyserCoin):
-    """
-    Class with all the necessary GSR testing network information based on
-    http://www.github.com/geysercoin/geysercoin/blob/master/src/chainparams.cpp
-    (date of access: 02/11/2018)
-    """
-    name = 'test-geysercoin'
-    seeds = ()
-    port = 20556
-    message_start = b'\xad\xf4\xd0\xac'
-    base58_prefixes = {
-        'PUBKEY_ADDR': 111,
-        'SCRIPT_ADDR': 196,
-        'SECRET_KEY': 239
-    }

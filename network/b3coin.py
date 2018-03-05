@@ -43,21 +43,3 @@ class B3Coin(Bitcoin):
         'SCRIPT_ADDR': 85,
         'SECRET_KEY': 153
     }
-
-
-class B3CoinTestNet(B3Coin):
-    """
-    Class with all the necessary  B3Coin (KB3) network information based on
-    https://github.com/B3-Coin/B3-CoinV2/blob/master/src/chainparams.cpp
-    (date of access: 02/17/2018)
-    """
-    name = 'test-b3coin'
-    symbols = ('KB3', )
-    seeds = ()
-    port = 30420
-    message_start = b'\xcd\xf2\xc0\xef'
-    base58_prefixes = {
-        'PUBKEY_ADDR': 111,
-        'SCRIPT_ADDR': 196,
-        'SECRET_KEY': 239
-    }

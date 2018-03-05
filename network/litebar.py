@@ -19,20 +19,3 @@ class Litebar(Bitcoin):
         'SCRIPT_ADDR': 5,
         'SECRET_KEY': 176
     }
-
-
-class LitebarTestNet(Litebar):
-    """
-    Class with all the necessary LTB testing network information based on
-    https://github.com/crypto-currency/litebar/blob/master/src/net.cpp
-    (date of access: 01/18/2018)
-    """
-    name = 'test-litebar'
-    seeds = ()
-    port = 19065
-    message_start = b'\xfc\xc1\xb7\xdc'
-    base58_prefixes = {
-        'PUBKEY_ADDR': 111,
-        'SCRIPT_ADDR': 196,
-        'SECRET_KEY': 239
-    }

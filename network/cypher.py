@@ -19,21 +19,3 @@ class Cypher(Bitcoin):
         'SCRIPT_ADDR': 85,
         'SECRET_KEY': 163
     }
-
-
-class CypherTestNet(Cypher):
-    """
-    Class with all the necessary CYP testing network information based on
-    https://github.com/neworldorder/braveneworld/blob/master/src/net.cpp
-    (date of access: 02/12/2018)
-    """
-    name = 'test-cypher'
-    seeds = ()
-    nodes = ()
-    port = 28224
-    message_start = b'\x70\x35\x22\x05'
-    base58_prefixes = {
-        'PUBKEY_ADDR': 111,
-        'SCRIPT_ADDR': 196,
-        'SECRET_KEY': 239
-    }

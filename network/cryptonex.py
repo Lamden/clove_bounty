@@ -21,20 +21,3 @@ class Cryptonex(Bitcoin):
         'SCRIPT_ADDR': 85,
         'SECRET_KEY': 166
     }
-
-
-class CryptonexTestNet(Cryptonex):
-    """
-    Class with all the necessary Cryptonex CNX testing network information based on
-    https://github.com/Cryptonex/source/blob/master/src/net.cpp
-    (date of access: 02/12/2018)
-    """
-    name = 'test-cryptonex'
-    seeds = ()
-    port = 30863
-    message_start = b'\x4c\x79\x51\xf0'
-    base58_prefixes = {
-        'PUBKEY_ADDR': 111,
-        'SCRIPT_ADDR': 196,
-        'SECRET_KEY': 239
-    }

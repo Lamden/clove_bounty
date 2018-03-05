@@ -17,15 +17,3 @@ class TwoGIVE(Bitcoin):
         'SCRIPT_ADDR': 8,
         'SECRET_KEY': 139
     }
-
-
-class TwoGIVETestNet(TwoGIVE):
-    """
-    Class with all the necessary  2GIVE (2GIVE) network information based on
-    https://github.com/LittleDuke/2GIVE/blob/master/src/net.cpp
-    (date of access: 02/19/2018)
-    """
-    name = 'test-2give'
-    symbols = ('2GIVE', )
-    seeds = ()
-    port = 16763

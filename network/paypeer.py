@@ -23,20 +23,3 @@ class Paypeer(Bitcoin):
         'SCRIPT_ADDR': 50,
         'SECRET_KEY': 184
     }
-
-
-class PaypeerTestNet(Paypeer):
-    """
-    Class with all the necessary PAYP testing network information based on
-    https://github.com/paypeer/paypeer/blob/master/src/net.cpp
-    (date of access: 02/12/2018)
-    """
-    name = 'test-paypeer'
-    seeds = ()
-    port = 33715
-    message_start = b'\x3c\x2d\x1e\x0f'
-    base58_prefixes = {
-        'PUBKEY_ADDR': 55,
-        'SCRIPT_ADDR': 109,
-        'SECRET_KEY': 183
-    }

@@ -27,20 +27,3 @@ class Gaycoin(Bitcoin):
         'SCRIPT_ADDR': 38,
         'SECRET_KEY': 225
     }
-
-
-class GaycoinTestNet(Gaycoin):
-    """
-    Class with all the necessary GAY testing network information based on
-    https://github.com/gaycoins/gaycoin-online/blob/master/src/net.cpp
-    (date of access: 02/12/2018)
-    """
-    name = 'test-gaycoin'
-    seeds = ()
-    port = 33542
-    message_start = b'\xae\xd0\xa2\xa3'
-    base58_prefixes = {
-        'PUBKEY_ADDR': 111,
-        'SCRIPT_ADDR': 196,
-        'SECRET_KEY': 239
-    }

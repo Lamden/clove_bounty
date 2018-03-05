@@ -19,20 +19,3 @@ class Netko(Bitcoin):
         'SCRIPT_ADDR': 5,
         'SECRET_KEY': 177
     }
-
-
-class NetkoTestNet(Netko):
-    """
-    Class with all the necessary NETKO testing network information based on
-    http://www.github.com/netkotech/netko/blob/master/src/chainparams.cpp
-    (date of access: 02/11/2018)
-    """
-    name = 'test-netko'
-    seeds = ()
-    port = 25961
-    message_start = b'\x5e\x83\x2f\xd3'
-    base58_prefixes = {
-        'PUBKEY_ADDR': 111,
-        'SCRIPT_ADDR': 196,
-        'SECRET_KEY': 239
-    }

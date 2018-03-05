@@ -21,20 +21,3 @@ class LEOcoin(Bitcoin):
         'SCRIPT_ADDR': 88,
         'SECRET_KEY': 144
     }
-
-
-class LEOcoinTestNet(LEOcoin):
-    """
-    Class with all the necessary LEO testing network information based on
-    http://www.github.com/Leocoin-project/LEOcoin/blob/master/src/chainparams.cpp
-    (date of access: 02/11/2018)
-    """
-    name = 'test-leocoin'
-    seeds = ()
-    port = 15840
-    message_start = b'\x8c\x96\xa0\xaa'
-    base58_prefixes = {
-        'PUBKEY_ADDR': 66,
-        'SCRIPT_ADDR': 76,
-        'SECRET_KEY': 194
-    }

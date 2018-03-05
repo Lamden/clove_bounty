@@ -20,20 +20,3 @@ class Skeincoin(Bitcoin):
         'SCRIPT_ADDR': 12,
         'SECRET_KEY': 226
     }
-
-
-class SkeincoinTestNet(Skeincoin):
-    """
-    Class with all the necessary SKC testing network information based on
-    http://www.github.com/skeincoin/skeincoin/blob/master/src/chainparams.cpp
-    (date of access: 02/11/2018)
-    """
-    name = 'test-skeincoin'
-    seeds = ()
-    port = 27711
-    message_start = b'\x07\xa0\x55\x03'
-    base58_prefixes = {
-        'PUBKEY_ADDR': 56,
-        'SCRIPT_ADDR': 88,
-        'SECRET_KEY': 237
-    }

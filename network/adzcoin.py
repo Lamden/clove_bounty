@@ -18,20 +18,3 @@ class Adzcoin(Bitcoin):
         'SCRIPT_ADDR': 5,
         'SECRET_KEY': 148
     }
-
-
-class AdzcoinTestNet(Adzcoin):
-    """
-    Class with all the necessary ADZ testing network information based on
-    http://www.github.com/AdzCoin/adzcoin/blob/master/src/net.cpp
-    (date of access: 02/12/2018)
-    """
-    name = 'test-adzcoin'
-    seeds = ()
-    port = 143029
-    message_start = b'\xfe\xc4\xba\xde'
-    base58_prefixes = {
-        'PUBKEY_ADDR': 111,
-        'SCRIPT_ADDR': 196,
-        'SECRET_KEY': 239
-    }

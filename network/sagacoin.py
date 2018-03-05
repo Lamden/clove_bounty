@@ -18,20 +18,3 @@ class SagaCoin(Bitcoin):
         'SCRIPT_ADDR': 44,
         'SECRET_KEY': 142
     }
-
-
-class SagaCoinTestNet(SagaCoin):
-    """
-    Class with all the necessary SAGA testing network information based on
-    http://www.github.com/sagacrypto/SagaCoin/blob/master/src/chainparams.cpp
-    (date of access: 02/11/2018)
-    """
-    name = 'test-sagacoin'
-    seeds = ()
-    port = 45544
-    message_start = b'\xa1\x79\xa4\xa2'
-    base58_prefixes = {
-        'PUBKEY_ADDR': 61,
-        'SCRIPT_ADDR': 196,
-        'SECRET_KEY': 229
-    }

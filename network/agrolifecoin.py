@@ -17,21 +17,3 @@ class AgrolifeCoin(Bitcoin):
         'SCRIPT_ADDR': 1,
         'SECRET_KEY': 151
     }
-
-
-class AgrolifeCoinTestNet(AgrolifeCoin):
-    """
-    Class with all the necessary  AgrolifeCoin (AGLC) network information based on
-    https://github.com/traiborg/Agrolifecoin/blob/master/src/net.cpp
-    (date of access: 02/17/2018)
-    """
-    name = 'test-agrolifecoin'
-    symbols = ('AGLC', )
-    seeds = ()
-    port = 22332
-    message_start = b'\xad\xf1\x22\xaf'
-    base58_prefixes = {
-        'PUBKEY_ADDR': 111,
-        'SCRIPT_ADDR': 196,
-        'SECRET_KEY': 239
-    }

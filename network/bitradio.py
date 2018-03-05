@@ -18,20 +18,3 @@ class Bitradio(Bitcoin):
         'SCRIPT_ADDR': 102,
         'SECRET_KEY': 128
     }
-
-
-class BitradioTestNet(Bitradio):
-    """
-    Class with all the necessary BRO testing network information based on
-    http://www.github.com/thebitradio/Bitradio/blob/master/src/chainparams.cpp
-    (date of access: 02/11/2018)
-    """
-    name = 'test-bitradio'
-    seeds = ()
-    port = 58870
-    message_start = b'\x2f\xca\x4d\x3e'
-    base58_prefixes = {
-        'PUBKEY_ADDR': 33,
-        'SCRIPT_ADDR': 137,
-        'SECRET_KEY': 161
-    }

@@ -19,20 +19,3 @@ class TransferCoin(Bitcoin):
         'SCRIPT_ADDR': 85,
         'SECRET_KEY': 153
     }
-
-
-class TransferCoinTestNet(TransferCoin):
-    """
-    Class with all the necessary TX testing network information based on
-    http://www.github.com/transferdev/Transfercoin/blob/master/src/chainparams.cpp
-    (date of access: 02/11/2018)
-    """
-    name = 'test-transfercoin'
-    seeds = ()
-    port = 27170
-    message_start = b'\x2f\xca\x4d\x3e'
-    base58_prefixes = {
-        'PUBKEY_ADDR': 97,
-        'SCRIPT_ADDR': 196,
-        'SECRET_KEY': 239
-    }

@@ -17,21 +17,3 @@ class AccoladeCoin(Bitcoin):
         'SCRIPT_ADDR': 85,
         'SECRET_KEY': 153
     }
-
-
-class AccoladeCoinTestNet(AccoladeCoin):
-    """
-    Class with all the necessary  AccoladeCoin (ACCO) network information based on
-    https://github.com/AccoladeCoin/accoladecoin-core/blob/master/Accolade-master/src/chainparams.cpp
-    (date of access: 02/19/2018)
-    """
-    name = 'test-accoladecoin'
-    symbols = ('ACCO', )
-    nodes = ()
-    port = 20114
-    message_start = b'\x1c\xd2\x37\x2f'
-    base58_prefixes = {
-        'PUBKEY_ADDR': 127,
-        'SCRIPT_ADDR': 196,
-        'SECRET_KEY': 239
-    }

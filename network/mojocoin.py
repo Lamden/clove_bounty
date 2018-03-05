@@ -28,20 +28,3 @@ class MojoCoin(Bitcoin):
         'SCRIPT_ADDR': 28,
         'SECRET_KEY': 153
     }
-
-
-class MojoCoinTestNet(MojoCoin):
-    """
-    Class with all the necessary MOJO testing network information based on
-    http://www.github.com/MOJOv3/mojocoin/blob/master/src/chainparams.cpp
-    (date of access: 02/11/2018)
-    """
-    name = 'test-mojocoin'
-    seeds = ()
-    port = 19495
-    message_start = b'\xce\xf1\xc6\xe3'
-    base58_prefixes = {
-        'PUBKEY_ADDR': 97,
-        'SCRIPT_ADDR': 196,
-        'SECRET_KEY': 239
-    }

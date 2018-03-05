@@ -19,20 +19,3 @@ class ClubCoin(Bitcoin):
         'SCRIPT_ADDR': 85,
         'SECRET_KEY': 153
     }
-
-
-class ClubCoinTestNet(ClubCoin):
-    """
-    Class with all the necessary CLUB testing network information based on
-    http://www.github.com/BitClubDev/ClubCoin/blob/master/src/chainparams.cpp
-    (date of access: 02/11/2018)
-    """
-    name = 'test-clubcoin'
-    seeds = ()
-    port = 28114
-    message_start = b'\xcd\xf2\x42\xef'
-    base58_prefixes = {
-        'PUBKEY_ADDR': 111,
-        'SCRIPT_ADDR': 196,
-        'SECRET_KEY': 239
-    }

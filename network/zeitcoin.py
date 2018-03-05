@@ -18,20 +18,3 @@ class Zeitcoin(Bitcoin):
         'SCRIPT_ADDR': 8,
         'SECRET_KEY': 179
     }
-
-
-class ZeitcoinTestNet(Zeitcoin):
-    """
-    Class with all the necessary ZEIT testing network information based on
-    https://github.com/zeitcoin/zeitcoin/blob/master/src/net.cpp
-    (date of access: 02/12/2018)
-    """
-    name = 'test-zeitcoin'
-    seeds = ()
-    port = 22788
-    message_start = b'\xcd\xf2\xc0\xef'
-    base58_prefixes = {
-        'PUBKEY_ADDR': 111,
-        'SCRIPT_ADDR': 196,
-        'SECRET_KEY': 239
-    }
